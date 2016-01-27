@@ -1,0 +1,55 @@
+Version 1.8 (22 Jan 2015)
+============================
+	- New Feature : Administrators can filter based on post dates and then Bulk Delete all posts and comments submitted during that date range
+
+Version 1.7 (14 Jan 2015)
+============================
+    - Added: Users can now report a post as objectionable. Administrators can then choose to ignore or delete it via the dashboard
+
+Version 1.6 (8 Jan 2015)
+============================
+      - Added : Setting in backend to enable/disable wall display to visitors(users who are not logged in)
+     
+Version 1.5 (31 Dec 2014)
+============================
+      - Added : Look and Feel changes
+      - Fixed Bug : Like, Dislike buttons layout
+
+Version 1.4 (19 Dec 2014)
+============================
+      - Added : Administrators now have the ability to delete posts and comments by any user
+      - Added : Ability to Like / Dislike posts
+      - Fixed : Messages like - “Enter a comment” , “Posted on”, "Commented On" ,“You are not allowed to access this page. Please login to access It.” Made        		all translatable
+      - Fixed Bug : Short PHP Tag
+      - Fixed Bug :Improved security aspects
+
+Version 1.3 (04 Dec 2014)
+============================
+
+	- Added : Limit the Number of initial posts that get displayed. "Load More" button to show more
+	- Added : Spanish Translation
+	- Added : Responsiveness for mobile devices
+	- Fixed Bug : Error message on 'Add To Wall' (in some scenarios due to date parameter issue)
+	
+Version 1.2 (26 Nov 2014)
+============================
+ 
+	- Added LineBreak Support for posts: "ENTER" or "SHIFT+ENTER" for line break
+	- Fixed Bug : Multiple photo uploader popup instances were displayed
+	- Fixed Bug : Image size - for images uploaded with posts
+
+Version 1.1 (25 Nov 2014)
+============================
+
+	- Updated look-and-feel : Thin border for profile images, delete icons, background for comments,comments alignment 
+	- Added Translation Support: All labels and messages are picked up from PO / MO files
+	- Added Delete Confirmation: Ask for confirmation before deleting a comment or post
+	- Added LineBreak Support for comments: "ENTER" to submit a comment and "SHIFT+ENTER" for line break
+
+Version 1.0 (19 Nov 2014)
+============================
+
+	- Initial Version of the Social Wall Addon for UserPro.
+
+
+

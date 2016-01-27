@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html lang="en-US" >
+	<head>
+<meta name="google-site-verification" content="46LXPYArlyQvFNFiD8HXQVvGC0J7cKaG1xHtfwHSsTA" />
+<!--<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/js/jquery-1.11.1.min.js" language="javascript"></script>-->
+<meta name='robots' content='noindex,follow' />
+		<meta charset="UTF-8">
+
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+		<title>The Movie Fund</title>
+
+		
+
+		<meta name="author" content="">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+           <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600' rel='stylesheet' type='text/css'>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css"  href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/style.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/css/font.css">
+
+        <link rel="stylesheet" type="text/css" media="screen" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/css/bootstrap.css">
+
+        <link rel="stylesheet" type="text/css" media="screen" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/css/bootstrap-theme.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
+
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,700,800' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" type="text/css" media="screen" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/style.css">
+
+		<link rel="stylesheet" type="text/css" media="screen" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/jsx/style.css">
+
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css"  href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/bootstrap-3.3.6/css/bootstrap.min.css">
+
+
+		<!--Fancy scroller-->
+
+        <link rel="stylesheet" media="screen" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/sccss/jquery.classyscroll.css" />
+
+		
+
+		<!-- FAVICONS -->
+
+		<link rel="shortcut icon" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/img/favicon.ico" type="image/png">
+
+		<link rel="icon" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/img/favicon.ico" type="image/png">
+		
+<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/js/jquery-1.11.1.min.js" language="javascript"></script>
+<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/js/bootstrap.js" language="javascript"></script>
+		<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/jsx/bx.js" language="javascript"></script>
+		<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/js/custom.js" language="javascript"></script>
+		
+		<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/scjs/jquery.mousewheel.js"></script>
+        <script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/scjs/jquery.classyscroll.js"></script>
+<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/js/custommin.js"></script>
+<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
+<!--link  href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"-->
+<!--script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script-->
+<!--script  src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script-->
+        <meta name='robots' content='noindex,follow' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/themoviefund.com\/newtheme\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.1"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='media_display_css-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro-mediamanager/css/userpro-media.min.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='cff-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/custom-facebook-feed/css/cff-style.css?ver=2.3.10' type='text/css' media='all' />
+<link rel='stylesheet' id='cff-font-awesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css?ver=4.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='sb_instagram_styles-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/instagram-feed/css/sb-instagram.css?ver=1.3.11' type='text/css' media='all' />
+<link rel='stylesheet' id='sb_instagram_icons-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css?1&#038;ver=4.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_google_font-css'  href='http://fonts.googleapis.com/css?family=Roboto%3A400%2C400italic%2C700%2C700italic%2C300italic%2C300&#038;ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_min-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro/css/userpro.min.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_lightview-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro/css/lightview/lightview.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_jquery_ui_style-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro/css/userpro-jquery-ui.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_skin_min-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro/skins/elegant/style.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='kamn-css-easy-twitter-feed-widget-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/easy-twitter-feed-widget/easy-twitter-feed-widget.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_msg-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro-messaging/css/userpro-msg.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_mcsroll-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro-messaging/css/jquery.mCustomScrollbar.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userwall-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro-socialwall/css/userpro_userwall.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fontowsome-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro-socialwall/assets/font-awesome-4.2.0/css/font-awesome.min.css?ver=4.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro-mediamanager/scripts/mediauploader.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro/scripts/swfobject.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro/scripts/spinners/spinners.min.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro/scripts/lightview/lightview.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro/scripts/scripts.min.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro-messaging/scripts/userpro-msg.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro-messaging/scripts/jquery.textareaAutoResize.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro-messaging/scripts/jquery.mousewheel.min.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro-messaging/scripts/jquery.mCustomScrollbar.min.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro/addons/social/scripts/userpro-social.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro/addons/emd/scripts/userpro-emd.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro-socialwall/scripts/userwall_script.js?ver=4.3.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://themoviefund.com/newtheme/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themoviefund.com/newtheme/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.1" />
+<link rel='canonical' href='http://themoviefund.com/newtheme/movienews/' />
+<link rel='shortlink' href='http://themoviefund.com/newtheme/?p=1238' />
+
+<!-- Custom Facebook Feed Custom CSS -->
+<style type="text/css">
+.cff-likebox {
+    margin: 0;
+}
+</style>
+		<script type="text/javascript">
+		var userpro_ajax_media_url = 'http://themoviefund.com/newtheme/wp-admin/admin-ajax.php';
+		</script>
+			<script type="text/javascript">
+		var userpro_media_upload_url = 'http://themoviefund.com/newtheme/wp-content/plugins/userpro-mediamanager/lib/fileupload/fileupload.php';
+		</script>
+			<script type="text/javascript">
+		var userpro_photo_upload_size = '32MB';
+		</script>
+			<script type="text/javascript">
+		var userpro_video_upload_size = '32MB';
+		</script>
+			<script type="text/javascript">
+		var translated_text_for_alert = 'This message will be sent immediately to ALL registered users. Are you sure you want to send this ?';
+		</script>
+			<script type="text/javascript">
+		var list_of_all_registered_users = '[1,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,144,150,152,154,155,163,177,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263]';
+		var list_of_all_registered_users_string = '1,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,144,150,152,154,155,163,177,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263';
+		var current_user_id='0';
+		var user_count=0;
+		</script>
+			<script type="text/javascript">
+		var userpro_ajax_url = 'http://themoviefund.com/newtheme/wp-admin/admin-ajax.php';
+		var dateformat ='dd-mm-yy';
+		</script>
+			<script type="text/javascript">
+		var userpro_upload_url = 'http://themoviefund.com/newtheme/wp-content/plugins/userpro/lib/fileupload/fileupload.php';
+		</script>
+		<script type="text/javascript">
+	var ajaxurl = 'http://themoviefund.com/newtheme/wp-admin/admin-ajax.php';
+	 var total=0;
+	var userwall_upload_path='http://themoviefund.com/newtheme/wp-content/plugins/userpro-socialwall/lib/fileupload/fileupload.php';	
+         
+	</script>
+	
+<!-- BEGIN GADWP v4.9.1.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-66908665-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- END GADWP Universal Tracking -->
+
+        
+        
+<style type="text/css">
+
+.share-with-count.twitter_tweet{margin-top: 15px;}
+.follow-list-2 ul.sign_in_social {
+   margin-bottom: 0px;
+   
+}
+.follow-list-2 ul.sign_in_social li h3{
+    color: #fff;
+    margin-top: 0px;
+    line-height: 40px;
+    float:  ;
+    margin-right: 0px;
+}
+.follow-list-2 ul.sign_in_social li h3 img{margin-top: -10px;min-width: 75px;}
+.follow-list-2 ul.sign_in_social li a {
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    overflow: hidden;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0px 0px; 
+}
+.follow-list-2 ul.sign_in_social li a:hover{
+    opacity: 0.8;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.follow-list-2 ul.sign_in_social li a img {
+    margin-top: 0px;
+    padding: 0px;
+    border-radius: 0%;
+}
+
+@media (max-width: 767px)
+{
+    .follow-list-2 .list-inline>li {
+        padding: 0px 2px !important;
+    }
+    
+    .follow-list-2 ul li h3{line-height: inherit !important;}
+    .follow-list-2 ul.sign_in_social li h3 img{margin-top: -18px !important;min-width: 75px;}
+    .follow-list-2 ul.sign_in_social li a img{width: 23px;}
+     .content .test-holder{  max-height: inherit !important; }
+    
+    .content .project-holder .pro-box .img-thumb img,.content .welcome-holder img{margin-left: auto;margin-right: auto;}
+    
+    #fund-holder{text-align: center;}
+    #fund-holder .list_top table{margin-left: auto;margin-right: auto;}
+    #fund-holder .list_top{margin-left: 0px !important;}
+    
+    .feat-holder .list ul.list-inline li{padding:0px !important}
+   .content .social-holder{text-align: center;}
+   .content .social-holder h2 { 
+    float: left;
+    width: 100%;
+    margin: 10px 0px;
+    }
+    
+    
+    #newsletter-form .blue-holder .mc-field-group{width: 100%;}
+    #newsletter-form .blue-holder .mc-field-group input#email{max-width: 100%; margin-bottom: 5px;}
+}
+
+ 
+</style>
+	</head>
+
+
+
+    <body id="home">
+
+  
+
+
+
+    	<header>        	
+
+            <div class="header-top">
+
+            	<div class="container">
+
+                	<div class="row">
+
+                    	<div class="col-sm-4">
+
+                        	<div class="logo text-center">
+
+                            	<a href="http://themoviefund.com/newtheme">
+
+                            		<img src="http://themoviefund.com/newtheme/wp-content/uploads/logo-TMFv4.png" alt="Logo" class="img-responsive" />
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-4 col-sm-offset-4">
+
+                        	<div class="login-panel text-right">
+
+                            	<ul class="list-inline">
+
+                                	<li><a href="http://www.themoviefund.com/login" class="btn btn-1">Login / Register</a></li>
+
+                                    <li><a href="#" class="btn btn-2">Create a Campaign</a></li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="mainmenu">
+
+                <div class="container">
+
+                    <nav class="navbar top-navbar" role="navigation">
+
+                        <div class="navbar-header">
+
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+                                <span class="sr-only">Toggle navigation</span>
+
+                                <span class="icon-bar"></span>
+
+                                <span class="icon-bar"></span>
+
+                                <span class="icon-bar"></span>
+
+                            </button>
+
+                        </div>                       
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+						<div class="menu-top_header-container"><ul id="menu-top_header" class="nav navbar-nav"><li id="menu-item-531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-531"><a href="http://themoviefund.com/newtheme/">Home</a></li>
+<li id="menu-item-3148" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3148"><a href="http://www.themoviefund.com/newtheme/profile">Join</a>
+<ul class="sub-menu">
+	<li id="menu-item-3147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3147"><a href="http://www.themoviefund.com/newtheme/members">Members</a></li>
+</ul>
+</li>
+<li id="menu-item-567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-567"><a href="http://themoviefund.com/newtheme/movies/">Movies</a></li>
+<li id="menu-item-519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-519"><a href="http://themoviefund.com/newtheme/how-it-works/">How It Works</a>
+<ul class="sub-menu">
+	<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408"><a title="For Investors" href="http://themoviefund.com/newtheme/for-investors/">For Investors</a></li>
+	<li id="menu-item-407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-407"><a title="For Film Makers" href="http://themoviefund.com/newtheme/for-film-makers/">For Film Makers</a></li>
+</ul>
+</li>
+<li id="menu-item-732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-732"><a href="http://themoviefund.com/newtheme/faqs/">FAQS</a></li>
+<li id="menu-item-1009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1009"><a href="http://themoviefund.com/newtheme/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-904"><a title="TEAM" href="http://themoviefund.com/newtheme/team_patrners/">TEAM</a></li>
+	<li id="menu-item-3149" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3149"><a title="Movie News" href="http://www.themoviefund.com/newtheme/movienews">Movie News</a></li>
+	<li id="menu-item-3150" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3150"><a title="Investor Blog" href="http://themoviefund.com/newtheme/blog">Investor Blog</a></li>
+</ul>
+</li>
+<li id="menu-item-960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-960"><a href="http://themoviefund.com/newtheme/contact-us/">Contact</a></li>
+</ul></div>
+                        </div>
+
+                    </nav>
+
+                </div>
+
+            </div>
+
+            <div class="header-bottom">
+
+                <div id="carousel-banner" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">					
+
+				        
+                            
+
+                            <div class="item active">
+
+                                
+
+								
+								<a href="" data-toggle="modal" data-target="#mySliderVideo"><img width="1024" height="364" src="http://themoviefund.com/newtheme/wp-content/uploads/Banner1v1.jpg" class="attachment-slider wp-post-image" alt="Banner1v1" /></a>
+                                
+
+                                <div class="carousel-content">
+
+                                    <div class="container">
+
+                                        <div class="carousel-content-panel">
+
+                                            
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            
+
+                        
+                            
+
+                            <div class="item">
+
+                                
+
+								
+								<a href="" data-toggle="modal" data-target="#mySliderVideo"><img width="1024" height="364" src="http://themoviefund.com/newtheme/wp-content/uploads/Banner2-film-finance1.jpg" class="attachment-slider wp-post-image" alt="Banner2-film-finance" /></a>
+                                
+
+                                <div class="carousel-content">
+
+                                    <div class="container">
+
+                                        <div class="carousel-content-panel">
+
+                                            
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            
+
+                        
+                    </div>
+
+                    <div class="carousel-nav">
+
+                    <ol class="carousel-indicators custm-indic">
+
+						 
+							<li data-target="#carousel-banner" data-slide-to="0" class="active"></li>
+
+						
+							<li data-target="#carousel-banner" data-slide-to="1" ></li>
+
+						
+                    </ol>
+
+                    </div>					
+
+                </div>
+
+            </div>
+
+            <div class="modal fade" id="mySliderVideo" tabindex="-1" role="dialog" aria-labelledby="mySliderVideo">
+
+                <div class="modal-dialog" role="document">
+
+                    <div class="modal-content">
+
+                        <div class="modal-body">
+
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                            <iframe src="https://player.vimeo.com/video/136802486?title=0&byline=0&portrait=0" width="100%" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+<div class="content">
+
+<div class="film-panel">
+
+	<div class="container">
+
+
+
+	<div id="carousel-film" class="carousel slide" data-ride="carousel">
+
+	<div class="carousel-inner slider1"> 
+
+	  
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>23</h3><p>Movies with Budgets over $50m</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>550</h3><p>Total Movie Slate</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>510</h3><p>Members</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>43</h3><p>Scripts For Sale</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>54</h3><p>Actors Attached </p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>250k</h3><p>Investor Database</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>45</h3><p>Producers</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>23</h3><p>Directors</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>10</h3><p>TV Shows</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>1</h3><p>Featured Project<br />
+(Planet X)</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>3</h3><p>Years in the Making!</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>665k</h3><p>in closed deals</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>$54m</h3><p>In closing Deals</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>4</h3><p>Entertainment Projects</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>2015</h3><p>year launched</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>235</h3><p>Cups of coffee</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>$35m</h3><p>Planet X Budget</p>
+</div></div>
+
+
+
+	</div>
+
+	</div>
+
+
+
+	</div>
+
+</div>
+
+<div class="top-share">
+
+<div class="container">
+
+	<div class="row">
+
+		<div class="col-sm-3 col-xs-12 align-center">
+
+		<div class="share-with-count">
+
+		<div class="list-inline">
+
+		<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+
+		<div><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>   </div>                            	
+
+		</div>
+
+		</div>
+
+		</div>
+
+	<div class="col-sm-7 col-sm-offset-2 col-xs-12 col-xs-offset-0 align-center">
+
+	<div class="follow-list-2 align-right">
+
+		<ul class="list-inline">
+
+		<li class="text-center"><a href="#"><h3>SIGN IN : </h3></a></li>
+
+		<li class="text-center"><a href="">Join<br><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/social-banner-1.png" alt="post" class="img-responsive" /></a></li>
+
+		<li class="text-center"><a href="https://www.linkedin.com/themoviefund">Linked In<br><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/social-banner-2.png" alt="post" class="img-responsive" /></a></li>
+
+		<li class="text-center"><a href="https://www.facebook.com/pages/The-Movie-Fund/371261519745782">Facebook<br><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/social-banner-3.png" alt="post" class="img-responsive" /></a></li>
+
+		<li class="text-center"><a href="https://twitter.com/themoviefund">Twitter<br><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/social-banner-4.png" alt="post" class="img-responsive" /></a></li>
+
+		</ul>
+
+	</div>
+
+	</div>
+
+	</div>
+
+</div>
+
+</div>
+
+            <div class="how-it-works text-center" id="how">
+
+            	<div class="container">
+
+                	<h2 class="white">How It Works</h2>
+
+                    <div class="button">
+
+                    	<ul class="list-inline">
+
+                        	<li><a class="btn btn-7">FILM MAKERS</a></li>
+
+                            <li><a class="btn btn-5 active-ihwit"> INVESTORS</a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="row">
+
+<div class="mob-center lar-view">
+
+			<div class="col-md-12">
+
+
+
+                           <div class="how_steps set-posi1">
+
+                           <div class="slider4">
+
+                           
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Desing1_investors_Dark_opt2.png" class="img-responsive center-block wp-post-image" alt="Desing1_investors_Dark_opt2" /></a>
+
+  <h2>Step 1</h2>
+
+  <p>Register as an Investor on The Movie Fund.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_02.png" class="img-responsive center-block wp-post-image" alt="Icon_02" /></a>
+
+  <h2>Step 2</h2>
+
+  <p>Browse Movies by genre, budget and stars.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_03.png" class="img-responsive center-block wp-post-image" alt="Icon_03" /></a>
+
+  <h2>Step 3</h2>
+
+  <p>Select a single Movie, featured Project or a slate of Movies.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_13.png" class="img-responsive center-block wp-post-image" alt="Icon_13" /></a>
+
+  <h2>Step 4</h2>
+
+  <p>Review Financial information &amp; Movie Share details.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_06.png" class="img-responsive center-block wp-post-image" alt="Icon_06" /></a>
+
+  <h2>Step 5</h2>
+
+  <p>Contact Investment lawyers &amp; Filmmakers to review the opportunity.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_07.png" class="img-responsive center-block wp-post-image" alt="Icon_07" /></a>
+
+  <h2>Step 6</h2>
+
+  <p>Agree Finder&#8217;s fees and Investment terms</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_04.png" class="img-responsive center-block wp-post-image" alt="Icon_04" /></a>
+
+  <h2>Step 7</h2>
+
+  <p>Agree Industry Perks, Rewards, Cameo Roles &amp; Credits.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_12.png" class="img-responsive center-block wp-post-image" alt="Icon_12" /></a>
+
+  <h2>Step 8</h2>
+
+  <p>Follow your Movie via our weekly production newsletter.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_05.png" class="img-responsive center-block wp-post-image" alt="Icon_05" /></a>
+
+  <h2>Step 9</h2>
+
+  <p>Attend the Filmsets Visits.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_11.png" class="img-responsive center-block wp-post-image" alt="Icon_11" /></a>
+
+  <h2>Step 10</h2>
+
+  <p>Attend the World Premiere and Aftershow Parties as a Movie Mogul.</p>
+
+</div>    
+
+</div>
+
+
+
+
+
+
+
+                           </div>  
+
+                           </div> 
+
+                           <div class="how_steps set-posi2 hw-hide">
+
+                           <div class="slider4">
+
+                           
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/join.png" class="img-responsive center-block wp-post-image" alt="join" /></a>
+
+  <h2>Step 1</h2>
+
+  <p>Become a Member of The Movie Fund.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/upload.png" class="img-responsive center-block wp-post-image" alt="upload" /></a>
+
+  <h2>Step 2</h2>
+
+  <p>Upload your Short and long synopsis, genre, compares and main image.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Budget.png" class="img-responsive center-block wp-post-image" alt="Budget" /></a>
+
+  <h2>Step 3</h2>
+
+  <p>Insert your Film Budget details.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Team.png" class="img-responsive center-block wp-post-image" alt="Team" /></a>
+
+  <h2>Step 4</h2>
+
+  <p>Update your Team, Director, Producers, Cast &#038; Crew.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Funding.png" class="img-responsive center-block wp-post-image" alt="Funding" /></a>
+
+  <h2>Step 5</h2>
+
+  <p>Upload your Investor info, compares &#038; any previous/current investors.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Release.png" class="img-responsive center-block wp-post-image" alt="Release" /></a>
+
+  <h2>Step 6</h2>
+
+  <p>Send us a short press release for your Movie project.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Share.png" class="img-responsive center-block wp-post-image" alt="Share" /></a>
+
+  <h2>Step 7</h2>
+
+  <p>Share your Movie project within social media circles.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="184" height="184" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Rewards.png" class="img-responsive center-block wp-post-image" alt="Rewards" /></a>
+
+  <h2>Step 8</h2>
+
+  <p>Start receiving Investor inquiries for your Movie project.</p>
+
+</div>    
+
+</div>
+
+
+
+
+
+
+
+                           </div>  
+
+                           </div>                      
+
+                        </div>
+
+</div>
+
+<div class="mob-center mob-view">
+
+			<div class="col-md-12">
+
+
+
+                           <div class="how_steps set-posi1">
+
+                           <div class="slider2">
+
+                           
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Desing1_investors_Dark_opt2.png" class="img-responsive center-block wp-post-image" alt="Desing1_investors_Dark_opt2" /></a>
+
+  <h2>Step 1</h2>
+
+  <p>Register as an Investor on The Movie Fund.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_02.png" class="img-responsive center-block wp-post-image" alt="Icon_02" /></a>
+
+  <h2>Step 2</h2>
+
+  <p>Browse Movies by genre, budget and stars.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_03.png" class="img-responsive center-block wp-post-image" alt="Icon_03" /></a>
+
+  <h2>Step 3</h2>
+
+  <p>Select a single Movie, featured Project or a slate of Movies.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_13.png" class="img-responsive center-block wp-post-image" alt="Icon_13" /></a>
+
+  <h2>Step 4</h2>
+
+  <p>Review Financial information &amp; Movie Share details.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_06.png" class="img-responsive center-block wp-post-image" alt="Icon_06" /></a>
+
+  <h2>Step 5</h2>
+
+  <p>Contact Investment lawyers &amp; Filmmakers to review the opportunity.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_07.png" class="img-responsive center-block wp-post-image" alt="Icon_07" /></a>
+
+  <h2>Step 6</h2>
+
+  <p>Agree Finder&#8217;s fees and Investment terms</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_04.png" class="img-responsive center-block wp-post-image" alt="Icon_04" /></a>
+
+  <h2>Step 7</h2>
+
+  <p>Agree Industry Perks, Rewards, Cameo Roles &amp; Credits.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_12.png" class="img-responsive center-block wp-post-image" alt="Icon_12" /></a>
+
+  <h2>Step 8</h2>
+
+  <p>Follow your Movie via our weekly production newsletter.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_05.png" class="img-responsive center-block wp-post-image" alt="Icon_05" /></a>
+
+  <h2>Step 9</h2>
+
+  <p>Attend the Filmsets Visits.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_11.png" class="img-responsive center-block wp-post-image" alt="Icon_11" /></a>
+
+  <h2>Step 10</h2>
+
+  <p>Attend the World Premiere and Aftershow Parties as a Movie Mogul.</p>
+
+</div>    
+
+</div>
+
+
+
+
+
+
+
+                           </div>  
+
+                           </div> 
+
+                           <div class="how_steps set-posi2 hw-hide">
+
+                           <div class="slider2">
+
+                           
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/join.png" class="img-responsive center-block wp-post-image" alt="join" /></a>
+
+  <h2>Step 1</h2>
+
+  <p>Become a Member of The Movie Fund.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/upload.png" class="img-responsive center-block wp-post-image" alt="upload" /></a>
+
+  <h2>Step 2</h2>
+
+  <p>Upload your Short and long synopsis, genre, compares and main image.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Budget.png" class="img-responsive center-block wp-post-image" alt="Budget" /></a>
+
+  <h2>Step 3</h2>
+
+  <p>Insert your Film Budget details.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Team.png" class="img-responsive center-block wp-post-image" alt="Team" /></a>
+
+  <h2>Step 4</h2>
+
+  <p>Update your Team, Director, Producers, Cast &#038; Crew.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Funding.png" class="img-responsive center-block wp-post-image" alt="Funding" /></a>
+
+  <h2>Step 5</h2>
+
+  <p>Upload your Investor info, compares &#038; any previous/current investors.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Release.png" class="img-responsive center-block wp-post-image" alt="Release" /></a>
+
+  <h2>Step 6</h2>
+
+  <p>Send us a short press release for your Movie project.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Share.png" class="img-responsive center-block wp-post-image" alt="Share" /></a>
+
+  <h2>Step 7</h2>
+
+  <p>Share your Movie project within social media circles.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="184" height="184" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Rewards.png" class="img-responsive center-block wp-post-image" alt="Rewards" /></a>
+
+  <h2>Step 8</h2>
+
+  <p>Start receiving Investor inquiries for your Movie project.</p>
+
+</div>    
+
+</div>
+
+
+
+
+
+
+
+                           </div>  
+
+                           </div>                      
+
+                        </div>
+
+</div>             
+
+                        </div>
+
+						
+
+						
+
+                    </div>
+ 
+                </div>
+
+            </div>
+
+<div class="content">
+     
+ 
+  
+ <div class="container">
+<div class="row">
+<h2>Movie News</h2>
+
+<div class="col-md-3"><div class="single_rss_column"><aside id="feedzy_wp_widget-2" class="widget widget_feedzy_wp_widget"><h6 class="widget-title">Movie News</h6><div class="feedzy-rss"><ul><li  style="padding: 15px 0 25px" class="rss_item"><div class="rss_image" style="width:150px; height:150px;"><a href="http://movieweb.com/x-men-tv-show-legion-cast-rachel-keller/" target="_blank" title="'X-Men' TV Spinoff 'Legion' Gets 'Fargo' Star Rachel Keller" ><span class="default" style="width:150px; height:150px; background-image:  url(http://themoviefund.com/newtheme/wp-content/plugins/feedzy-rss-feeds/img/feedzy-default.jpg);" alt="'X-Men' TV Spinoff 'Legion' Gets 'Fargo' Star Rachel Keller"></span><span class="fetched" style="width:150px; height:150px; background-image:  url(http://cdn.movieweb.com/img.news.tops/NEEowpHyRDxuII_1_b.jpg);" alt="'X-Men' TV Spinoff 'Legion' Gets 'Fargo' Star Rachel Keller"></span></a></div><span class="title"><a href="http://movieweb.com/x-men-tv-show-legion-cast-rachel-keller/" target="_blank">'X-Men' TV Spinoff 'Legion' Gets 'Fargo' Star Rachel Keller</a></span><div class="rss_content"><p>'Fargo' star Rachel Keller has signed on to play the unidentified female lead in FX's upcoming 'X-Men' TV series, 'Legion'. […]</p></div></li><li  style="padding: 15px 0 25px" class="rss_item"><div class="rss_image" style="width:150px; height:150px;"><a href="http://movieweb.com/star-wars-force-awakens-monopoly-game-rey/" target="_blank" title="Why Is Rey Missing from The 'Star Wars: The Force Awakens' Monopoly Game?" ><span class="default" style="width:150px; height:150px; background-image:  url(http://themoviefund.com/newtheme/wp-content/plugins/feedzy-rss-feeds/img/feedzy-default.jpg);" alt="Why Is Rey Missing from The 'Star Wars: The Force Awakens' Monopoly Game?"></span><span class="fetched" style="width:150px; height:150px; background-image:  url(http://cdn.movieweb.com/img.news.tops/NE8bzuZREvb9bf_1_b.jpg);" alt="Why Is Rey Missing from The 'Star Wars: The Force Awakens' Monopoly Game?"></span></a></div><span class="title"><a href="http://movieweb.com/star-wars-force-awakens-monopoly-game-rey/" target="_blank">Why Is Rey Missing from The 'Star Wars: The Force Awakens' Monopoly Game?</a></span><div class="rss_content"><p>Hasbro issues a statement about the new 'Star Wars 7' Monopoly set, claiming Rey's inclusion would be a spoiler. […]</p></div></li><li  style="padding: 15px 0 25px" class="rss_item"><div class="rss_image" style="width:150px; height:150px;"><a href="http://movieweb.com/star-wars-force-awakens-box-office-records-not-broken/" target="_blank" title="'Star Wars: The Force Awakens' Has Not Broken These Box Office Records ...Yet" ><span class="default" style="width:150px; height:150px; background-image:  url(http://themoviefund.com/newtheme/wp-content/plugins/feedzy-rss-feeds/img/feedzy-default.jpg);" alt="'Star Wars: The Force Awakens' Has Not Broken These Box Office Records ...Yet"></span><span class="fetched" style="width:150px; height:150px; background-image:  url(http://cdn.movieweb.com/img.news.tops/NEFSOlICqggqJH_3_b.jpg);" alt="'Star Wars: The Force Awakens' Has Not Broken These Box Office Records ...Yet"></span></a></div><span class="title"><a href="http://movieweb.com/star-wars-force-awakens-box-office-records-not-broken/" target="_blank">'Star Wars: The Force Awakens' Has Not Broken These Box Office Records ...Yet</a></span><div class="rss_content"><p>While 'Star Wars: The Force Awakens' has been breaking box office records left and right, there are still a few it hasn't conquered. […]</p></div></li><li  style="padding: 15px 0 25px" class="rss_item"><div class="rss_image" style="width:150px; height:150px;"><a href="http://movieweb.com/girls-season-6-ending-hbo-2017/" target="_blank" title="HBO's 'Girls' Will End After Season 6" ><span class="default" style="width:150px; height:150px; background-image:  url(http://themoviefund.com/newtheme/wp-content/plugins/feedzy-rss-feeds/img/feedzy-default.jpg);" alt="HBO's 'Girls' Will End After Season 6"></span><span class="fetched" style="width:150px; height:150px; background-image:  url(http://cdn.movieweb.com/img.news.tops/NEua8w3aB5QIxw_3_b.jpg);" alt="HBO's 'Girls' Will End After Season 6"></span></a></div><span class="title"><a href="http://movieweb.com/girls-season-6-ending-hbo-2017/" target="_blank">HBO's 'Girls' Will End After Season 6</a></span><div class="rss_content"><p>A new report claims that HBO is eyeing a renewal for 'Girls' in 2017, with Season 6 set to be its last. […]</p></div></li><li  style="padding: 15px 0 25px" class="rss_item"><div class="rss_image" style="width:150px; height:150px;"><a href="http://movieweb.com/star-wars-force-awakens-imax-poster-4-finn-kylo/" target="_blank" title="Finn Vs Kylo Ren in Final 'Star Wars: The Force Awakens' IMAX Poster" ><span class="default" style="width:150px; height:150px; background-image:  url(http://themoviefund.com/newtheme/wp-content/plugins/feedzy-rss-feeds/img/feedzy-default.jpg);" alt="Finn Vs Kylo Ren in Final 'Star Wars: The Force Awakens' IMAX Poster"></span><span class="fetched" style="width:150px; height:150px; background-image:  url(http://cdn.movieweb.com/img.news.tops/NEbGrqrwNHhRfc_1_b.jpg);" alt="Finn Vs Kylo Ren in Final 'Star Wars: The Force Awakens' IMAX Poster"></span></a></div><span class="title"><a href="http://movieweb.com/star-wars-force-awakens-imax-poster-4-finn-kylo/" target="_blank">Finn Vs Kylo Ren in Final 'Star Wars: The Force Awakens' IMAX Poster</a></span><div class="rss_content"><p>AMC has released its fourth and final IMAX poster for 'The Force Awakens' and 'Star Wars' Sundays. […]</p></div></li></ul></div></aside><aside id="rss-4" class="widget widget_rss"><h6 class="widget-title"><a class='rsswidget' href='http://www.fandango.com/rss/newmovies.rss'><img style='border:0' width='14' height='14' src='http://themoviefund.com/newtheme/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.fandango.com/default.aspx?wssaffid=11840&#038;wssac=123'>New Movies</a></h6><ul><li><a class='rsswidget' href='http://www.fandango.com/theforest_187266/movieoverview?wssaffid=11840&#038;wssac=123'>The Forest</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Opens Friday, Jan 8, 2016Movie Details Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/themaskedsaint_188138/movieoverview?wssaffid=11840&#038;wssac=123'>The Masked Saint</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Opens Friday, Jan 8, 2016Movie Details Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/therevenant_179969/movieoverview?wssaffid=11840&#038;wssac=123'>The Revenant</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Now PlayingMovie Details Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/anesthesia_189395/movieoverview?wssaffid=11840&#038;wssac=123'>Anesthesia</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Opens Friday, Jan 8, 2016Movie Details Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/thetreasure_187581/movieoverview?wssaffid=11840&#038;wssac=123'>The Treasure</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Opens Friday, Jan 8, 2016Movie Details Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/wazir_189417/movieoverview?wssaffid=11840&#038;wssac=123'>Wazir</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Opens Friday, Jan 8, 2016Movie Details Play Trailers</div></li></ul></aside><aside id="rss-3" class="widget widget_rss"><h6 class="widget-title"><a class='rsswidget' href='http://www.fandango.com/rss/comingsoonmovies.rss'><img style='border:0' width='14' height='14' src='http://themoviefund.com/newtheme/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.fandango.com/default.aspx?wssaffid=11839&#038;wssac=123'>Coming Soon Movies</a></h6><ul><li><a class='rsswidget' href='http://www.fandango.com/ridealong2_185715/movieoverview?wssaffid=11839&#038;wssac=123'>Ride Along 2</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Opens Friday, Jan 15, 2016Kevin Hart and Ice Cube lead the returning lineup of Ride Along 2, the sequel to the blockbuster action-comedy that gave us the year’s most popular comedy duo. Movie Details Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/normofthenorth_185630/movieoverview?wssaffid=11839&#038;wssac=123'>Norm of the North</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Opens Friday, Jan 15, 2016A polar bear of many words, Norm’s greatest gripe is simple: there is no room for tourists in the Arctic.Movie Details Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/13hours:thesecretsoldiersofbenghazi_185036/movieoverview?wssaffid=11839&#038;wssac=123'>13 Hours: The Secret Soldiers of Benghazi</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Opens Friday, Jan 15, 2016Movie Details Play Trailers</div></li></ul></aside><aside id="rss-14" class="widget widget_rss"><h6 class="widget-title"><a class='rsswidget' href='http://www.fandango.com/rss/movie-news.rss'><img style='border:0' width='14' height='14' src='http://themoviefund.com/newtheme/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.fandango.com/movie-news/?wssaffid=11841&#038;wssac=123'>All Movie New</a></h6><ul><li><a class='rsswidget' href='http://www.fandango.com/movie-news/2016-awards-season-viewing-guide-750306?wssaffid=11841&#038;wssac=123'>2016 Awards Season Viewing Guide</a> <span class="rss-date">January 5, 2016</span></li><li><a class='rsswidget' href='http://www.fandango.com/movie-news/exclusive-poster-debut-jungle-book-750302?wssaffid=11841&#038;wssac=123'>EXCLUSIVE POSTER DEBUT: &#039;The Jungle Book&#039;</a> <span class="rss-date">January 5, 2016</span></li><li><a class='rsswidget' href='http://www.fandango.com/movie-news/heres-what-happened-to-will-smiths-independence-day-character-750305?wssaffid=11841&#038;wssac=123'>Here&#039;s What Happened to Will Smith&#039;s &#039;Independence Day&#039; Character</a> <span class="rss-date">January 5, 2016</span></li><li><a class='rsswidget' href='http://www.fandango.com/movie-news/see-how-cool-lightsabers-looked-on-set-of-star-wars-force-awakens-750304?wssaffid=11841&#038;wssac=123'>See How Cool the Lightsabers Looked on the Set of &#039;Star Wars: The Force Awakens&#039;</a> <span class="rss-date">January 5, 2016</span></li><li><a class='rsswidget' href='http://www.fandango.com/movie-news/news-briefs-michael-bay-will-direct-transformers-5-see-xmen-universe-cast-photo-750303?wssaffid=11841&#038;wssac=123'>News Briefs: Michael Bay Will Direct &#039;Transformers 5&#039;; See &#039;X-Men&#039; Universe Cast Photo</a> <span class="rss-date">January 5, 2016</span></li></ul></aside></div></div>
+<div class="col-md-3"><div class="single_rss_column"><aside id="rss-6" class="widget widget_rss"><h6 class="widget-title"><a class='rsswidget' href='http://www.fandango.com/movies/horror/rss/movie-list.rss'><img style='border:0' width='14' height='14' src='http://themoviefund.com/newtheme/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.fandango.com/'>Horror Movies</a></h6><ul><li><a class='rsswidget' href='http://www.fandango.com/the-dark-tower_185723/movieoverview'>The Dark Tower</a> <span class="rss-date">January 13, 2017</span><div class="rssSummary">The Dark Tower January 13, 2017</div></li><li><a class='rsswidget' href='http://www.fandango.com/amityville-the-awakening_185139/movieoverview'>Amityville: The Awakening</a> <span class="rss-date">April 15, 2016</span><div class="rssSummary">Amityville: The Awakening April 15, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/before-i-wake_180668/movieoverview'>Before I Wake</a> <span class="rss-date">April 8, 2016</span><div class="rssSummary">Before I Wake April 8, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-other-side-of-the-door_188393/movieoverview'>The Other Side of the Door</a> <span class="rss-date">March 11, 2016</span><div class="rssSummary">The Other Side of the Door March 11, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-witch_185794/movieoverview'>The Witch</a> <span class="rss-date">February 26, 2016</span><div class="rssSummary">The Witch February 26, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/pride-and-prejudice-and-zombies_138600/movieoverview'>Pride and Prejudice and Zombies</a> <span class="rss-date">February 5, 2016</span><div class="rssSummary">Pride and Prejudice and Zombies February 5, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/uncaged_189550/movieoverview'>Uncaged</a> <span class="rss-date">February 2, 2016</span><div class="rssSummary">Uncaged February 2, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/martyrs_189455/movieoverview'>Martyrs</a> <span class="rss-date">January 22, 2016</span><div class="rssSummary">Martyrs January 22, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-boy_187439/movieoverview'>The Boy</a> <span class="rss-date">January 22, 2016</span><div class="rssSummary">The Boy January 22, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/intruders_189500/movieoverview'>Intruders</a> <span class="rss-date">January 15, 2016</span><div class="rssSummary">Intruders January 15, 2016</div></li></ul></aside><aside id="rss-5" class="widget widget_rss"><h6 class="widget-title"><a class='rsswidget' href='http://www.fandango.com/movies/family/rss/movie-list.rss'><img style='border:0' width='14' height='14' src='http://themoviefund.com/newtheme/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.fandango.com/'>Family Movies</a></h6><ul><li><a class='rsswidget' href='http://www.fandango.com/storks_188519/movieoverview'>Storks</a> <span class="rss-date">September 23, 2016</span><div class="rssSummary">Storks September 23, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/kubo-and-the-two-strings_188467/movieoverview'>Kubo and the Two Strings</a> <span class="rss-date">August 19, 2016</span><div class="rssSummary">Kubo and the Two Strings August 19, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/ice-age-collision-course_188285/movieoverview'>Ice Age: Collision Course</a> <span class="rss-date">July 22, 2016</span><div class="rssSummary">Ice Age: Collision Course July 22, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-secret-life-of-pets_184804/movieoverview'>The Secret Life of Pets</a> <span class="rss-date">July 8, 2016</span><div class="rssSummary">The Secret Life of Pets July 8, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/finding-dory_164333/movieoverview'>Finding Dory</a> <span class="rss-date">June 17, 2016</span><div class="rssSummary">Finding Dory June 17, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/alice-through-the-looking-glass_185806/movieoverview'>Alice Through the Looking Glass</a> <span class="rss-date">May 27, 2016</span><div class="rssSummary">Alice Through the Looking Glass May 27, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-angry-birds-movie_186944/movieoverview'>The Angry Birds Movie</a> <span class="rss-date">May 20, 2016</span><div class="rssSummary">The Angry Birds Movie May 20, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/ratchet-and-clank_184085/movieoverview'>Ratchet &amp; Clank</a> <span class="rss-date">April 29, 2016</span><div class="rssSummary">Ratchet &amp; Clank April 29, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-jungle-book_182745/movieoverview'>The Jungle Book</a> <span class="rss-date">April 15, 2016</span><div class="rssSummary">The Jungle Book April 15, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-little-prince-2015_183687/movieoverview'>The Little Prince (2015)</a> <span class="rss-date">March 18, 2016</span><div class="rssSummary">The Little Prince (2015) March 18, 2016</div></li></ul></aside><aside id="feedzy_wp_widget-3" class="widget widget_feedzy_wp_widget"><h6 class="widget-title">Text Image RSS</h6><div class="feedzy-rss"><ul><li  style="padding: 9px 0 15px" class="rss_item"><div class="rss_image" style="width:90px; height:90px;"><a href="http://www.fandango.com/ride-along-2_185715/movieoverview" target="_blank" title="Ride Along 2" ><span class="default" style="width:90px; height:90px; background-image:  url(http://themoviefund.com/newtheme/wp-content/plugins/feedzy-rss-feeds/img/feedzy-default.jpg);" alt="Ride Along 2"></span><span class="fetched" style="width:90px; height:90px; background-image:  url(http://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/masterrepository/Fandango/185715/Ridealong2.jpg);" alt="Ride Along 2"></span></a></div><span class="title"><a href="http://www.fandango.com/ride-along-2_185715/movieoverview" target="_blank">Ride Along 2</a></span><div class="rss_content"><small>Posted by <a href="http://www.fandango.com" target="_blank" title="www.fandango.com" >Fandango</a> on January 15, 2016 at 12:00 am</small></div></li><li  style="padding: 9px 0 15px" class="rss_item"><div class="rss_image" style="width:90px; height:90px;"><a href="http://www.fandango.com/norm-of-the-north_185630/movieoverview" target="_blank" title="Norm of the North" ><span class="default" style="width:90px; height:90px; background-image:  url(http://themoviefund.com/newtheme/wp-content/plugins/feedzy-rss-feeds/img/feedzy-default.jpg);" alt="Norm of the North"></span><span class="fetched" style="width:90px; height:90px; background-image:  url(http://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/masterrepository/Fandango/185630/normofthenorthnewposter.jpg);" alt="Norm of the North"></span></a></div><span class="title"><a href="http://www.fandango.com/norm-of-the-north_185630/movieoverview" target="_blank">Norm of the North</a></span><div class="rss_content"><small>Posted by <a href="http://www.fandango.com" target="_blank" title="www.fandango.com" >Fandango</a> on January 15, 2016 at 12:00 am</small></div></li><li  style="padding: 9px 0 15px" class="rss_item"><div class="rss_image" style="width:90px; height:90px;"><a href="http://www.fandango.com/the-hateful-eight_185166/movieoverview" target="_blank" title="The Hateful Eight" ><span class="default" style="width:90px; height:90px; background-image:  url(http://themoviefund.com/newtheme/wp-content/plugins/feedzy-rss-feeds/img/feedzy-default.jpg);" alt="The Hateful Eight"></span><span class="fetched" style="width:90px; height:90px; background-image:  url(http://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/masterrepository/Fandango/185166/HatefulEight_sm.jpg);" alt="The Hateful Eight"></span></a></div><span class="title"><a href="http://www.fandango.com/the-hateful-eight_185166/movieoverview" target="_blank">The Hateful Eight</a></span><div class="rss_content"><small>Posted by <a href="http://www.fandango.com" target="_blank" title="www.fandango.com" >Fandango</a> on December 25, 2015 at 12:00 am</small></div></li><li  style="padding: 9px 0 15px" class="rss_item"><div class="rss_image" style="width:90px; height:90px;"><a href="http://www.fandango.com/the-revenant_179969/movieoverview" target="_blank" title="The Revenant" ><span class="default" style="width:90px; height:90px; background-image:  url(http://themoviefund.com/newtheme/wp-content/plugins/feedzy-rss-feeds/img/feedzy-default.jpg);" alt="The Revenant"></span><span class="fetched" style="width:90px; height:90px; background-image:  url(http://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/masterrepository/Fandango/179969/theREVENANT1.jpg);" alt="The Revenant"></span></a></div><span class="title"><a href="http://www.fandango.com/the-revenant_179969/movieoverview" target="_blank">The Revenant</a></span><div class="rss_content"><small>Posted by <a href="http://www.fandango.com" target="_blank" title="www.fandango.com" >Fandango</a> on December 25, 2015 at 12:00 am</small></div></li><li  style="padding: 9px 0 15px" class="rss_item"><div class="rss_image" style="width:90px; height:90px;"><a href="http://www.fandango.com/yellow-day_176055/movieoverview" target="_blank" title="Yellow Day" ><span class="default" style="width:90px; height:90px; background-image:  url(http://themoviefund.com/newtheme/wp-content/plugins/feedzy-rss-feeds/img/feedzy-default.jpg);" alt="Yellow Day"></span><span class="fetched" style="width:90px; height:90px; background-image:  url(http://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/masterrepository/Fandango/176055/yellowday.jpg);" alt="Yellow Day"></span></a></div><span class="title"><a href="http://www.fandango.com/yellow-day_176055/movieoverview" target="_blank">Yellow Day</a></span><div class="rss_content"><small>Posted by <a href="http://www.fandango.com" target="_blank" title="www.fandango.com" >Fandango</a> on December 25, 2015 at 12:00 am</small></div></li></ul></div></aside><aside id="rss-13" class="widget widget_rss"><h6 class="widget-title"><a class='rsswidget' href='http://www.fandango.com/rss/top10boxoffice.rss'><img style='border:0' width='14' height='14' src='http://themoviefund.com/newtheme/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.fandango.com/default.aspx?wssaffid=11830&#038;wssac=123'>Top Ten Box Office</a></h6><ul><li><a class='rsswidget' href='http://www.fandango.com/starwars:theforceawakens_169229/movieoverview?wssaffid=11830&#038;wssac=123'>1. Star Wars: The Force Awakens $90.2M</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/daddyshome_135435/movieoverview?wssaffid=11830&#038;wssac=123'>2. Daddy&#039;s Home $29.2M</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/thehatefuleight_185166/movieoverview?wssaffid=11830&#038;wssac=123'>3. The Hateful Eight $15.7M</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/sisters_179634/movieoverview?wssaffid=11830&#038;wssac=123'>4. Sisters $12.8M</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/alvinandthechipmunks:theroadchip_183476/movieoverview?wssaffid=11830&#038;wssac=123'>5. Alvin and the Chipmunks: The Road Chip $12.1M</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/joy_183477/movieoverview?wssaffid=11830&#038;wssac=123'>6. Joy $10.2M</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/thebigshort_186929/movieoverview?wssaffid=11830&#038;wssac=123'>7. The Big Short $9.1M</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/concussion_180161/movieoverview?wssaffid=11830&#038;wssac=123'>8. Concussion $7.8M</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/pointbreak_180230/movieoverview?wssaffid=11830&#038;wssac=123'>9. Point Break $6.8M</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Play Trailers</div></li><li><a class='rsswidget' href='http://www.fandango.com/thehungergames:mockingjaypart2_159276/movieoverview?wssaffid=11830&#038;wssac=123'>10. The Hunger Games: Mockingjay - Part 2 $4.6M</a> <span class="rss-date">January 6, 2016</span><div class="rssSummary">Play Trailers</div></li></ul></aside></div></div>
+<div class="col-md-3"><div class="single_rss_column"><aside id="rss-8" class="widget widget_rss"><h6 class="widget-title"><a class='rsswidget' href='http://www.fandango.com/movies/superhero/rss/movie-list.rss'><img style='border:0' width='14' height='14' src='http://themoviefund.com/newtheme/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.fandango.com/'>Super Hero Movies</a></h6><ul><li><a class='rsswidget' href='http://www.fandango.com/independence-day-resurgence_165895/movieoverview'>Independence Day: Resurgence</a> <span class="rss-date">June 24, 2016</span><div class="rssSummary">Independence Day: Resurgence June 24, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/teenage-mutant-ninja-turtles-out-of-the-shadows_188455/movieoverview'>Teenage Mutant Ninja Turtles: Out of the Shadows</a> <span class="rss-date">June 3, 2016</span><div class="rssSummary">Teenage Mutant Ninja Turtles: Out of the Shadows June 3, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/x-men-apocalypse_175470/movieoverview'>X-Men: Apocalypse</a> <span class="rss-date">May 27, 2016</span><div class="rssSummary">X-Men: Apocalypse May 27, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/star-trek-beyond_188462/movieoverview'>Star Trek Beyond</a> <span class="rss-date">May 22, 2016</span><div class="rssSummary">Star Trek Beyond May 22, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/captain-america-civil-war_185792/movieoverview'>Captain America: Civil War</a> <span class="rss-date">May 6, 2016</span><div class="rssSummary">Captain America: Civil War May 6, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-huntsman-winters-war_188451/movieoverview'>The Huntsman: Winter&#039;s War</a> <span class="rss-date">April 22, 2016</span><div class="rssSummary">The Huntsman: Winter&#039;s War April 22, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/batman-v-superman-dawn-of-justice_169807/movieoverview'>Batman v Superman: Dawn of Justice</a> <span class="rss-date">March 25, 2016</span><div class="rssSummary">Batman v Superman: Dawn of Justice March 25, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-divergent-series-allegiant_186606/movieoverview'>The Divergent Series: Allegiant</a> <span class="rss-date">March 18, 2016</span><div class="rssSummary">The Divergent Series: Allegiant March 18, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/london-has-fallen_183848/movieoverview'>London Has Fallen</a> <span class="rss-date">March 4, 2016</span><div class="rssSummary">London Has Fallen March 4, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/deadpool_136083/movieoverview'>Deadpool</a> <span class="rss-date">February 12, 2016</span><div class="rssSummary">Deadpool February 12, 2016</div></li></ul></aside><aside id="rss-7" class="widget widget_rss"><h6 class="widget-title"><a class='rsswidget' href='http://www.fandango.com/movies/indie/rss/movie-list.rss'><img style='border:0' width='14' height='14' src='http://themoviefund.com/newtheme/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.fandango.com/'>Indie Movies</a></h6><ul><li><a class='rsswidget' href='http://www.fandango.com/the-dark-horse_155488/movieoverview'>The Dark Horse</a> <span class="rss-date">April 1, 2016</span><div class="rssSummary">The Dark Horse April 1, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/neerja_189497/movieoverview'>Neerja</a> <span class="rss-date">February 19, 2016</span><div class="rssSummary">Neerja February 19, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/touched-with-fire_187919/movieoverview'>Touched With Fire</a> <span class="rss-date">February 12, 2016</span><div class="rssSummary">Touched With Fire February 12, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/where-to-invade-next_188065/movieoverview'>Where to Invade Next</a> <span class="rss-date">February 12, 2016</span><div class="rssSummary">Where to Invade Next February 12, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/exposed_189289/movieoverview'>Exposed</a> <span class="rss-date">January 22, 2016</span><div class="rssSummary">Exposed January 22, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/aferim_188288/movieoverview'>Aferim!</a> <span class="rss-date">January 22, 2016</span><div class="rssSummary">Aferim! January 22, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/ip-man-3_188754/movieoverview'>Ip Man 3</a> <span class="rss-date">January 22, 2016</span><div class="rssSummary">Ip Man 3 January 22, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/detective-chinatown-tang-ren-jie-tan-an_189589/movieoverview'>Detective Chinatown (Tang Ren Jie Tan An)</a> <span class="rss-date">January 15, 2016</span><div class="rssSummary">Detective Chinatown (Tang Ren Jie Tan An) January 15, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-benefactor_188682/movieoverview'>The Benefactor</a> <span class="rss-date">January 15, 2016</span><div class="rssSummary">The Benefactor January 15, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/remember_187369/movieoverview'>Remember</a> <span class="rss-date">January 15, 2016</span><div class="rssSummary">Remember January 15, 2016</div></li></ul></aside><aside id="rss-11" class="widget widget_rss"><h6 class="widget-title"><a class='rsswidget' href='http://www.fandango.com/movies/holiday/rss/movie-list.rss'><img style='border:0' width='14' height='14' src='http://themoviefund.com/newtheme/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.fandango.com/'>2015 Holiday Movies</a></h6><ul><li><a class='rsswidget' href='http://www.fandango.com/ride-along-2_185715/movieoverview'>Ride Along 2</a> <span class="rss-date">January 15, 2016</span><div class="rssSummary">Ride Along 2 January 15, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/norm-of-the-north_185630/movieoverview'>Norm of the North</a> <span class="rss-date">January 15, 2016</span><div class="rssSummary">Norm of the North January 15, 2016</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-hateful-eight_185166/movieoverview'>The Hateful Eight</a> <span class="rss-date">December 25, 2015</span><div class="rssSummary">The Hateful Eight December 25, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-revenant_179969/movieoverview'>The Revenant</a> <span class="rss-date">December 25, 2015</span><div class="rssSummary">The Revenant December 25, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/yellow-day_176055/movieoverview'>Yellow Day</a> <span class="rss-date">December 25, 2015</span><div class="rssSummary">Yellow Day December 25, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/point-break_180230/movieoverview'>Point Break</a> <span class="rss-date">December 25, 2015</span><div class="rssSummary">Point Break December 25, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/daddys-home_135435/movieoverview'>Daddy&#039;s Home</a> <span class="rss-date">December 25, 2015</span><div class="rssSummary">Daddy&#039;s Home December 25, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/joy_183477/movieoverview'>Joy</a> <span class="rss-date">December 25, 2015</span><div class="rssSummary">Joy December 25, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/concussion_180161/movieoverview'>Concussion</a> <span class="rss-date">December 25, 2015</span><div class="rssSummary">Concussion December 25, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/45-years_185138/movieoverview'>45 Years</a> <span class="rss-date">December 23, 2015</span><div class="rssSummary">45 Years December 23, 2015</div></li></ul></aside></div></div>
+<div class="col-md-3"><div class="single_rss_column"><aside id="rss-10" class="widget widget_rss"><h6 class="widget-title"><a class='rsswidget' href='http://www.fandango.com/movies/summer/rss/movie-list.rss'><img style='border:0' width='14' height='14' src='http://themoviefund.com/newtheme/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.fandango.com/'>2015 Summer Movies</a></h6><ul><li><a class='rsswidget' href='http://www.fandango.com/joy_183477/movieoverview'>Joy</a> <span class="rss-date">December 25, 2015</span><div class="rssSummary">Joy December 25, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/point-break_180230/movieoverview'>Point Break</a> <span class="rss-date">December 25, 2015</span><div class="rssSummary">Point Break December 25, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/daddys-home_135435/movieoverview'>Daddy&#039;s Home</a> <span class="rss-date">December 25, 2015</span><div class="rssSummary">Daddy&#039;s Home December 25, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/concussion_180161/movieoverview'>Concussion</a> <span class="rss-date">December 25, 2015</span><div class="rssSummary">Concussion December 25, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-hateful-eight_185166/movieoverview'>The Hateful Eight</a> <span class="rss-date">December 25, 2015</span><div class="rssSummary">The Hateful Eight December 25, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/star-wars-the-force-awakens_169229/movieoverview'>Star Wars: The Force Awakens</a> <span class="rss-date">December 18, 2015</span><div class="rssSummary">Star Wars: The Force Awakens December 18, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/alvin-and-the-chipmunks-the-road-chip_183476/movieoverview'>Alvin and the Chipmunks: The Road Chip</a> <span class="rss-date">December 18, 2015</span><div class="rssSummary">Alvin and the Chipmunks: The Road Chip December 18, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/sisters_179634/movieoverview'>Sisters</a> <span class="rss-date">December 18, 2015</span><div class="rssSummary">Sisters December 18, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-big-short_186929/movieoverview'>The Big Short</a> <span class="rss-date">December 11, 2015</span><div class="rssSummary">The Big Short December 11, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-danish-girl_136694/movieoverview'>The Danish Girl</a> <span class="rss-date">November 27, 2015</span><div class="rssSummary">The Danish Girl November 27, 2015</div></li></ul></aside><aside id="rss-9" class="widget widget_rss"><h6 class="widget-title"><a class='rsswidget' href='http://www.fandango.com/movies/valentinesday/rss/movie-list.rss'><img style='border:0' width='14' height='14' src='http://themoviefund.com/newtheme/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.fandango.com/'>Romance Movies</a></h6><ul><li><a class='rsswidget' href='http://www.fandango.com/the-second-best-exotic-marigold-hotel_179758/movieoverview'>The Second Best Exotic Marigold Hotel</a> <span class="rss-date">March 6, 2015</span><div class="rssSummary">The Second Best Exotic Marigold Hotel March 6, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-duff_179547/movieoverview'>The DUFF</a> <span class="rss-date">February 20, 2015</span><div class="rssSummary">The DUFF February 20, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/old-fashioned_176952/movieoverview'>Old Fashioned</a> <span class="rss-date">February 13, 2015</span><div class="rssSummary">Old Fashioned February 13, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-last-five-years_179312/movieoverview'>The Last Five Years</a> <span class="rss-date">February 13, 2015</span><div class="rssSummary">The Last Five Years February 13, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/fifty-shades-of-grey_165809/movieoverview'>Fifty Shades of Grey</a> <span class="rss-date">February 13, 2015</span><div class="rssSummary">Fifty Shades of Grey February 13, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/the-rewrite_179880/movieoverview'>The Rewrite</a> <span class="rss-date">February 13, 2015</span><div class="rssSummary">The Rewrite February 13, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/love-rosie_179059/movieoverview'>Love, Rosie</a> <span class="rss-date">February 6, 2015</span><div class="rssSummary">Love, Rosie February 6, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/one-small-hitch_163872/movieoverview'>One Small Hitch</a> <span class="rss-date">February 6, 2015</span><div class="rssSummary">One Small Hitch February 6, 2015</div></li><li><a class='rsswidget' href='http://www.fandango.com/jupiter-ascending-2015_163342/movieoverview'>Jupiter Ascending (2015)</a> <span class="rss-date">February 6, 2015</span><div class="rssSummary">Jupiter Ascending (2015) February 6, 2015</div></li></ul></aside><aside id="rss-12" class="widget widget_rss"><h6 class="widget-title"><a class='rsswidget' href='http://www.fandango.com/rss/starwars.rss'><img style='border:0' width='14' height='14' src='http://themoviefund.com/newtheme/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.fandango.com/rss/starwars.rss?wssac=123'>Star Wars</a></h6><ul><li><a class='rsswidget' href='http://www.fandango.com/movie-news/watch-han-solo-and-chewbacca-arrive-in-the-new-star-wars-the-force-awakens-trailer-749156?wssac=123'>Watch: Han Solo and Chewbacca Arrive in the New &#039;Star Wars: The Force Awakens&#039; Trailer</a> <span class="rss-date">July 27, 2015</span></li><li><a class='rsswidget' href='http://www.fandango.com/movie-news/heres-a-first-look-at-andy-serkis-in-star-wars-the-force-awakens-749343?wssac=123'>Here&#039;s a First Look at Andy Serkis in &#039;Star Wars: The Force Awakens&#039;</a> <span class="rss-date">July 27, 2015</span></li><li><a class='rsswidget' href='http://www.fandango.com/movieblog/4-cute-moviecharacter-cards-that-say-i-love-you-748873.html?wssac=123'>4 Cute Movie-Character Cards That Say I Love You</a> <span class="rss-date">July 27, 2015</span></li><li><a class='rsswidget' href='http://www.fandango.com/movie-news/happy-star-wars-day-check-out-new-images-from-star-wars-the-force-awakens-749228?wssac=123'>Happy Star Wars Day! Check Out New Imags from &#039;Star Wars: The Force Awakens&#039;</a> <span class="rss-date">July 27, 2015</span></li><li><a class='rsswidget' href='http://www.fandango.com/movie-news/news-briefs-scarlett-johansson-confirmed-for-captain-america-civil-war-748798?wssac=123'>News Briefs: Scarlett Johansson Confirmed for &#039;Captain America: Civil War&#039;</a> <span class="rss-date">July 27, 2015</span></li><li><a class='rsswidget' href='http://www.fandango.com/movie-news/news-briefs-star-wars-sequel-director-leaves-watch-a-tv-spot-for-cameron-crowes-aloha-749226?wssac=123'>News Briefs: &#039;Star Wars&#039; Sequel Director Leaves; Watch a TV Spot for Cameron Crowe&#039;s &#039;Aloha&#039;</a> <span class="rss-date">July 27, 2015</span></li><li><a class='rsswidget' href='http://www.fandango.com/movie-news/news-briefs-new-star-wars-novel-fills-in-missing-years-watch-new-the-gift-trailer-749535?wssac=123'>News Briefs: New &#039;Star Wars&#039; Novel Fills in Missing Years; Watch New &#039;The Gift&#039; Trailer</a> <span class="rss-date">July 27, 2015</span></li><li><a class='rsswidget' href='http://www.fandango.com/movie-news/star-wars-the-force-awakens-promises-the-coolest-toy-for-breakout-star-bb-8-749177?wssac=123'>&#039;Star Wars: The Force Awakens&#039; Promises The Coolest Toy for Breakout Star BB-8</a> <span class="rss-date">July 27, 2015</span></li><li><a class='rsswidget' href='http://www.fandango.com/movie-news/star-wars-the-force-awakens-trailer-see-all-the-coolest-moments-in-gif-form-749158?wssac=123'>&#039;Star Wars: The Force Awakens&#039; Trailer: See All the Coolest Moments in GIF Form</a> <span class="rss-date">July 27, 2015</span></li><li><a class='rsswidget' href='http://www.fandango.com/movie-news/star-wars-rogue-one-news-the-story-a-teaser-trailer-concept-art-and-more-749173?wssac=123'>&#039;Star Wars: Rogue One&#039; News: The Story, A Teaser Trailer, Concept Art and More</a> <span class="rss-date">July 27, 2015</span></li></ul></aside></div></div>
+</div>
+</div>
+        </div>   
+
+</div>
+<div class="content">
+            <div class="client-holder text-center">
+            	<div class="container">
+                	<div class="title text-center">
+                		<h2>in the news</h2>
+                    </div>
+                    
+                    <div id="carousel-client" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						
+
+
+<div class="item  active">
+
+    <div class="client-list">
+
+        <ul class="list-inline">
+
+      
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-1.png" class="img-responsive wp-post-image" alt="client-1" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-2.png" class="img-responsive wp-post-image" alt="client-2" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-3-1.png" class="img-responsive wp-post-image" alt="client-3-1" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-4.png" class="img-responsive wp-post-image" alt="client-4" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-5.png" class="img-responsive wp-post-image" alt="client-5" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-2.png" class="img-responsive wp-post-image" alt="client-2" /></li>
+
+
+        </ul>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+<div class="item ">
+
+    <div class="client-list">
+
+        <ul class="list-inline">
+
+      
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-3-1.png" class="img-responsive wp-post-image" alt="client-3-1" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-4.png" class="img-responsive wp-post-image" alt="client-4" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-3-1.png" class="img-responsive wp-post-image" alt="client-3-1" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-4.png" class="img-responsive wp-post-image" alt="client-4" /></li>
+
+
+        </ul>
+
+    </div>
+
+</div>
+
+
+
+						
+                        </div>
+                        <div class="carousel-nav">
+                            <a data-slide="prev" href="#carousel-client" class="carousel-nav-prev">Prev</a>
+                            <a data-slide="next" href="#carousel-client" class="carousel-nav-next">Nexty</a>
+                        </div>
+                    </div>
+                </div>
+            </div>			
+
+            <div class="follow-holder text-center">
+            	<div class="container">
+                	<div class="follow-list">
+                    	<div class="row">
+                        	<div class="col-sm-4 text-right">
+                            	<h2>Follow Us On:</h2>
+                            </div>
+                            <div class="col-sm-8 text-center">
+                            	<ul class="list-inline">
+                                    <li class="text-center"><a href="https://www.linkedin.com/themoviefund"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/11/thum.png"><br>Tumblr</a></li>
+                                    <li class="text-center"><a href="https://www.youtube.com/channel/UCJSsT-dHgwVl1rdtojN_OjQ"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/follow-2.png"><br>Youtube</a></li>
+                                    <li class="text-center"><a href="https://www.facebook.com/pages/The-Movie-Fund/371261519745782"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/follow-3.png"><br>Facebook</a></li>
+                                    <li class="text-center"><a href="https://www.pinterest.com/themoviefund/"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/follow-4.png"><br>Pinterest</a></li>
+                                    <li class="text-center"><a href="https://twitter.com/themoviefund"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/follow-5.png"><br>Twitter</a></li>
+                                    <li class="text-center"><a href="https://www.instagram/moviefund"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/follow-6.png"><br>Instagram</a></li>
+                                    <li class="text-center"><a href="https://plus.google.com/b/106013370072001308989/"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/follow-7.png"><br>Google +</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="social-holder">
+            	<div class="container">
+                	<div class="row">
+                    	<div class="col-sm-4">
+                        	<div class="instagram">
+                            	<h2> <i class="fa fa-instagram"></i> Instagram</h2>
+                                <br/>
+								<div class="in-sta">
+<div class="inst-fram">
+<iframe src="http://widget.websta.me/in/tag:themoviefund/?s=85&w=5&h=2&b=0&bg=212121&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:320px; height: 200px" ></iframe>
+</div>                                                              
+<!--<a href="#"><img src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/img/thumbnails/insta.png" alt="post" class="img-responsive" /></a>-->
+                                </div>
+							</div>
+                        </div>
+                    	<div class="col-sm-4">
+                        	<div class="instagram">
+                            	<h2> <i class="fa fa-twitter"></i> Twitter</h2>
+                                <br/>
+								<div class="twtt-f">
+<a class="twitter-timeline"
+  data-widget-id="650984236829118464"
+  href="https://twitter.com/TwitterDev"  
+  width="340"
+  height="200"
+  data-tweet-limit="1"
+  data-chrome=" ">
+Tweets by @TwitterDev
+</a>
+
+                                								</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                        	<div class="instagram">
+                            	<h2> <i class="fa fa-facebook"></i> Facebook Feeds</h2>
+                                <br/>
+                               <div class="cff-wrapper"><div id="cff" data-char="150" class="custm-feed cff-fixed-height " style="width:100%; height:200px; padding:2px; background-color:#ffffff; "><div class="cff-likebox cff-top" ><script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script><div class="fb-page" data-href="https://www.facebook.com/371261519745782" data-width="300" data-hide-cover="false" data-show-facepile="true" data-small-header="false" data-hide-cta="false" data-show-posts="false" data-adapt-container-width="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/371261519745782"><a href="https://www.facebook.com/371261519745782">View on Facebook</a></blockquote></div></div><div id="fb-root"></div></div><div class="cff-item cff-photo-post cff-box author-the-movie-fund" id="cff_371261519745782_441307289407871" style="background-color: #333333; "><div class="cff-author"><a href="https://facebook.com/371261519745782" target="_blank" rel="nofollow" title="The Movie Fund on Facebook" style="font-size:13px; color:#c5c5c5;"><div class="cff-author-text"><span class="cff-page-name">The Movie Fund</span></div><div class="cff-author-img"><img src="https://graph.facebook.com/371261519745782/picture?type=square" title="The Movie Fund" alt="The Movie Fund" width=40 height=40></div></a></div><p class="cff-date" > 51 minutes ago </p><h6 class="cff-post-text" style="font-weight:normal; color:#c5c5c5;"><span class="cff-text" data-color="">'X-Men' TV Spinoff 'Legion' Gets 'Fargo' Star Rachel Keller <a href="http://ow.ly/WGm4a">ow.ly/WGm4a</a> </span><span class="cff-expand">... <a href="#" style="color: #"><span class="cff-more">See More</span><span class="cff-less">See Less</span></a></span></h6><div class="cff-post-links"><a class="cff-viewpost-facebook" href="https://www.facebook.com/371261519745782/photos/a.372033649668569.1073741828.371261519745782/441307289407871/?type=3" title="View on Facebook" target="_blank" rel="nofollow" >View on Facebook</a><div class="cff-share-container"><span class="cff-dot" >&middot;</span><a class="cff-share-link" href="javascript:void(0);" title="Share" >Share</a><p class='cff-share-tooltip'><a href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F441307289407871%2F%3Ftype%3D3' target='_blank' class='cff-facebook-icon'><i class='fa fa-facebook-square'></i></a><a href='https://twitter.com/intent/tweet?text=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F441307289407871%2F%3Ftype%3D3' target='_blank' class='cff-twitter-icon'><i class='fa fa-twitter'></i></a><a href='https://plus.google.com/share?url=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F441307289407871%2F%3Ftype%3D3' target='_blank' class='cff-google-icon'><i class='fa fa-google-plus'></i></a><a href='https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F441307289407871%2F%3Ftype%3D3&amp;title=%27X-Men%27%20TV%20Spinoff%20%27Legion%27%20Gets%20%27Fargo%27%20Star%20Rachel%20Keller%20ow.ly%2FWGm4a%20...%20See%20MoreSee%20Less' target='_blank' class='cff-linkedin-icon'><i class='fa fa-linkedin'></i></a><a href='mailto:?subject=Facebook&amp;body=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F441307289407871%2F%3Ftype%3D3%20-%20%27X-Men%27%20TV%20Spinoff%20%27Legion%27%20Gets%20%27Fargo%27%20Star%20Rachel%20Keller%20ow.ly%2FWGm4a%20...%20See%20MoreSee%20Less' target='_blank' class='cff-email-icon'><i class='fa fa-envelope'></i></a><i class='fa fa-play fa-rotate-90'></i></p></div></div></div><div class="cff-item cff-photo-post cff-box author-the-movie-fund" id="cff_371261519745782_431642147041052" style="background-color: #333333; "><div class="cff-author"><a href="https://facebook.com/371261519745782" target="_blank" rel="nofollow" title="The Movie Fund on Facebook" style="font-size:13px; color:#c5c5c5;"><div class="cff-author-text"><span class="cff-page-name">The Movie Fund</span></div><div class="cff-author-img"><img src="https://graph.facebook.com/371261519745782/picture?type=square" title="The Movie Fund" alt="The Movie Fund" width=40 height=40></div></a></div><p class="cff-date" > 1 month ago </p><h6 class="cff-post-text" style="font-weight:normal; color:#c5c5c5;"><span class="cff-text" data-color="">New 'Batman v Superman: Dawn of Justice' Trailer #3 Arrives! <a href="http://ow.ly/VpIpx">ow.ly/VpIpx</a> </span><span class="cff-expand">... <a href="#" style="color: #"><span class="cff-more">See More</span><span class="cff-less">See Less</span></a></span></h6><div class="cff-post-links"><a class="cff-viewpost-facebook" href="https://www.facebook.com/371261519745782/photos/a.372033649668569.1073741828.371261519745782/431642147041052/?type=3" title="View on Facebook" target="_blank" rel="nofollow" >View on Facebook</a><div class="cff-share-container"><span class="cff-dot" >&middot;</span><a class="cff-share-link" href="javascript:void(0);" title="Share" >Share</a><p class='cff-share-tooltip'><a href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F431642147041052%2F%3Ftype%3D3' target='_blank' class='cff-facebook-icon'><i class='fa fa-facebook-square'></i></a><a href='https://twitter.com/intent/tweet?text=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F431642147041052%2F%3Ftype%3D3' target='_blank' class='cff-twitter-icon'><i class='fa fa-twitter'></i></a><a href='https://plus.google.com/share?url=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F431642147041052%2F%3Ftype%3D3' target='_blank' class='cff-google-icon'><i class='fa fa-google-plus'></i></a><a href='https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F431642147041052%2F%3Ftype%3D3&amp;title=New%20%27Batman%20v%20Superman%3A%20Dawn%20of%20Justice%27%20Trailer%20%233%20Arrives%21%20ow.ly%2FVpIpx%20...%20See%20MoreSee%20Less' target='_blank' class='cff-linkedin-icon'><i class='fa fa-linkedin'></i></a><a href='mailto:?subject=Facebook&amp;body=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F431642147041052%2F%3Ftype%3D3%20-%20New%20%27Batman%20v%20Superman%3A%20Dawn%20of%20Justice%27%20Trailer%20%233%20Arrives%21%20ow.ly%2FVpIpx%20...%20See%20MoreSee%20Less' target='_blank' class='cff-email-icon'><i class='fa fa-envelope'></i></a><i class='fa fa-play fa-rotate-90'></i></p></div></div></div></div><div class="cff-clear"></div></div>							   
+							   </div>
+							   
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+        <footer>
+        	<div class="get-start-holder" style="background-image:none; background-color:#000;">
+            	<div class="container">
+				<div class="row">
+                  <div class="col-md-3 right-border">
+				  <div class="inn-widg">
+				  <aside id="text-9" class="widget widget_text"><h4 class="widget-title">TheMovieFund</h4>			<div class="textwidget"><ul>
+<li><a href="www.themoviefund.com/team">Team</a></li>
+<li><a href="www.themoviefund.com/about">About</a></li>
+<li><a href="www.themoviefund.com/movies">Movies</a></li>
+<li><a href="www.themoviefund.com/press">Blogs
+<li><a href="www.themoviefund.com/how-it-works">How it Works</a></li>
+</ul>
+</div>
+		</aside>				  </div>
+				  <div class="inn-widg">
+				  <aside id="text-11" class="widget widget_text"><h4 class="widget-title">Investing</h4>			<div class="textwidget"><ul>
+<li><a href="www.themoviefund.com/investors">For Investors</a></li>
+<li><a href="www.themoviefund.com/faqs">FAQs</a></li>
+<li><a href="www.themoviefund.com/testimonies">Testimonies</a></li>
+<li><a href="/for-investors/">Documentation</a></li>
+<li><a href="/for-investors/">SEC Regulations</a></li>
+</ul>
+</div>
+		</aside>				  </div>
+				  </div>
+                  <div class="col-md-3 col-md-offset-1 right-border">
+				  <div class="inn-widg">
+				  <aside id="text-10" class="widget widget_text"><h4 class="widget-title">For Filmmakers</h4>			<div class="textwidget"><ul>
+<li><a href="www.themoviefund.com/filmmakers">For Filmmakers</a></li>
+<li><a href="www.themoviefund.com/register">Upload a Project</a>
+<li><a href="www.themoviefund.com/faqs">FAQs</a>
+<li><a href="www.themoviefund.com/faqs">About</a>
+<li><a href="www.themoviefund.com/contact">Support</a>
+<li>
+</ul>
+</div>
+		</aside>				  </div>
+				  <div class="inn-widg">
+				  <aside id="text-12" class="widget widget_text"><h4 class="widget-title">Browse</h4>			<div class="textwidget"><ul>
+<li><a href="/how-it-works/">Browse Movies</a></li>
+<li><a href="/how-it-works/">Film Blogs</a></li>
+<li><a href="/how-it-works/">Legal Docs</a></li>
+<li><a href="/how-it-works/">Film Finance</a></li>
+<li><a href="/how-it-works/">Privacy</a></li>
+<li><a href="/how-it-works/">Terms of Use</a></li>
+</ul>
+</div>
+		</aside>				  </div>
+				  </div>
+                  <div class="col-md-4 col-md-offset-1">
+				  <div class="inn-widg">
+				  <h4>Contact Us</h4>
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <div class="col-sm-11">
+                                    <p>8747 Sunset Blvd, Hollywood, CA. 90069 </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="col-sm-11">
+                                    <p>+1 323 354 0216</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="col-sm-11">
+                                    <p>info@themoviefund.com</p>
+                                </div>
+                            </div>
+				  <div role="form" class="wpcf7" id="wpcf7-f528-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/newtheme/movienews/#wpcf7-f528-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="528" />
+<input type="hidden" name="_wpcf7_version" value="4.3.1" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f528-o1" />
+<input type="hidden" name="_wpnonce" value="b55d2e66a7" />
+</div>
+<div class="row">
+<div class="col-sm-6">
+<span class="wpcf7-form-control-wrap text-927"><input type="text" name="text-927" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required foot-fm" aria-required="true" aria-invalid="false" placeholder="Name :" /></span>
+</div>
+<div class="col-sm-6">
+<span class="wpcf7-form-control-wrap email-790"><input type="email" name="email-790" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email foot-fm" aria-required="true" aria-invalid="false" placeholder="Email :" /></span>
+</div>
+</div>
+<div>
+<span class="wpcf7-form-control-wrap textarea-505"><textarea name="textarea-505" cols="40" rows="3" class="wpcf7-form-control wpcf7-textarea foot-fm" aria-invalid="false" placeholder="Message"></textarea></span></div>
+<div class="sub-button text-right">
+<input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit classbtn btn-5 btn" />
+</div>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>				  </div>
+				  </div>
+				  </div>
+                </div>
+            </div>
+
+            <div class="bottom-content text-center">
+                <div class="container">
+                	<aside id="text-5" class="widget widget_text"><h4 class="widget-title">Important Message</h4>			<div class="textwidget"><p>themoviefund.com is a website owned and operated by The Movie Investment Company LLC. By accessing this website and any pages thereof, you agree to be bound by the Terms of Use and Privacy Policy, as amended from time to time. Themoviefund.com is not a registered broker, dealer, investment advisor, investment manager or registered funding portal. The securities offerings on this site are available only to "Accredited Investors" – generally, natural persons must have a net worth of over $1 million (exclusive of residence) or income in excess of $200,000 individually or $300,000 jointly with a spouse. The securities are offered in reliance on an exemption from the registration requirements of the Securities Act of 1933, as amended, and are not required to comply with specific disclosure requirements that apply to registration under the Securities Act. Neither the Securities and Exchange Commission nor any state regulator has passed upon the merits of or given its approval to the securities, the terms of the offerings, or the accuracy or completeness of any offering materials. The securities are subject to legal restrictions on transfer and resale and investors should not assume they will be able to resell their securities. Investing in securities involves risk, and investors should be able to bear the loss of their entire investment. All investors should make their own determination of whether or not to make any investment, based on their own independent evaluation and analysis. Themoviefund.com does not verify or assure that information provided by any company offering securities is accurate or complete or that the valuation is appropriate. Neither Themoviefund.com nor any of its directors, officers, employees, representatives, affiliates or agents shall have any liability whatsoever arising, for any error or incompleteness of fact or opinion in, or lack of care in the preparation or publication, of the materials posted on this website. Themoviefund.com does not give investment advice, provide analysis or recommendations regarding any offering posted on the website. The information on this website does not constitute an offer of, or the solicitation of an offer to buy or subscribe for, any securities to any person in any jurisdiction to whom or in which such offer or solicitation is unlawful. You can learn more about investing in private placements from the SEC or FINRA.</p>
+</div>
+		</aside>					<ul class="list-inline">
+                    	<li><a href="#">legal</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">advertising preferances</a></li>
+                    </ul>
+                    <p>The MovieFund © 2015 . All rights are reserved.</p>
+                    <img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/trust.png" alt="post" />
+                </div>
+            </div>
+        </footer>   
+		
+
+  
+
+
+
+        
+    	<!-- Custom Facebook Feed JS -->
+<script type="text/javascript">
+var cfflinkhashtags = "true";
+</script>
+<link rel='stylesheet' id='feedzy-style-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/feedzy-rss-feeds/css/feedzy-rss-feeds.css?ver=2.7.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/themoviefund.com\/newtheme\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/custom-facebook-feed/js/cff-scripts.js?ver=2.3.10'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sb_instagram_js_options = {"sb_instagram_at":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/instagram-feed/js/sb-instagram.js?ver=1.3.11'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/easy-twitter-feed-widget/lib/js/widget-easy-twitter-feed-widget.js?ver=1.0'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/jeba-custom-mainchimp/js/jquery.formchimp.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/jeba-custom-mainchimp/js/main.js?ver=4.3.1'></script>
+        <!--script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/js/jquery-1.11.1.min.js" language="javascript"></script-->
+		
+
+<!--Bottom Scroller-->
+
+<script>
+$(document).ready(function() {
+	
+	$('.team-post-conts, .partners-cont').each(function(){
+		var scHeight = $(this).find('center').height();
+		$(this).scrollTop( scHeight );
+	});
+
+$(".click-f").click(function(){
+$("#film-ker").css('display','block');
+$("#invest").css('display','none');
+});
+
+$(".click-").click(function(){
+$("#film-ker").css('display','none');
+$("#invest").css('display','block');
+});
+	
+});
+</script>
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: themoviefund.com @ 2016-01-06 03:13:47 by W3 Total Cache -->

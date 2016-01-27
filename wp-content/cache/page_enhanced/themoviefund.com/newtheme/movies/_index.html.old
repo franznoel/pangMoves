@@ -1,0 +1,3513 @@
+<!DOCTYPE html>
+<html lang="en-US" >
+	<head>
+<meta name="google-site-verification" content="46LXPYArlyQvFNFiD8HXQVvGC0J7cKaG1xHtfwHSsTA" />
+<!--<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/js/jquery-1.11.1.min.js" language="javascript"></script>-->
+<meta name='robots' content='noindex,follow' />
+		<meta charset="UTF-8">
+
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+		<title>The Movie Fund</title>
+
+		
+
+		<meta name="author" content="">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+           <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600' rel='stylesheet' type='text/css'>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css"  href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/style.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/css/font.css">
+
+        <link rel="stylesheet" type="text/css" media="screen" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/css/bootstrap.css">
+
+        <link rel="stylesheet" type="text/css" media="screen" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/css/bootstrap-theme.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
+
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,700,800' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" type="text/css" media="screen" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/style.css">
+
+		<link rel="stylesheet" type="text/css" media="screen" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/jsx/style.css">
+
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css"  href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/bootstrap-3.3.6/css/bootstrap.min.css">
+
+
+		<!--Fancy scroller-->
+
+        <link rel="stylesheet" media="screen" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/sccss/jquery.classyscroll.css" />
+
+		
+
+		<!-- FAVICONS -->
+
+		<link rel="shortcut icon" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/img/favicon.ico" type="image/png">
+
+		<link rel="icon" href="http://themoviefund.com/newtheme/wp-content/themes/moviefund/img/favicon.ico" type="image/png">
+		
+<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/js/jquery-1.11.1.min.js" language="javascript"></script>
+<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/js/bootstrap.js" language="javascript"></script>
+		<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/jsx/bx.js" language="javascript"></script>
+		<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/js/custom.js" language="javascript"></script>
+		
+		<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/scjs/jquery.mousewheel.js"></script>
+        <script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/scjs/jquery.classyscroll.js"></script>
+<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/js/custommin.js"></script>
+<script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
+<!--link  href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"-->
+<!--script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script-->
+<!--script  src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script-->
+        <meta name='robots' content='noindex,follow' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/themoviefund.com\/newtheme\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.1"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='media_display_css-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro-mediamanager/css/userpro-media.min.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='cff-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/custom-facebook-feed/css/cff-style.css?ver=2.3.10' type='text/css' media='all' />
+<link rel='stylesheet' id='cff-font-awesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css?ver=4.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='sb_instagram_styles-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/instagram-feed/css/sb-instagram.css?ver=1.3.11' type='text/css' media='all' />
+<link rel='stylesheet' id='sb_instagram_icons-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css?1&#038;ver=4.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_google_font-css'  href='http://fonts.googleapis.com/css?family=Roboto%3A400%2C400italic%2C700%2C700italic%2C300italic%2C300&#038;ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_min-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro/css/userpro.min.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_lightview-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro/css/lightview/lightview.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_jquery_ui_style-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro/css/userpro-jquery-ui.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_skin_min-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro/skins/elegant/style.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='kamn-css-easy-twitter-feed-widget-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/easy-twitter-feed-widget/easy-twitter-feed-widget.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_msg-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro-messaging/css/userpro-msg.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userpro_mcsroll-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro-messaging/css/jquery.mCustomScrollbar.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='userwall-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro-socialwall/css/userpro_userwall.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fontowsome-css'  href='http://themoviefund.com/newtheme/wp-content/plugins/userpro-socialwall/assets/font-awesome-4.2.0/css/font-awesome.min.css?ver=4.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro-mediamanager/scripts/mediauploader.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro/scripts/swfobject.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro/scripts/spinners/spinners.min.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro/scripts/lightview/lightview.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro/scripts/scripts.min.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro-messaging/scripts/userpro-msg.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro-messaging/scripts/jquery.textareaAutoResize.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro-messaging/scripts/jquery.mousewheel.min.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro-messaging/scripts/jquery.mCustomScrollbar.min.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro/addons/social/scripts/userpro-social.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro/addons/emd/scripts/userpro-emd.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/userpro-socialwall/scripts/userwall_script.js?ver=4.3.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://themoviefund.com/newtheme/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themoviefund.com/newtheme/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.1" />
+<link rel='canonical' href='http://themoviefund.com/newtheme/movies/' />
+<link rel='shortlink' href='http://themoviefund.com/newtheme/?p=565' />
+
+<!-- Custom Facebook Feed Custom CSS -->
+<style type="text/css">
+.cff-likebox {
+    margin: 0;
+}
+</style>
+		<script type="text/javascript">
+		var userpro_ajax_media_url = 'http://themoviefund.com/newtheme/wp-admin/admin-ajax.php';
+		</script>
+			<script type="text/javascript">
+		var userpro_media_upload_url = 'http://themoviefund.com/newtheme/wp-content/plugins/userpro-mediamanager/lib/fileupload/fileupload.php';
+		</script>
+			<script type="text/javascript">
+		var userpro_photo_upload_size = '32MB';
+		</script>
+			<script type="text/javascript">
+		var userpro_video_upload_size = '32MB';
+		</script>
+			<script type="text/javascript">
+		var translated_text_for_alert = 'This message will be sent immediately to ALL registered users. Are you sure you want to send this ?';
+		</script>
+			<script type="text/javascript">
+		var list_of_all_registered_users = '[1,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,144,150,152,154,155,163,177,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263]';
+		var list_of_all_registered_users_string = '1,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,144,150,152,154,155,163,177,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263';
+		var current_user_id='0';
+		var user_count=0;
+		</script>
+			<script type="text/javascript">
+		var userpro_ajax_url = 'http://themoviefund.com/newtheme/wp-admin/admin-ajax.php';
+		var dateformat ='dd-mm-yy';
+		</script>
+			<script type="text/javascript">
+		var userpro_upload_url = 'http://themoviefund.com/newtheme/wp-content/plugins/userpro/lib/fileupload/fileupload.php';
+		</script>
+		<script type="text/javascript">
+	var ajaxurl = 'http://themoviefund.com/newtheme/wp-admin/admin-ajax.php';
+	 var total=0;
+	var userwall_upload_path='http://themoviefund.com/newtheme/wp-content/plugins/userpro-socialwall/lib/fileupload/fileupload.php';	
+         
+	</script>
+	
+<!-- BEGIN GADWP v4.9.1.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-66908665-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- END GADWP Universal Tracking -->
+
+        
+        
+<style type="text/css">
+
+.share-with-count.twitter_tweet{margin-top: 15px;}
+.follow-list-2 ul.sign_in_social {
+   margin-bottom: 0px;
+   
+}
+.follow-list-2{float: right;}
+.follow-list-2 ul.sign_in_social li{float: left;}
+.follow-list-2 ul.sign_in_social li h3{
+    color: #fff;
+    margin-top: 0px;
+    line-height: 40px;
+    float:  ;
+    margin-right: 0px;
+}
+.follow-list-2 ul.sign_in_social li h3 img{margin-top: 7px;min-width: 75px;}
+.follow-list-2 ul.sign_in_social li a {
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    overflow: hidden;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0px 0px; 
+}
+.follow-list-2 ul.sign_in_social li a:hover{
+    opacity: 0.8;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.follow-list-2 ul.sign_in_social li a img {
+    margin-top: 0px;
+    padding: 0px;
+    border-radius: 0%;
+}
+
+@media (max-width: 767px)
+{
+    .follow-list-2 .list-inline>li {
+        padding: 0px 2px !important;
+        float: none !important;
+    }
+    
+    .follow-list-2 ul li h3{line-height: inherit !important;}
+    .follow-list-2 ul.sign_in_social li h3 img{margin-top: -18px !important;min-width: 75px;}
+    .follow-list-2 ul.sign_in_social li a img{width: 23px;}
+     .content .test-holder{  max-height: inherit !important; }
+    
+    .content .project-holder .pro-box .img-thumb img,.content .welcome-holder img{margin-left: auto;margin-right: auto;}
+    
+    #fund-holder{text-align: center;}
+    #fund-holder .list_top table{margin-left: auto;margin-right: auto;}
+    #fund-holder .list_top{margin-left: 0px !important;}
+    
+    .feat-holder .list ul.list-inline li{padding:0px !important}
+   .content .social-holder{text-align: center;}
+   .content .social-holder h2 { 
+    float: left;
+    width: 100%;
+    margin: 10px 0px;
+    }
+    
+    
+    #newsletter-form .mc-field-group{width: 100%;}
+    #newsletter-form .mc-field-group input#email{max-width: 100%; margin-bottom: 5px;}
+}
+
+ 
+</style>
+	</head>
+
+
+
+    <body id="home">
+
+  
+
+
+
+    	<header>        	
+
+            <div class="header-top">
+
+            	<div class="container">
+
+                	<div class="row">
+
+                    	<div class="col-sm-4">
+
+                        	<div class="logo text-center">
+
+                            	<a href="http://themoviefund.com/newtheme">
+
+                            		<img src="http://themoviefund.com/newtheme/wp-content/uploads/logo-TMFv4.png" alt="Logo" class="img-responsive" />
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-4 col-sm-offset-4">
+
+                        	<div class="login-panel text-right">
+
+                            	<ul class="list-inline">
+
+                                	<li><a href="http://www.themoviefund.com/login" class="btn btn-1">Login / Register</a></li>
+
+                                    <li><a href="#" class="btn btn-2">Create a Campaign</a></li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="mainmenu">
+
+                <div class="container">
+
+                    <nav class="navbar top-navbar" role="navigation">
+
+                        <div class="navbar-header">
+
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+                                <span class="sr-only">Toggle navigation</span>
+
+                                <span class="icon-bar"></span>
+
+                                <span class="icon-bar"></span>
+
+                                <span class="icon-bar"></span>
+
+                            </button>
+
+                        </div>                       
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+						<div class="menu-top_header-container"><ul id="menu-top_header" class="nav navbar-nav"><li id="menu-item-531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-531"><a href="http://themoviefund.com/newtheme/">Home</a></li>
+<li id="menu-item-3148" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3148"><a href="http://www.themoviefund.com/newtheme/profile">Join</a>
+<ul class="sub-menu">
+	<li id="menu-item-3147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3147"><a href="http://www.themoviefund.com/newtheme/members">Members</a></li>
+</ul>
+</li>
+<li id="menu-item-567" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-565 current_page_item menu-item-567"><a href="http://themoviefund.com/newtheme/movies/">Movies</a></li>
+<li id="menu-item-519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-519"><a href="http://themoviefund.com/newtheme/how-it-works/">How It Works</a>
+<ul class="sub-menu">
+	<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408"><a title="For Investors" href="http://themoviefund.com/newtheme/for-investors/">For Investors</a></li>
+	<li id="menu-item-407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-407"><a title="For Film Makers" href="http://themoviefund.com/newtheme/for-film-makers/">For Film Makers</a></li>
+</ul>
+</li>
+<li id="menu-item-732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-732"><a href="http://themoviefund.com/newtheme/faqs/">FAQS</a></li>
+<li id="menu-item-1009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1009"><a href="http://themoviefund.com/newtheme/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-904"><a title="TEAM" href="http://themoviefund.com/newtheme/team_patrners/">TEAM</a></li>
+	<li id="menu-item-3149" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3149"><a title="Movie News" href="http://www.themoviefund.com/newtheme/movienews">Movie News</a></li>
+	<li id="menu-item-3150" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3150"><a title="Investor Blog" href="http://themoviefund.com/newtheme/blog">Investor Blog</a></li>
+</ul>
+</li>
+<li id="menu-item-960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-960"><a href="http://themoviefund.com/newtheme/contact-us/">Contact</a></li>
+</ul></div>
+                        </div>
+
+                    </nav>
+
+                </div>
+
+            </div>
+
+            <div class="header-bottom">
+
+                <div id="carousel-banner" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">					
+
+				        
+                            
+
+                            <div class="item active">
+
+                                
+
+								
+								<a href="" data-toggle="modal" data-target="#mySliderVideo"><img width="1024" height="364" src="http://themoviefund.com/newtheme/wp-content/uploads/Banner1v1.jpg" class="attachment-slider wp-post-image" alt="Banner1v1" /></a>
+                                
+
+                                <div class="carousel-content">
+
+                                    <div class="container">
+
+                                        <div class="carousel-content-panel">
+
+                                            
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            
+
+                        
+                            
+
+                            <div class="item">
+
+                                
+
+								
+								<a href="" data-toggle="modal" data-target="#mySliderVideo"><img width="1024" height="364" src="http://themoviefund.com/newtheme/wp-content/uploads/Banner2-film-finance1.jpg" class="attachment-slider wp-post-image" alt="Banner2-film-finance" /></a>
+                                
+
+                                <div class="carousel-content">
+
+                                    <div class="container">
+
+                                        <div class="carousel-content-panel">
+
+                                            
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            
+
+                        
+                    </div>
+
+                    <div class="carousel-nav">
+
+                    <ol class="carousel-indicators custm-indic">
+
+						 
+							<li data-target="#carousel-banner" data-slide-to="0" class="active"></li>
+
+						
+							<li data-target="#carousel-banner" data-slide-to="1" ></li>
+
+						
+                    </ol>
+
+                    </div>					
+
+                </div>
+
+            </div>
+
+            <div class="modal fade" id="mySliderVideo" tabindex="-1" role="dialog" aria-labelledby="mySliderVideo">
+
+                <div class="modal-dialog" role="document">
+
+                    <div class="modal-content">
+
+                        <div class="modal-body">
+
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                            <iframe src="https://player.vimeo.com/video/136802486?title=0&byline=0&portrait=0" width="100%" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+<div class="content">
+
+<div class="film-panel">
+
+	<div class="container">
+
+
+
+	<div id="carousel-film" class="carousel slide" data-ride="carousel">
+
+	<div class="carousel-inner slider1"> 
+
+	  
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>23</h3><p>Movies with Budgets over $50m</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>550</h3><p>Total Movie Slate</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>510</h3><p>Members</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>43</h3><p>Scripts For Sale</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>54</h3><p>Actors Attached </p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>250k</h3><p>Investor Database</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>45</h3><p>Producers</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>23</h3><p>Directors</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>10</h3><p>TV Shows</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>1</h3><p>Featured Project<br />
+(Planet X)</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>3</h3><p>Years in the Making!</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>665k</h3><p>in closed deals</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>$54m</h3><p>In closing Deals</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>4</h3><p>Entertainment Projects</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>2015</h3><p>year launched</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>235</h3><p>Cups of coffee</p>
+</div></div>
+
+
+  <div class="slide list-inline nav-justified text-center"><div class="film-box"><h3>$35m</h3><p>Planet X Budget</p>
+</div></div>
+
+
+
+	</div>
+
+	</div>
+
+
+
+	</div>
+
+</div>
+
+<div class="top-share">
+
+<div class="container">
+
+	<div class="row">
+
+		<div class="col-sm-3 col-xs-12 align-center">
+
+		<div class="share-with-count">
+
+		<div class="list-inline">
+
+		<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+
+		<div><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>   </div>                            	
+
+		</div>
+
+		</div>
+
+		</div>
+
+	<div class="col-sm-7 col-sm-offset-2 col-xs-12 col-xs-offset-0 align-center">
+
+	<div class="follow-list-2 align-right">
+
+		<ul class="list-inline">
+
+		<li class="text-center"><a href="#"><h3>SIGN IN : </h3></a></li>
+
+		<li class="text-center"><a href="">Join<br><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/social-banner-1.png" alt="post" class="img-responsive" /></a></li>
+
+		<li class="text-center"><a href="https://www.linkedin.com/themoviefund">Linked In<br><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/social-banner-2.png" alt="post" class="img-responsive" /></a></li>
+
+		<li class="text-center"><a href="https://www.facebook.com/pages/The-Movie-Fund/371261519745782">Facebook<br><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/social-banner-3.png" alt="post" class="img-responsive" /></a></li>
+
+		<li class="text-center"><a href="https://twitter.com/themoviefund">Twitter<br><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/social-banner-4.png" alt="post" class="img-responsive" /></a></li>
+
+		</ul>
+
+	</div>
+
+	</div>
+
+	</div>
+
+</div>
+
+</div>
+
+            <div class="how-it-works text-center" id="how">
+
+            	<div class="container">
+
+                	<h2 class="white">How It Works</h2>
+
+                    <div class="button">
+
+                    	<ul class="list-inline">
+
+                        	<li><a class="btn btn-7">FILM MAKERS</a></li>
+
+                            <li><a class="btn btn-5 active-ihwit"> INVESTORS</a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="row">
+
+<div class="mob-center lar-view">
+
+			<div class="col-md-12">
+
+
+
+                           <div class="how_steps set-posi1">
+
+                           <div class="slider4">
+
+                           
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Desing1_investors_Dark_opt2.png" class="img-responsive center-block wp-post-image" alt="Desing1_investors_Dark_opt2" /></a>
+
+  <h2>Step 1</h2>
+
+  <p>Register as an Investor on The Movie Fund.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_02.png" class="img-responsive center-block wp-post-image" alt="Icon_02" /></a>
+
+  <h2>Step 2</h2>
+
+  <p>Browse Movies by genre, budget and stars.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_03.png" class="img-responsive center-block wp-post-image" alt="Icon_03" /></a>
+
+  <h2>Step 3</h2>
+
+  <p>Select a single Movie, featured Project or a slate of Movies.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_13.png" class="img-responsive center-block wp-post-image" alt="Icon_13" /></a>
+
+  <h2>Step 4</h2>
+
+  <p>Review Financial information &amp; Movie Share details.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_06.png" class="img-responsive center-block wp-post-image" alt="Icon_06" /></a>
+
+  <h2>Step 5</h2>
+
+  <p>Contact Investment lawyers &amp; Filmmakers to review the opportunity.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_07.png" class="img-responsive center-block wp-post-image" alt="Icon_07" /></a>
+
+  <h2>Step 6</h2>
+
+  <p>Agree Finder&#8217;s fees and Investment terms</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_04.png" class="img-responsive center-block wp-post-image" alt="Icon_04" /></a>
+
+  <h2>Step 7</h2>
+
+  <p>Agree Industry Perks, Rewards, Cameo Roles &amp; Credits.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_12.png" class="img-responsive center-block wp-post-image" alt="Icon_12" /></a>
+
+  <h2>Step 8</h2>
+
+  <p>Follow your Movie via our weekly production newsletter.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_05.png" class="img-responsive center-block wp-post-image" alt="Icon_05" /></a>
+
+  <h2>Step 9</h2>
+
+  <p>Attend the Filmsets Visits.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_11.png" class="img-responsive center-block wp-post-image" alt="Icon_11" /></a>
+
+  <h2>Step 10</h2>
+
+  <p>Attend the World Premiere and Aftershow Parties as a Movie Mogul.</p>
+
+</div>    
+
+</div>
+
+
+
+
+
+
+
+                           </div>  
+
+                           </div> 
+
+                           <div class="how_steps set-posi2 hw-hide">
+
+                           <div class="slider4">
+
+                           
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/join.png" class="img-responsive center-block wp-post-image" alt="join" /></a>
+
+  <h2>Step 1</h2>
+
+  <p>Become a Member of The Movie Fund.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/upload.png" class="img-responsive center-block wp-post-image" alt="upload" /></a>
+
+  <h2>Step 2</h2>
+
+  <p>Upload your Short and long synopsis, genre, compares and main image.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Budget.png" class="img-responsive center-block wp-post-image" alt="Budget" /></a>
+
+  <h2>Step 3</h2>
+
+  <p>Insert your Film Budget details.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Team.png" class="img-responsive center-block wp-post-image" alt="Team" /></a>
+
+  <h2>Step 4</h2>
+
+  <p>Update your Team, Director, Producers, Cast &#038; Crew.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Funding.png" class="img-responsive center-block wp-post-image" alt="Funding" /></a>
+
+  <h2>Step 5</h2>
+
+  <p>Upload your Investor info, compares &#038; any previous/current investors.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Release.png" class="img-responsive center-block wp-post-image" alt="Release" /></a>
+
+  <h2>Step 6</h2>
+
+  <p>Send us a short press release for your Movie project.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Share.png" class="img-responsive center-block wp-post-image" alt="Share" /></a>
+
+  <h2>Step 7</h2>
+
+  <p>Share your Movie project within social media circles.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="184" height="184" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Rewards.png" class="img-responsive center-block wp-post-image" alt="Rewards" /></a>
+
+  <h2>Step 8</h2>
+
+  <p>Start receiving Investor inquiries for your Movie project.</p>
+
+</div>    
+
+</div>
+
+
+
+
+
+
+
+                           </div>  
+
+                           </div>                      
+
+                        </div>
+
+</div>
+
+<div class="mob-center mob-view">
+
+			<div class="col-md-12">
+
+
+
+                           <div class="how_steps set-posi1">
+
+                           <div class="slider2">
+
+                           
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Desing1_investors_Dark_opt2.png" class="img-responsive center-block wp-post-image" alt="Desing1_investors_Dark_opt2" /></a>
+
+  <h2>Step 1</h2>
+
+  <p>Register as an Investor on The Movie Fund.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_02.png" class="img-responsive center-block wp-post-image" alt="Icon_02" /></a>
+
+  <h2>Step 2</h2>
+
+  <p>Browse Movies by genre, budget and stars.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_03.png" class="img-responsive center-block wp-post-image" alt="Icon_03" /></a>
+
+  <h2>Step 3</h2>
+
+  <p>Select a single Movie, featured Project or a slate of Movies.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_13.png" class="img-responsive center-block wp-post-image" alt="Icon_13" /></a>
+
+  <h2>Step 4</h2>
+
+  <p>Review Financial information &amp; Movie Share details.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_06.png" class="img-responsive center-block wp-post-image" alt="Icon_06" /></a>
+
+  <h2>Step 5</h2>
+
+  <p>Contact Investment lawyers &amp; Filmmakers to review the opportunity.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_07.png" class="img-responsive center-block wp-post-image" alt="Icon_07" /></a>
+
+  <h2>Step 6</h2>
+
+  <p>Agree Finder&#8217;s fees and Investment terms</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_04.png" class="img-responsive center-block wp-post-image" alt="Icon_04" /></a>
+
+  <h2>Step 7</h2>
+
+  <p>Agree Industry Perks, Rewards, Cameo Roles &amp; Credits.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_12.png" class="img-responsive center-block wp-post-image" alt="Icon_12" /></a>
+
+  <h2>Step 8</h2>
+
+  <p>Follow your Movie via our weekly production newsletter.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_05.png" class="img-responsive center-block wp-post-image" alt="Icon_05" /></a>
+
+  <h2>Step 9</h2>
+
+  <p>Attend the Filmsets Visits.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="171" height="168" src="http://themoviefund.com/newtheme/wp-content/uploads/Icon_11.png" class="img-responsive center-block wp-post-image" alt="Icon_11" /></a>
+
+  <h2>Step 10</h2>
+
+  <p>Attend the World Premiere and Aftershow Parties as a Movie Mogul.</p>
+
+</div>    
+
+</div>
+
+
+
+
+
+
+
+                           </div>  
+
+                           </div> 
+
+                           <div class="how_steps set-posi2 hw-hide">
+
+                           <div class="slider2">
+
+                           
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/join.png" class="img-responsive center-block wp-post-image" alt="join" /></a>
+
+  <h2>Step 1</h2>
+
+  <p>Become a Member of The Movie Fund.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/upload.png" class="img-responsive center-block wp-post-image" alt="upload" /></a>
+
+  <h2>Step 2</h2>
+
+  <p>Upload your Short and long synopsis, genre, compares and main image.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Budget.png" class="img-responsive center-block wp-post-image" alt="Budget" /></a>
+
+  <h2>Step 3</h2>
+
+  <p>Insert your Film Budget details.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Team.png" class="img-responsive center-block wp-post-image" alt="Team" /></a>
+
+  <h2>Step 4</h2>
+
+  <p>Update your Team, Director, Producers, Cast &#038; Crew.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Funding.png" class="img-responsive center-block wp-post-image" alt="Funding" /></a>
+
+  <h2>Step 5</h2>
+
+  <p>Upload your Investor info, compares &#038; any previous/current investors.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Release.png" class="img-responsive center-block wp-post-image" alt="Release" /></a>
+
+  <h2>Step 6</h2>
+
+  <p>Send us a short press release for your Movie project.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="180" height="180" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Share.png" class="img-responsive center-block wp-post-image" alt="Share" /></a>
+
+  <h2>Step 7</h2>
+
+  <p>Share your Movie project within social media circles.</p>
+
+</div>    
+
+</div>
+
+
+
+
+<div class="slide">
+
+<div class="how-box text-center">
+
+  <a href=""><img width="184" height="184" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/Rewards.png" class="img-responsive center-block wp-post-image" alt="Rewards" /></a>
+
+  <h2>Step 8</h2>
+
+  <p>Start receiving Investor inquiries for your Movie project.</p>
+
+</div>    
+
+</div>
+
+
+
+
+
+
+
+                           </div>  
+
+                           </div>                      
+
+                        </div>
+
+</div>             
+
+                        </div>
+
+						
+
+						
+
+                    </div>
+ 
+                </div>
+
+            </div>
+
+<div class="content">
+     
+ 
+  
+    <div class="content">
+<div class="movi-ttl">
+<div class="container">
+    <div class="row">
+    <div class="col-md-12"><h4 class="h4_title">SEARHC FOR MOVIES:</h4></div>
+    </div>
+    <div class="row" style="margin-top:40px;" >
+    <div class="col-md-12">
+    <div class="serch-fiel">
+    <ul>
+    <li>
+<h1>Project Type</h1>
+<select>
+  <option selected>Protfolio</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+</select>
+	</li>
+    <li>
+<h1>Genre</h1>
+<select>
+  <option selected>Protfolio</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+</select>
+	</li>
+    <li>
+<h1>Budget</h1>
+<select>
+  <option selected>Protfolio</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+</select>
+	</li>
+    <li>
+<h1>Production State</h1>
+<select>
+  <option selected>Protfolio</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+</select>
+	</li>
+    <li>
+<h1>Featured</h1>
+<select>
+  <option selected>Protfolio</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+</select>
+	</li>
+    <li>
+<h1>Type of Investment</h1>
+<select>
+  <option selected>Protfolio</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+</select>
+	</li>
+    <li>
+<h1>Level of Investment</h1>
+<select>
+  <option selected>Protfolio</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+  <option >Load Movie</option>
+  <option >Goto Frame</option>
+  <option >get URL</option>
+</select>
+	</li>
+
+	</ul>
+    </div>
+    </div>
+    </div>
+</div>
+
+<div class="slider-holder">
+<span style="font:normal 16px arial;">LATEST MOVIES</span>
+<ul>
+<li >
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=994" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Dove11-396x2931.jpg) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"THE DOVE CATCHER"</p></div></div></a></li>
+<li >
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=989" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Screen-Shot-2015-11-16-at-10.31.59-PM.png) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"FRAMED"</p></div></div></a></li>
+<li >
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=985" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Screen-Shot-2015-11-16-at-10.23.12-PM.png) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"NEITHER IN HEAVEN NOR ON EARTH"</p></div></div></a></li>
+<li >
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=982" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Screen-Shot-2015-11-16-at-10.07.26-PM.png) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>“The Ruled Vassal”</p></div></div></a></li>
+<li >
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=979" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Screen-Shot-2015-11-16-at-10.00.30-PM.png) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"APEX Movie Project"</p></div></div></a></li>
+<li style="display:none;">
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=975" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Screen-Shot-2015-11-16-at-9.50.02-PM1.png) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"LEGEND"</p></div></div></a></li>
+<li style="display:none;">
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=969" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/11/dark.jpg) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"DARKSTALKERS"</p></div></div></a></li>
+<li style="display:none;">
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=967" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Crowd.jpg) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"The CROWD"</p></div></div></a></li>
+<li style="display:none;">
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=262" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-91-193x1471.png) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"MOONRAKER MEMBERS' CLUB"</p></div></div></a></li>
+<li style="display:none;">
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=261" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-81-193x1471.png) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"NIGHT OF THE IGUANA"</p></div></div></a></li>
+<li style="display:none;">
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=260" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-72.png) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"FAMOUS PLAYERS' CLUB"</p></div></div></a></li>
+<li style="display:none;">
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=259" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-61-193x1471.png) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"EPIPHANY HORROR FILM DISTRIBUTION"</p></div></div></a></li>
+<li style="display:none;">
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=258" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-51-193x1471.png) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"OLDFELLAS"</p></div></div></a></li>
+<li style="display:none;">
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=255" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-41-193x1471.png) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"NYC CINEMA CHAIN"</p></div></div></a></li>
+<li style="display:none;">
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=254" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-31-193x1471.png) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"SLEEP, WAKE, DREAM"</p></div></div></a></li>
+<li style="display:none;">
+<a href="http://themoviefund.com/newtheme/?post_type=latestprojects&#038;p=250" target="_blank">
+<div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-11-193x1471.png) no-repeat center center;background-size:cover;">
+<div style="position:relative;height:100%;"><p>"PLANET X"</p></div></div></a></li>
+</ul>
+<i id="l_btn" class="fa fa-chevron-circle-left arr_inact"></i>
+<i id="r_btn" class="fa fa-chevron-circle-right"></i>
+</div>
+<div class="slider-holder2">
+<span style="font:normal 16px arial;">POPULAR GENRES</span>
+<ul>
+<li><a href="#" target="_blank"><div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/12/western.png) no-repeat center center;background-size:cover;"></div></a></li>
+<li><a href="#" target="_blank"><div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/12/suspense.png) no-repeat center center;background-size:cover;"></div></a></li>
+<li><a href="#" target="_blank"><div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/12/mystery.png) no-repeat center center;background-size:cover;"></div></a></li>
+<li><a href="#" target="_blank"><div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/12/mini_series.jpg) no-repeat center center;background-size:cover;"></div></a></li>
+<li><a href="#" target="_blank"><div class="mov_banner" style="background:url(http://themoviefund.com/newtheme/wp-content/uploads/2015/12/action.png) no-repeat center center;background-size:cover;"></div></a></li>
+</ul>
+<i id="l_btn" class="fa fa-chevron-circle-left arr_inact"></i>
+<i id="r_btn" class="fa fa-chevron-circle-right arr_inact"></i>
+</div>
+</div>
+<div class="project-holder text-center" id="Projects">
+
+<div class="container">
+<div class="movies-latt">
+<div class="row">
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;PLANET X&#8221;</h4><br />
+	
+	<a target="_blank" href=""><img width="193" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-11-193x1471-193x147.png" class="img-responsive wp-post-image" alt="pro-11-193x147" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>"An Ancient Alien sci-fi adventure of epic proportions set in inner and outer sp<span class="remore" data-mode="hide" data-id="re-250">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-250"><p>&#8220;An Ancient Alien sci-fi adventure of epic proportions set in inner and outer space&#8221;.</p>
+<p>Scripted: Science fiction, Ancient Alien Series</p>
+<p>Format: 10 x 52mins.<br />
+Possible Networks: Netflixs, AMC, NBC, ABC, History or Discovery. Audience : 18 &#8211; 45<br />
+Compares: Walking Dead, Game of Thrones, X-files, Star Wars, Avatar, Star Trek, Indiana Jones.</p>
+<p>Unsripted: Docu-series, making off/Reality Series</p>
+<p>Format: 15 x 27mins<br />
+Possible Networks: Same network as scripted series or E! Entertainment Audience : 18 &#8211; 45<br />
+Compares: Project Greenlight, Kardashians, Making it, The Hills.</p>
+<p>PLANET X &#8211; TV SERIES SYNOPSIS<br />
+MAJOR TV EVENT<br />
+‘Planet X : Gold of the Gods’ rewrites the accepted myths and histories of Earth, including the origin of our species. It reveals mankind might be in imminent danger of extermination from a newly discovered alien fleet at the edge of our known solar system. Along the way, we uncover an epic story of Ancient Aliens and bloodlines, influential historical artifacts, powerful cabals and shadow governments, global conspiracies, UFO timelines and dangerous secret societies. This unique and truly intriguing story is told across three timelines; the first on PLANET X, an alien Planet and the story of our creators; the second being on EARTH 250,000 years ago and the third a Present Day high energy, explosive action thriller and race against time.</p>
+<p>EARTH &#8211; PRESENT DAY</p>
+<p>Adam Sinclair<br />
+is a controversial Historian, Archaeologist and Adventurer on a lifelong quest to discover the Ark of the Coveant and other powerful Ancient Artifacts. A huge mystery has grown up around the Ark. He believes it has been the power source behind the rise of the Roman Empire; The French Revolution; the Nazis and today it is the power source behind a secret society, a shadow government, hell bent on a new World Order. The Ark has enormous supernatural power and he now has evidence of its extraterrestrial ancestry. It is the only object that can help mankind against the imminent threat of extinction the World suddenly now faces.</p>
+<p>Sinclair’s chase for this secret, ancient knowledge will take us around the World following both the trail of the Ark through history and the sites once used as space ports and homes of the Ancient Alien invaders, the Annunaki. As he travels we intercut and see, in spectacular glory, the history of &#8220;Islandia&#8221; the Annunaki&#8217;s home Planet and their domination of Earth, when the Annunaki or &#8220;GODS&#8221; once ruled. We’ll travel to places as diverse as Iraq, Peru and South Africa. Sinclair quickly learns that, to have any hope of saving our species, we need to understand what began on Earth 250,000 years ago. He starts to understand that what began so long ago, continues, to this day, behind the scenes in every corridor and office of power and influence.</p>
+<p>We need to understand that everything Sinclair suspected is true. The Annunaki are coming back and much, much sooner than anyone would think. Which means accepting some difficult truths, truths such as: life is not at all as we know it; we are not who we think we are and everything you ever thought you knew is a lie.</p>
+<p>PLANET X &#8211; 250,000 YEARS AGO</p>
+<p>QUEEN LUSKET – FIRST LADY<br />
+Daughter of a noble, well respected, highly decorated and thoroughly brutal, ill-tempered Alien Warlord. His violence runs through her blood. Lusket is a Treaty Wife. A Noble in her home land, she is humanoid and would be seen as a great beauty across many humanoid species including those from Planet X. Her planet sent a fleet to attack Planet X, the fleet was repelled but the war continued over many years. As a Treaty Wife she becomes Royalty and allowed Elixir.<br />
+The peace brought by Anu leaves her very frustrated, isolated and bored. To alleviate her frustrations she has multiple affairs, including with Senior Heads of Anu&#8217;s Military. The danger excited her, as did the prospect of being involved with Military decisions. She hoped to manoeuvre hostilities. This backfired when the Commander, in fear of discovery and a death sentence, had her banished from from all Military bases, actions and decisions. This, in turn, tipped her into increasing dangerous and potentially damaging affairs. She pursues brutally sexual relationships with Palace Hybrids, humanoids and beasts engineered into mythological creatures to serve as Palace Guards.<br />
+The Hybrids are bred with a violent passion, Lusket takes full advantage of the healing properties of the Elixir to allow her encounters to be frenzied and violent. She still relies on genetically engineered loyalty and restraint or the beasts would rip her apart. She takes great pleasure in high risk adventures with courtiers, servants and entertainers. The higher the risk of discovery the more she takes pleasure. Most dangerously of all, she incestuously pursued and ensnared Cassius. Her and Anu&#8217;s eldest son, Cassius&#8217; inherited propensity to sadism is well served by Lusket&#8217;s lust for extremes.<br />
+In public, Anu and Lusket present a united front. Behind closed doors there are schemes, divisions, jealousy (on both sides, Anu is increasingly besotted with Lillith) and a fury that will soon come to a head.</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$35M+ (10 x 52min)</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Sci-fi, Adventure</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">Star Wars, Star Trek, Avatar (Planet X story arc) & X-Files, Indiana Jones (Earth story arc)</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">20%, California</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">Tim Burke (LA Slasher), Greg Jaccobsen (Oblivion, Hercules), The Movie Fund featured Project, The Bigger Picture Productions.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">Wish List: Lady Gaga, Joaquin Phoenix, Jonny Weston, Michael Shannon, Emile Hirsch, Josh Hollowy.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">15 % Investor Pool + 20% Interest</div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-250">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/graph007.1.png"/>
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-250"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>$35M</span><br/> Target</a></li>
+<li><a href="#"><span> tbc</span><br/>Invested</a></li>
+<li><a href="#"><span>-</span> <br/>Pledged</a></li>
+<li><a href="#"><span>1</span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;SLEEP, WAKE, DREAM&#8221;</h4><br />
+	
+	<a target="_blank" href=""><img width="193" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-31-193x1471-193x147.png" class="img-responsive wp-post-image" alt="pro-31-193x147" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>"A man who cant dream invents a machine which enables him to walkup in his lucid<span class="remore" data-mode="hide" data-id="re-254">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-254"><p>&#8220;A man who cant dream invents a machine which enables him to walkup in his lucid dreams where he becomes an unlikely action hero.&#8221;</p>
+<p>SLEEP WAKE DREAM is an action/comedy about a man with a rare condition &#8212; he can’t dream.  One day he finds a way to overcome this condition, opening a whole new world for him.</p>
+<p>SYNOPSIS<br />
+JOEL BELLOWS can’t dream. He suffers from Charcot-Wilbrand Syndrome or low dream recall. Joel is a kindly, family man feeling the affects of middle age, who volunteers his time to help elderly hospice patients and troubled youths. Something is missing in his life. His wife nags him and his teenage kids don’t respect him and he can only take the abuse. Joel doesn’t really know who he is or what he is supposed to be doing with his life. Joel is seeking answers. One day he purchases a Chinese salt lamp that assures, “peaceful sleep with vivid dreams”. At first it appears to have no affect. But then it opens a whole new world for Joel &#8212; his dream world, where the once reserved, kind-hearted, nebbish family man, becomes the bad ass killer who can do anything he wants, consequence free, because this is a fantasy world of his own creation and isn’t real…or is it?<br />
+In his dreams, Joel begins seeing Chinese symbols which he finds out are prophesies from the I Ching which come true in his waking life. These prophesies become more and more dangerous as Joel becomes involved with one of his students, ANNA, a young woman married to an influential corporate CEO, MR. GLASS, whom Anna has had a falling out. Joel becomes her protector as Mr. Glass wants to silence Anna for knowing too much about a secret classified government project his company is involved in.<br />
+Quickly the dream world crosses over into reality and it becomes impossible for Joel to tell the difference between truth and pure fantasy. SLEEP WAKE DREAM is one man’s darkly comedic search for meaning, identity and freedom, which he comes to realize, can only be found in his dreams.</p>
+<p>Similar films: Brazil, Pulp Fiction, Memento, Inception, Pineapple Express.</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$5M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Action, comedy, </div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">Brazil, Pulp Fiction, Memento, Inception, Pineapple Express.</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">25%</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">Jay Nuzum (Director), Defconprods, The Movie Fund, Tim Burke(exec. Producer)</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">Tim Burke (LA Slasher, The Lucifer Effect); Looking for Anna ( 17 year old). Please contact for details.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">Own 40% of the Profits + 10% Interest on Investment.</div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-254">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/graph007.1.png"/>
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-254"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>$2M</span><br/> Target</a></li>
+<li><a href="#"><span> $50k</span><br/>Invested</a></li>
+<li><a href="#"><span>$500k</span> <br/>Pledged</a></li>
+<li><a href="#"><span>1</span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;NYC CINEMA CHAIN&#8221;</h4><br />
+	
+	<a target="_blank" href=""><img width="193" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-41-193x1471-193x147.png" class="img-responsive wp-post-image" alt="pro-41-193x147" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>Profitable Cinema Chain for sale in North America. $11.9M turnover a year. 18% g<span class="remore" data-mode="hide" data-id="re-255">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-255"><p>Profitable Cinema Chain for sale in North America. $11.9M turnover a year. 18% grow in revenues from 2014. Playing all the latest blockbusters.</p>
+<p>8 Theatres (64 digital Screens).<br />
+$11.9m Purchase Price<br />
+Turnover of $11.6m+ in 2015.<br />
+Net Profits of $2.7M in 2015.<br />
+18% Increases in Sales from 2014.<br />
+Over $1.5m in extra revenue from 2014.<br />
+Net Profits of $4M projected in 2016.<br />
+Showing Blockbusters including: Fast &amp; Furious 7, Jurassic World, Mission Impossible, Mad Max.<br />
+Multiple all time Box-office records set in 2015. Box-office Industry growing with tentpole Movies.<br />
+New digital projectors, reclining seats + 3D screens, 5.1 State of the art &amp; Dolby digital sound systems.<br />
+Space for expansion: Confectionery &amp; Movie Merchandise stands, Cafeterias &amp; Billboard poster space.<br />
+Theaters within close proximity &amp; situated in heavy populated areas with various demographic pulls.<br />
+Our theater attendance and revenue is growing substantially.<br />
+Our reputation &amp; customer service with the Movie Studios &amp; Film companies is implacable.<br />
+Potential to improve revenues + add theaters with a view to sell to AMC. &#8211; &#8220;AMC Buys Starplex Cinemas for $172m&#8221; &#8211; July, 2015.</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$7.5M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Movie Related Project</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">AMC, Cinema Chain</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">tcb</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">NYC </div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">Screening the latest Hollywood Movies.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">Please see synopsis.</div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-255">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/graph007.1.png"/>
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-255"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>$7.5M</span><br/> Target</a></li>
+<li><a href="#"><span> $1.5M</span><br/>Invested</a></li>
+<li><a href="#"><span>-</span> <br/>Pledged</a></li>
+<li><a href="#"><span>1</span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;OLDFELLAS&#8221;</h4><br />
+	
+	<a target="_blank" href=""><img width="193" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-51-193x1471-193x147.png" class="img-responsive wp-post-image" alt="pro-51-193x147" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>"Oldfellas" is a very commercial, memorable plot, and infectious characters. Wil<span class="remore" data-mode="hide" data-id="re-258">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-258"><p>&#8220;Oldfellas&#8221; is a very commercial, memorable plot, and infectious characters. Will be an impulsive buy returns huge profits a multi-award winning production team&#8221;.<br />
+PG-13 Comedy &#8211; One Flew Over the Cuckoo&#8217;s Nest meets Goodfellas. $2.5M budget for 5-week shoot in Los Angeles. (20% Tax Rebate). Chazz Palminteri and Paul Sorvino attached to cast with Innovative Artists packaging the remainder of cast once financed. DGA Director attached to this award-winning script. Very commercial, memorable plot, and infectious characters. Will be an impulsive buy that returns HUGE profits.</p>
+<p>SYNOPSIS<br />
+After two decades in prison, old mobster, NICO &#8220;CHICKIE&#8221; CICCOLINI, is finally a free man. But not for long. His old Mafia pal, BOBBY &#8220;RAGS&#8221; RAGANO, picks Chickie up at prison. Not in a black Caddy, but in a Prius. Rags takes Chickie to see his daughter, GABRIELLA, who breaks the bad news. Gabriella is putting Chickie into a nursing home, which, in Chickie&#8217;s mind, is worse than getting tossed back into the can. The nursing home, called &#8220;The Villas,&#8221; is a pretty nice place, but that doesn&#8217;t matter to Chickie. He decides to bust out and nearly escapes when he bumps into an old &#8220;business associate&#8221; – JOSEPH &#8220;NOSTRILS&#8221; MAZZONE, a Villas resident. Nostrils tells Chickie how the Villas needs to &#8220;get organized&#8221; – how, at the Villas, he could “get respect” like the old days, make money and score with the ladies. Intrigued, Chickie changes his mind and moves into his Villas pad, which he spruces up with one-armed bandits and pictures of the Blessed Mother. Chickie and Nostrils quickly hook up with PHIL &#8220;MUSSELS&#8221; MARINARA, another old mobster who cruises around The Villas in a Rascal. Chickie encounters friction from Villas Director, BONNIE BURNS, the perky enforcer of all nursing-home rules. Chickie keeps dodging Bonnie while turning the Villas into a geriatric version of the old neighborhood. All along, something has been eating at Chickie. His son, MICHAEL, wants nothing to do with him. Michael is a legitimate guy who runs what appears to be a legitimate bagel shop in Manhattan. Chickie heads to the bagel shop to confront Michael when bullet fire tears up the shop. Chickie gets shot – in the ass – and has to spend a night in the hospital. It’s there when he learns the bagel shop is a front business for a young, ruthless Mafioso named DANTE MANGIANI. Meanwhile, back at the Villas, Chickie has officially become the Godfather. Money rolls in with the Viagra sales; Wii bowling matches get fixed; Villas security guards get paid off with scratch-off lottery tickets; Chickie and Nostrils get hired to whack a raccoon; and even Bonnie calls on Chickie for some muscle, to intimidate the punk who&#8217;s been bullying her son. Then, one day, Dante&#8217;s goons show up at the Villas, demanding a piece of Chickie’s nursing-home action. Chickie tells them to go screw themselves, and that’s when Dante believes Michael is funneling his money into Chickie&#8217;s nursing-home rackets. A big battle erupts at the Villas during the shuffleboard tournament no less. Included in the battle are Dante’s goons, the FBI, a helicopter, and Chickie and his &#8220;old fellas.&#8221; Chickie, with the help of the Feds and Bonnie, saves Michael from Dante. And, as Dante gets hauled away by law enforcement, Chickie and Michael embrace for the first time in many years. Now, it’s time to celebrate with &#8220;the old fellas&#8221; at a local restaurant. And what restaurant would that be? The Olive Garden… of course.</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$2.5M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Comedy</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">AMC, Cinema Chain.</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">20%</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">Pathos Films, JAMES QUATTROCHI - Director, TOMMY ARDOLINO - Producer, ANTHONY STITT - Writer</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">Chazz Palminteri and Paul Sorvino attached to cast with Innovative Artists packaging the remainder of cast once financed. </div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">Contact for details.</div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-258">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/graph007.1.png"/>
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-258"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>$2.5M</span><br/> Target</a></li>
+<li><a href="#"><span> -</span><br/>Invested</a></li>
+<li><a href="#"><span>-</span> <br/>Pledged</a></li>
+<li><a href="#"><span>1 </span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;EPIPHANY HORROR FILM DISTRIBUTION&#8221;</h4><br />
+	
+	<a target="_blank" href=""><img width="193" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-61-193x1471-193x147.png" class="img-responsive wp-post-image" alt="pro-61-193x147" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>"Epiphany is a new Horror Film distribution Company. Earn potential profits like<span class="remore" data-mode="hide" data-id="re-259">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-259"><p>&#8220;Epiphany is a new Horror Film distribution Company. Earn potential profits like &#8220;The Blair Witch Project&#8221; or &#8220;Paranormal Activity&#8221;.</p>
+<p>“Epiphany” will be a new, totally transparent, Film Distribution Company taking advantage<br />
+of the growth in VOD channels and the huge profits in popular low budget found footage<br />
+Horror Movies like ‘Paranormal Activity’, ‘Insidious’, ‘A Devil Inside’, ‘Silent House’. This<br />
+investment package includes the production of “#” a new found footage Slasher Movie.<br />
+Box-office ROI: Budget/Revenue Ratio: 1:5094 +</p>
+<p>Potential Profits: $100M+ &#8220;Paranormal Activity&#8221; A staggering 434,000 percent return on<br />
+investment. The next closest competitor is 1999&#8217;s &#8220;The Blair Witch Project,&#8221; another indie<br />
+horror flick. With a production budget of $60,000, that movie posted a 414,000 ROI.<br />
+Compares: ‘Paranormal Activity 1′ (Worldwide Box Office $196,681,656), ‘Paranormal<br />
+Activity 2′ (Worldwide Box Office $177,512,032) and ‘Paranormal Activity 3‘ (Worldwide<br />
+Box Office $201,571,178). ‘Insidious’ another low budget Horror movie was also the most<br />
+profitable film of 2011 making $100,000,000+ and last year in 2012; ‘A Devil Inside’ had the<br />
+best January opening weekend ever making over $50,000,000.<br />
+ROI time: 3 Months (from Theatrical Release)</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$10M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Low budget Horror</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">Paranormal Activity, Blair Witch, Blumhouse.</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">25%</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">Movie Fund.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">Horror Movies.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">otential Profits: $100M+ "Paranormal Activity" A staggering 434,000 percent return on  investment. The next closest competitor is 1999's "The Blair Witch Project," another indie  horror flick. With a production budget of $60,000, that movie posted a 414,000 ROI. Compares: ‘Paranormal Activity 1′ (Worldwide Box Office $196,681,656), ‘Paranormal  Activity 2′ (Worldwide Box Office $177,512,032) and ‘Paranormal Activity 3‘ (Worldwide  Box Office $201,571,178). ‘Insidious’ another low budget Horror movie was also the most  profitable film of 2011 making $100,000,000+ and last year in 2012; ‘A Devil Inside’ had the  best January opening weekend ever making over $50,000,000. ROI time: 3 Months (from Theatrical Release)</div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-259">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/graph007.1.png"/>
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-259"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>$10M</span><br/> Target</a></li>
+<li><a href="#"><span> -</span><br/>Invested</a></li>
+<li><a href="#"><span>$1.5M</span> <br/>Pledged</a></li>
+<li><a href="#"><span>1</span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;FAMOUS PLAYERS&#8217; CLUB&#8221;</h4><br />
+	
+	<a target="_blank" href=""><img width="193" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-72-193x147.png" class="img-responsive wp-post-image" alt="pro-7" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>"A award worthy musical about the birth of the Movie Industry from 1910 to prese<span class="remore" data-mode="hide" data-id="re-260">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-260"><p>&#8220;A award worthy musical about the birth of the Movie Industry from 1910 to present day&#8221;.</p>
+<p>Paramount Pictures: The Famous Player’s Club is an epic biopic charting the history of one of Hollywood’s<br />
+most influential film studio. From the studios birth in 1910 with Hungarian-born Adolph Zukor, stepping off<br />
+the immigration boat in New York with just a suitcase and a dream to their position as one of the most<br />
+powerful cutting edge forces in global cinema. This is the ultimate tale of the American Dream and the<br />
+history of American Cinema.</p>
+<p>Boasting a unique narrative structure, the film centers on the people that played a key role in the<br />
+Paramount Pictures story. Here are a selection of the possible voice-overs and narrators as our story<br />
+unfolds:<br />
+1910 – 1923 Adolf Zukor, Founder<br />
+1924 – 1927 Douglas Fairbanks, Actor<br />
+1928 – 1931 Jeanette MacDonald, Musical actress<br />
+1932 – 1934 Mae West, Actress<br />
+1935 – 1944 Adolf Zukor, Founder<br />
+1945 – 1948 The judge (from People vs. paramount hearing)<br />
+1949 – 1951 News reporter (from rise of the Studio news TV Report)<br />
+1952 – 1954 Bob Hope, Actor<br />
+1953 – 1956 GOD (Powerful god-like narration as heard in 1956’s ‘The Ten Commandments’.<br />
+1957 – 1959 Star Trek TV’s Captain Kirk<br />
+1960 – 1963 Elvis (on set of ‘Fun in Acapulco’)<br />
+1964– 1969 John Wayne (on set of ‘True Grit’)<br />
+1970– 1973 The Godfather (Marlon Brando sound-alike)<br />
+1974– 1979 Jack Nicolson behind the scene in ‘Chinatown’<br />
+1980– 1986 Don Simpson (sound-alike)<br />
+1987– 1990 Eddie Murphy (‘Trading Places’)<br />
+1991– 1994 Forrest Gump<br />
+1995– 1999 Steven Spielberg (DreamWorks meeting)<br />
+2000– 2008 Brad Grey, Paramount CEO<br />
+2009– 2011 Brad Pitt, Actor<br />
+2012 – future Joe Public<br />
+Each represents a different period in the company’s history and when put together they act as one coherent<br />
+storyteller. The Film will use Paramount’s movies to reference benchmarks in film making history from<br />
+1910 – 1920s Silent Films (‘Cinderella’,’ Carmen’, ‘Davy Crockett’, ‘Snow White’) to the comedies &amp; musicals<br />
+of the mid 1930s (Mississippi (1935), Pennies From Heaven (1936) and Sing You Sinners (1938) featuring<br />
+their first academy nominations (For Whom the Bell Tolls) to early Panavision Technicolor pictures of the<br />
+1950s (‘The Ten Commandments’, ‘Peter Pan’) to the rise of the early Movie Stars (such as Cary Grant,<br />
+Humphrey Bogart, Katharine Hepburn, Bette Davis and Marlon Brando). The film then focuses on the<br />
+first studio director deals with the first blockbusters from Steven Spielberg’s ‘Jaws’ and Francis Ford<br />
+Coppola’s ‘The Godfather’ of the 60s and 70s.</p>
+<p>We then see the creation of film franchises (‘Raiders of the Lost Ark’, ‘Friday the 13th’, ‘Aeroplane’) and<br />
+onto1980s classics (‘Staying Alive’, ‘Grease’) to a dawn of new film genres (‘Paranormal Activity’,<br />
+‘Cloverfield’, ‘Shrek’) and finally closing with big budget modern day 3D Blockbusters (‘Transformers’, ‘Iron<br />
+Man’, ‘Thor’, ‘Super 8’, ‘Tintin’). Each episode in time will reflect a stage in film making history recognized<br />
+with movie star cameos from the era in never scene before out-takes, deleted scenes and interviews from<br />
+each of the movies it references throughout the studio’s history.</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$45M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Musical</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">Moulin Rouge</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">15%</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">Director Wishlist: Baz Luhrmann* (The Great Gatsby) - No imdb mention of next project David Fincher (FIght Club, The Game, The Social Network) Rupert Sanders (Snow White and the Huntsman') Gore Verbinski (The Lone Ranger) Pirates of the Caribbean: At World's End) Park Chan-wook (Oldboy, Sympathy for Lady Vengeance (2005). Darren Aronofsky* ( The Wrestler, The Fountain, Noah (2014),  Requiem for a Dream)  (Iron Man 3) Shawn Levy (Real Steel).</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">tbc</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">tbc</div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-260">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/graphics.png" />
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-260"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>$45M</span><br/> Target</a></li>
+<li><a href="#"><span> -</span><br/>Invested</a></li>
+<li><a href="#"><span>-</span> <br/>Pledged</a></li>
+<li><a href="#"><span>0</span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;NIGHT OF THE IGUANA&#8221;</h4><br />
+	
+	<a target="_blank" href="yahoo"><img width="193" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-81-193x1471-193x147.png" class="img-responsive wp-post-image" alt="pro-81-193x147" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>"Modern day remake of this Oscar winning classic; "Night of the Iguana" by veter<span class="remore" data-mode="hide" data-id="re-261">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-261"><p>&#8220;Modern day remake of this Oscar winning classic; &#8220;Night of the Iguana&#8221; by veteran Producer; Micheal Levy&#8221;.<br />
+Please Contact The Movie Fund for Michael Levy details.</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$25M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Love Story</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">Night of the Igunana</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">10%</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">Micheal Levy</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">Wish List: Salma Hayek</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">Contact us for Micheal Levy Contact.</div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-261">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/graph007.1.png"/>
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-261"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>-</span><br/> Target</a></li>
+<li><a href="#"><span> -</span><br/>Invested</a></li>
+<li><a href="#"><span>-</span> <br/>Pledged</a></li>
+<li><a href="#"><span>-</span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;MOONRAKER MEMBERS&#8217; CLUB&#8221;</h4><br />
+	
+	<a target="_blank" href="https://www.google.co.in/"><img width="193" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-91-193x1471-193x147.png" class="img-responsive wp-post-image" alt="pro-91-193x147" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>"New Private Members' Club for the movie stars and celebrities with a major char<span class="remore" data-mode="hide" data-id="re-262">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-262"><p>&#8220;New Private Members&#8217; Club for the movie stars and celebrities with a major charity direction &#8220;.</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$7M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Hospitality</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">Soho House, The Battery, Annabels</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">-</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">The Movie Fund & Hollywood Producers and A-list Actors.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">400 Founding Members</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">$5m - $4m in exchange for equity. </div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-262">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/graph007.1.png"/>
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-262"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>$7M</span><br/> Target</a></li>
+<li><a href="#"><span> -</span><br/>Invested</a></li>
+<li><a href="#"><span>tbc </span> <br/>Pledged</a></li>
+<li><a href="#"><span>1</span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;The CROWD&#8221;</h4><br />
+	
+	<a target="_blank" href=""><img width="246" height="143" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Crowd.jpg" class="img-responsive wp-post-image" alt="Crowd" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>This first part of the trilogy will open Hollywood’s eyes to a whole new meani<span class="remore" data-mode="hide" data-id="re-967">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-967"><p>This first part of the trilogy will open Hollywood’s eyes to a whole new meaning of “zombie film” with a twist never done before on the big screen. THE CROWD is the story of a host who unknowingly brings an unstoppable epidemic into the United States turning the majority of the country’s people into zombies through the act of a terrorist’s syringe in an airport. Set apart by stages for the first seven days the “newly dead” can blend into everyday life while using contemplative, premeditated malicious intent to make their following bigger before their seven days are up before losing intelligence into a stage 2 zombie. Six months later after the country has transformed into an apocalyptic zombie frenzy, seven survivors try to team together for survival through the guidance of their leader, Aidan. But there is one big fear lurking behind them, hot on their trail, with a seven day race against time. A “newly dead” wife of one of the group’s members, with her military background is hell bent on revenge. Think-“THE EXORCIST” with a MACHINE GUN. How can you tell who has a pulse while your group is under constant pressure? Who can you trust with your supplies? Your gun? What does it mean to be alive? How far would you go to stay alive? What does it mean….TO BE DEAD? and knowing it. WOW.<br />
+WELCOME TO MY NIGHTMARE.</p>
+<p>Please contact for more information.</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$100M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Horror</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">Zombieland, Resident Evil, Dawn of the Dead, World War Z, 28 Days later, Night of the Living Dead, Army of Darkness.</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">20%</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">THE TEAM It is absolutely crucial to have first-rate people involved in the company. Professionals who can interact creatively, bouncing ideas and concepts off each other, and then develop superior products. 6 KIM WINTHER, EXECUTIVE PRODUCER Kim is presently shooting in London as Co Producer/1st Assistant Director of Tom Cruise's new Movie: “ALL YOU NEED IS KILL” It's important to note that Kim also held similar positions on the movie "Zombieland".  Lars Winther is famous for his ability as Assistant Director/Producer, excellent addition to our very capable team. Peter Winther is a Director/Producer with a wide variety of experience in both big and small budget feature films and television.  He is perfectly suited to direct this movie considering he is “the black sheep of the family” If he was cast in a movie his character would likely be evil. He has charm and personality and if he was a used car salesman all the cars would be sold in an hour and then break down as they left the lot.  They have a license plate in Los Angeles that reads “If you know Peter Winther honk your horn. Nobody did. He turned everyone into Zombies, Peter wrote and directed the supernatural thriller SPEED DEMON based on the final creation by legendary creature designer Stan Winston.  Peter also wrote and will produce/direct along with Oscar winning Director/Producer Nikita Mikhalkov (BURNT BY THE SUN) the story of the renowned Russian hockey star Valery Kharlomav who many consider to be the greatest hockey player ever but died under mysterious circumstances. KHARLOMAV is a Russian/Canadian co-production.  Peter is also attached to direct the sci-fi action feature film, THE ISOBAR RUN, for ELECTRIC ENTERTAINMENT. Winther recently directed episodes for LEVERAGE, a TV series for TNT currently beginning its fourth season. Anan Bay, Let us start with me I am known as AJ, easy to remember, and I am the unlikely leader with the least impressive resume. However, make no mistake I am a very impressive person because I know how to get things done. People talk and dream about making motion picture magic. I don’t dream about it I just go and do it.  Yes this is a scary movie but I want to make it, will enjoy watching it and afterwards counting the money which will make me sleep just fine. I left my formidable acting career to become a Producer. Since 2006 I have worked on several blockbuster hits such as Fast & Furious, Shoot ‘Em Up, Hangover 2, Battle: Los Angeles and Frost/Nixon. Aside from motion pictures, I also worked on several TV shows such as MTV’s Parental Control, Spike TV’s Deadliest Warrior and Bullrun. </div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">Wish List: Orlando Bloom, Colin Hanks, Jeff Goldblum, Josh Harnett, Colin Farrell, Kristen Bell, Julia Hough, Alice Cooper, Peter Facinelli.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">PROFIT PROPOSAL After the distribution company recoups their marketing expenses the investor will get his money back first followed by a 25-30% distribution fee. What’s left is the NET. 50% of that amount is the investor’s profit. The other 50% goes to the Producers/Director and likely some Actors. Infinite Bay Production is also prepared to offer our investors 5% in perpetuity, which includes all revenues from all sources during the life of the movie. Investing in the entertainment business is considered aggressive and is not for the weak of heart; however, the financial rewards can be spectacular. That said, the Producers intend to take all necessary steps in creating a financially successful picture. As a potential investor, we know you will find it comforting that this picture is a very commercial concept with theatrical appeal.</div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-967">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/graphics.png" />
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-967"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>$75m</span><br/> Target</a></li>
+<li><a href="#"><span> tbc</span><br/>Invested</a></li>
+<li><a href="#"><span>20%</span> <br/>Pledged</a></li>
+<li><a href="#"><span>1</span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;DARKSTALKERS&#8221;</h4><br />
+	
+	<a target="_blank" href=""><img width="221" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/11/dark.jpg" class="img-responsive wp-post-image" alt="dark" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>In a world where the Darkstalkers have risen up against humanity, a war wages be<span class="remore" data-mode="hide" data-id="re-969">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-969"><p>In a world where the Darkstalkers have risen up against humanity, a war wages between the demons who want to turn the world to darkness and those that will do anything to stop them.  With the humans desperately trying to survive and defend themselves against the Darkstalkers and other warring human factions, only those who dare to challenge the Darkstalkers have a chance of saving humanity.<br />
+The Darkstalkers are made up of demons, vampires, catpeople, werewolves, zombies and all kinds of paranormal creatures.  Many are halfbreeds – half-human/half-creature.   </p>
+<p>The Worlds –<br />
+Makai, the Demon World<br />
+Earth, the Human World<br />
+Majigen, the other dimension, the In-between World</p>
+<p>Main Characters –<br />
+King Belial Aensland – Very powerful demon, the king of the Darkstalkers. Although he is head of the demons, he is actually a fair and wise ruler. However, he shares in the attitude of superiority over humans and the desire to eliminate them.  </p>
+<p>Demitri Maximoff – half human/half vampire who is a high ranking Darkstalker. He feeds on human blood &#038; souls. By draining blood, he turns humans into his servants. He had a conflict with King Belial Aensland and was banished to his castle in the human world, but over time has built his powers back up and wants to take over as king of the Makai. </p>
+<p>TREATMENT</p>
+<p>Act I<br />
+The earth has been ravaged by demons.   King Belial Aensland rules Makai, the Demon World with his daughter, Morrigan at his side.  King Belial is the one responsible for leading the uprising against humans, in order to move beyond the Demon World and take over the Human World, as well.  Many humans have died and society as we know it, has collapsed.   Higher governments are gone and local Suzerains have taken over.   Humans spend their time scrounging for food and shelter, and trying to avoid demon attacks and the warring, greedy Suzerains.<br />
+In the Demon World, the demons are also in conflict.  King Belial, while wanting to destroy humans, is actually a fair ruler of Makai.  However, there are those who are power-hungry and want to take over.  Dmitri Maximoff is strong demon who wants to rule.  He is constantly presenting conflict against King Belial and at the end of Act I, tries to make his move by challenging Morrigan.  As she is a succubus, Dmitri falls for her, and she is able to overpower him.   This is the first of what will be ongoing contention between them.<br />
+Meanwhile, on Earth, Donovan Baine, a rogue demon who fights to save the humans, meets Anita.  She is an orphan with uncontrollable, strong psychic powers, who humans fear.   When we first see her, she and a number of other children are being pursued by demons.  Because of her abilities, she tries to destroy the demon, but also takes down a number of the children (she can’t control her power and has no remorse).  Donovan intervenes, killing the demon, and they meet.  He sees how callous she is, or rather, how callous she had become out of necessity.  She carries a small doll.  Donovan chops the head off of the doll.  Anita gets angry.  Donovan explains that this is a good thing.  It is the first show of emotion from Anita, the first sign of humanity.  She joins him.<br />
+Back in Makai, Jedah Dohma is rising in power.  He recruits and collects followers.  He is not as obvious an aggressor as Dmitri, but that’s intentional.  He keeps a low profile and concentrates on his main goal – convincing the rest of the demons that Belial has not been successful and is the reason for the failure to take over the Human World.  The time for change is now and he (Jedah) should be in charge. </p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$45m</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Adventure, Fantasy.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">Avatar, Batman, The Dark Knight, Iron Man, Spiderman I & II, Star Wars Ep. II, TMNT, Transformers & X-Men. </div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">Louisiana offers a 30% transferable incentive for total in-state expenditures related to the production of a motion picture. An additional 5% labor incentive can be earned on the payroll of Louisiana residents that are employed by a state certified motion picture production. The incentives are fully transferable and Louisiana has no limit to the amount of incentives that can be earned by a single production. Only money spent on your production costs within the borders of the state of Louisiana will qualify for the 30% incentive. That includes all services that are performed in Louisiana from residents and non-residents alike.  In addition, many local communities offer additional percentage incentive.  For any location filming, we plan to shoot in towns like Lafayette, LA, in order to take advantage of an additional 2%, bringing the total potential incentive to 37%.  This incentive can guarantee over a third of the investment back to the investor, taken either as a tax credit after production, or if preferred, once monies are in place, we can sell back the incentive to the state of Louisiana at 85 cents on the dollar (or possibly more from private companies). Considering the Louisiana tax incentive, investors would have potentially up to 37% of their investment guaranteed before the films on the slate even hit theatres or other forms of distribution.  In this precarious financial climate, film production in the state of Louisiana offers more stability than many other parts of the country.  The state is very supportive of the tax incentive and of production, as a whole, happily growing what they refer to as “Hollywood South”.  Likewise, film is a safer investment than it has been in the past, as other areas have grown in risk.   As with all investments, there are always risks in investing in films, however, despite the rise and fall of the stock market and the recession, people are still going to the movies, ordering from Netflix and renting from Redbox (and other distribution channels).   </div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">Director Wish List: The Evil Dead series, Spider-man 1, 2 & 3, Drag Me to Hell, The Gift, A Simple Plan, Darkman Saturn Award winner for Spider-man 2, George Pal Memorial Award winner  Brussels International Festival of Fantasy Film winner for Army of Darkness  Cognac Festival du Film Policier Special Jury Prize winner for A Simple Plan  Empire Award winner for Spider-man 2 Fantasporto winner for Army of Darkness  Sitges Catalonian Film Festival winner for Darkman, The Evil Dead and Time-Machine Honorary Award  CAA – Craig Gering.  Production Design: Sweeney Todd: The Demon Barber of Fleet Street, The Aviator, Shutter Island, Gangs of New York, Titus, Kundun, Interview with the Vampire  Oscar winner for Sweeney Todd: The Demon Barber of Fleet Street, The Aviator and  Hugo Seven time Oscar nominee  BAFTA winner for The Aviator, Interview with the Vampire, The Adventures of Baron Munchausen LA Film Critics Association Award winner for The Aviator & Gangs of New York  Marsh, Best & Associates.  Heidi C. Bordogna – Producer;  Heidi is a writer/director/producer originally from NJ/NY, currently living in Louisiana.  Her documentary, Laissez les Bon Temps Rouler!, recently premiered at the Acadiana Film Festival and this August, will make its international premiere at the 17th Annual Saulieu Cajun and Zydeco Festival in Burgundy, France. She is also currently in production on the feature-length horror/thriller, Revenant and her short documentary, Controlling Tourette's Syndrome, can be seen on ABC NewsNow and she recently co-wrote the feature film, Court Jesters, and directed and shot three television pilots – Tales from Furban Forest, Sid and Buddy: Be a Rock Star and General Studies. Producer - Anothy Lynch; President of the Nu Breed Music Group, Producer, Talent Manager, Recording Studio Owner, Consultant and PR Manager.   In this day and age it is a rare occasion when one person can capture and express the sentiments of a generation and expand his horizons to make an impact on society, creating a union between music and life. Anthony “Fate” Lynch is undoubtedly among this very select, small group. With the roots stemming from rap and hip-hop but reaching way beyond those parameters, through his music, he has allowed different genres – be it hip-hop, pop, soul, r&b or underground – to integrate. As founder of The Nu Breed Music Group, a pioneering producer, entertainment consultant and overall entrepreneur, Anthony has become one of today’s most extraordinary, accomplished talents. </div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">Wish List/ Approaching: DEMITRI MAXIMOFF – Viggo Mortensen; Oscar nominee for Eastern Promises  Golden Globe nominee for Eastern Promises BAFTA nominee for Eastern Promises  SAG Award winner for The Lord of the Rings:  The Return of the King, and three time nominee Empire Award winner – Icon Award and four time nominee  Broadcast Film Critics Choice Award winner for The Lord of the Rings:  The Return of the King, and two time nominee. MORRIGAN AENSLAND – Emily Blunt; Golden Globe winner for Gideon's Daughter, Golden Globe nominee for The Young Victoria, Golden Globe and BAFTA nominee for The Devil Wears Prada.   London Critics Circle Film Award winner for The Devil Wears Prada  Women in Film Crystal Awards winner, Face of the Future.  DONOVAN BAINE – Jason Momoa; Conan the Barbarian, Johnson Family Vacation, Game of Thrones, Stargate: Atlantis, Baywatch. ANITA- Elle Fanning; Young Artist Award nominee for Babel  Young Artist Award nominee for The Lost Room Young Artist Award nominee for Daddy Day Care. JEDAH DOHMA – Ralph Fiennes;  Oscar nominee for The English Patient  Oscar nominee for Schindler’s List  BAFTA Award winner for Schindler’s List and three time nominee  New York Film Critics Circle winner for Schindler’s List  National Society of Film Critics Award winner for Schindler’s List  Four time Golden Globe nominee  Emmy nominee for Bernard and Doris  Three time SAG Award nominee. JON TALBAIN – Russell Brand; British Comedy Award winner for Got Issues BAFTA Award nominee for Ponderland  Three time Teen Choice Award nominee for Get Him to the Greek  Chicago Film Critics Association Award nominee for Forgetting Sarah Marshall  Online Film Critics Society Award nominee for Forgetting Sarah Marshall .</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">Summer 2011 saw huge numbers for big budget films.  TRANSFORMERS:  DARK OF THE MOON, grossed $1.12B worldwide theatrical.  The estimated budget was $195M.  The film was recently released on DVD and continues to make money.  CAPTAIN AMERICA cost $145M and has grossed $366M worldwide theatrical.  THOR, made for $150M, grossed nearly $450M worldwide theatrical.  The more modest RISE OF THE PLANET OF THE APES, at a budget of $93M, has grossed $430M worldwide theatrical. When other forms of entertainment (theatre, travel, fine dining) become more expensive, movie audiences grow.  Likewise, even more revenue streams from DVD, online streaming and On-Demand continue to grow.  The small budgets of the films on the slate offer investors the chance to make a great deal of profit through all revenue streams. </div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-969">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/graphics.png" />
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-969"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>$100</span><br/> Target</a></li>
+<li><a href="#"><span> tbc</span><br/>Invested</a></li>
+<li><a href="#"><span>tbs</span> <br/>Pledged</a></li>
+<li><a href="#"><span>tcb</span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;LEGEND&#8221;</h4><br />
+	
+	<a target="_blank" href=""><img width="246" height="138" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Screen-Shot-2015-11-16-at-9.50.02-PM1.png" class="img-responsive wp-post-image" alt="Screen Shot 2015-11-16 at 9.50.02 PM" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>Latest Big budget Blockbuster from Veteran Producer Michael Levy. Michael Levy i<span class="remore" data-mode="hide" data-id="re-975">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-975"><p>Latest Big budget Blockbuster from Veteran Producer Michael Levy. Michael Levy is the Producer behind Die Hard 2 and Lara Croft. This film is part of Micheal&#8217;s latest $200m Movie slate he has available to investors at The Movie Fund.</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$40M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Thriller, Suspense</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">Please contact for details.</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">- </div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">Michael Levy/Anan Bay. Impact Films.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">tbc</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">pls contact</div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-975">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/graphics.png" />
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-975"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>$40m</span><br/> Target</a></li>
+<li><a href="#"><span> -</span><br/>Invested</a></li>
+<li><a href="#"><span>-</span> <br/>Pledged</a></li>
+<li><a href="#"><span>-</span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;APEX Movie Project&#8221;</h4><br />
+	
+	<a target="_blank" href=""><img width="198" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Screen-Shot-2015-11-16-at-10.00.30-PM.png" class="img-responsive wp-post-image" alt="Screen Shot 2015-11-16 at 10.00.30 PM" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>The Client needs $46.5M for a movie that already has casting (Bobbi Hill), verba<span class="remore" data-mode="hide" data-id="re-979">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-979"><p>The Client needs $46.5M for a movie that already has casting (Bobbi Hill), verbal interests from “A” list actors such as Joe Pesci, Andy Garcia and Al Pacino. I have the business plan and other materials that you would need. Would you be able to assist us in locating capital for this project? </p>
+<p>Please contact me with any questions, thank you.</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$46.5M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Please contact for deatils.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">-</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">-</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">Apex Corporate Services.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">Verbal interests from “A” list actors such as Joe Pesci, Andy Garcia and Al Pacino.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">Please contact for Details.</div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-979">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/graphics.png" />
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-979"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span></span><br/> Target</a></li>
+<li><a href="#"><span> </span><br/>Invested</a></li>
+<li><a href="#"><span></span> <br/>Pledged</a></li>
+<li><a href="#"><span></span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>“The Ruled Vassal”</h4><br />
+	
+	<a target="_blank" href=""><img width="224" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Screen-Shot-2015-11-16-at-10.07.26-PM.png" class="img-responsive wp-post-image" alt="Screen Shot 2015-11-16 at 10.07.26 PM" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>My name is Jeremiah Sayys. I’m a writer/director/producer. I’m developing a <span class="remore" data-mode="hide" data-id="re-982">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-982"><p>My name is Jeremiah Sayys. I’m a writer/director/producer. I’m developing a new film titled<br />
+“The Ruled Vassal” and I’m looking for funds to help with research and getting the script<br />
+written.</p>
+<p>Logline:<br />
+An enigmatic young artist’s unalterable compulsion is threatened after entangling with a deeply<br />
+tortured motivational speaker.</p>
+<p>Premise:<br />
+A parasite called an Ecumus, from a creature race that lives in another dimension, inhabits<br />
+human babies from conception. The Ecumus is born as a human and interacts with its human<br />
+counterpart as the Ecumus takes control, using its human counterpart to implicate feelings<br />
+and emotions, all while the human is aware of everything that is going on. An Ecumus/Human<br />
+hybrid is a vassal to what we know as the Bogeyman. They are the hunters as while Takers,<br />
+a physical creature that roams and protects the dimension, are the gathers.  The Ecumus track<br />
+down those who have done bad and evil things, be it children or adults, and implicate<br />
+themselves into their victim’s lives to the point to where their victim trusts them, then they<br />
+give them over to the Takers to be dragged into the dimension for them to suffer at the hands<br />
+of the Bogeyman. The victims are kept in the “hall of pain” where they’re trapped within a<br />
+living organic wall that preserves them, where they suffer excruciating pain until they are taken<br />
+from the wall and are eaten. The Ecumus inhabits a host once a generation. Once it’s born it<br />
+ages until its 20, then stops. But the Ecumus begins seeking out its victims at a very young age.<br />
+The Ecumus only inhabits a female human, so when the Bogeyman comes out of hibernation<br />
+once a generation to feed, he has a partner to then procreate with. The Bogeyman chooses,<br />
+from the victims that have been collected, which victims he wants to eat and gives the rest to<br />
+the Takers. After procreating with the Ecumus/Human hybrid, the Ecumus leaves the human<br />
+body and gives it over to the Bogeyman to be eaten.</p>
+<p>Evre, a young artist inhabited by the Ecumus, lives a normal life while pursuing the Ecumus’<br />
+hobby. Once Evre meets Eben, a deeply tortured motivational speaker with a connection to<br />
+her visceral world, everything changes. They slowly begin developing a relationship. The<br />
+Ecumus begins to actually feel what the human counterpart feels and thinks rather than just<br />
+implicating the feelings and thoughts. But after a disturbing incident where Evre discovers<br />
+Eben is connected with her world, it prompts her to begin investigating him to find out who<br />
+he truly is. As their relationship grows closer, Evre falls in love with him, in the process of<br />
+discovering that Eben is the last descendant of Edgar Allen Poe.</p>
+<p>Edgar Allen Poe was to first to have the ability to see into this world. Instead of it affecting<br />
+him he went into the world and raised these creatures to have a purpose, which was to<br />
+punish people who do bad and evil things. Whether it is was a child or an adult. Poe used<br />
+his ability to his advantage to try to make our world a better place and taught these<br />
+creatures to get rid of the evil and bad people, but eventually it got out of control and Poe<br />
+abandoned them and disappeared without a trace. Poe’s future generations could not<br />
+comprehend the fact that they could see into this world and it caused them to go crazy<br />
+and/or disappear or commit suicide. However, Eben is just as strong as Edgar Allen Poe in<br />
+comprehending the world, but does struggle at times to handle it.</p>
+<p>Through her relationship with Eben, Evre’s human side and the Ecumus bond. It begins<br />
+to care about Evre and comes to understand that people deserve a second chance to<br />
+make up for their mistakes and be forgiven. As the Ecumus comes to care more and more<br />
+for Evre’s human side, it puts them both in danger. The Ecumus learns the only way Evre<br />
+can truly be safe and be with Eben, is to end her world. And to do that the Ecumus must<br />
+die. She finds the way with the help of the Decider, an immortal being that lives between<br />
+dimensions. After an emotional and brutal trip into her world, where Evre barely gets out<br />
+alive, she’s able to get back to the Decider and kill the Ecumus inside of her, then unties<br />
+with Eben.</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$35M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Horror, Thriller</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">Please contact for all details.</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st"></div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st"> I previously wrote, produced and directed the psychological horror/thriller feature film titled "OF SILENCE", starring Masiela Lusha, Matthew Lawrence and Muse Watson. It's available on DVD and VOD. You can go to this link to watch the Trailer.   Of Silence Movie Reviews: Influx Magazine Twisted Central LA Horror   The Independent Critic Horror Movie Diary Video Views Film Threat   You can go to Film Courage to read how Of Silence was made.   In summer of 2009 I produced the drama/sci-fi/fantasy feature film, "THE LEGENDS OF NETHIAH", starring Robert Picardo, John Heard and Theresa Russell. The film is distributed by Indican Pictures. You can go to this link to watch the Trailer. We won the the silver award for the Independent Theatrical Feature Films - Family/Children category at the Worldfest-Houston International Film Festival.   The Legends of Nethiah Movie Review: Film Threat   Look forward to hearing back from you.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st"></div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st"></div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-982">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/graphics.png" />
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-982"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span></span><br/> Target</a></li>
+<li><a href="#"><span> </span><br/>Invested</a></li>
+<li><a href="#"><span></span> <br/>Pledged</a></li>
+<li><a href="#"><span></span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;NEITHER IN HEAVEN NOR ON EARTH&#8221;</h4><br />
+	
+	<a target="_blank" href=""><img width="232" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Screen-Shot-2015-11-16-at-10.23.12-PM-462x293.png" class="img-responsive wp-post-image" alt="Screen Shot 2015-11-16 at 10.23.12 PM" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem<span class="remore" data-mode="hide" data-id="re-985">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-985"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$25M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">Road Movie</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">--</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">--</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">Oscar Nominated Production Team.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">ZOE (Tbd), GIULIA (Tbd), Eva Riccobono, Bianca Guaccero, OSVALDO: Giancarlo Giannini, VITTORIO(Tbd); Joe Pesci, WARDEN:! F.Murray Abraham</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">Contact</div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-985">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/graphics.png" />
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-985"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>-</span><br/> Target</a></li>
+<li><a href="#"><span> -</span><br/>Invested</a></li>
+<li><a href="#"><span>-</span> <br/>Pledged</a></li>
+<li><a href="#"><span>- </span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;FRAMED&#8221;</h4><br />
+	
+	<a target="_blank" href=""><img width="176" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Screen-Shot-2015-11-16-at-10.31.59-PM.png" class="img-responsive wp-post-image" alt="Screen Shot 2015-11-16 at 10.31.59 PM" /></a>
+    </div>
+	<div class="pro-content">
+	  <p>Note from Producers:
+
+Attached please find:-
+ 
+1) Synposis of the book that <span class="remore" data-mode="hide" data-id="re-989">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-989"><p>Note from Producers:</p>
+<p>Attached please find:-</p>
+<p>1) Synposis of the book that Terry Winter used to cull the screenplay from, it is a very good indication at to the richness of the material, that someone can ascribe to without going through the book, verbatim.</p>
+<p>2) Bullet Points forwarded to Darren Aronofsky (Noah, Black Swan, The Wrestler) as a potential director for the movie although at this point in time, Bonnie feels there are people more suited to the material. She prefers a director who will be able to stretch the dynamic of the character and take people deeper into the character&#8217;s psyche, along the lines lets say of what David O. Russell did with American Hustle and/or David Fincher with Social Network.</p>
+<p>3) One of many reviews of the book that was released worldwide. </p>
+<p>*Framed received critical acclaim when it was first published by Mainstream Publishing (London/Edinburgh) who also published &#8216;Catch Me If You Can&#8217; and &#8216;Braveheart&#8217;.  </p>
+<p>All one has to do is go on line to see how widely spread the book has been with feature stories in The New York Times, London Observer, The Independent, The Guardian, Washington Post, Wall Street Journal and had a shelf life of over ten years at Barnes &#038; Noble etc.</p>
+<p>As far as credits and position, obviously if they were to co-finance or finance the film in its entirety along the lines of what &#8230; did with Wolf Of Wall Street, then they would receive Executive Producer credits as well as points (position) on the film.  To what degree we would have to discuss that part with our attorney &#8230;. &#8230; has been in the business for over 40 years and is considered a leading authority on independent film financing as he wrote the book literally (The Producers Guide To Independent Financing) that is a bible among film producers.</p>
+<p>We would have to have CAA send the first draft of the screenplay which will undergo revisions once the director is on board which we assume will be the case in approx. 3-6 months. Bonnie as I mentioned earlier will also be pursuing a lead actor with an eye towards involving him in the production.</p>
+<p>Terry Winter will also be a producer on the movie if he so desires. His contract with our company has that stipulation.</p>
+<p>The book (rights) and screenplay are held by our company &#8230;. We hired Terry to write the first draft and paid him using private investor monies. Those monies were secured through a personal, family relationship, it is not a situation where a company or a bank or a studio will make waves regarding those monies. Everything is fully documented, we have all legal agreements, contracts and clear title for the book and screenplay through our company and the various entities that have developed the material.</p>
+<p>As I also mentioned Terry Winter is represented at CAA (Creative Artists Agency). They will also be working with us once the financing entity is identified to package and distribute the film.</p>
+<p>Right now we have the option of joining forces with a production company or working with private equity financing and bringing the movie fully financed to a studio for distribution who will also obviously physically make the film.</p>
+<p>Bonnie has line producers she works with as far as budgeting the movie. We believe it will be under 25 million and can easily do that budget based on Terry&#8217;s draft, even though revisions will be made it will not change the shooting locations or dynamics of how the film will be produced and directed.</p>
+<p>This is a character driven film set in the funeral business, art world and Hollywood where the main character encounters these worlds of façade in order to confront the demons in his own soul.</p>
+<p>The main theme for the movie is &#8220;For what shall it profit a man if he gain the world and lose his soul&#8221;.</p>
+<p>The renowned literary agent who sold the book Sterling Lord, Sterling represented Jack Kerouac, Mario Puzzo etc and sold the rights to The Godfather, Legend Of Bagger Vance, Goodfellas etc., said Framed is &#8216;The Raging Bull of the Art World&#8217;.</p>
+<p>Frankly we believe its much more than that but you get my gist.</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$25M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st">-</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">As Above</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">-</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">Mammoth Entertainment</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">-</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">-</div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-989">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/graphics.png" />
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-989"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>-</span><br/> Target</a></li>
+<li><a href="#"><span> -</span><br/>Invested</a></li>
+<li><a href="#"><span>-</span> <br/>Pledged</a></li>
+<li><a href="#"><span>-</span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+	<div class="pro-box">
+	<div class="img-thumb">
+	<h4>&#8220;THE DOVE CATCHER&#8221;</h4><br />
+	
+	<a target="_blank" href=""><img width="246" height="147" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/11/Dove11-396x2931-246x147.jpg" class="img-responsive wp-post-image" alt="Dove11-396x293" /></a>
+    </div>
+	<div class="pro-content">
+	  <p><strong>The Movie
+</strong>
+The film takes place in ‘the eternal city of spr<span class="remore" data-mode="hide" data-id="re-994">read more...</span> </p>
+      <div class="scrollbars excrt-cont re-994"><p><strong>The Movie<br />
+</strong><br />
+The film takes place in ‘the eternal city of spring’ of Medellin, Colombia and has scenes that travel<br />
+through Colombia&#8217;s beautiful coastline like Cartagena and Santa Marta. Due to film incentives in<br />
+Colombia we will be applying to get several incentives/tax credits of up to 30-40%.<br />
+The film explores the realm of introspection, cognitive psychology and clairvoyant phenomena. It<br />
+also explores the underworld of pigeon racing, crime, gambling and the social displacement of classes,<br />
+race and creed, it has a strong emphasis on relationships, justice, romance, the metaphysical, and the<br />
+human factor to fight for survival and maintain the preservation of the human spirit and of life.<br />
+We take a unique story and visual experience in film and transform our characters into heroes, villains<br />
+and muses. The main characters transcend through out their journey and encapsulate their own hope for<br />
+freedom and liberty, a second chance at redemption and love. But it all comes at a very high price and<br />
+only the strongest will survive.<br />
+Our story is filled with amazing special visual effects that take place in lush tropical locations both<br />
+in the city and on the pacific coast. The production of this highly stylized neo-noir psychological<br />
+suspense thriller will have many breathtaking locations that will be contemporary and historic<br />
+in style.<br />
+The Audience<br />
+Like all true romantic crime thrillers, the appeal of TDC is universal. Yet it also zeroes in on large<br />
+audiences, sizeable enough to assure fiscal as well as artistic success of this movie.<br />
+Across America, Latin America, Europe and Asia are well over one billion moviegoers with<br />
+interest in thrillers with romantic and suspenseful overtones that involve the quest for freedom,<br />
+romance, peace, equality and the hope for justice. This connects to the psychological and<br />
+emotional values that play inside our minds and how we need to share and obtain them in order<br />
+to grow as a society</p>
+ </div>          
+	 </div>
+<div class="pro-table margin-t">
+<div class="scrollbars">
+<div class="table">
+
+
+<div class="latst-filds">
+
+<div class="orange">Budget</div>
+<div class="fild-st">$40M</div>
+
+</div>
+
+<div class="latst-filds">
+<div class="orange">Genre</div>
+<div class="fild-st"></div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Compares</div>
+<div class="fild-st">Action/Adventure</div>
+</div>
+
+
+<div class="latst-filds">
+<div class="orange">Tax Breaks</div>
+<div class="fild-st">Collection of the revenues. All sales contracts will be pledged to the repayment of the bank loans and the equity financing, through a collection company with pay instructions. Neither the sales company nor the producers will have access to any of the revenue streams until after all debt, equity principal amounts and 25 % return on the equity has been paid. Net Profit/Back End definitions: In order to define the term Net Profit, the following definitions are agreed and accepted by the parties: Basic Formula: The method employed in calculating net profits: Distributor’s gross receipts minus distribution fees, minus distribution expenses equals producer’s gross, and producer’s gross minus the production costs of the motion picture minus interest, leaves net profits. Net Profit: Net Profits are the amount of gross receipts remaining after deducting distribution fees, distribution expenses, interest on negative costs, negative costs (plus overhead) and specified deferments and gross participations, if any. The Parties accept that profits will be declared after payment of debts, investor recoupment and payment of deferments. Credits: Investor will have a maximum of two (2) Executive Producer Credits</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Team</div>
+
+<div class="fild-st">Michael Abt - Director Member of the Directors Guild of America (D.G.A.) Michael was born in Montevideo, Uruguay in 1969. Being a son of European parents, he lived and studied in Paris for 5 years (1984-1989). He has been based in New York City since 1997, constantly working back and forth between NY, LA, Europe, Eastern Europe, The Middle East and Latin America. Speaks English, Spanish, French, Portuguese and basic German. His work clearly reflects a global feel; with highly cinematic storytelling, strong visuals and a true-life edge. The millennium saw Abt break out on his own, directing his first piece in the year 2000; a music video for reggae star/ tennis master Yannick Noah, which became the top selling single for Sony France that year. Commercial jobs swiftly followed with opportunities to work for agencies like Mc Cann Erickson, Lowe, BBDO, DDB, Grey Lab, TBWA, Euro RSCG, Global Hue, Young & Rubicam, Leo Burnett, Siboney, Avrett Free Ginsberg; AtkinsLopezMarti;Publicis… Clients include Coca-Cola, Pepsi, Sony, Panasonic, Clorets, Aquana, Danone, Ford, Fritoley, Doritos, Bavaria, BBVA, B.E.T., Gatorade, Verizon, Avianca Airlines, JP Morgan Chase Bank, Nescafe, Mastercard, Colgate, Orange, Obolon Beer, Telcel, Mobinil, Medalla beer, Nestle, MTC, MBC Network, Prime Vodka, Telmex, QatarGas, Mexican Government, Ideal Image; Vodafone, VIP mobil phones, Claro, Movimiento ALAS, Purina, Unilever, Colombina, etc, etc He has worked with international stars like Antonio Banderas, Salma Hayek, Yannick Noah, the football/soccer “mega star” Ronaldinho; Latin pop singer Julieta Venegas, Mexican heavy metal Band “Moderatto“, French rugby star Fabien Galthier; reggaeton singer “Tito el Bambino”; main cast of the HBO series “THE WIRE”; reggaetton stars Wisin & Yandel; the French actor & parkour pioneer Sebastien Foucan, Top Fashion Model Valeria Massa, ABC Dancing with the stars 2011 champion Karina Smirnoff, football mega star Sergio KUN Aguero, Colombian football mega star Radamel Falcao, NBA superstar Joakim Noah and Derrick Rose.., the best football player ever: Diego Armando Maradona… -Won 3 TELLY awards in USA : 2 for BET “Image campaign”, and 1 for Gatorade “Plantinum”. Has shot on location around the world in Argentina, Bahamas, Brazil, Colombia, Croatia, Dominican Republic, Dubai (UAE), Egypt, England, Finland, Italy, Lebanon; Mexico, Morocco, Rumania, Sahara desert, Scotland, Slovenia, Spain, Tunisia, USA (including New York, Los Angeles, Hawaii, New Orleans, New Jersey, Miami, Arizona, Fort Lauderdale, Naples, Puerto Rico…), St.Barths, Ukraine, Uruguay, Venezuela, and the list keeps on growing… Germano Saracco – Director of Photography Germano Saracco is an award-winning Cinematographer, both in film and ahead of the curve in Digital Technology, with EU Passport (Italy) and American citizenship. His training, background and experience are equally international in scope. His education in the art of film-making began with a full scholarship to the Istituto Scienze Cinematografiche in Florence, Italy. Germano then moved to the United States and enrolled in the Intensive Film-Making Program at New York University; and ultimately at the University of Miami for a Bachelors degree in Motion Pictures with a minor in Graphic Design and Art Photography. At the U of M he won Best Cinematographer for the film "My Soul To Take" at the school's 10th annual "Canes Film Festival." Germano is a member of the International Cinematographers Guild, Local 600. He was Inducted into the prestigious A.I.C., Association of Italian Cinematographers and Imago, the European Federation of Cinematographers in May 2006. He is recognized for his creatively eclectic style, passion for perfection and global vision. Winner of the International Social Commitment award at the Accademia Belle Arti A Venezia in 2010 as the cinematographer on the feature film "Hopeful Notes." Winner of a Gold Condor Award in advertising. Recipient of the Best Cinematic Achievement Award at the Atlantic City Film Festival and Telluride Indy Film Festival of 2003 for best short film "Eve's Dropping In" Germano was selected by Mr. Michael Brown of Kodak, and Mr. Vincent Hogan of Cineworks to test all of Kodak's film emulsions. Where the different types of film were taken through; Normal Process, Bleach by Pass and Cross Process. Germano Saracco is a filmmaker's filmmaker .... Definitely a team player, enjoys bringing the best out of people, creative, task efficient, and ever-mindful of providing optimum options for the latest post production workflows and delivering flawless finished product for the Director, Producer, client. Bio By: Marylynne Newman Maurizio Zuluaga – Writer/Producer Maurizio Zuluaga is a writer/producer/filmmaker/artist who works as a screenplay writer/producer and has written numerous screenplays and short films, and has worked as a producer on independent projects and also as a visual artist. He has had numerous solo art exhibits around the world and works in many formats including Film, shorts, and art films. Zuluaga has also acted, produced and art directed and continues as a writer, producer and visual artist to bring new acquisitions and projects to his companies slate of films. Zuluaga is founder and president of Vigilant Films/Vigilant Films Studios and handles the position of creative director/producer/writer and is producing several independent films under a slate that the company holds the rights to. Diana Cordoba – Executive Producer She is a producer and business executive who is vice president of Vigilant Films Studios and handles the business affairs department. Cordoba has a degree in Marketing from OSU and a Masters in the same from the re-known private Business school EAFIT in Medellin, Colombia. She is a successful entrepreneur that has worked in several areas including film, fashion, art and entertainment. Diana is involved in the marketing and business part of the company and is also an executive producer of several of the projects that are lined up to begin production in 2015. Marcelo Zarvos - Composer Marcelo Uchoa Zarvos (born October 1969 in São Paulo) is a Brazilian pianist and composer of Greek descent.[citation needed] He began in classical music in his teens and studied at the Berklee College of Music. He is more known for jazz and had success with the album Dualism accompanied by saxophonist Peter Epstein. He has done several film scores including Kissing Jessica Stein, The Door in the Floor, Sin Nombre, and Boynton Beach Club. Most recently, he composed the score for Remember Me, which stars Robert Pattinson. His music has been recorded a number of times by the string quartet ETHEL. On February 14, 2010, he became father of a son, Julian Francis Zarvos, whose mother is actress Janel Moloney. He composed the score for the 2007 film The Air I Breathe, starring Kevin Bacon, Julie Delpy, Brendan Fraser, Andy Garcia, Sarah Michelle Gellar, Emile Hirsch, and Forest Whitaker. In 2011 he composed the score for Beastly which stars Vanessa Hudgens[1] and The Beaver starring Mel Gibson and Jodie Foster. He also composed the score for the 2012 film Won't Back Down which stars Viola Davis, Maggie Gyllenhaal, and Holly Hunter. And composed the score for The Words which stars Bradley Cooper, Zoe Saldana, and Dennis Quaid.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Cast</div>
+<div class="fild-st">Wish List: Eduardo Verastegui, Gabriella Wright, Vincent Cassel, John Leguizamo, Carlos Bardem.</div>
+</div>
+
+<div class="latst-filds">
+<div class="orange">Investor Info</div>
+<div class="fild-st">The Payback Monies paid back to the investors and producers will come from the universal exploitation of the picture. Theatrical release, DVD’s, broadcast licenses, weekend special presentations, and soundtrack of the picture A brief description of the various markets or venues in which TDC may be exploited is as follows: (a) Movie Theatres. Theatrical distribution of motion pictures involving the manufacture of release prints from the original print, the promotion of a motion picture through advertising and publicity campaigns and the licensing and booking of the motion picture to theatrical exhibitors. Expenditures on these last mentioned activities are substantial and generally (but not always) have a direct relationship to the effect on revenues realized from the theatrical release of the motion picture. Motion pictures that are made available for a theatrical release are generally distributed by releasing agents and provide for a percentage of gross revenue to cover theatreoperating expenses with a split of rental payments thereafter between the distributor and the exhibitor. Under agreements with theatrical exhibitors, an exhibitor of the motion picture will pay license fees to the distributor on a percentage or flat rental basis. Under a percentage arrangement, the exhibitor will pay a percentage of box office receipts and under a flat rental arrangement; the exhibitor will pay a flat fee without regard to box office receipts. Generally, agreements for theatrical release of a motion picture provide for a larger percentage of box office receipts to be paid during the earlier weeks of distribution of the motion picture and a smaller percentage of box office receipts in later weeks. Such percentage to be paid to the distributor and the theatre exhibitor is determined by negotiation and generally varies between 10% to over 50% of the box office receipts. Many factors are involved in the negotiation of such percentages including the perceived potential success of the motion picture, the number of theatres being licensed and the location of the theatres; (b) Videocassette and videodisc. The videocassette and videodisc market areas have grown rapidly in recent years, especially for feature films, which have been exposed to theatrical exhibition. This market can, by itself, recoup all or a significant portion of the cost of production and distribution and even generates profit. The most significant aspect of this market is DVD and videocassette rentals for in-home viewing, a market, which continues to expand rapidly throughout North America (c) Pay-per-view television. The pay-per-view television delivery to private homes by cable television systems has been developing steadily in recent years and now represents a significant market for feature length films; d) Television. This market area is subdivided into three categories: free network television; pay and cable television markets; and syndicated television market, the most significant of which is the free network television market. Distribution agreements made with major free television networks in North America generally provide for a lump sum fee. In the United States, the pay and cable television markets have developed to a stage where the distributors offer license fees that are generally competitive with the free television network fees. Sales of theatrical motion pictures to pay and cable television networks in the United States and Canada are much more likely than sales to free television networks, although sales to both may occur. The television “syndication market” is comprised of a number of independent stations that have formed associations for the purpose of acquiring programming and may include some free network television stations. Motion pictures are generally only distributed in the syndication market after having completed stipulated license periods with pay television, cable television and/or free television networks. Revenues from this source can therefore be received for extended periods of time after a motion picture’s initial theatrical exhibition or other release; and (e) Sales of Sound Track. Films that achieve wide releases often market a compilation of the music used in the film and in some cases sales of digital and compact disks have and do generate significant additional revenue for the film. These are sold through conventional music vendors.</div>
+</div>
+
+</div>
+</div>
+<div class="lig gh-994">
+
+
+
+<img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/10/graphics.png" />
+
+</div>
+
+</div>
+
+<div class="pro-bottom">
+<ul class="list-inline">
+<li>
+<a class="latest-loa" data-mode="hide" data-id="gh-994"><img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/pro-load-3.png" /></a>
+</li>
+<li><a href="#"><span>$40M</span><br/> Target</a></li>
+<li><a href="#"><span> tbc</span><br/>Invested</a></li>
+<li><a href="#"><span>--</span> <br/>Pledged</a></li>
+<li><a href="#"><span>--</span> <br/>Investers</a></li>
+</ul>
+</div>
+
+	</div>
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var $p = jQuery;
+$p('.slider-holder > i#r_btn').click(function() {
+if (!$p(this).hasClass('arr_inact')) {
+var $t_obj = $p('.slider-holder > ul').find('li:visible:first');
+var $t_ind = $t_obj.index();
+var $l_ind = $p('.slider-holder > ul').find('li:last').index();
+if($t_ind == 0) {
+$p('.slider-holder > i#l_btn').removeClass('arr_inact');
+}
+if (($t_ind + 5) == $l_ind) {
+$p(this).addClass('arr_inact');
+}
+$t_obj.hide();
+var $t_ind = $t_ind + 5;
+$p('.slider-holder > ul > li:eq('+$t_ind+')').show();
+
+}
+});
+
+$p('.slider-holder > i#l_btn').click(function() {
+if (!$p(this).hasClass('arr_inact')) {
+var $t_obj = $p('.slider-holder > ul').find('li:visible:last');
+var $t_ind = $t_obj.index();
+var $l_ind = $p('.slider-holder > ul').find('li:last').index();
+if($t_ind == $l_ind) {
+$p('.slider-holder > i#r_btn').removeClass('arr_inact');
+}
+if ($t_ind == 5) {
+$p(this).addClass('arr_inact');
+}
+
+$t_obj.hide();
+var $s_ind = $t_ind - 5;
+$p('.slider-holder > ul > li:eq('+$s_ind+')').show();
+}
+});
+$p('.slider-holder2 > i#r_btn').click(function() {
+if (!$p(this).hasClass('arr_inact')) {
+var $t_obj = $p('.slider-holder2 > ul').find('li:visible:first');
+var $t_ind = $t_obj.index();
+var $l_ind = $p('.slider-holder2 > ul').find('li:last').index();
+if($t_ind == 0) {
+$p('.slider-holder2 > i#l_btn').removeClass('arr_inact');
+}
+if (($t_ind + 5) == $l_ind) {
+$p(this).addClass('arr_inact');
+}
+$t_obj.hide();
+var $t_ind = $t_ind + 5;
+$p('.slider-holder2 > ul > li:eq('+$t_ind+')').show();
+
+}
+});
+
+$p('.slider-holder2 > i#l_btn').click(function() {
+if (!$p(this).hasClass('arr_inact')) {
+var $t_obj = $p('.slider-holder2 > ul').find('li:visible:last');
+var $t_ind = $t_obj.index();
+var $l_ind = $p('.slider-holder2 > ul').find('li:last').index();
+if($t_ind == $l_ind) {
+$p('.slider-holder2 > i#r_btn').removeClass('arr_inact');
+}
+if ($t_ind == 5) {
+$p(this).addClass('arr_inact');
+}
+
+$t_obj.hide();
+var $s_ind = $t_ind - 5;
+$p('.slider-holder2 > ul > li:eq('+$s_ind+')').show();
+}
+});
+</script>
+        </div>   
+
+</div>
+<div class="content">
+            <div class="client-holder text-center">
+            	<div class="container">
+                	<div class="title text-center">
+                		<h2>in the news</h2>
+                    </div>
+                    
+                    <div id="carousel-client" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						
+
+
+<div class="item  active">
+
+    <div class="client-list">
+
+        <ul class="list-inline">
+
+      
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-1.png" class="img-responsive wp-post-image" alt="client-1" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-2.png" class="img-responsive wp-post-image" alt="client-2" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-3-1.png" class="img-responsive wp-post-image" alt="client-3-1" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-4.png" class="img-responsive wp-post-image" alt="client-4" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-5.png" class="img-responsive wp-post-image" alt="client-5" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-2.png" class="img-responsive wp-post-image" alt="client-2" /></li>
+
+
+        </ul>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+<div class="item ">
+
+    <div class="client-list">
+
+        <ul class="list-inline">
+
+      
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-3-1.png" class="img-responsive wp-post-image" alt="client-3-1" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-4.png" class="img-responsive wp-post-image" alt="client-4" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-3-1.png" class="img-responsive wp-post-image" alt="client-3-1" /></li>
+
+    
+
+            <li><img width="120" height="105" src="http://themoviefund.com/newtheme/wp-content/uploads/client-4.png" class="img-responsive wp-post-image" alt="client-4" /></li>
+
+
+        </ul>
+
+    </div>
+
+</div>
+
+
+
+						
+                        </div>
+                        <div class="carousel-nav">
+                            <a data-slide="prev" href="#carousel-client" class="carousel-nav-prev">Prev</a>
+                            <a data-slide="next" href="#carousel-client" class="carousel-nav-next">Nexty</a>
+                        </div>
+                    </div>
+                </div>
+            </div>			
+
+            <div class="follow-holder text-center">
+            	<div class="container">
+                	<div class="follow-list">
+                    	<div class="row">
+                        	<div class="col-sm-4 text-right">
+                            	<h2>Follow Us On:</h2>
+                            </div>
+                            <div class="col-sm-8 text-center">
+                            	<ul class="list-inline">
+                                    <li class="text-center"><a href="https://www.linkedin.com/themoviefund"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/11/thum.png"><br>Tumblr</a></li>
+                                    <li class="text-center"><a href="https://www.youtube.com/channel/UCJSsT-dHgwVl1rdtojN_OjQ"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/follow-2.png"><br>Youtube</a></li>
+                                    <li class="text-center"><a href="https://www.facebook.com/pages/The-Movie-Fund/371261519745782"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/follow-3.png"><br>Facebook</a></li>
+                                    <li class="text-center"><a href="https://www.pinterest.com/themoviefund/"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/follow-4.png"><br>Pinterest</a></li>
+                                    <li class="text-center"><a href="https://twitter.com/themoviefund"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/follow-5.png"><br>Twitter</a></li>
+                                    <li class="text-center"><a href="https://www.instagram/moviefund"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/follow-6.png"><br>Instagram</a></li>
+                                    <li class="text-center"><a href="https://plus.google.com/b/106013370072001308989/"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/follow-7.png"><br>Google +</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="social-holder">
+            	<div class="container">
+                	<div class="row">
+                    	<div class="col-sm-4">
+                        	<div class="instagram">
+                            	<h2> <i class="fa fa-instagram"></i> Instagram</h2>
+                                <br/>
+								<div class="in-sta">
+<div class="inst-fram">
+<iframe src="http://widget.websta.me/in/tag:themoviefund/?s=85&w=5&h=2&b=0&bg=212121&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:320px; height: 200px" ></iframe>
+</div>                                                              
+<!--<a href="#"><img src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/img/thumbnails/insta.png" alt="post" class="img-responsive" /></a>-->
+                                </div>
+							</div>
+                        </div>
+                    	<div class="col-sm-4">
+                        	<div class="instagram">
+                            	<h2> <i class="fa fa-twitter"></i> Twitter</h2>
+                                <br/>
+								<div class="twtt-f">
+<a class="twitter-timeline"
+  data-widget-id="650984236829118464"
+  href="https://twitter.com/TwitterDev"  
+  width="340"
+  height="200"
+  data-tweet-limit="1"
+  data-chrome=" ">
+Tweets by @TwitterDev
+</a>
+
+                                								</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                        	<div class="instagram">
+                            	<h2> <i class="fa fa-facebook"></i> Facebook Feeds</h2>
+                                <br/>
+                               <div class="cff-wrapper"><div id="cff" data-char="150" class="custm-feed cff-fixed-height " style="width:100%; height:200px; padding:2px; background-color:#ffffff; "><div class="cff-likebox cff-top" ><script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script><div class="fb-page" data-href="https://www.facebook.com/371261519745782" data-width="300" data-hide-cover="false" data-show-facepile="true" data-small-header="false" data-hide-cta="false" data-show-posts="false" data-adapt-container-width="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/371261519745782"><a href="https://www.facebook.com/371261519745782">View on Facebook</a></blockquote></div></div><div id="fb-root"></div></div><div class="cff-item cff-photo-post cff-box author-the-movie-fund" id="cff_371261519745782_441308089407791" style="background-color: #333333; "><div class="cff-author"><a href="https://facebook.com/371261519745782" target="_blank" rel="nofollow" title="The Movie Fund on Facebook" style="font-size:13px; color:#c5c5c5;"><div class="cff-author-text"><span class="cff-page-name">The Movie Fund</span></div><div class="cff-author-img"><img src="https://graph.facebook.com/371261519745782/picture?type=square" title="The Movie Fund" alt="The Movie Fund" width=40 height=40></div></a></div><p class="cff-date" > 4 hours ago </p><h6 class="cff-post-text" style="font-weight:normal; color:#c5c5c5;"><span class="cff-text" data-color="">'Suicide Squad' Has a Creepy &amp; Violent Harley Quinn Says Margot Robbie <a href="http://ow.ly/WGmKV">ow.ly/WGmKV</a> </span><span class="cff-expand">... <a href="#" style="color: #"><span class="cff-more">See More</span><span class="cff-less">See Less</span></a></span></h6><div class="cff-post-links"><a class="cff-viewpost-facebook" href="https://www.facebook.com/371261519745782/photos/a.372033649668569.1073741828.371261519745782/441308089407791/?type=3" title="View on Facebook" target="_blank" rel="nofollow" >View on Facebook</a><div class="cff-share-container"><span class="cff-dot" >&middot;</span><a class="cff-share-link" href="javascript:void(0);" title="Share" >Share</a><p class='cff-share-tooltip'><a href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F441308089407791%2F%3Ftype%3D3' target='_blank' class='cff-facebook-icon'><i class='fa fa-facebook-square'></i></a><a href='https://twitter.com/intent/tweet?text=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F441308089407791%2F%3Ftype%3D3' target='_blank' class='cff-twitter-icon'><i class='fa fa-twitter'></i></a><a href='https://plus.google.com/share?url=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F441308089407791%2F%3Ftype%3D3' target='_blank' class='cff-google-icon'><i class='fa fa-google-plus'></i></a><a href='https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F441308089407791%2F%3Ftype%3D3&amp;title=%27Suicide%20Squad%27%20Has%20a%20Creepy%20%26amp%3B%20Violent%20Harley%20Quinn%20Says%20Margot%20Robbie%20ow.ly%2FWGmKV%20...%20See%20MoreSee%20Less' target='_blank' class='cff-linkedin-icon'><i class='fa fa-linkedin'></i></a><a href='mailto:?subject=Facebook&amp;body=https%3A%2F%2Fwww.facebook.com%2F371261519745782%2Fphotos%2Fa.372033649668569.1073741828.371261519745782%2F441308089407791%2F%3Ftype%3D3%20-%20%27Suicide%20Squad%27%20Has%20a%20Creepy%20%26amp%3B%20Violent%20Harley%20Quinn%20Says%20Margot%20Robbie%20ow.ly%2FWGmKV%20...%20See%20MoreSee%20Less' target='_blank' class='cff-email-icon'><i class='fa fa-envelope'></i></a><i class='fa fa-play fa-rotate-90'></i></p></div></div></div></div><div class="cff-clear"></div></div>							   
+							   </div>
+							   
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+        <footer>
+        	<div class="get-start-holder" style="background-image:none; background-color:#000;">
+            	<div class="container">
+				<div class="row">
+                  <div class="col-md-3 right-border">
+				  <div class="inn-widg">
+				  <aside id="text-9" class="widget widget_text"><h4 class="widget-title">TheMovieFund</h4>			<div class="textwidget"><ul>
+<li><a href="www.themoviefund.com/team">Team</a></li>
+<li><a href="www.themoviefund.com/about">About</a></li>
+<li><a href="www.themoviefund.com/movies">Movies</a></li>
+<li><a href="www.themoviefund.com/press">Blogs
+<li><a href="www.themoviefund.com/how-it-works">How it Works</a></li>
+</ul>
+</div>
+		</aside>				  </div>
+				  <div class="inn-widg">
+				  <aside id="text-11" class="widget widget_text"><h4 class="widget-title">Investing</h4>			<div class="textwidget"><ul>
+<li><a href="www.themoviefund.com/investors">For Investors</a></li>
+<li><a href="www.themoviefund.com/faqs">FAQs</a></li>
+<li><a href="www.themoviefund.com/testimonies">Testimonies</a></li>
+<li><a href="/for-investors/">Documentation</a></li>
+<li><a href="/for-investors/">SEC Regulations</a></li>
+</ul>
+</div>
+		</aside>				  </div>
+				  </div>
+                  <div class="col-md-3 col-md-offset-1 right-border">
+				  <div class="inn-widg">
+				  <aside id="text-10" class="widget widget_text"><h4 class="widget-title">For Filmmakers</h4>			<div class="textwidget"><ul>
+<li><a href="www.themoviefund.com/filmmakers">For Filmmakers</a></li>
+<li><a href="www.themoviefund.com/register">Upload a Project</a>
+<li><a href="www.themoviefund.com/faqs">FAQs</a>
+<li><a href="www.themoviefund.com/faqs">About</a>
+<li><a href="www.themoviefund.com/contact">Support</a>
+<li>
+</ul>
+</div>
+		</aside>				  </div>
+				  <div class="inn-widg">
+				  <aside id="text-12" class="widget widget_text"><h4 class="widget-title">Browse</h4>			<div class="textwidget"><ul>
+<li><a href="/how-it-works/">Browse Movies</a></li>
+<li><a href="/how-it-works/">Film Blogs</a></li>
+<li><a href="/how-it-works/">Legal Docs</a></li>
+<li><a href="/how-it-works/">Film Finance</a></li>
+<li><a href="/how-it-works/">Privacy</a></li>
+<li><a href="/how-it-works/">Terms of Use</a></li>
+</ul>
+</div>
+		</aside>				  </div>
+				  </div>
+                  <div class="col-md-4 col-md-offset-1">
+				  <div class="inn-widg">
+				  <h4>Contact Us</h4>
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <div class="col-sm-11">
+                                    <p>8747 Sunset Blvd, Hollywood, CA. 90069 </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="col-sm-11">
+                                    <p>+1 323 354 0216</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="col-sm-11">
+                                    <p>info@themoviefund.com</p>
+                                </div>
+                            </div>
+				  <div role="form" class="wpcf7" id="wpcf7-f528-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/newtheme/movies/#wpcf7-f528-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="528" />
+<input type="hidden" name="_wpcf7_version" value="4.3.1" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f528-o1" />
+<input type="hidden" name="_wpnonce" value="b55d2e66a7" />
+</div>
+<div class="row">
+<div class="col-sm-6">
+<span class="wpcf7-form-control-wrap text-927"><input type="text" name="text-927" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required foot-fm" aria-required="true" aria-invalid="false" placeholder="Name :" /></span>
+</div>
+<div class="col-sm-6">
+<span class="wpcf7-form-control-wrap email-790"><input type="email" name="email-790" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email foot-fm" aria-required="true" aria-invalid="false" placeholder="Email :" /></span>
+</div>
+</div>
+<div>
+<span class="wpcf7-form-control-wrap textarea-505"><textarea name="textarea-505" cols="40" rows="3" class="wpcf7-form-control wpcf7-textarea foot-fm" aria-invalid="false" placeholder="Message"></textarea></span></div>
+<div class="sub-button text-right">
+<input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit classbtn btn-5 btn" />
+</div>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>				  </div>
+				  </div>
+				  </div>
+                </div>
+            </div>
+
+            <div class="bottom-content text-center">
+                <div class="container">
+                	<aside id="text-5" class="widget widget_text"><h4 class="widget-title">Important Message</h4>			<div class="textwidget"><p>themoviefund.com is a website owned and operated by The Movie Investment Company LLC. By accessing this website and any pages thereof, you agree to be bound by the Terms of Use and Privacy Policy, as amended from time to time. Themoviefund.com is not a registered broker, dealer, investment advisor, investment manager or registered funding portal. The securities offerings on this site are available only to "Accredited Investors" – generally, natural persons must have a net worth of over $1 million (exclusive of residence) or income in excess of $200,000 individually or $300,000 jointly with a spouse. The securities are offered in reliance on an exemption from the registration requirements of the Securities Act of 1933, as amended, and are not required to comply with specific disclosure requirements that apply to registration under the Securities Act. Neither the Securities and Exchange Commission nor any state regulator has passed upon the merits of or given its approval to the securities, the terms of the offerings, or the accuracy or completeness of any offering materials. The securities are subject to legal restrictions on transfer and resale and investors should not assume they will be able to resell their securities. Investing in securities involves risk, and investors should be able to bear the loss of their entire investment. All investors should make their own determination of whether or not to make any investment, based on their own independent evaluation and analysis. Themoviefund.com does not verify or assure that information provided by any company offering securities is accurate or complete or that the valuation is appropriate. Neither Themoviefund.com nor any of its directors, officers, employees, representatives, affiliates or agents shall have any liability whatsoever arising, for any error or incompleteness of fact or opinion in, or lack of care in the preparation or publication, of the materials posted on this website. Themoviefund.com does not give investment advice, provide analysis or recommendations regarding any offering posted on the website. The information on this website does not constitute an offer of, or the solicitation of an offer to buy or subscribe for, any securities to any person in any jurisdiction to whom or in which such offer or solicitation is unlawful. You can learn more about investing in private placements from the SEC or FINRA.</p>
+</div>
+		</aside>					<ul class="list-inline">
+                    	<li><a href="#">legal</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">advertising preferances</a></li>
+                    </ul>
+                    <p>The MovieFund © 2015 . All rights are reserved.</p>
+                    <img src="http://themoviefund.com/newtheme/wp-content/uploads/2015/09/trust.png" alt="post" />
+                </div>
+            </div>
+        </footer>   
+		
+
+  
+
+
+
+        
+    	<!-- Custom Facebook Feed JS -->
+<script type="text/javascript">
+var cfflinkhashtags = "true";
+</script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/themoviefund.com\/newtheme\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/custom-facebook-feed/js/cff-scripts.js?ver=2.3.10'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sb_instagram_js_options = {"sb_instagram_at":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/instagram-feed/js/sb-instagram.js?ver=1.3.11'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/easy-twitter-feed-widget/lib/js/widget-easy-twitter-feed-widget.js?ver=1.0'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/jeba-custom-mainchimp/js/jquery.formchimp.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://themoviefund.com/newtheme/wp-content/plugins/jeba-custom-mainchimp/js/main.js?ver=4.3.1'></script>
+        <!--script type="text/javascript" src="http://themoviefund.com/newtheme/wp-content/themes/moviefund/js/jquery-1.11.1.min.js" language="javascript"></script-->
+		
+
+<!--Bottom Scroller-->
+<script type="text/javascript">
+$(document).ready(function () {
+	x=8;
+	//size_li=100;
+	   // size_li = $("#testing div.col-md-3").size();
+	   // size_li_onemore=size_li+1;
+	    //alert(size_li);
+	$('#testing div.demo:lt('+x+')').show();
+	 $('#loadMore').click(function () {
+	 	 // $("li").eq(2).addClass("selected");
+	 	        //x= (x+3 <= size_li) ? x+3 : size_li;
+           // $('#aja div.post-com:lt('+size_li+')').fadeIn();
+            $('#aja div.post-com:gt(2)').fadeIn();
+            if(x==size_li){
+
+$( "#loadMore span" ).replaceWith( "<span class='no-underline'>No more posts</span>" );
+$( "#loadMore i" ).css("display","none");
+            }
+          
+    });
+});
+</script>
+
+<script>
+$(document).ready(function() {
+	
+	$('.team-post-conts, .partners-cont').each(function(){
+		var scHeight = $(this).find('center').height();
+		$(this).scrollTop( scHeight );
+	});
+
+$(".click-f").click(function(){
+$("#film-ker").css('display','block');
+$("#invest").css('display','none');
+});
+
+$(".click-").click(function(){
+$("#film-ker").css('display','none');
+$("#invest").css('display','block');
+});
+	
+});
+</script>
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: themoviefund.com @ 2016-01-06 06:51:49 by W3 Total Cache -->

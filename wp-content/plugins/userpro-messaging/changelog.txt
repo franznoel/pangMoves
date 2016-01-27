@@ -1,0 +1,39 @@
+Version 2.5 (04 Feb 2015)
+============================
+	- New feature : Added shortcode [userpro_message_list] to allow a logged-in user to view all of his/her messages on a post or page
+
+Version 2.4.1 (16 Jan 2015)
+============================
+	- Fixed Bug: Disclaimer Note that gets added to all private messages.
+	- New feature : After broadcasting a message, the sender receives an email about success / failure.
+
+Version 2.4 (22 Dec 2014)
+============================
+	- New feature : Added ability to broadcast a message to all registered users. Admins can restrict this by selecting which user roles have permission to broadcast
+
+Version 2.3 (20 Nov 2014)
+============================
+	- Added Spanish language.
+
+Version 2.2 (06 Nov 2014)
+============================
+	- Fixed XSS cross scripting vulnerability.
+	- Fixed message alignment issue
+
+Version 2.1 (09 Oct 2014)
+============================
+	- Added option for admin default message
+=============================
+Version 2.0 (29 Sep 2014)
+============================
+	- Fixed issue with message history
+
+Version 1.1 (7 Aug 2014)
+============================
+
+	- Added shortcode for My Messages [userpro_mymessage]
+
+Version 1.0 (21 Mar 2014)
+============================
+
+	- Base version

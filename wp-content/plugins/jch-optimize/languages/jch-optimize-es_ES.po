@@ -1,0 +1,753 @@
+#
+# Translators:
+# Dimos <dimos@transifex.com>, 2015
+# Samuel Marshall <sdmarshall73@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: JCH Optimize for WordPress\n"
+"POT-Creation-Date: 2015-11-15 20:08-0500\n"
+"PO-Revision-Date: 2015-12-01 14:35-0500\n"
+"Last-Translator: Samuel Marshall <sdmarshall73@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/jch-optimize/jch-optimize-for-wordpress/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;translate\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: jchoptimize\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: assets2\n"
+"X-Poedit-SearchPathExcluded-2: cache\n"
+"X-Poedit-SearchPathExcluded-3: languages\n"
+"X-Poedit-SearchPathExcluded-4: platform\n"
+
+#: jch-optimize.php:142
+msgid "Settings"
+msgstr "Ajustes"
+
+#: jchoptimize/admin.php:556
+msgid "Leverage browser caching"
+msgstr "Browser caching Apalancamiento"
+
+#: jchoptimize/admin.php:559
+msgid "Use this button to add codes to your htaccess file to leverage browser caching."
+msgstr "Utilice este botón para agregar códigos a su archivo .htaccess para aprovechar el almacenamiento en caché del navegador."
+
+#: jchoptimize/admin.php:564
+msgid "Fix file permissions"
+msgstr "Fijar los permisos de archivos"
+
+#: jchoptimize/admin.php:567
+msgid "If your site has lost CSS formatting after enabling the plugin, the problem could be that the plugin files were installed with incorrect file permissions so the browser cannot access the cached combined file. Click here to correct the plugin's file permissions."
+msgstr "Si su sitio ha perdido formato CSS después de activar el plugin, el problema podría ser que los archivos del plugin se instalan con permisos de archivo incorrectos por lo que el navegador no puede acceder al archivo combinado en caché. Haga clic aquí para corregir los permisos de archivos del plugin."
+
+#: jchoptimize/admin.php:572
+msgid "Clean Cache"
+msgstr "Caché Limpio"
+
+#: jchoptimize/admin.php:575
+msgid "Click this button to clean the plugin's cache and page cache. If you have edited any CSS or javascript files you need to clean the cache so the changes can be visible."
+msgstr "Haga clic en este botón para limpiar la memoria caché y caché de la página del plugin. Si ha editado ningún CSS o JavaScript archivos que necesita para limpiar la caché de modo que los cambios pueden ser visibles."
+
+#: jchoptimize/ajax.php:253
+msgid "Width"
+msgstr "Ancho"
+
+#: jchoptimize/ajax.php:254
+msgid "Height"
+msgstr "Altura"
+
+#: options.php:27
+msgid "JCH Optimize Pro Settings"
+msgstr "JCH Optimizar Ajustes Pro"
+
+#: options.php:43
+msgid "This plugin requires PHP 5.3.0 or greater to run. Your installed version is: "
+msgstr "Este plugin requiere PHP 5.3.0 o superior para funcionar. Su versión instalada es:"
+
+#: options.php:54 options.php:143
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: options.php:69
+msgid "Description"
+msgstr "Descripción"
+
+#: options.php:78
+msgid "Basic Options"
+msgstr "Opciones básicas"
+
+#: options.php:79
+msgid "Advanced Options"
+msgstr "opciones avanzadas"
+
+#: options.php:80
+msgid "Exclude Options"
+msgstr "Excluir Opciones"
+
+#: options.php:81
+msgid "Free Features"
+msgstr "Características Gratis"
+
+#: options.php:82
+msgid "Pro Features"
+msgstr "Pro Características"
+
+#: options.php:83 options.php:347 options.php:1471
+msgid "Optimize Images"
+msgstr "Optimizar Imágenes"
+
+#: options.php:100
+#, php-format
+msgid "This is the free version of JCH Optimize for WordPress. For access to advanced features, please <a href=\"%s\" target=\"_blank\">purchase the Pro Version!</a>"
+msgstr "Esta es la versión gratuita de JCH Optimize for WordPress. Para el acceso a funciones avanzadas, por favor <a href=\"%s\" target=\"_blank\">comprar la versión Pro!</a>"
+
+#: options.php:108
+msgid "This plugin speeds up your website by performing a number of front end optimizations to your website automatically. These optimizations reduce both your webpage size and the number of http requests required to download your webpages and results in reduced server load, lower bandwidth requirements, and faster page loading times."
+msgstr "Este plugin acelera su sitio web mediante la realización de forma automática una serie de optimizaciones de front-end de su sitio web. Estas optimizaciones reducen tanto el tamaño de su página web y el número de peticiones http necesarios para descargar sus páginas web y los resultados en la reducción de la carga del servidor, los requisitos de ancho de banda más bajos, y los tiempos de carga de la página más rápidos."
+
+#: options.php:110
+msgid "Major Features"
+msgstr "Características principales"
+
+#: options.php:112
+msgid "Combine and gzip CSS and javascript files"
+msgstr "Combinar y archivos CSS y JavaScript gzip"
+
+#: options.php:113
+msgid "Minify combined files and HTML"
+msgstr "Minify combinar archivos y HTML"
+
+#: options.php:114
+msgid "Combine select background images into a sprite"
+msgstr "Combine seleccione las imágenes de fondo en un sprite"
+
+#: options.php:115
+msgid "Generate sprite to combine background images."
+msgstr "Generar sprites para combinar las imágenes de fondo."
+
+#: options.php:116
+msgid "CDN support <small style=\"color:red\"><em>Pro Version Only</em></small>"
+msgstr "<small style=\"color:red\"><em>Sólo</em></small> el apoyo CDN <small style=\"color:red\"><em>versión Pro</em></small>"
+
+#: options.php:117
+msgid "Lazy-load images <small style=\"color:red\"><em>Pro Version Only</em></small>"
+msgstr "<small style=\"color:red\"><em>Sólo</em></small> imágenes Lazy-carga <small style=\"color:red\"><em>Pro Versión</em></small>"
+
+#: options.php:118
+msgid "Optimize CSS Delivery <small style=\"color:red\"><em>Pro Version Only</em></small>"
+msgstr "Optimizar <small style=\"color:red\"><em>Sólo</em></small> CSS Entrega <small style=\"color:red\"><em>Pro Versión</em></small>"
+
+#: options.php:119
+msgid "Optimize Images <small style=\"color:red\"><em>Pro Version Only</em></small>"
+msgstr "<small style=\"color:red\"><em>Sólo</em></small> Optimizar Imágenes <small style=\"color:red\"><em>versión Pro</em></small>"
+
+#: options.php:121
+msgid "Instructions"
+msgstr "Instrucciones"
+
+#: options.php:122
+msgid "First deactivate all page caching features and plugins, then use the 'Automatic Settings' <span class=\"notranslate\">(Minimum - Optimum)</span> to configure the plugin. The 'Automatic Settings' are concerned with the combining of the CSS and javascript files, and the management of the combined files, and automatically sets the options in the 'Automatic Settings Groups'. Use the Exclude options to exclude files or plugins that don't work so well with JCH Optimize. You can then try the other optimization features in turn to further configure the plugin and optimize your site. Flush all your cache before re-enabling caching plugins."
+msgstr "Primero desactivar todas las funciones de la página en caché y plugins, a continuación, utilizar la 'Configuración automática' <span class=\"notranslate\">(Minimum - Optimum)</span> para configurar el plugin. Los 'Configuración automática \"tienen que ver con la combinación de la CSS y javascript archivos y la gestión de los archivos combinados, y ajusta automáticamente las opciones de los' ajustes automáticos Grupos '. Utilice las opciones Excluir para excluir archivos o plugins que no funcionan tan bien con JCH Optimizar. A continuación, puede probar las otras funciones de optimización a su vez, para seguir configurando el plugin y optimizar su sitio. Lave toda la memoria caché antes de volver a plugins que permiten el almacenamiento en caché."
+
+#: options.php:123
+msgid "Support"
+msgstr "Soporte"
+
+#: options.php:124
+#, php-format
+msgid "First check out the <a href=\"%1$s\" target=\"_blank\">documentation</a> and especially the <a href=\"%2$s\" target=\"_blank\">tutorials</a> on the plugin's website to learn how to use and configure the plugin."
+msgstr "Primero echa un vistazo a la <a href=\"%1$s\" target=\"_blank\">documentación</a> y especialmente a los <a href=\"%2$s\" target=\"_blank\">tutoriales</a> en la web del plugin para aprender a utilizar y configurar el plugin."
+
+#: options.php:125
+#, php-format
+msgid "To get a more verbose description of the plugin options go <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr "Para obtener una descripción más detallada del plugin opciones van <a href=\"%s\" target=\"_blank\">aquí.</a>"
+
+#: options.php:126
+#, php-format
+msgid "Read <a href=\"%s\" target=\"_blank\">Here</a> for some troubleshooting guides to resolve some common issues users generally encounter with using the plugin."
+msgstr "Lea <a href=\"%s\" target=\"_blank\">aquí</a> para guía alguna solución de problemas para resolver algunos problemas comunes que los usuarios suelen encontrar con el uso del plugin."
+
+#: options.php:127
+#, php-format
+msgid "You'll need a subscription to submit tickets to get premium support in configuring the plugin to resolve conflicts so <a href=\"%1$s\" target=\"_blank\">subscribe</a> to <em>JCH OptimizePro for WordPress</em> and access your account to submit a ticket. Otherwise you can use the <a href=\"%2$s\" target=\"_blank\" >Forums</a> on the plugin's website or the <a href=\"%3$s\" target=\"_blank\" >WordPress support system</a> to submit support requests."
+msgstr "Usted necesitará una suscripción a presentar entradas para obtener soporte premium para configurar el plugin para resolver los conflictos de manera <a href=\"%1$s\" target=\"_blank\">suscribirse</a> a <em>JCH OptimizePro para WordPress</em> y accede a tu cuenta para enviar un ticket. De lo contrario, se pueden utilizar los <a href=\"%2$s\" target=\"_blank\" >Foros</a> en la página web del plugin o el <a href=\"%3$s\" target=\"_blank\" >sistema de soporte de WordPress</a> para enviar solicitudes de atención."
+
+#: options.php:128
+#, php-format
+msgid "If you use this plugin please consider posting a review on the plugin's <a href=\"%s\" target=\"_blank\" >WordPress page</a>. If you're having problems, please submit for support and give us a chance to resolve your issues before reviewing. Thanks."
+msgstr "Si utiliza este plugin por favor considere publicar un comentario del plugin <a href=\"%s\" target=\"_blank\" >página de WordPress.</a> Si usted está teniendo problemas, por favor presente para el apoyo y nos dan una oportunidad de resolver sus problemas antes de revisar. Gracias."
+
+#: options.php:199
+msgid "Automatic Settings"
+msgstr "Ajustes automáticos"
+
+#: options.php:201
+msgid "Utility Settings"
+msgstr "Configuración de utilidad"
+
+#: options.php:206
+msgid "Automatic Basic Settings"
+msgstr "Configuración básica automáticas"
+
+#: options.php:208
+msgid "Combine CSS Files"
+msgstr "Combine CSS Archivos"
+
+#: options.php:209
+msgid "Combine Javascript Files"
+msgstr "Combine Javascript Archivos"
+
+#: options.php:211
+msgid "Gzip Combined Files"
+msgstr "Gzip Archivos Combinada"
+
+#: options.php:212
+msgid "Minify Combined CSS File"
+msgstr "Minify Combinado CSS Archivo"
+
+#: options.php:214
+msgid "Minify Combined Javascript File"
+msgstr "Minify Combinado Javascript Archivo"
+
+#: options.php:216
+msgid "Minify HTML"
+msgstr "Minify HTML"
+
+#: options.php:218
+msgid "Defer combined javascript"
+msgstr "Aplazar combinado javascript"
+
+#: options.php:220
+msgid "Manage Combined Files"
+msgstr "Administrar archivos Combinada"
+
+#: options.php:223
+msgid "Automatic Exclude Settings"
+msgstr "Automática Excluir Ajustes"
+
+#: options.php:225
+msgid "Include files from all plugins"
+msgstr "Incluya los archivos de todos los plugins"
+
+#: options.php:228
+msgid "Automatic Pro Settings"
+msgstr "Ajustes automáticos Pro"
+
+#: options.php:230
+msgid "Replace <span class=\"notranslate\">@imports</span> in CSS"
+msgstr "Reemplazar <span class=\"notranslate\">@imports</span> en CSS"
+
+#: options.php:232
+msgid "Include PHP files and files from external domains"
+msgstr "Incluir archivos PHP y archivos de dominios externos"
+
+#: options.php:234
+msgid "Include inline CSS styles"
+msgstr "Incluir estilos CSS en línea"
+
+#: options.php:236
+msgid "Include inline scripts"
+msgstr "Incluya guiones en línea"
+
+#: options.php:238
+msgid "Parse <span class=\"notranslate\">&lt;body&gt;</span> in page for CSS/Js files"
+msgstr "Parse <span class=\"notranslate\">&lt;body&gt;</span> en la página para los archivos CSS / Js"
+
+#: options.php:240
+msgid "Load combined javascript asynchronously"
+msgstr "Cargar javascript combinado de forma asíncrona"
+
+#: options.php:245
+msgid "HTML Minification Level"
+msgstr "HTML Minificación Nivel"
+
+#: options.php:247
+msgid "Enable url re-writing"
+msgstr "Habilitar url reescritura"
+
+#: options.php:249
+msgid "Lifetime (days)"
+msgstr "Lifetime (días)"
+
+#: options.php:252
+msgid "Debug plugin"
+msgstr "Plugin de depuración"
+
+#: options.php:253
+msgid "Log Exceptions"
+msgstr "Entrar Excepciones"
+
+#: options.php:254
+msgid "Use <span class=\"notranslate\">try-catch</span>"
+msgstr "Utilice <span class=\"notranslate\">try-catch</span>"
+
+#: options.php:262
+msgid "Exclude these CSS files"
+msgstr "Excluir estos archivos CSS"
+
+#: options.php:264
+msgid "Exclude these javascript files"
+msgstr "Excluir estos archivos javascript"
+
+#: options.php:266
+msgid "Exclude CSS files from these plugins"
+msgstr "Excluir archivos CSS de estos plugins"
+
+#: options.php:268
+msgid "Exclude javascript files from these plugins"
+msgstr "Excluir archivos javascript de estos plugins"
+
+#: options.php:271
+msgid "Exclude javascript dynamically"
+msgstr "Excluir javascript dinámicamente"
+
+#: options.php:273
+msgid "Load these individual javascript files dynamically"
+msgstr "Cargue estos archivos javascript individuales dinámicamente"
+
+#: options.php:277
+msgid "Exclude inline styles"
+msgstr "Excluir los estilos en línea"
+
+#: options.php:279
+msgid "Exclude inline scripts"
+msgstr "Excluir los scripts en línea"
+
+#: options.php:283
+msgid "Remove CSS files"
+msgstr "Eliminar archivos CSS"
+
+#: options.php:285
+msgid "Remove javascript files"
+msgstr "Eliminar archivos javascript"
+
+#: options.php:290 options.php:309 options.php:321 options.php:334
+msgid "Enable"
+msgstr "Habilitar"
+
+#: options.php:292
+msgid "Sprite Build Direction"
+msgstr "Sprite Dirección Build"
+
+#: options.php:294
+msgid "Wrap Images"
+msgstr "Wrap Imágenes"
+
+#: options.php:296
+msgid "Exclude these images from the sprite"
+msgstr "Excluir estas imágenes desde el sprite"
+
+#: options.php:298
+msgid "Include these images in the sprite"
+msgstr "Incluya estas imágenes en el sprite"
+
+#: options.php:305
+msgid "Download ID"
+msgstr "Descargar ID"
+
+#: options.php:311
+msgid "Domain 1"
+msgstr "Domain 1"
+
+#: options.php:313
+msgid "Domain 2"
+msgstr "Dominio 2"
+
+#: options.php:315
+msgid "Domain 3"
+msgstr "Dominio 3"
+
+#: options.php:317
+msgid "Static Files"
+msgstr "Archivos estático"
+
+#: options.php:323
+msgid "Exclude these images"
+msgstr "Excluir estas imágenes"
+
+#: options.php:325
+msgid "Exclude these folders"
+msgstr "Excluir estas carpetas"
+
+#: options.php:328
+msgid "Exclude these classes"
+msgstr "Excluir estas clases"
+
+#: options.php:337
+msgid "Number of Elements"
+msgstr "Número de elementos"
+
+#: options.php:344
+msgid "Backup Images"
+msgstr "Imágenes de copia de seguridad"
+
+#: options.php:429
+msgid "Please open a directory to optimize images"
+msgstr "Por favor, abrir un directorio para optimizar imágenes"
+
+#: options.php:463
+msgid "The plugin's cache files were deleted successfully!"
+msgstr "Archivos de caché del plugin se eliminaron con éxito!"
+
+#: options.php:467
+msgid "An error occurred while trying to delete the plugin's cache files!"
+msgstr "Se produjo un error al intentar eliminar archivos de caché del plugin!"
+
+#: options.php:481
+msgid "The plugin failed to add the 'leverage browser cache' codes to the .htaccess file."
+msgstr "El plug-in no pudo agregar códigos de la \"caché del navegador apalancamiento 'en el fichero .htaccess."
+
+#: options.php:485
+msgid "An .htaccess file could not be found in the root folder of the site."
+msgstr "Un archivo .htaccess no se pudo encontrar en la carpeta raíz del sitio."
+
+#: options.php:489
+msgid "Codes for 'leverage browser caching' already exists in the .htaccess file."
+msgstr "Códigos para 'browser caching apalancamiento' ya existe en el archivo .htaccess."
+
+#: options.php:493
+msgid "Codes for 'leverage browser caching' were added to the .htaccess file successfully."
+msgstr "Códigos para 'browser caching apalancamiento' se añadieron al archivo .htaccess con éxito."
+
+#: options.php:525
+msgid "The permissions of all the files and folders in the plugin were successfully updated."
+msgstr "Los permisos de todos los archivos y carpetas en el plugin se actualizaron correctamente."
+
+#: options.php:529
+msgid "The plugin failed to update the permissions of the files and folders in the plugin."
+msgstr "El plug-in no pudo actualizar los permisos de los archivos y carpetas en el plugin."
+
+#: options.php:599
+#, php-format
+msgid "<span class=\"notranslate\">%1$d</span> images were optimized in <span class=\"notranslate\">%2$s</span>"
+msgstr "<span class=\"notranslate\">%1$d</span> imágenes fueron optimizadas <span class=\"notranslate\">%2$s</span>"
+
+#: options.php:603
+#, php-format
+msgid "Failed to optimize image: <span class=\"notranslate\">%1$s</span>"
+msgstr "No se ha podido optimizar la <span class=\"notranslate\">%1$s</span>"
+
+#: options.php:678
+msgid "The six icons that are above represent six preconfigured settings of the options in the 'Automatic Settings Group'. The level of optimization increases as you go to the right but the risks of conflicts will also increase, so try each in turn and use the highest setting that work for your site. The first, which is the safest, is the default and should work on most websites. These settings do not affect the files/extensions/images etc. that you have excluded."
+msgstr "Los seis iconos que están por encima representan seis valores preconfigurados de las opciones en el 'Grupo de ajustes automáticos'. El nivel de los aumentos de optimización a medida que avanza hacia la derecha, pero los riesgos de conflictos también aumentará, a fin de tratar cada uno de ellos y utilizar el valor más alto que el trabajo para su sitio. El primero, que es el más seguro, es el defecto y debería funcionar en la mayoría de sitios web. Estos ajustes no afectan a los archivos / extensiones / imágenes, etc. que has excluidos."
+
+#: options.php:701
+msgid "Automatic Settings Group"
+msgstr "Configuración automática Grupo"
+
+#: options.php:702
+msgid "The fields in this group are automatically configured with the Automatic Settings - <span class=\"notranslate\">(Minimum - Optimum)</span>. This is highly recommended to avoid conflicts. It is usually not necessary to set these fields manually unless you are troubleshooting a problem, so do not change these settings yourself unless you know what you are doing ."
+msgstr "Los campos de este grupo se configuran automáticamente con los ajustes automáticos - <span class=\"notranslate\">(Minimum - Optimum)</span> Esto es muy recomendable para evitar conflictos. Por lo general, no es necesario establecer estos campos manualmente a menos que esté solucionando un problema, así que no cambiar esta configuración usted mismo a menos que sepa lo que está haciendo."
+
+#: options.php:721
+msgid "This will combine all CSS files into one file and remove all the links to the individual files from the page, replacing it with a link generated by the plugin to the combined file."
+msgstr "Esto combinará todos los archivos CSS en un archivo y eliminar todos los enlaces a los archivos individuales en la página, sustituyéndolo por un vínculo generado por el plugin para el archivo combinado."
+
+#: options.php:729
+msgid "This will combine all javascript files into one file and remove all the links to the individual files from the page, replacing it with a link generated by the plugin to the combined file."
+msgstr "Esto combinará todos los archivos de Javascript en un archivo y eliminar todos los enlaces a los archivos individuales en la página, sustituyéndolo por un vínculo generado por el plugin para el archivo combinado."
+
+#: options.php:737
+msgid "This setting compresses the generated javascript and CSS combined files with gzip, decreasing file size dramatically. This can decrease file size dramatically."
+msgstr "Este ajuste comprime los generados javascript y archivos combinados CSS con gzip, la disminución de tamaño de archivo de forma espectacular. Esto puede reducir drásticamente el tamaño del archivo."
+
+#: options.php:745
+msgid "If yes, the plugin will remove all unnecessary whitespaces and comments from the combined CSS file to reduce the total file size."
+msgstr "En caso afirmativo, el plugin eliminará todos los espacios en blanco innecesarios y comentarios del archivo CSS combinado para reducir el tamaño total del archivo."
+
+#: options.php:753
+msgid "If yes, the plugin will remove all unnecessary whitespaces and comments from the combined javascript file to reduce the total file size."
+msgstr "En caso afirmativo, el plugin eliminará todos los espacios en blanco y comentarios innecesarios del archivo javascript combinado para reducir el tamaño total del archivo."
+
+#: options.php:761
+msgid "If yes, the plugin will remove all unneccessary whitespaces and comments from HTML to reduce the total size of the web page."
+msgstr "En caso afirmativo, el plugin eliminará todos los espacios en blanco innecesarios y los comentarios de HTML para reducir el tamaño total de la página web."
+
+#: options.php:769
+msgid "This option will add a <span class=\"notranslate\">'defer'</span> attribute to the link of the combined javascript file. This will defer the loading of the javascript until after the page is loaded to reduce 'render-blocking'.  Do not configure this setting manually to avoid breaking your page."
+msgstr "Esta opción añadirá un <span class=\"notranslate\">'defer'</span> para el enlace del archivo javascript combinado. Esto diferir la carga del javascript hasta después de la página se carga para reducir 'render de bloqueo'. No configure este ajuste manualmente para evitar la fractura de su página."
+
+#: options.php:777
+msgid "Select where and how to place the links for the combined css and javascript files. Options are, 'Preserve Execution Order', that will split the combined file and place them around and between excluded files accordingly, 'Combine all files to one', that will combine all included files into one and place them just below the <span class=\"notranslate\">&lt;title&gt;</span> tag, and 'Place JS at bottom', that will place the combined CSS file below the <span class=\"notranslate\">&lt;title&gt;</span> tag but the combined javascript file will be just before the ending <span class=\"notranslate\">&lt;/body&gt;</span> tag."
+msgstr "Seleccionar dónde y cómo colocar los enlaces para el css combinado y javascript archivos. Las opciones son: \"Preservar Ejecución de Órdenes\", que se dividirá el archivo combinado y colocarlos alrededor y entre los archivos excluidos en consecuencia, 'Combine todos los archivos a uno', que combinará todos los archivos incluidos en uno y colocarlos justo debajo de la <span class=\"notranslate\">&lt;title&gt;</span> etiqueta, y 'Place JS en la parte inferior \", que colocará el archivo CSS combinado por debajo de la <span class=\"notranslate\">&lt;title&gt;</span> etiqueta, pero el archivo javascript combinado será justo antes de la terminación <span class=\"notranslate\">&lt;/body&gt;</span> etiqueta."
+
+#: options.php:781
+msgid "Preserve execution order"
+msgstr "Preservar orden de ejecución"
+
+#: options.php:782
+msgid "Combine files into one"
+msgstr "Combinar archivos en un"
+
+#: options.php:783
+msgid "Place javascript at bottom"
+msgstr "Coloque el javascript en la parte inferior"
+
+#: options.php:796
+msgid "By default, all files from third party plugins and external domains are excluded. If this setting is enabled, they will be included."
+msgstr "Por defecto, se excluyen todos los archivos de plugins de terceros y dominios externos. Si esta opción está activada, se incluirán."
+
+#: options.php:807
+msgid "The plugin will replace <span class=\"notranslate\">@import</span> at-rules with the contents of the files they are importing. This will be done recursively."
+msgstr "El plugin <span class=\"notranslate\">@import</span> en-reglas con el contenido de los archivos que se importan. Esto se hará de forma recursiva."
+
+#: options.php:821
+msgid "Javascript and css files with <span class=\"notranslate\">'.php'</span> file extensions, and files from external domains will be included in the combined file. This option requires that either <span class=\"notranslate\">cURL</span> is installed on your server or your php option <span class=\"notranslate\">'allow_url_fopen'</span> is enabled."
+msgstr "Archivos javascript y css con <span class=\"notranslate\">'.php'</span> extensiones de archivos y los archivos de dominios externos se incluirán en el archivo combinado. Esta opción requiere que sea <span class=\"notranslate\">cURL</span> está instalado en el servidor o la opción php <span class=\"notranslate\">'allow_url_fopen'</span> está habilitada."
+
+#: options.php:835
+msgid "In-page CSS inside <span class=\"notranslate\">&lt;style&gt;</span> tags will be included in the aggregated file in the order they appear on the page."
+msgstr "Dentro de la página de CSS dentro de <span class=\"notranslate\">&lt;style&gt;</span> etiquetas se incluirá en el archivo agregado en el orden en que aparecen en la página."
+
+#: options.php:848
+msgid "In-page javascript inside <span class=\"notranslate\">&lt;script&gt;</span> tags will be included in the combined file in the order they appear on the page."
+msgstr "Dentro de la página de javascript en el interior <span class=\"notranslate\">&lt;script&gt;</span> etiquetas se incluyen en el archivo combinado en el orden en que aparecen en la página."
+
+#: options.php:862
+msgid "By default, the plugin only combines files found in the <span class=\"notranslate\">&lt;head&gt;</span> section of the HTML. This option extends the search to the <span class=\"notranslate\">&lt;body&gt;</span> section."
+msgstr "Por defecto, el plugin sólo combina archivos encontrados en el <span class=\"notranslate\">&lt;head&gt;</span> sección del HTML. Esta opción se extiende la búsqueda a la <span class=\"notranslate\">&lt;body&gt;</span> sección."
+
+#: options.php:876
+msgid "The combined javascript file will be loaded asynchronously to avoid 'render-blocking' and speed up download of the web page."
+msgstr "El archivo javascript combinado se cargará de forma asíncrona para evitar 'render-bloqueo \"y acelerar la descarga de la página web."
+
+#: options.php:895
+msgid "Advanced Settings"
+msgstr "Ajustes avanzados"
+
+#: options.php:902
+msgid "If 'Minify HTML' is enabled, this will determine the level of minification. The incremental changes per level are as follows: Basic - Adjoining whitespaces outside of elements are reduced to one whitespace; Advanced - Remove HTML comments, whitespace around block elements and undisplayed elements, Remove unnecessary whitespaces inside of elements and around their attributes; Ultra - Remove redundant attributes, for example, <span class=\"notranslate\">'text/javascript'</span>, and remove quotes from around selected attributes (HTML5)"
+msgstr "Si 'Minify HTML' está activada, esto determinará el nivel de minificación. Los cambios incrementales por nivel son los siguientes: Básico - Adjoining espacios en blanco fuera de elementos se reducen a un solo espacio en blanco; Avanzada - Quitar los comentarios HTML, espacio en blanco alrededor de los elementos de bloque y elementos no visualizados, quitar espacios en blanco innecesarios en el interior de los elementos y alrededor de sus atributos; Ultra - Quitar atributos redundantes, por ejemplo, <span class=\"notranslate\">'text/javascript'</span> y retirar las cotizaciones de los atributos seleccionados alrededor (HTML5)"
+
+#: options.php:906
+msgid "Basic"
+msgstr "Básico"
+
+#: options.php:907
+msgid "Advanced"
+msgstr "Avanzada"
+
+#: options.php:908
+msgid "Ultra"
+msgstr "Ultra"
+
+#: options.php:916
+msgid "By default auto is selected and the plugin will detect if mod_rewrite is enabled and will use 'url rewriting' to remove the query from the link to the combined file to promote proxy caching. The plugin will then automatically select 'Yes' or 'No' based on whether support for url rewriting is detected. You can manually select the one you want if the plugin got it wrong."
+msgstr "Por se selecciona automático por defecto y el plugin detectará si mod_rewrite está habilitado y usará 'url reescribir' para eliminar la consulta desde el enlace al archivo combinado para promover el almacenamiento en caché de proxy. El plugin se seleccione automáticamente 'Sí' o 'No' en función de si se detecta el apoyo a la reescritura de URL. Puede seleccionar manualmente el que desea si el plugin se equivocó."
+
+#: options.php:920
+msgid "No"
+msgstr "No"
+
+#: options.php:921
+msgid "Yes"
+msgstr "Sí"
+
+#: options.php:922
+msgid "Yes (Without Options +FollowSymLinks)"
+msgstr "Sí (sin opciones + FollowSymLinks)"
+
+#: options.php:923
+msgid "Auto"
+msgstr "Auto"
+
+#: options.php:931
+msgid "Lifetime of aggregated cached file, measured in days."
+msgstr "Vida de archivo en caché agregado, medido en días."
+
+#: options.php:940
+msgid "Troubleshooting Settings"
+msgstr "Ajustes Solución de problemas"
+
+#: options.php:941
+msgid "These settings are useful for debugging issues with the plugin."
+msgstr "Estos ajustes son útiles para depurar problemas con el plugin."
+
+#: options.php:948
+msgid "This option will add the 'commented out' url of the individual files inside the combined file above the contents that came from that file. This is useful when configuring the plugin and trying to resolve conflicts. This will also add a <span class=\"notranslate\">Profiler</span> menu to the <span class=\"notranslate\">AdminBar</span> so you can review the times that the plugin methods take to run."
+msgstr "Esta opción agregará el 'comentada' url de los archivos individuales dentro del archivo combinado por encima de los contenidos que venían de ese archivo. Esto es útil cuando se configura el plugin y tratar de resolver los conflictos. Esto también añadirá un <span class=\"notranslate\">Profiler</span> menú a la <span class=\"notranslate\">AdminBar</span> para que pueda revisar los tiempos que los métodos del plugin toman para funcionar."
+
+#: options.php:955
+msgid "Error messages will be written in a file called <span class=\"notranslate\">'jch-optimize.log'</span> file in the plugin's logs folder."
+msgstr "Los mensajes de error se escriben en un archivo llamado <span class=\"notranslate\">'jch-optimize.log'</span> archivo en carpeta de registros del plugin."
+
+#: options.php:962
+msgid "If you're seeing javascript errors in the console, you can try enabling this option to wrap each javascript file in a <span class=\"notranslate\">'try-catch'</span> block to prevent the errors from one file affecting the combined file."
+msgstr "Si usted está viendo javascript errores en la consola, puede intentar habilitar esta opción para envolver cada archivo javascript en un <span class=\"notranslate\">'try-catch'</span> bloque para evitar los errores de un archivo que afectan al archivo combinado."
+
+#: options.php:1007
+#, php-format
+msgid "Number of files: <span class=\"notranslate\">%d</span>"
+msgstr "Número de <span class=\"notranslate\">%d</span>"
+
+#: options.php:1008
+#, php-format
+msgid "Size: <span class=\"notranslate\">%s</span>"
+msgstr "<span class=\"notranslate\">%s</span>"
+
+#: options.php:1025
+msgid "Exclude files and plugins"
+msgstr "Excluir archivos y plugins"
+
+#: options.php:1026
+msgid "These are the settings used to exclude individual files or files from select plugins if the files do not work well when they are combined by the plugin. If you're not seeing the files or extensions you want to exclude in the drop-down list, you can  manually add the files or plugins to the list. To add a file to the list manually, type the url in the textbox and click the 'Add item' button."
+msgstr "Estos son los valores utilizados para excluir archivos o archivos individuales de selección de plugins si los archivos no funcionan bien cuando se combinan por el plugin. Si usted no está viendo los archivos o las extensiones que desea excluir de la lista desplegable, puede agregar manualmente los archivos o plugins a la lista. Para agregar un archivo a la lista manualmente, escriba la dirección URL en el cuadro de texto y haga clic en el botón \"Añadir elemento\"."
+
+#: options.php:1034
+msgid "Select the CSS files you want to exclude."
+msgstr "Seleccione los archivos CSS que desea excluir."
+
+#: options.php:1044
+msgid "Select the javascript files you want to exclude."
+msgstr "Seleccione los archivos de javascript que desea excluir."
+
+#: options.php:1054
+msgid "Select the plugins that you want to exclude CSS files from."
+msgstr "Seleccione los plugins que desea excluir archivos CSS de."
+
+#: options.php:1064
+msgid "Select the plugins that you want to exclude javascript files from."
+msgstr "Seleccione los plugins que desea excluir archivos javascript desde."
+
+#: options.php:1080
+msgid "The links to these files will be removed from the HTML but their contents will not be placed in the combined file. Instead, they will be loaded dynamically from the combined file. You can try using this option if you want to exclude a javascript file while using a setting higher than <span class=\"notranslate\">'Average'</span> and still preserve the original execution order of the files on the page."
+msgstr "Los enlaces a estos archivos se quitan del HTML, pero su contenido no se colocarán en el archivo combinado. En su lugar, se cargarán de forma dinámica desde el archivo combinado. Puedes probar a utilizar esta opción si desea excluir un archivo javascript durante el uso de un ajuste superior a <span class=\"notranslate\">'Average'</span> y aún preservar el orden de ejecución original de los archivos de la página."
+
+#: options.php:1100
+msgid "Exclude inline styles and inline scripts from aggregation"
+msgstr "Excluir los estilos en línea y guiones de línea de agregación"
+
+#: options.php:1101
+msgid "These settings are used to exclude 'in-page' CSS and javascript inside <span class=\"notranslate\">&lt;style&gt;</span> and <span class=\"notranslate\">&lt;script&gt;</span> tags respectively. The first few characters that appear in these tags will show in the drop-down list. To add a <span class=\"notranslate\">&lt;style&gt;</span> or <span class=\"notranslate\">&lt;script&gt;</span> manually, type a word or phrase that is unique to the <span class=\"notranslate\">&lt;style&gt;</span> or <span class=\"notranslate\">&lt;script&gt;</span> in the textbox and click the 'Add item' button"
+msgstr "Esta configuración se utiliza para excluir 'en la página' CSS y Javascript dentro de <span class=\"notranslate\">&lt;style&gt;</span> y <span class=\"notranslate\">&lt;script&gt;</span> etiquetas respectivamente. Los primeros caracteres que aparecen en estas etiquetas se mostrarán en la lista desplegable. Para agregar un <span class=\"notranslate\">&lt;style&gt;</span> o <span class=\"notranslate\">&lt;script&gt;</span> manualmente, escriba una palabra o frase que es único en la <span class=\"notranslate\">&lt;style&gt;</span> o <span class=\"notranslate\">&lt;script&gt;</span> botón en el cuadro de texto y haga clic en \"Añadir punto\""
+
+#: options.php:1109
+msgid "Select the 'in-page' <span class=\"notranslate\">&lt;style&gt;</span> you want to exclude."
+msgstr "Seleccione la 'in-page' <span class=\"notranslate\">&lt;style&gt;</span> que desea excluir."
+
+#: options.php:1127
+msgid "Select the 'in-page' <span class=\"notranslate\">&lt;script&gt;</span> you want to exclude."
+msgstr "Seleccione la 'in-page' <span class=\"notranslate\">&lt;script&gt;</span> que desea excluir."
+
+#: options.php:1147
+msgid "Remove CSS and javascript files from the page"
+msgstr "Eliminar los archivos CSS y JavaScript de la página"
+
+#: options.php:1148
+msgid "These settings will remove the css and javascript files you have selected from the page and prevent them from downloading. This is useful for removing unused and unwanted files to help prevent conflicts and further optimize the page."
+msgstr "Estos ajustes se retire el css y javascript archivos que ha seleccionado en la página y evitar que se descarga. Esto es útil para la eliminación de archivos no utilizados y no deseados para ayudar a prevenir los conflictos y optimizar aún más la página."
+
+#: options.php:1156
+msgid "Remove the CSS files that you have selected from the page."
+msgstr "Quitar los archivos CSS que haya seleccionado en la página."
+
+#: options.php:1168
+msgid "Remove the javascript files that you have selected from the page."
+msgstr "Quitar los archivos javascript que haya seleccionado en la página."
+
+#: options.php:1197
+msgid "Sprite Generator"
+msgstr "Sprite Generador"
+
+#: options.php:1198
+msgid "If yes will combine selected background images in one image called a sprite to reduce http requests."
+msgstr "En caso afirmativo se combinan imágenes de fondo seleccionados en una imagen llamada un sprite para reducir peticiones http."
+
+#: options.php:1213
+msgid "Determine in which direction the images must be placed in the sprite."
+msgstr "Determinar en qué dirección las imágenes deben ser colocados en el sprite."
+
+#: options.php:1215
+msgid "vertical"
+msgstr "vertical"
+
+#: options.php:1215
+msgid "horizontal"
+msgstr "horizontal"
+
+#: options.php:1222
+msgid "This setting will wrap images in sprite into another row or column if the length of the sprite becomes longer than 2000px."
+msgstr "Esta configuración se ajustará imágenes en el sprite en otra fila o columna si la longitud del sprite se vuelve más largo que 2000px."
+
+#: options.php:1230
+msgid "You can exclude one or more of the images if they are displayed incorrectly."
+msgstr "Puede excluir una o más de las imágenes si se muestran incorrectamente."
+
+#: options.php:1242
+msgid "You can include additional images in the sprite to the ones that were selected by default. Exercise care with this option as these files are likely to not display correctly."
+msgstr "Puede incluir imágenes adicionales en el sprite a los que han sido seleccionados de forma predeterminada. Tenga cuidado con esta opción ya que estos archivos es probable que no se muestren correctamente."
+
+#: options.php:1264
+msgid "Enter your download ID to enable automatic updates of the pro version. Log into your account on the jch-optimize.net website and access the download id from the 'My Account -> My Download ID' menu item"
+msgstr "Introduzca su ID de descarga para permitir actualizaciones automáticas de la versión pro. Acceda a su cuenta en el sitio web jch-optimize.net y acceder a la Identificación descarga desde el \"Mi Cuenta -> Mis Descargar ID 'elemento de menú"
+
+#: options.php:1280
+msgid "CDN/Cookieless Domain"
+msgstr "CDN / sin cookies de dominio"
+
+#: options.php:1281
+msgid "Enter your CDN or cookieless domain here. The plugin will load all static files including background images, combined javascript and css files, and generated sprite from this domain. This requires that this domain is already set up and points to your site root. You can also use multiple domains and the plugin will alternate the domains among the static files. You can also select the file types that you want to be loaded over these domains."
+msgstr "Escriba su CDN o dominio sin cookies aquí. El plug-in se carga todos los archivos estáticos, incluyendo imágenes de fondo, archivos javascript y css combinados, y Sprite generado a partir de este dominio. Para ello es necesario que este dominio ya está configurado y apunta a la raíz del sitio. También puede utilizar varios dominios y el plugin se alternarán los dominios entre los archivos estáticos. También puede seleccionar los tipos de archivo que desea que se cargue sobre estos dominios."
+
+#: options.php:1353
+msgid "Lazy Load Images"
+msgstr "Lazy Cargar imágenes"
+
+#: options.php:1354
+msgid "Enable to delay the loading of images until they are scrolled into view. This further speeds up the loading of the page and reduces http requests."
+msgstr "Habilitar para retrasar la carga de imágenes hasta que se desplazan a la vista. Esto además acelera la carga de la página y reduce peticiones http."
+
+#: options.php:1362
+msgid "Enable to delay the loading of images until after the page loads and they are scrolled into view. This further reduces http requests and speeds up the loading of the page."
+msgstr "Permiten retrasar la carga de imágenes hasta que se carga la página y que se desplazan a la vista. Esto reduce aún más peticiones http y acelera la carga de la página."
+
+#: options.php:1376
+msgid "Select or manually add the urls of the images you want to exclude from lazy load."
+msgstr "Seleccione o agregar manualmente las direcciones URL de las imágenes que desea excluir de la carga perezosa."
+
+#: options.php:1393
+msgid "Exclude all the images in the selected folders."
+msgstr "Excluir todas las imágenes en las carpetas seleccionadas."
+
+#: options.php:1410
+msgid "Exclude all images that have these classes declared on the <span class=\"notranslate\">&lt;img&gt;</span> element"
+msgstr "Excluir todas las imágenes que tienen estas clases declaradas en el <span class=\"notranslate\"><img></span> elemento"
+
+#: options.php:1429
+msgid "Optimize CSS Delivery"
+msgstr "Optimizar CSS Entrega"
+
+#: options.php:1430
+msgid "The plugin will attempt to extract the critical CSS that is required to format the page above the fold and put this in a <span class=\"notranslate\">&lt;style&gt;</span> element inside the <span class=\"notranslate\">&lt;head&gt;</span> section of the HTML to prevent 'render-blocking'. The combined CSS will then be loaded asynchronously via javascript. Select the number of HTML elements from the top of the page that you want the plugin to find the critical CSS for. The smaller the number, the faster your site but you might see some jumping of the page if the number is too small."
+msgstr "El plugin intentará extraer el CSS crítico que se requiere para dar formato a la página encima de la tapa y poner esto en un <span class=\"notranslate\">&lt;style&gt;</span> elemento dentro de la <span class=\"notranslate\">&lt;head&gt;</span> sección del HTML para evitar 'render bloqueo'. El CSS combinado será entonces cargado de forma asíncrona a través de javascript. Seleccione el número de elementos HTML desde la parte superior de la página que desea que el plugin para encontrar el CSS crítico para. Cuanto menor sea el número, más rápido su sitio, pero es posible que vea un cierto salto de la página si el número es demasiado pequeño."
+
+#: options.php:1472
+msgid "Use our API to optimize the images on your server. Be sure to save your 'Download ID' in the plugin before trying to optimize images as that will authenticate you to access the API. Use the file tree to select the subfolders and files you want to optimize. Files will be optimized in subfolders recursively. If you want to rescale your images while optimizing, enter the new width and height"
+msgstr "Utilice nuestro API para optimizar las imágenes en su servidor. Asegúrese de guardar su 'Descargar ID' en el plugin antes de tratar de optimizar imágenes como que autenticarte para acceder a la API. Utilice el árbol de archivos para seleccionar las subcarpetas y archivos que desea optimizar. Los archivos se pueden optimizar en subcarpetas de forma recursiva. Si desea cambiar la escala de sus imágenes, mientras que la optimización, introduzca la nueva anchura y altura"
+
+#: options.php:1491
+msgid "The plugin will copy the original images in the <span class=\"notranslate\">jch_optimize_image_backup</span> directory prior to optimization"
+msgstr "El plugin copiará las imágenes originales en el <span class=\"notranslate\">jch_optimize_image_backup</span> directorio antes de la optimización"
+
+#: options.php:1493
+msgid "All optimized images"
+msgstr "Todas las imágenes optimizadas"
+
+#: options.php:1493
+msgid "Only resized images"
+msgstr "Sólo las imágenes redimensionadas"
+
+#: options.php:1511
+msgid "cURL is required for this feature but it's not enabled on this server."
+msgstr "cURL es requerido para esta función pero no está habilitado en este servidor."
+
+#: options.php:1520
+msgid "The PHP setting <span class=\"notranslate\">'allow_url_fopen'</span> must be enabled for this feature."
+msgstr "El PHP ajuste <span class=\"notranslate\">'allow_url_fopen'</span> debe ser habilitado para esta función."

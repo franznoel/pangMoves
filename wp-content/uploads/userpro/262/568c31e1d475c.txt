@@ -1,0 +1,18 @@
+565-login designing,
+scorekeeper page numbering designing,
+Home page-pagination, event name, designing
+safari browser-top social icons
+submit button should be non clickable, event name on image-judge,headjudge
+headjudge-page should not refreh if field empty
+
+Login page-designing
+
+Show more - pagination and drop down
+					event name on top
+
+Home page-dropdown
+
+csv file-height, weight
+			participants-edit
+
+Show- show entries dropdown
