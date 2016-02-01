@@ -1,3 +1,10 @@
+    <!--
+    <?php 
+        echo "Hello!";
+        global $post;
+        echo get_post($post)->post_name;
+    ?>
+    -->
 <?php get_header(); ?>
 <div class="content profile-page">
 <div class="container">

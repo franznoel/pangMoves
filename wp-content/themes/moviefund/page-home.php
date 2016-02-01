@@ -1,17 +1,52 @@
-<?php  get_header();?>      
-
-
+<?php get_header();?>      
 <div class="welcome-holder" id="about">
-<div class="container">
-    <?php Welcome(); ?>               
-</div>
+    <div class="container">
+        <?php Welcome(); ?>
+    </div>
 </div>
 <br/>
+<div class="invest-holder_news text-center">
+	<div class="container">
+        <div class="news_ticker_section">
+            <?php echo do_shortcode('[jquery_latest_news_ticker postid="3248"]  ');?>
+        </div>
+    </div>
+</div>
+
 <div class="invest-holder text-center">
 	<div class="container">
-		<h2>Ways To Invest</h2>
+              
+                	<div class="row">
+
+                    	<div class="col-md-6">
+                             
+                    	  <div class="ways_invests">
+                            <?php if (is_active_sidebar("sidebar-invest")) : ?>
+                                <?php dynamic_sidebar( 'sidebar-invest' ); ?>
+                            <?php endif; ?>
+                                <!--
+                                <h2>Ways To Invest</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                -->
+                          </div>
+
+                        </div>
+
+                    	<div class="col-md-6">
+
+                              <div class="way_invests">
+                                  <div class="ways_invest_imgs">
+                                           <img class="img-responsive" alt="video" src="<?php echo get_home_url();?>/wp-content/uploads/ways_invest.jpg">
+                                   </div>
+                             </div>
+                        </div>
+                     </div>
+
+
+		
 	<br/><br/>
-	<?php Invest(); ?><br/>
+	<?php get_template_part('part','invest'); ?><br/>
 	</div>
 </div>
 <div class="blue-holder">
@@ -27,6 +62,7 @@
 		<p>Win a Movie Role, Rewards and Perks.</p>
 	</div></div></div>
 </div>
+<!--
 <div class="client-holder text-center">
             	<div class="container">
                 	<div class="title text-center">
@@ -34,7 +70,7 @@
                     </div>
                     <div id="carousel-client" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
-						<?php testnews_car(); ?>
+						//?php testnews_car(); ?>
                         </div>
                         <div class="carousel-nav">
                             <a data-slide="prev" href="#carousel-client" class="carousel-nav-prev">Prev</a>
@@ -42,7 +78,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
+</div>
+-->
 <div class="test-holder" id="test">
 <div class="container">
 <div class="row">
@@ -91,6 +128,8 @@
 </div>
 <div class="lart-view">
             <div class="team-holder text-center">
+			
+			<!--
             	<div class="container"><br/>
                 	<h2>TEAM & PARTNERS</h2><br/>
                     <div id="carousel-team" class="carousel slide" data-ride="carousel">
@@ -100,25 +139,30 @@
                         <div class="carousel-nav">
                             <a data-slide="prev" href="#carousel-team" class="carousel-nav-prev">Prev</a>
                             <a data-slide="next" href="#carousel-team" class="carousel-nav-next">Next</a>
-                        </div> </div></div> </div></div>
-                        <div class="clearfix visible-xs-block"></div>
+                        </div> </div></div> 
+						-->
+						
+						</div></div>
+                        <!-- <div class="clearfix visible-xs-block"></div> -->
         <!--Mobile -->
 <div class="mobt-view">
             <div class="team-holder text-center">
+			<!--
             	<div class="container">
                 	<br/>
                 	<h2>TEAM & PARTNERS</h2>
                     <br/>
                     <div id="carousel-teammt" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner custm-inner">
-                     <?php Team_mob();?>
+                     <//?php Team_mob();?>
 		        </div>
                         <div class="carousel-nav">
                             <a data-slide="prev" href="#carousel-teammt" class="carousel-nav-prev">Prev</a>
                             <a data-slide="next" href="#carousel-teammt" class="carousel-nav-next">Next</a>
-                        </div> </div> </div></div></div>
+                        </div> </div> </div>
+						-->
+						</div></div>
         <!--Mobile -->	
-            <br/>
          <div class="how-it-works text-center" id="how">
             	<div class="container">
                 	<h2 class="white">How It Works</h2>
@@ -186,12 +230,12 @@
 
                 </div>
 
-            </div>-->
+            </div> -->
 
             
 
             <div class="feat-holder" id="plan">
-
+<!--
             	<div class="title text-center">
 
                     <h2>Featured Project: Planet X</h2>
@@ -204,12 +248,12 @@
 
                     <div class="row">
 
-					<?php featureditem();?>
+					//?php featureditem();?>
 
                     </div>
 
                 </div>
-
+-->
             </div>
 
             <div class="project-holder text-center lar-view" id="Projects">
@@ -222,12 +266,12 @@
 
                    <div class="row">
 
-                    <div id="testing"  data-ride="carousel">
+                    <div id="latest_project_movie"  data-ride="carousel">
 
                         <div class="latest-inner latest-pros">				
 
                     <?php Latest_projrcts_modified(); ?>    
-                    <div id="loadMore" style="color: #F36935;cursor:pointer;" class="btn-lm"><span>More movies >></span></div>
+                    <div id="loadMore" style="cursor:pointer;padding:6px 12px;background-color:#F36935;color:#fff;border-radius:5px;"><span>More Movies >></span></div>
 
                          </div>	
 
@@ -283,7 +327,7 @@
 
             <!--// Mobile view-->
 
-    
+    <!--
 
             <div class="fund-holder" id="fund-holder">
 
@@ -305,7 +349,7 @@
 					
 					<h3>INVEST IN THE MOVIE FUND </h3>
 
-                        	<p>The Movie Fund is a fund managed by leading and successful Producers with a proven track record of making profitable Movies and investments allowing investors to spread This Binding Letter of Agreement for “PLANET X FILMS�?, LLC, herein (““PLANET X FILMS�?�?) regarding a production of the motion picture project to be determined, herein referred to as “PLANET X�?</p>
+                        	<p>The Movie Fund is a fund managed by leading and successful Producers with a proven track record of making profitable Movies and investments allowing investors to spread This Binding Letter of Agreement for “PLANET X FILMS”, LLC, herein (““PLANET X FILMS””) regarding a production of the motion picture project to be determined, herein referred to as “PLANET X”</p>
 
                             <br/>
                         
@@ -404,7 +448,7 @@
 
                             <div class="col-sm-9">
 
-							<?//php Breakingnews(); ?>
+							<//?php Breakingnews(); ?>
 
                             </div>
 
@@ -414,7 +458,7 @@
 
                 </div>
 
-            </div>-->
+            </div> -->
 
             <div class="social-holder">
 
@@ -800,7 +844,7 @@ Film Finance Information <i class="fa fa-chevron-circle-down"></i>
 
                                     <li class="text-center"><a href="http://the-movie-fund.tumblr.com"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/11/thum.png"><br>Tumblr</a></li>
                                       
-                                    <li class="text-center"><a href="<?php echo of_get_option('linkedin'); ?>"><img alt="post" src="http://themoviefund.com/newtheme/wp-content/uploads/2015/12/Linkedin_round.png"><br>Linkedin</a></li>
+                                    <li class="text-center"><a href="<?php echo of_get_option('linkedin'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/12/Linkedin_round.png"><br>Linkedin</a></li>
                                     <li class="text-center"><a href="<?php echo of_get_option('youtube'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/follow-2.png"><br>Youtube</a></li>
 
                                     <li class="text-center"><a href="<?php echo of_get_option('facebook'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/follow-3.png"><br>Facebook</a></li>

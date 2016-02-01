@@ -150,6 +150,7 @@ header .mainmenu nav li a {
     padding: 12px 25px;
     text-shadow: none;
     text-transform: uppercase
+    font-weight:bold;
 }
 header .mainmenu nav li a:hover,
 header .mainmenu nav li a:focus,

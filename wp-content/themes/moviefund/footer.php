@@ -1,6 +1,6 @@
         </div>   
 
-<?php  if ( is_front_page() ){ ?>    
+<?php if ( is_front_page() ){ ?>    
 
 <footer>
 
@@ -13,11 +13,11 @@
                                 	<div class="link">
                                         <h4>TheMovieFund</h4>
                                         <ul>
-                                            <li><a href="http://themoviefund.com/team">Team</a></li>
-                                            <li><a href="http://themoviefund.com/about">About</a></li>
-                                            <li><a href="http://themoviefund.com/movies">Movies</a></li>
-                                            <li><a href="http://themoviefund.com/press">Press</a></li>
-                                            <li><a href="http://themoviefund.com/how-it-works">How it Works</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/team">Team</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/about">About</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/movies">Movies</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/press">Press</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/how-it-works">How it Works</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -25,11 +25,11 @@
                                 	<div class="link">
                                         <h4>Investors</h4>
                                         <ul>
-                                            <li><a href="http://themoviefund.com/investors">For Investors</a></li>
-                                            <li><a href="http://themoviefund.com/faqs">FAQs</a></li>
-                                            <li><a href="http://themoviefund.com/testimonies">Testimonies</a></li>
-                                            <li><a href="http://themoviefund.com/register">Signup</a></li>
-											<li><a href="http://themoviefund.com/contact">Support</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/investors">For Investors</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/faqs">FAQs</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/testimonies">Testimonies</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/register">Signup</a></li>
+											<li><a href="<?php echo home_url(); ?>/contact">Support</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -37,11 +37,11 @@
                                 	<div class="link">
                                         <h4>Filmmakers</h4>
                                         <ul>
-                                           <li><a href="http://themoviefund.com/filmmakers">For Filmmakers</a></li>
-                                            <li><a href="http://themoviefund.com/register">Upload a Project</a></li>
-                                            <li><a href="http://themoviefund.com/faqs">FAQs</a></li>
-                                            <li><a href="http://themoviefund.com/faqs">Fees</a></li>
-					    					<li><a href="http://themoviefund.com/contact">Support</a></li>
+                                           <li><a href="<?php echo home_url(); ?>/filmmakers">For Filmmakers</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/register">Upload a Project</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/faqs">FAQs</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/faqs">Fees</a></li>
+					    					<li><a href="<?php echo home_url(); ?>/contact">Support</a></li>
 
                                         
                                         </ul>
@@ -65,11 +65,11 @@
                                 	<div class="link">
                                         <h4>Film Finance</h4>
                                         <ul>
-                                            <li><a href="http://themoviefund.com/film-finance-the-movie-fund/">Film Finance</a></li>
-                                            <li><a href="http://themoviefund.com/investors/film-financing/">Film Financing</a></li>
-                                            <li><a href="http://themoviefund.com/investors/film-investors/">Film Investors</a></li>
-                                            <li><a href="http://themoviefund.com">Finance Movies</a></li>
-                                            <li><a href="http://themoviefund.com/film-funding-appeal-investing-films/">Film Funding</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/film-finance-the-movie-fund/">Film Finance</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/investors/film-financing/">Film Financing</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/investors/film-investors/">Film Investors</a></li>
+                                            <li><a href="<?php echo home_url(); ?>">Finance Movies</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/film-funding-appeal-investing-films/">Film Funding</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -77,11 +77,11 @@
                                 	<div class="link">
                                         <h4>Film Investors</h4>
                                         <ul>
-                                            <li><a href="http://themoviefund.com/movie-investors/">Movie Investors</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/movie-investors/">Movie Investors</a></li>
                                             <li><a href="#">Investing in movies</a></li>
-                                            <li><a href="http://themoviefund.com">Movie News</a></li>
-                                            <li><a href="http://themoviefund.com/angel-movie-investors-who-are-we/">Angle Film Investors</a></li>
-                                            <li><a href="http://themoviefund.com/investing/crowdfunding-movies/">Crowdfunding</a></li>
+                                            <li><a href="<?php echo home_url(); ?>">Movie News</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/angel-movie-investors-who-are-we/">Angle Film Investors</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/investing/crowdfunding-movies/">Crowdfunding</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -90,7 +90,7 @@
                                         <h4>Investor News</h4>
                                         <ul>
                                             <li><a href="#">​Investor ​News</a></li>
-                                            <li><a href="http://themoviefund.com/investing/crowdfunding-movies/">Crowdfunding</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/investing/crowdfunding-movies/">Crowdfunding</a></li>
                                             <li><a href="<?php echo home_url(); ?>">The Movie Fund</a></li>
                                             <li><a href="#">Low Budget Profits</a></li>
                                         </ul>
@@ -100,12 +100,12 @@
                                 	<div class="link">
                                         <h4>Hedge Fund​</h4>
                                         <ul>
-                                            <li><a href="http://themoviefund.com/film-investments-2/">Financing Companies</a></li>
-                                            <li><a href="http://themoviefund.com">​Investment Compan​ies​</a></li>
-                                            <li><a href="http://themoviefund.com/5-things-know-hollywood-hedge-funds/">​Hedge Funds Investors​</a></li>
-                                            <li><a href="http://themoviefund.com/investors/film-finances-inc/">Film Financeing</a></li>
-                                            <li><a href="http://themoviefund.com/how-it-works/">Film Finance</a></li>
-                                            <li><a href="http://themoviefund.com/hedge-fund-film-financing/">Hedge Funds ​Investors​</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/film-investments-2/">Financing Companies</a></li>
+                                            <li><a href="<?php echo home_url(); ?>">​Investment Compan​ies​</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/5-things-know-hollywood-hedge-funds/">​Hedge Funds Investors​</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/investors/film-finances-inc/">Film Financeing</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/how-it-works/">Film Finance</a></li>
+                                            <li><a href="<?php echo home_url(); ?>/hedge-fund-film-financing/">Hedge Funds ​Investors​</a></li>
                                         </ul>
                                     </div>
                                     
@@ -119,6 +119,7 @@
                         <div class="col-sm-4">
                             <h4>Contact Us</h4>
                             <br/>
+                            <form method="post">
                             <div class="row">
                                 <div class="col-sm-1">
                                     <i class="fa fa-map-marker"></i>
@@ -144,7 +145,30 @@
                                 </div>
                             </div>
 							<br/>
-							<?php echo do_shortcode('[contact-form-7 id="1124" title="Jeba Footer"]'); ?>
+                            <!-- Contact form #1124-->
+                                <?php $url = site_url() . "/mailer/"; ?>
+                                <form action="<?php wp_nonce_url($url,"contact-page"); ?>" method="post" class="wpcf7-form" novalidate="novalidate">
+                                    <div class="row">
+                                        <div class="col-sm-6" style=" margin-bottom:5px;"="">
+                                            <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Name :"></span>
+                                        </div>
+                                        <div class="col-sm-6" style="margin-bottom:5px;">
+                                            <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="Email :"></span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="wpcf7-form-control-wrap your-message">
+                                            <textarea name="your-message" cols="40" rows="3" class="wpcf7-form-control wpcf7-textarea form-control" aria-invalid="false" placeholder="Message"></textarea>
+                                        </span>
+                                    </div>
+                                    <div class="sub-button text-right">
+                                        <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><img class="ajax-loader" src="http://moviefund.com/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;">
+                                    </div>
+                                    <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                </form>
+                            <!-- End Contact form #1124-->
+
+							<?php // echo do_shortcode('[contact-form-7 id="1124" title="Jeba Footer"]'); ?>
                         </div>
                     </div>
                 </div>
@@ -178,7 +202,8 @@
 else{
 ?>
 </div>
-<div class="content">
+        <div class="content">
+            <!--
             <div class="client-holder text-center">
             	<div class="container">
                 	<div class="title text-center">
@@ -197,6 +222,7 @@ else{
                     </div>
                 </div>
             </div>			
+            -->
 
             <div class="follow-holder text-center">
             	<div class="container">
@@ -317,7 +343,7 @@ Tweets by @TwitterDev
                                     <p><?php echo of_get_option('emailid'); ?></p>
                                 </div>
                             </div>
-				  <?php echo do_shortcode('[contact-form-7 id="528" title="Footer form_copy"]'); ?>
+				  <?php echo do_shortcode('[contact-form-7 id="1124" title="Jeba Footer"]'); ?>
 				  </div>
 				  </div>
 				  </div>
@@ -341,121 +367,16 @@ Tweets by @TwitterDev
 
 <?php
  }
- ?>
- 
- <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/bootstrap-3.3.6/js/bootstrap.min.js"></script>
- 
- 
- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        sdajfsajlfskdjfkdsdsfmsd;fsdm
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>  
-
-<div class="modal fade" id="mySliderVideo-<?php echo $i;?>" tabindex="-1" role="dialog" aria-labelledby="mySliderVideo-<?php echo $i;?>">
-
-                <div class="modal-dialog" role="document">
-
-                    <div class="modal-content">
-
-                        <div class="modal-body">
-
-<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-
-                            <?php if($post !== ''){echo get_the_content();} else{echo '<h1>'."There is no video to play".'</h1>';}?>
+ ?>  
 
 
 
 
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-            
-<div class="modal fade" id="mySliderVideo" tabindex="-1" role="dialog" aria-labelledby="mySliderVideo">
-
-                <div class="modal-dialog" role="document">
-
-                    <div class="modal-content">
-
-                        <div class="modal-body">
-
-<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-
-                            <iframe src="https://player.vimeo.com/video/136802486?title=0&byline=0&portrait=0" width="100%" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>            
-            
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-        
-    	<?php wp_footer();?>		<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery-1.11.1.min.js" language="javascript"></script>
-
-<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/bootstrap.js" language="javascript"></script>
-    			<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/jsx/bx.js" language="javascript"></script>		<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/custom.js" language="javascript"></script>				<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/scjs/jquery.mousewheel.js"></script>        <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/scjs/jquery.classyscroll.js"></script><script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/custommin.js"></script><script type="text/javascript" src="<?php echo get_template_directory_uri();?>/bootstrap-3.3.6/js/bootstrap.min.js"></script><!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script--><!--link  href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"--><!--script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script--><!--script  src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script-->
-        <!-- <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery-1.11.1.min.js" language="javascript"></script> -->
+        <!--script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery-1.11.1.min.js" language="javascript"></script-->
 		
+        
 
 <!--Bottom Scroller-->
-<script type="text/javascript">
-$(document).ready(function () {
-	x=8;
-	//size_li=100;
-	   // size_li = $("#testing div.col-md-3").size();
-	   // size_li_onemore=size_li+1;
-	    //alert(size_li);
-	$('#testing div.demo:lt('+x+')').show();
-	 $('#loadMore').click(function () {
-	 	 // $("li").eq(2).addClass("selected");
-	 	        //x= (x+3 <= size_li) ? x+3 : size_li;
-           // $('#aja div.post-com:lt('+size_li+')').fadeIn();
-            $('#testing div.demo:lt(16)').fadeIn();
-            x=16;
-            if(x==16){
-
-$( "#loadMore span" ).replaceWith( "<a href='<?php echo get_home_url(); ?>/movies' style='text-decoration:none;'>Browse Movies</span>" );
-//$( "#loadMore i" ).css("display","none");
-            }
-          
-    });
-});
-</script>
 
 <script>
 $(document).ready(function() {
@@ -476,7 +397,30 @@ $("#invest").css('display','block');
 });
 	
 });
-</script>
+</script>    	
+<script type="text/javascript">
+$(document).ready(function () {
+	x=8;
+	//size_li=100;
+	   // size_li = $("#testing div.col-md-3").size();
+	   // size_li_onemore=size_li+1;
+	    //alert(size_li);
+	$('#latest_project_movie div.movie_home:lt('+x+')').show();
+	 $('#loadMore').click(function () {
+	 	 // $("li").eq(2).addClass("selected");
+	 	        //x= (x+3 <= size_li) ? x+3 : size_li;
+           // $('#aja div.post-com:lt('+size_li+')').fadeIn();
+            $('#latest_project_movie div.movie_home:lt(16)').fadeIn();
+            x=16;
+            if(x==16){
 
+$( "#loadMore span" ).replaceWith( "<a href='<?php echo get_home_url(); ?>/movies' style='cursor:pointer;padding:6px 12px;background-color:#F36935;color:#fff;border-radius:5px;text-decoration:none;'>Browse Movies</span>" );
+//$( "#loadMore i" ).css("display","none");
+            }
+          
+    });
+});
+</script>
+<?php wp_footer();?>
 </body>
 </html>

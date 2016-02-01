@@ -1,3 +1,46 @@
+.login-panel .btn.btn-1 {
+  background: green !important;
+}
+.way-invstbx .row:nth-child(2n+1) {
+  background: #ddd;
+}
+.way-invstbx .row:nth-child(2n) {
+  background: #EBEFF0;
+}
+.way-invstbx .col-xs-8.text-left:after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  top: -10px;
+  bottom: -10px;
+  background: #fff;
+  right: 0;
+}
+.way-invstbx .row {
+  border: 1px solid #fff;
+position:relative;
+}
+.way-invstbx .row {
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.way-invstbx .col-xs-4 > p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.content .invest-holder .way_invests img {
+  border: 0px solid;
+  border-radius: 0;
+}
+.login-panel .btn.btn-2 {
+  background: orange none repeat scroll 0 0 !important;
+}
+.jeba_invest .list-inline > li {
+  width: 100%;
+}
+.jeba_invest .btn.btn-6 {
+  width: 100% !important;
+}
 .bx-wrapper {
 	position: relative;
 	padding: 0;
@@ -59,13 +102,13 @@
 }
 .bx-wrapper .bx-prev {
 	left: 10px;
-	background: url("http://themoviefund.com/newtheme/wp-content/uploads/2015/09/test-nav-1.png") no-repeat;
+	background: url("http://moviefund.com/wp-content/uploads/2015/09/test-nav-1.png") no-repeat;
 	background-position: center;
 	left: -48px
 }
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url("http://themoviefund.com/newtheme/wp-content/uploads/2015/09/test-nav-2.png") no-repeat;
+	background: url("http://moviefund.com/wp-content/uploads/2015/09/test-nav-2.png") no-repeat;
 	background-position: center;
 	right: -48px
 }
@@ -150,14 +193,34 @@
 .inn-widg .wpcf7-not-valid-tip {
 	margin-bottom: 10px;
 }
+.content .feat-holder.planetx {
+  background: rgba(0, 0, 0, 0) url("../img/others/jeba_planetx.jpg") no-repeat scroll 0 0 / cover ;
+}
+.makers-page .sm-rw {
+  display: none !important;
+}
 .inn-widg .ajax-loader {
 	margin-top: 20px;
 }
 .single_rss_column .title {
 	font-size: inherit;
 }
+.news_ticker_section .ticker-content {
+  margin-top: 0;
+  padding-top: 5px;
+}
 .new_coming_soon .rss_image {
 	display: block;
+}
+.cnt-fm .wpcf7-form-control.wpcf7-submit {
+  margin-left: 0;
+}
+.wpcf7-form-control.wpcf7-submit {
+  background: #00579b none repeat scroll 0 0;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 5px;
+  padding: 5px 20px !important;
 }
 .new_coming_soon .rss_item {
 	float: left !important;
@@ -214,6 +277,12 @@
 }
 .jeba_feature  {
   overflow: hidden;
+}
+.follow-holder {
+  background: #000 !important;
+}
+.social-holder {
+  background: #000 !important;
 }
 #menu-top_header .menu-item > a:hover {
   box-shadow: 2px 2px 2px 2px #01579a ;

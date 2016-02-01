@@ -1,32 +1,25 @@
-<?php 
+<?php
 
 // Theme Options
-
 define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/inc/' );
-
 require_once dirname( __FILE__ ) . '/inc/options-framework.php';
-
 require_once get_template_directory() . '/options.php';
 
 add_action( 'optionsframework_custom_scripts', 'optionsframework_custom_scripts' );
 
 function optionsframework_custom_scripts() { ?>
-
 <script type="text/javascript">
-
 jQuery(document).ready(function() {
+    jQuery('#example_showhidden').click(function() {
+        jQuery('#section-example_text_hidden').fadeToggle(400);
 
-	jQuery('#example_showhidden').click(function() {
+    });
 
-  		jQuery('#section-example_text_hidden').fadeToggle(400);
+    if (jQuery('#example_showhidden:checked').val() !== undefined) {
 
-	});
+        jQuery('#section-example_text_hidden').show();
 
-	if (jQuery('#example_showhidden:checked').val() !== undefined) {
-
-		jQuery('#section-example_text_hidden').show();
-
-	}
+    }
 
 });
 
@@ -54,21 +47,21 @@ add_image_size( 'breaking', 60, 60, true );
 
 //Slider
 
-	$labels = array( 'name' => 'Slider', 'singular_name' => 'Slider', 'add_new' => 'Add New', 'add_new_item' => 'Add New Slider', 'edit_item' => 'Edit Slider', 'new_item' => 'New Slider', 'all_items' => 'All Sliders', 'view_item' => 'View Slider', 'search_items' => 'Search Sliders', 'not_found' =>  'No Sliders found', 'not_found_in_trash' => 'No Sliders found in Trash', 'parent_item_colon' => '', 'menu_name' => 'Sliders' );
+    $labels = array( 'name' => 'Slider', 'singular_name' => 'Slider', 'add_new' => 'Add New', 'add_new_item' => 'Add New Slider', 'edit_item' => 'Edit Slider', 'new_item' => 'New Slider', 'all_items' => 'All Sliders', 'view_item' => 'View Slider', 'search_items' => 'Search Sliders', 'not_found' =>  'No Sliders found', 'not_found_in_trash' => 'No Sliders found in Trash', 'parent_item_colon' => '', 'menu_name' => 'Sliders' );
 
-	$args = array( 'labels' => $labels, 'public' => true, 'publicly_queryable' => true, 'show_ui' => true,  'show_in_menu' => true, 'query_var' => true, 'rewrite' => array( 'slug' => 'slider' ), 'capability_type' => 'post', 'has_archive' => true, 'hierarchical' => false,'menu_position' => null,'supports' => array( 'title','custom-fields','editor','thumbnail' ), 'menu_icon' => get_bloginfo( 'template_url').'/inc/images/slider.png' ); 
+    $args = array( 'labels' => $labels, 'public' => true, 'publicly_queryable' => true, 'show_ui' => true,  'show_in_menu' => true, 'query_var' => true, 'rewrite' => array( 'slug' => 'slider' ), 'capability_type' => 'post', 'has_archive' => true, 'hierarchical' => false,'menu_position' => null,'supports' => array( 'title','custom-fields','editor','thumbnail' ), 'menu_icon' => get_bloginfo( 'template_url').'/inc/images/slider.png' ); 
 
-	register_post_type( 'slider', $args );
+    register_post_type( 'slider', $args );
 
 //Initial Settings
 
 //Slider Inner
 
-	$labels = array( 'name' => 'Inner Slider', 'singular_name' => 'Inner Slider', 'add_new' => 'Add New', 'add_new_item' => 'Add New Inner Slider', 'edit_item' => 'Edit Inner Slider', 'new_item' => 'New Inner Slider', 'all_items' => 'All Sliders', 'view_item' => 'View Inner Slider', 'search_items' => 'Search Sliders', 'not_found' =>  'No Sliders found', 'not_found_in_trash' => 'No Sliders found in Trash', 'parent_item_colon' => '', 'menu_name' => 'Inner Sliders' );
+    $labels = array( 'name' => 'Inner Slider', 'singular_name' => 'Inner Slider', 'add_new' => 'Add New', 'add_new_item' => 'Add New Inner Slider', 'edit_item' => 'Edit Inner Slider', 'new_item' => 'New Inner Slider', 'all_items' => 'All Sliders', 'view_item' => 'View Inner Slider', 'search_items' => 'Search Sliders', 'not_found' =>  'No Sliders found', 'not_found_in_trash' => 'No Sliders found in Trash', 'parent_item_colon' => '', 'menu_name' => 'Inner Sliders' );
 
-	$args = array( 'labels' => $labels, 'public' => true, 'publicly_queryable' => true, 'show_ui' => true,  'show_in_menu' => true, 'query_var' => true, 'rewrite' => array( 'slug' => 'innerslider' ), 'capability_type' => 'post', 'has_archive' => true, 'hierarchical' => false,'menu_position' => null,'supports' => array( 'title','custom-fields','editor','thumbnail' ), 'menu_icon' => get_bloginfo( 'template_url').'/inc/images/slider.png' ); 
+    $args = array( 'labels' => $labels, 'public' => true, 'publicly_queryable' => true, 'show_ui' => true,  'show_in_menu' => true, 'query_var' => true, 'rewrite' => array( 'slug' => 'innerslider' ), 'capability_type' => 'post', 'has_archive' => true, 'hierarchical' => false,'menu_position' => null,'supports' => array( 'title','custom-fields','editor','thumbnail' ), 'menu_icon' => get_bloginfo( 'template_url').'/inc/images/slider.png' ); 
 
-	register_post_type( 'innerslider', $args );
+    register_post_type( 'innerslider', $args );
 
 //Menus
 
@@ -83,383 +76,380 @@ add_action( 'init', 'register_my_menu' );
 //Widget Area
 
 function demo_widgets_init() {
+    register_sidebar( array(
+        'name'          => __( 'Ways To Invest'),
+        'id'            => 'sidebar-invest',
+        'description'   => __( 'Appears in "Ways to Invest" text.'),
+        'before_widget' => '',
+        'after_widget'  => '',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>',
+    ));
 
-	register_sidebar( array(
+    register_sidebar( array(
+        'name'          => __( 'Investor post1'),
+        'id'            => 'sidebar-1',
+        'description'   => __( 'Appears in the footer section of the site.'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</aside>',
+        'before_title'  => '<h6 class="widget-title">',
+        'after_title'   => '</h6>',
+    ));
 
-		'name'          => __( 'Investor post1'),
+    register_sidebar( array(
+        'name'          => __( 'Batman vs. Superman'),
+        'id'            => 'sidebar-2',
+        'description'   => __( 'Appears in the footer section of the site.'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-1',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h2 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h2>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h6 class="widget-title">',
+    register_sidebar( array(
 
-		'after_title'   => '</h6>',
+        'name'          => __( 'Register'),
 
-	) );
+        'id'            => 'sidebar-3',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Batman vs. Superman'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-2',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h2 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h2>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h2 class="widget-title">',
+    register_sidebar( array(
 
-		'after_title'   => '</h2>',
+        'name'          => __( 'Browse'),
 
-	) );
+        'id'            => 'sidebar-4',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Register'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-3',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h2 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h2>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h2 class="widget-title">',
+    register_sidebar( array(
 
-		'after_title'   => '</h2>',
+        'name'          => __( 'Select'),
 
-	) );
+        'id'            => 'sidebar-5',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Browse'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-4',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h2 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h2>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h2 class="widget-title">',
+    register_sidebar( array(
 
-		'after_title'   => '</h2>',
+        'name'          => __( 'Review'),
 
-	) );
+        'id'            => 'sidebar-6',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Select'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-5',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h2 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h2>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h2 class="widget-title">',
+    register_sidebar( array(
 
-		'after_title'   => '</h2>',
+        'name'          => __( 'Important Message'),
 
-	) );
+        'id'            => 'sidebar-7',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Review'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-6',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h4 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h4>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h2 class="widget-title">',
+    register_sidebar( array(
 
-		'after_title'   => '</h2>',
+        'name'          => __( 'Tweet feed1'),
 
-	) );
+        'id'            => 'sidebar-8',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Important Message'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-7',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h4 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h4>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h4 class="widget-title">',
+    register_sidebar( array(
 
-		'after_title'   => '</h4>',
+        'name'          => __( 'Face book feed'),
 
-	) );
+        'id'            => 'sidebar-9',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Tweet feed1'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-8',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h4 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h4>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h4 class="widget-title">',
+    register_sidebar( array(
 
-		'after_title'   => '</h4>',
+        'name'          => __( 'Instagram feed'),
 
-	) );
+        'id'            => 'sidebar-10',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Face book feed'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-9',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h4 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h4>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h4 class="widget-title">',
+    register_sidebar( array(
 
-		'after_title'   => '</h4>',
+        'name'          => __( 'Get Started'),
 
-	) );
+        'id'            => 'sidebar-11',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Instagram feed'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-10',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h4 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h4>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h4 class="widget-title">',
+    
 
-		'after_title'   => '</h4>',
+    register_sidebar( array(
 
-	) );
+        'name'          => __( 'Browse'),
 
-	register_sidebar( array(
+        'id'            => 'sidebar-12',
 
-		'name'          => __( 'Get Started'),
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'id'            => 'sidebar-11',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'after_widget'  => '</aside>',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'before_title'  => '<h4 class="widget-title">',
 
-		'after_widget'  => '</aside>',
+        'after_title'   => '</h4>',
 
-		'before_title'  => '<h4 class="widget-title">',
+    ) );
 
-		'after_title'   => '</h4>',
+    register_sidebar( array(
 
-	) );
+        'name'          => __( 'Legal'),
 
-	
+        'id'            => 'sidebar-13',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Browse'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-12',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h4 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h4>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h4 class="widget-title">',
+    register_sidebar( array(
 
-		'after_title'   => '</h4>',
+        'name'          => __( 'Crowd funder'),
 
-	) );
+        'id'            => 'sidebar-14',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Legal'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-13',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h4 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h4>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h4 class="widget-title">',
+    register_sidebar( array(
 
-		'after_title'   => '</h4>',
+        'name'          => __( 'Custom Twitter Feed'),
 
-	) );
+        'id'            => 'sidebar-15',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Crowd funder'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-14',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h4 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h4>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h4 class="widget-title">',
+    register_sidebar( array(
 
-		'after_title'   => '</h4>',
+        'name'          => __( 'Investor About us'),
 
-	) );
+        'id'            => 'sidebar-16',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Custom Twitter Feed'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-15',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h4>',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h4>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h4 class="widget-title">',
+    register_sidebar( array(
 
-		'after_title'   => '</h4>',
+        'name'          => __('Investor Knowledge Center'),
 
-	) );
+        'id'            => 'sidebar-17',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the footer section of the site.'),
 
-		'name'          => __( 'Investor About us'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-16',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h4>',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h4>',
 
-		'after_widget'  => '</aside>',
+    ) );
 
-		'before_title'  => '<h4>',
+    register_sidebar( array(
 
-		'after_title'   => '</h4>',
+        'name'          => __( 'RSS News One'),
 
-	) );
+        'id'            => 'sidebar-77',
 
-	register_sidebar( array(
+        'description'   => __( 'Appears in the RSS News page first column of the site.'),
 
-		'name'          => __('Investor Knowledge Center'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'id'            => 'sidebar-17',
+        'after_widget'  => '</aside>',
 
-		'description'   => __( 'Appears in the footer section of the site.'),
+        'before_title'  => '<h6 class="widget-title">',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_title'   => '</h6>',
 
-		'after_widget'  => '</aside>',
+    ) );
+    register_sidebar( array(
 
-		'before_title'  => '<h4>',
+        'name'          => __( 'RSS News Two'),
 
-		'after_title'   => '</h4>',
+        'id'            => 'sidebar-78',
 
-	) );
+        'description'   => __( 'Appears in the RSS News page Second column of the site.'),
 
-	register_sidebar( array(
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'name'          => __( 'RSS News One'),
+        'after_widget'  => '</aside>',
 
-		'id'            => 'sidebar-77',
+        'before_title'  => '<h6 class="widget-title">',
 
-		'description'   => __( 'Appears in the RSS News page first column of the site.'),
+        'after_title'   => '</h6>',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+    ) );
+    register_sidebar( array(
 
-		'after_widget'  => '</aside>',
+        'name'          => __( 'RSS News Three'),
 
-		'before_title'  => '<h6 class="widget-title">',
+        'id'            => 'sidebar-79',
 
-		'after_title'   => '</h6>',
+        'description'   => __( 'Appears in the RSS News page third column of the site.'),
 
-	) );
-	register_sidebar( array(
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'name'          => __( 'RSS News Two'),
+        'after_widget'  => '</aside>',
 
-		'id'            => 'sidebar-78',
+        'before_title'  => '<h6 class="widget-title">',
 
-		'description'   => __( 'Appears in the RSS News page Second column of the site.'),
+        'after_title'   => '</h6>',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+    ) );
+    register_sidebar( array(
 
-		'after_widget'  => '</aside>',
+        'name'          => __( 'RSS News Four'),
 
-		'before_title'  => '<h6 class="widget-title">',
+        'id'            => 'sidebar-80',
 
-		'after_title'   => '</h6>',
+        'description'   => __( 'Appears in the RSS News page fourth column of the site.'),
 
-	) );
-	register_sidebar( array(
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 
-		'name'          => __( 'RSS News Three'),
+        'after_widget'  => '</aside>',
 
-		'id'            => 'sidebar-79',
+        'before_title'  => '<h6 class="widget-title">',
 
-		'description'   => __( 'Appears in the RSS News page third column of the site.'),
+        'after_title'   => '</h6>',
 
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-
-		'after_widget'  => '</aside>',
-
-		'before_title'  => '<h6 class="widget-title">',
-
-		'after_title'   => '</h6>',
-
-	) );
-	register_sidebar( array(
-
-		'name'          => __( 'RSS News Four'),
-
-		'id'            => 'sidebar-80',
-
-		'description'   => __( 'Appears in the RSS News page fourth column of the site.'),
-
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-
-		'after_widget'  => '</aside>',
-
-		'before_title'  => '<h6 class="widget-title">',
-
-		'after_title'   => '</h6>',
-
-	) );
+    ) );
 
 
 
@@ -499,7 +489,7 @@ function welcome_register() {
 
     );
 
-	$args = array(
+    $args = array(
 
    'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
 
@@ -513,9 +503,9 @@ function welcome_register() {
 
     }
 
-	
+    
 
-	
+    
 
 add_action('init', 'Invest_register');
 
@@ -535,7 +525,7 @@ function Invest_register() {
 
     );
 
-	$args = array(
+    $args = array(
 
    'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
 
@@ -547,9 +537,9 @@ function Invest_register() {
 
     register_post_type('invest', $args);
 
-    }	
+    }   
 
-	
+    
 
 add_action('init', 'Testi_register');
 
@@ -557,31 +547,31 @@ function Testi_register() {
 
 $labels = array(
 
-		'name'              => _x( 'Testimonial', 'taxonomy general name' ),
+        'name'              => _x( 'Testimonial', 'taxonomy general name' ),
 
-		'singular_name'     => _x( 'Testimonial', 'taxonomy singular name' ),
+        'singular_name'     => _x( 'Testimonial', 'taxonomy singular name' ),
 
-		'search_items'      => __( 'Search Testimonial' ),
+        'search_items'      => __( 'Search Testimonial' ),
 
-		'all_items'         => __( 'All Testimonial' ),
+        'all_items'         => __( 'All Testimonial' ),
 
-		'parent_item'       => __( 'Parent Testimonial' ),
+        'parent_item'       => __( 'Parent Testimonial' ),
 
-		'parent_item_colon' => __( 'Parent Testimonial:' ),
+        'parent_item_colon' => __( 'Parent Testimonial:' ),
 
-		'edit_item'         => __( 'Edit Testimonial' ),
+        'edit_item'         => __( 'Edit Testimonial' ),
 
-		'update_item'       => __( 'Update Testimonial' ),
+        'update_item'       => __( 'Update Testimonial' ),
 
-		'add_new_item'      => __( 'Add New Testimonial' ),
+        'add_new_item'      => __( 'Add New Testimonial' ),
 
-		'new_item_name'     => __( 'New Testimonial Name' ),
+        'new_item_name'     => __( 'New Testimonial Name' ),
 
-		'menu_name'         => __( 'Testimonial' ),
+        'menu_name'         => __( 'Testimonial' ),
 
-	);
+    );
 
-	$args = array(
+    $args = array(
 
    'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
 
@@ -593,53 +583,53 @@ $labels = array(
 
 $cat = array(
 
-		'name'              => _x( 'Testimonial Category', 'taxonomy general name' ),
+        'name'              => _x( 'Testimonial Category', 'taxonomy general name' ),
 
-		'singular_name'     => _x( 'Testimonial Category', 'taxonomy singular name' ),
+        'singular_name'     => _x( 'Testimonial Category', 'taxonomy singular name' ),
 
-		'search_items'      => __( 'Search Testimonial Category' ),
+        'search_items'      => __( 'Search Testimonial Category' ),
 
-		'all_items'         => __( 'All Testimonial Category' ),
+        'all_items'         => __( 'All Testimonial Category' ),
 
-		'parent_item'       => __( 'Parent Testimonial Category' ),
+        'parent_item'       => __( 'Parent Testimonial Category' ),
 
-		'parent_item_colon' => __( 'Parent Testimonial Category:' ),
+        'parent_item_colon' => __( 'Parent Testimonial Category:' ),
 
-		'edit_item'         => __( 'Edit Testimonial Category' ),
+        'edit_item'         => __( 'Edit Testimonial Category' ),
 
-		'update_item'       => __( 'Update Testimonial Category' ),
+        'update_item'       => __( 'Update Testimonial Category' ),
 
-		'add_new_item'      => __( 'Add New Testimonial Category' ),
+        'add_new_item'      => __( 'Add New Testimonial Category' ),
 
-		'new_item_name'     => __( 'New Testimonial Category Name' ),
+        'new_item_name'     => __( 'New Testimonial Category Name' ),
 
-		'menu_name'         => __( 'Testimonial Category' ),
+        'menu_name'         => __( 'Testimonial Category' ),
 
-	);
+    );
 
-	$catarg = array(
+    $catarg = array(
 
-		'hierarchical'      => true,
+        'hierarchical'      => true,
 
-		'labels'            => $cat,
+        'labels'            => $cat,
 
-		'show_ui'           => true,
+        'show_ui'           => true,
 
-		'show_admin_column' => true,
+        'show_admin_column' => true,
 
-		'query_var'         => true,
+        'query_var'         => true,
 
-		'rewrite'           => array( 'slug' => 'category' ),
+        'rewrite'           => array( 'slug' => 'category' ),
 
-	);
+    );
 
-	register_taxonomy( 'testimonial_category', array( 'testimonial' ), $catarg );
+    register_taxonomy( 'testimonial_category', array( 'testimonial' ), $catarg );
 
     register_post_type('testimonial', $args);
 
     }
 
-	
+    
 
 add_action('init', 'Teampartners_register');
 
@@ -659,7 +649,7 @@ function Teampartners_register() {
 
     );
 
-	$args = array(
+    $args = array(
 
    'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
 
@@ -671,47 +661,47 @@ function Teampartners_register() {
 
 $cat = array(
 
-		'name'              => _x( 'Team & Partners Category', 'taxonomy general name' ),
+        'name'              => _x( 'Team & Partners Category', 'taxonomy general name' ),
 
-		'singular_name'     => _x( 'Team & Partners Category', 'taxonomy singular name' ),
+        'singular_name'     => _x( 'Team & Partners Category', 'taxonomy singular name' ),
 
-		'search_items'      => __( 'Search Team & Partners Category' ),
+        'search_items'      => __( 'Search Team & Partners Category' ),
 
-		'all_items'         => __( 'All Team & Partners Category' ),
+        'all_items'         => __( 'All Team & Partners Category' ),
 
-		'parent_item'       => __( 'Parent Team & Partners Category' ),
+        'parent_item'       => __( 'Parent Team & Partners Category' ),
 
-		'parent_item_colon' => __( 'Parent Team & Partners Category:' ),
+        'parent_item_colon' => __( 'Parent Team & Partners Category:' ),
 
-		'edit_item'         => __( 'Edit Team & Partners Category' ),
+        'edit_item'         => __( 'Edit Team & Partners Category' ),
 
-		'update_item'       => __( 'Update Team & Partners Category' ),
+        'update_item'       => __( 'Update Team & Partners Category' ),
 
-		'add_new_item'      => __( 'Add New Team & Partners Category' ),
+        'add_new_item'      => __( 'Add New Team & Partners Category' ),
 
-		'new_item_name'     => __( 'New Team & Partners Category Name' ),
+        'new_item_name'     => __( 'New Team & Partners Category Name' ),
 
-		'menu_name'         => __( 'Team & Partners Category' ),
+        'menu_name'         => __( 'Team & Partners Category' ),
 
-	);
+    );
 
-	$catarg = array(
+    $catarg = array(
 
-		'hierarchical'      => true,
+        'hierarchical'      => true,
 
-		'labels'            => $cat,
+        'labels'            => $cat,
 
-		'show_ui'           => true,
+        'show_ui'           => true,
 
-		'show_admin_column' => true,
+        'show_admin_column' => true,
 
-		'query_var'         => true,
+        'query_var'         => true,
 
-		'rewrite'           => array( 'slug' => 'category' ),
+        'rewrite'           => array( 'slug' => 'category' ),
 
-	);
+    );
 
-	register_taxonomy( 'teampartners_category', array( 'teampartners' ), $catarg );
+    register_taxonomy( 'teampartners_category', array( 'teampartners' ), $catarg );
 
     register_post_type('teampartners', $args);
 
@@ -735,7 +725,7 @@ function Latest_projects() {
 
     );
 
-	$args = array(
+    $args = array(
 
    'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
 
@@ -748,56 +738,56 @@ function Latest_projects() {
     register_post_type('latestprojects', $args);
 
     }
-	//adding new custom post type
-	function custom_post_type() {
+    //adding new custom post type
+    function custom_post_type() {
 
 // Set UI labels for Custom Post Type
-	$labels = array(
-		'name'                => _x( 'User Projects', 'Post Type General Name', 'twentythirteen' ),
-		'singular_name'       => _x( 'User Project', 'Post Type Singular Name', 'twentythirteen' ),
-		'menu_name'           => __( 'User Projects', 'twentythirteen' ),
-		'parent_item_colon'   => __( 'Parent User Project', 'twentythirteen' ),
-		'all_items'           => __( 'All User Projects', 'twentythirteen' ),
-		'view_item'           => __( 'View User Project', 'twentythirteen' ),
-		'add_new_item'        => __( 'Add New User Project', 'twentythirteen' ),
-		'add_new'             => __( 'Add New', 'twentythirteen' ),
-		'edit_item'           => __( 'Edit User Project', 'twentythirteen' ),
-		'update_item'         => __( 'Update User Project', 'twentythirteen' ),
-		'search_items'        => __( 'Search User Project', 'twentythirteen' ),
-		'not_found'           => __( 'Not Found', 'twentythirteen' ),
-		'not_found_in_trash'  => __( 'Not found in Trash', 'twentythirteen' ),
-	);
-	
+    $labels = array(
+        'name'                => _x( 'User Projects', 'Post Type General Name', 'twentythirteen' ),
+        'singular_name'       => _x( 'User Project', 'Post Type Singular Name', 'twentythirteen' ),
+        'menu_name'           => __( 'User Projects', 'twentythirteen' ),
+        'parent_item_colon'   => __( 'Parent User Project', 'twentythirteen' ),
+        'all_items'           => __( 'All User Projects', 'twentythirteen' ),
+        'view_item'           => __( 'View User Project', 'twentythirteen' ),
+        'add_new_item'        => __( 'Add New User Project', 'twentythirteen' ),
+        'add_new'             => __( 'Add New', 'twentythirteen' ),
+        'edit_item'           => __( 'Edit User Project', 'twentythirteen' ),
+        'update_item'         => __( 'Update User Project', 'twentythirteen' ),
+        'search_items'        => __( 'Search User Project', 'twentythirteen' ),
+        'not_found'           => __( 'Not Found', 'twentythirteen' ),
+        'not_found_in_trash'  => __( 'Not found in Trash', 'twentythirteen' ),
+    );
+    
 // Set other options for Custom Post Type
-	
-	$args = array(
-		'label'               => __( 'User Project', 'twentythirteen' ),
-		'description'         => __( 'User Project news and reviews', 'twentythirteen' ),
-		'labels'              => $labels,
-		// Features this CPT supports in Post Editor
-		'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
-		// You can associate this CPT with a taxonomy or custom taxonomy. 
-		'taxonomies'          => array( 'genres' ),
-		/* A hierarchical CPT is like Pages and can have
-		* Parent and child items. A non-hierarchical CPT
-		* is like Posts.
-		*/	
-		'hierarchical'        => false,
-		'public'              => true,
-		'show_ui'             => true,
-		'show_in_menu'        => true,
-		'show_in_nav_menus'   => true,
-		'show_in_admin_bar'   => true,
-		'menu_position'       => 5,
-		'can_export'          => true,
-		'has_archive'         => true,
-		'exclude_from_search' => false,
-		'publicly_queryable'  => true,
-		'capability_type'     => 'page',
-	);
-	
-	// Registering your Custom Post Type
-	register_post_type( 'UserProject', $args );
+    
+    $args = array(
+        'label'               => __( 'User Project', 'twentythirteen' ),
+        'description'         => __( 'User Project news and reviews', 'twentythirteen' ),
+        'labels'              => $labels,
+        // Features this CPT supports in Post Editor
+        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
+        // You can associate this CPT with a taxonomy or custom taxonomy. 
+        'taxonomies'          => array( 'genres' ),
+        /* A hierarchical CPT is like Pages and can have
+        * Parent and child items. A non-hierarchical CPT
+        * is like Posts.
+        */  
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'can_export'          => true,
+        'has_archive'         => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'page',
+    );
+    
+    // Registering your Custom Post Type
+    register_post_type( 'UserProject', $args );
 
 }
 
@@ -808,7 +798,7 @@ function Latest_projects() {
 
 add_action( 'init', 'custom_post_type', 0 );
 
-	
+    
 
 add_action('init', 'The_News');
 
@@ -828,7 +818,7 @@ function The_News() {
 
     );
 
-	$args = array(
+    $args = array(
 
    'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
 
@@ -840,9 +830,9 @@ function The_News() {
 
     register_post_type('thenews', $args);
 
-    }	
+    }   
 
-	
+    
 
 add_action('init', 'FA_Qs');
 
@@ -862,7 +852,7 @@ function FA_Qs() {
 
     );
 
-	$args = array(
+    $args = array(
 
    'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
 
@@ -874,55 +864,55 @@ function FA_Qs() {
 
 $cat = array(
 
-		'name'              => _x( 'FAQs Category', 'taxonomy general name' ),
+        'name'              => _x( 'FAQs Category', 'taxonomy general name' ),
 
-		'singular_name'     => _x( 'FAQs Category', 'taxonomy singular name' ),
+        'singular_name'     => _x( 'FAQs Category', 'taxonomy singular name' ),
 
-		'search_items'      => __( 'Search FAQs Category' ),
+        'search_items'      => __( 'Search FAQs Category' ),
 
-		'all_items'         => __( 'All FAQs Category' ),
+        'all_items'         => __( 'All FAQs Category' ),
 
-		'parent_item'       => __( 'Parent FAQs Category' ),
+        'parent_item'       => __( 'Parent FAQs Category' ),
 
-		'parent_item_colon' => __( 'Parent FAQs Category:' ),
+        'parent_item_colon' => __( 'Parent FAQs Category:' ),
 
-		'edit_item'         => __( 'Edit FAQs Category' ),
+        'edit_item'         => __( 'Edit FAQs Category' ),
 
-		'update_item'       => __( 'Update FAQs Category' ),
+        'update_item'       => __( 'Update FAQs Category' ),
 
-		'add_new_item'      => __( 'Add New FAQs Category' ),
+        'add_new_item'      => __( 'Add New FAQs Category' ),
 
-		'new_item_name'     => __( 'New FAQs Category Name' ),
+        'new_item_name'     => __( 'New FAQs Category Name' ),
 
-		'menu_name'         => __( 'FAQs Category' ),
+        'menu_name'         => __( 'FAQs Category' ),
 
-	);
+    );
 
-	$catarg = array(
+    $catarg = array(
 
-		'hierarchical'      => true,
+        'hierarchical'      => true,
 
-		'labels'            => $cat,
+        'labels'            => $cat,
 
-		'show_ui'           => true,
+        'show_ui'           => true,
 
-		'show_admin_column' => true,
+        'show_admin_column' => true,
 
-		'query_var'         => true,
+        'query_var'         => true,
 
-		'rewrite'           => array( 'slug' => 'category' ),
+        'rewrite'           => array( 'slug' => 'category' ),
 
-	);
+    );
 
-	register_taxonomy( 'FAQs_cat', array( 'faqs' ), $catarg );
+    register_taxonomy( 'FAQs_cat', array( 'faqs' ), $catarg );
 
     register_post_type('faqs', $args);
 
-    }	
+    }   
 
-	
+    
 
-	
+    
 
 add_action('init', 'Top_carosule');
 
@@ -942,7 +932,7 @@ function Top_carosule() {
 
     );
 
-	$args = array(
+    $args = array(
 
    'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
 
@@ -956,7 +946,7 @@ function Top_carosule() {
 
     }
 
-	
+    
 
 add_action('init', 'Breaking_news');
 
@@ -976,7 +966,7 @@ function Breaking_news() {
 
     );
 
-	$args = array(
+    $args = array(
 
    'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
 
@@ -996,31 +986,31 @@ function Featured_pro() {
 
 $labels = array(
 
-		'name'              => _x( 'Featured Project', 'taxonomy general name' ),
+        'name'              => _x( 'Featured Project', 'taxonomy general name' ),
 
-		'singular_name'     => _x( 'Featured Project', 'taxonomy singular name' ),
+        'singular_name'     => _x( 'Featured Project', 'taxonomy singular name' ),
 
-		'search_items'      => __( 'Search Featured Project' ),
+        'search_items'      => __( 'Search Featured Project' ),
 
-		'all_items'         => __( 'All Featured Project' ),
+        'all_items'         => __( 'All Featured Project' ),
 
-		'parent_item'       => __( 'Parent Featured Project' ),
+        'parent_item'       => __( 'Parent Featured Project' ),
 
-		'parent_item_colon' => __( 'Parent Featured Project:' ),
+        'parent_item_colon' => __( 'Parent Featured Project:' ),
 
-		'edit_item'         => __( 'Edit Featured Project' ),
+        'edit_item'         => __( 'Edit Featured Project' ),
 
-		'update_item'       => __( 'Update Featured Project' ),
+        'update_item'       => __( 'Update Featured Project' ),
 
-		'add_new_item'      => __( 'Add New Featured Project' ),
+        'add_new_item'      => __( 'Add New Featured Project' ),
 
-		'new_item_name'     => __( 'New Featured Project Name' ),
+        'new_item_name'     => __( 'New Featured Project Name' ),
 
-		'menu_name'         => __( 'Featured Project' ),
+        'menu_name'         => __( 'Featured Project' ),
 
-	);
+    );
 
-	$args = array(
+    $args = array(
 
    'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
 
@@ -1032,47 +1022,47 @@ $labels = array(
 
 $cat = array(
 
-		'name'              => _x( 'Featured Category', 'taxonomy general name' ),
+        'name'              => _x( 'Featured Category', 'taxonomy general name' ),
 
-		'singular_name'     => _x( 'Featured Category', 'taxonomy singular name' ),
+        'singular_name'     => _x( 'Featured Category', 'taxonomy singular name' ),
 
-		'search_items'      => __( 'Search Featured Category' ),
+        'search_items'      => __( 'Search Featured Category' ),
 
-		'all_items'         => __( 'All Featured Category' ),
+        'all_items'         => __( 'All Featured Category' ),
 
-		'parent_item'       => __( 'Parent Featured Category' ),
+        'parent_item'       => __( 'Parent Featured Category' ),
 
-		'parent_item_colon' => __( 'Parent Featured Category:' ),
+        'parent_item_colon' => __( 'Parent Featured Category:' ),
 
-		'edit_item'         => __( 'Edit Featured Category' ),
+        'edit_item'         => __( 'Edit Featured Category' ),
 
-		'update_item'       => __( 'Update Featured Category' ),
+        'update_item'       => __( 'Update Featured Category' ),
 
-		'add_new_item'      => __( 'Add New Featured Category' ),
+        'add_new_item'      => __( 'Add New Featured Category' ),
 
-		'new_item_name'     => __( 'New Featured Category Name' ),
+        'new_item_name'     => __( 'New Featured Category Name' ),
 
-		'menu_name'         => __( 'Featured Category' ),
+        'menu_name'         => __( 'Featured Category' ),
 
-	);
+    );
 
-	$catarg = array(
+    $catarg = array(
 
-		'hierarchical'      => true,
+        'hierarchical'      => true,
 
-		'labels'            => $cat,
+        'labels'            => $cat,
 
-		'show_ui'           => true,
+        'show_ui'           => true,
 
-		'show_admin_column' => true,
+        'show_admin_column' => true,
 
-		'query_var'         => true,
+        'query_var'         => true,
 
-		'rewrite'           => array( 'slug' => 'category' ),
+        'rewrite'           => array( 'slug' => 'category' ),
 
-	);
+    );
 
-	register_taxonomy( 'featured_category', array( 'featuredpro' ), $catarg );
+    register_taxonomy( 'featured_category', array( 'featuredpro' ), $catarg );
 
     register_post_type('featuredpro', $args);
 
@@ -1084,31 +1074,31 @@ function page_post() {
 
 $labels = array(
 
-		'name'              => _x( 'Page Post', 'taxonomy general name' ),
+        'name'              => _x( 'Page Post', 'taxonomy general name' ),
 
-		'singular_name'     => _x( 'Page Post', 'taxonomy singular name' ),
+        'singular_name'     => _x( 'Page Post', 'taxonomy singular name' ),
 
-		'search_items'      => __( 'Search Page Post' ),
+        'search_items'      => __( 'Search Page Post' ),
 
-		'all_items'         => __( 'All Page Posts' ),
+        'all_items'         => __( 'All Page Posts' ),
 
-		'parent_item'       => __( 'Parent Page Post' ),
+        'parent_item'       => __( 'Parent Page Post' ),
 
-		'parent_item_colon' => __( 'Parent Page Post:' ),
+        'parent_item_colon' => __( 'Parent Page Post:' ),
 
-		'edit_item'         => __( 'Edit Page Post' ),
+        'edit_item'         => __( 'Edit Page Post' ),
 
-		'update_item'       => __( 'Update Page Post' ),
+        'update_item'       => __( 'Update Page Post' ),
 
-		'add_new_item'      => __( 'Add New Page Post' ),
+        'add_new_item'      => __( 'Add New Page Post' ),
 
-		'new_item_name'     => __( 'New Page Post Name' ),
+        'new_item_name'     => __( 'New Page Post Name' ),
 
-		'menu_name'         => __( 'Page Post' ),
+        'menu_name'         => __( 'Page Post' ),
 
-	);
+    );
 
-	$args = array(
+    $args = array(
 
    'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
 
@@ -1120,47 +1110,47 @@ $labels = array(
 
 $cat = array(
 
-		'name'              => _x( 'Page Post Category', 'taxonomy general name' ),
+        'name'              => _x( 'Page Post Category', 'taxonomy general name' ),
 
-		'singular_name'     => _x( 'Page Post Category', 'taxonomy singular name' ),
+        'singular_name'     => _x( 'Page Post Category', 'taxonomy singular name' ),
 
-		'search_items'      => __( 'Search Page Post Category' ),
+        'search_items'      => __( 'Search Page Post Category' ),
 
-		'all_items'         => __( 'All Page Posts Category' ),
+        'all_items'         => __( 'All Page Posts Category' ),
 
-		'parent_item'       => __( 'Parent Page Post Category' ),
+        'parent_item'       => __( 'Parent Page Post Category' ),
 
-		'parent_item_colon' => __( 'Parent Page Post Category:' ),
+        'parent_item_colon' => __( 'Parent Page Post Category:' ),
 
-		'edit_item'         => __( 'Edit Page Post Category' ),
+        'edit_item'         => __( 'Edit Page Post Category' ),
 
-		'update_item'       => __( 'Update Page Post Category' ),
+        'update_item'       => __( 'Update Page Post Category' ),
 
-		'add_new_item'      => __( 'Add New Page Post Category' ),
+        'add_new_item'      => __( 'Add New Page Post Category' ),
 
-		'new_item_name'     => __( 'New Page Post Category Name' ),
+        'new_item_name'     => __( 'New Page Post Category Name' ),
 
-		'menu_name'         => __( 'Page Post Category' ),
+        'menu_name'         => __( 'Page Post Category' ),
 
-	);
+    );
 
-	$catarg = array(
+    $catarg = array(
 
-		'hierarchical'      => true,
+        'hierarchical'      => true,
 
-		'labels'            => $cat,
+        'labels'            => $cat,
 
-		'show_ui'           => true,
+        'show_ui'           => true,
 
-		'show_admin_column' => true,
+        'show_admin_column' => true,
 
-		'query_var'         => true,
+        'query_var'         => true,
 
-		'rewrite'           => array( 'slug' => 'category' ),
+        'rewrite'           => array( 'slug' => 'category' ),
 
-	);
+    );
 
-	register_taxonomy( 'pagepost_category', array( 'page_post' ), $catarg );
+    register_taxonomy( 'pagepost_category', array( 'page_post' ), $catarg );
 
     register_post_type('page_post', $args);
 
@@ -1186,7 +1176,7 @@ function How_It_Works() {
 
     );
 
-	$args = array(
+    $args = array(
 
    'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
 
@@ -1198,53 +1188,53 @@ function How_It_Works() {
 
 $cat = array(
 
-		'name'              => _x( 'How It Works Category', 'taxonomy general name' ),
+        'name'              => _x( 'How It Works Category', 'taxonomy general name' ),
 
-		'singular_name'     => _x( 'How It Works Category', 'taxonomy singular name' ),
+        'singular_name'     => _x( 'How It Works Category', 'taxonomy singular name' ),
 
-		'search_items'      => __( 'Search How It Works Category' ),
+        'search_items'      => __( 'Search How It Works Category' ),
 
-		'all_items'         => __( 'How It Works Category' ),
+        'all_items'         => __( 'How It Works Category' ),
 
-		'parent_item'       => __( 'Parent How It Works Category' ),
+        'parent_item'       => __( 'Parent How It Works Category' ),
 
-		'parent_item_colon' => __( 'Parent How It Works Category:' ),
+        'parent_item_colon' => __( 'Parent How It Works Category:' ),
 
-		'edit_item'         => __( 'Edit How It Works Category' ),
+        'edit_item'         => __( 'Edit How It Works Category' ),
 
-		'update_item'       => __( 'Update How It Works Category' ),
+        'update_item'       => __( 'Update How It Works Category' ),
 
-		'add_new_item'      => __( 'Add New How It Works Category' ),
+        'add_new_item'      => __( 'Add New How It Works Category' ),
 
-		'new_item_name'     => __( 'New How It Works Category Name' ),
+        'new_item_name'     => __( 'New How It Works Category Name' ),
 
-		'menu_name'         => __( 'How It Works Category' ),
+        'menu_name'         => __( 'How It Works Category' ),
 
-	);
+    );
 
-	$catarg = array(
+    $catarg = array(
 
-		'hierarchical'      => true,
+        'hierarchical'      => true,
 
-		'labels'            => $cat,
+        'labels'            => $cat,
 
-		'show_ui'           => true,
+        'show_ui'           => true,
 
-		'show_admin_column' => true,
+        'show_admin_column' => true,
 
-		'query_var'         => true,
+        'query_var'         => true,
 
-		'rewrite'           => array( 'slug' => 'how_it_works' ),
+        'rewrite'           => array( 'slug' => 'how_it_works' ),
 
-	);
+    );
 
-	register_taxonomy( 'how_it_works', array( 'how_it' ), $catarg );
+    register_taxonomy( 'how_it_works', array( 'how_it' ), $catarg );
 
     register_post_type('how_it', $args);
 
     }
 
-	
+    
 
 add_action('init', 'Trailers');
 
@@ -1264,7 +1254,7 @@ function Trailers() {
 
     );
 
-	$args = array(
+    $args = array(
 
    'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
 
@@ -1276,47 +1266,47 @@ function Trailers() {
 
 $cat = array(
 
-		'name'              => _x( 'Trailers & Clips Category', 'taxonomy general name' ),
+        'name'              => _x( 'Trailers & Clips Category', 'taxonomy general name' ),
 
-		'singular_name'     => _x( 'Trailers & Clips Category', 'taxonomy singular name' ),
+        'singular_name'     => _x( 'Trailers & Clips Category', 'taxonomy singular name' ),
 
-		'search_items'      => __( 'Search Trailers & Clips Category' ),
+        'search_items'      => __( 'Search Trailers & Clips Category' ),
 
-		'all_items'         => __( 'All Trailers & Clips Category' ),
+        'all_items'         => __( 'All Trailers & Clips Category' ),
 
-		'parent_item'       => __( 'Parent Trailers & Clips Category' ),
+        'parent_item'       => __( 'Parent Trailers & Clips Category' ),
 
-		'parent_item_colon' => __( 'Parent Trailers & Clips Category:' ),
+        'parent_item_colon' => __( 'Parent Trailers & Clips Category:' ),
 
-		'edit_item'         => __( 'Edit Trailers & Clips Category' ),
+        'edit_item'         => __( 'Edit Trailers & Clips Category' ),
 
-		'update_item'       => __( 'Update Trailers & Clips Category' ),
+        'update_item'       => __( 'Update Trailers & Clips Category' ),
 
-		'add_new_item'      => __( 'Add New Trailers & Clips Category' ),
+        'add_new_item'      => __( 'Add New Trailers & Clips Category' ),
 
-		'new_item_name'     => __( 'New Trailers & Clips Category Name' ),
+        'new_item_name'     => __( 'New Trailers & Clips Category Name' ),
 
-		'menu_name'         => __( 'Trailers & Clips Category' ),
+        'menu_name'         => __( 'Trailers & Clips Category' ),
 
-	);
+    );
 
-	$catarg = array(
+    $catarg = array(
 
-		'hierarchical'      => true,
+        'hierarchical'      => true,
 
-		'labels'            => $cat,
+        'labels'            => $cat,
 
-		'show_ui'           => true,
+        'show_ui'           => true,
 
-		'show_admin_column' => true,
+        'show_admin_column' => true,
 
-		'query_var'         => true,
+        'query_var'         => true,
 
-		'rewrite'           => array( 'slug' => 'category' ),
+        'rewrite'           => array( 'slug' => 'category' ),
 
-	);
+    );
 
-	register_taxonomy( 'trailers_category', array( 'trailers' ), $catarg );
+    register_taxonomy( 'trailers_category', array( 'trailers' ), $catarg );
 
     register_post_type('trailers', $args);
 
@@ -1324,13 +1314,13 @@ $cat = array(
 
 /*Post type functions*/
 
-function Welcome() {	
+function Welcome() {    
 
 
 
-global $post;	
+global $post;   
 
-$i = 1;	
+$i = 1; 
 
     echo '<div class="row">';
 
@@ -1338,9 +1328,9 @@ $i = 1;
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $post ) { setup_postdata($post);
+    foreach( $myposts as $post ) { setup_postdata($post);
 
 ?>
 
@@ -1348,29 +1338,29 @@ $i = 1;
 
   <h2><?php the_title(); ?></h2><br />
 
-	<div class="row">
+    <div class="row">
 
     <div class="col-sm-5">
 
-	<?php the_post_thumbnail('article-image',array('class' => "img-responsive")); ?>
+    <?php the_post_thumbnail('article-image',array('class' => "img-responsive")); ?>
 
-	</div>
+    </div>
 
-					<?//php echo substr(get_the_excerpt(), 0, 150); ?>
+                    <?//php echo substr(get_the_excerpt(), 0, 150); ?>
 
-	<div class="col-sm-6">
+    <div class="col-sm-6">
 
     <?php the_content(); ?>
 
-	</div>
+    </div>
 
     </div>
 
-	</div>
+    </div>
 
 <?php
 
-	}wp_reset_query();
+    }wp_reset_query();
 
 ?>
 
@@ -1380,137 +1370,102 @@ $i = 1;
 
 }
 
-function Invest() {		
-
-
-
-global $post;	
-
-$i = 1;
-
+function Invest() {     
+    global $post;
+    $i = 1;
     echo '<div class="row">';
+    $args = array('suppress_filters' => true,'posts_per_page' => 4,'post_type' => 'invest','order' => 'ASC');
+    $myposts = get_posts( $args );
+    foreach( $myposts as $post ) { setup_postdata($post);
+        $meta = get_post_meta(get_the_id());
+        $key = get_post_meta($post->ID, 'overtext1');
+    ?>
+    <div class="col-sm-3">
+        <div class="invest-box">
+            <a href="<?php print_r($meta[link][0]);?>" class="superTrigger"><?php the_post_thumbnail('wayinst'); ?>
+                <div class="blue text-center">
+                    <i class="fa fa-plus"></i>
+                    <h6><?php print_r($meta[link][1]);?><br/><?php print_r($meta[link][2]);?></h6>
+                </div>
+            </a>
 
-    $args = array('suppress_filters' => true,'posts_per_page' => 4,'post_type' => 'invest','order' => 'ASC'
+            <h5><?php the_title(); ?></h5>
+            <a href="<?php the_permalink();?>"><?php the_content(); ?></a>
+            <div class="way-invstbx">
+                <div class="row">
+                    <div class="col-xs-8 text-left">
+                        <b>Min.Investment</b>
+                    </div>
+                    <div class="col-xs-4">
+                        <p><?php the_field("min.investment"); ?></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-8 text-left">
+                        <b>Raising</b>
+                    </div>
+                    <div class="col-xs-4">
+                        <p><?php the_field("raising"); ?></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-8 text-left">
+                        <b>For 15% Equity</b>
+                    </div>
+                    <div class="col-xs-4">
+                        <p><?php the_field("for_15%_equity"); ?></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-8 text-left">
+                        <b>Average Carry</b>
+                    </div>
+                    <div class="col-xs-4">
+                        <p><?php the_field("average_carry"); ?></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-8 text-left">
+                        <b>Interest per anumm</b>
+                    </div>
+                    <div class="col-xs-4">
+                        <p><?php the_field("interest_per_anumm"); ?></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-8 text-left">
+                        <b>RIO</b>
+                    </div>
+                    <div class="col-xs-4">
+                        <p><?php the_field("rio"); ?></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 jeba_invest">
+                        <div class="button text-center">
 
-    );
+                        <ul class="list-inline">
 
-	$myposts = get_posts( $args );
+                            <li><a href="<?php the_field("rio_invest"); ?>" class="btn btn-6">INVEST NOW</a></li>
 
-	foreach( $myposts as $post ) { setup_postdata($post);
+                        </ul>
 
-	$meta = get_post_meta(get_the_id());
-
-	$key = get_post_meta($post->ID, 'overtext1');
-
-?>
-
-<div class="col-sm-3">
-
-     
-
-	<div class="invest-box">
-
-	<a href="<?php print_r($meta[link][0]);?>" class="superTrigger"><?php the_post_thumbnail('wayinst'); ?>
-
-	<div class="blue text-center">
-
-        <i class="fa fa-plus"></i>
-
-       <h6><?php print_r($meta[link][1]);?><br/><?php print_r($meta[link][2]);?></h6>
-
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
     </div>
 
-	</a>
-
-	<h5><?php the_title(); ?></h5>
-
-	<a href="<?php the_permalink();?>"><?php the_content(); ?></a>
-    
-    <div class="way-invstbx">
-        <div class="row">
-        <div class="col-xs-8 text-left">
-        <b>Min.Investment</b>
-        </div>
-        <div class="col-xs-4">
-        <p><?php the_field("min.investment"); ?></p>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-xs-8 text-left">
-        <b>Raising</b>
-        </div>
-        <div class="col-xs-4">
-        <p><?php the_field("raising"); ?></p>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-xs-8 text-left">
-        <b>For 15% Equity</b>
-        </div>
-        <div class="col-xs-4">
-        <p><?php the_field("for_15%_equity"); ?></p>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-xs-8 text-left">
-        <b>Average Carry</b>
-        </div>
-        <div class="col-xs-4">
-        <p><?php the_field("average_carry"); ?></p>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-xs-8 text-left">
-        <b>Interest per anumm</b>
-        </div>
-        <div class="col-xs-4">
-        <p><?php the_field("interest_per_anumm"); ?></p>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-xs-8 text-left">
-        <b>RIO</b>
-        </div>
-        <div class="col-xs-4">
-        <p><?php the_field("rio"); ?></p>
-        </div>
-        </div>
-       		<div class="row">
-			<div class="col-md-12 jeba_invest">
-				<div class="button text-center">
-
-				<ul class="list-inline">
-
-					<li><a href="<?php the_field("rio_invest"); ?>" class="btn btn-6">Invest</a></li>
-
-				</ul>
-
-				</div>
-			</div>
-		</div>
-
-    <?//php dynamic_sidebar('sidebar-2');?>
-    </div>
-
-	</div>    
-
-	</div>
-
-<?php
-
-	}wp_reset_query();
-
-?>
-
+<?php } wp_reset_query();?>
 </div>
+<?php }
 
-<?php
 
-}
 
 function category1() {
 
-global $post;	
+global $post;   
 
 $i = 1;
 
@@ -1518,83 +1473,83 @@ $i = 1;
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $post ) { setup_postdata($post);
+    foreach( $myposts as $post ) { setup_postdata($post);
 
 ?>
 
-	<div class="item <?php if($i == 1){?> active <?php $i++; }?>">
+    <div class="item <?php if($i == 1){?> active <?php $i++; }?>">
 
             <div class="row">
 
-			<div class="col-sm-3">
+            <div class="col-sm-3">
 
-			  <?php the_post_thumbnail('team-part'); ?>
-
-			</div>
-
-			<div class="col-sm-9">
-
-                <?php the_content();?>
-
-			</div>
+              <?php the_post_thumbnail('team-part'); ?>
 
             </div>
 
-			<div class="cartoon text-center">			
+            <div class="col-sm-9">
 
-			<div class="row">		
+                <?php the_content();?>
+
+            </div>
+
+            </div>
+
+            <div class="cartoon text-center">           
+
+            <div class="row">       
 
                 <?php 
 
-					$image1 = get_field('movie_poster1'); 		
+                    $image1 = get_field('movie_poster1');       
 
-					$image2 = get_field('movie_poster2'); 
+                    $image2 = get_field('movie_poster2'); 
 
-					$image3 = get_field('movie_poster3'); 
+                    $image3 = get_field('movie_poster3'); 
 
-				?>
+                ?>
 
-                <?php if( !empty($image1)): ?>			
+                <?php if( !empty($image1)): ?>          
 
-				<div class="col-sm-4 col-xs-4">
+                <div class="col-sm-4 col-xs-4">
 
-				<center><img src="<?php echo $image1['url']; ?>"/></center>
+                <center><img src="<?php echo $image1['url']; ?>"/></center>
 
-				<p><?php the_field("movie_tit1"); ?></p>
+                <p><?php the_field("movie_tit1"); ?></p>
 
-				</div>
+                </div>
 
-				<?php endif; ?>
+                <?php endif; ?>
 
-				<?php if( !empty($image1)): ?>	
+                <?php if( !empty($image1)): ?>  
 
-				<div class="col-sm-4 col-xs-4">
+                <div class="col-sm-4 col-xs-4">
 
-				<center><img src="<?php echo $image2['url']; ?>"/></center>
+                <center><img src="<?php echo $image2['url']; ?>"/></center>
 
                                 <p><?php the_field("movie_tit2"); ?></p>
 
-				</div>
+                </div>
 
-				<?php endif; ?>
+                <?php endif; ?>
 
-	
+    
 
-				<?php if( !empty($image1)): ?>	
+                <?php if( !empty($image1)): ?>  
 
-				<div class="col-sm-4 col-xs-4">
+                <div class="col-sm-4 col-xs-4">
 
-				<center><img src="<?php echo $image3['url']; ?>"/></center>
+                <center><img src="<?php echo $image3['url']; ?>"/></center>
 
-				<p><?php the_field("movie_tit3"); ?></p>
+                <p><?php the_field("movie_tit3"); ?></p>
 
-				</div>
+                </div>
 
-				<?php endif; ?>
+                <?php endif; ?>
 
-			</div>
+            </div>
 
                      </div>
 
@@ -1608,7 +1563,7 @@ $i = 1;
 
 function category2() {
 
-global $post;	
+global $post;   
 
 $i = 1;
 
@@ -1616,81 +1571,81 @@ $i = 1;
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $post ) { setup_postdata($post);
+    foreach( $myposts as $post ) { setup_postdata($post);
 
 ?>
 
-	<div class="item <?php if($i == 1){?> active <?php $i++; }?>">
+    <div class="item <?php if($i == 1){?> active <?php $i++; }?>">
 
             <div class="row">
 
-			<div class="col-sm-3">
+            <div class="col-sm-3">
 
-			  <?php the_post_thumbnail('team-part'); ?>
-
-			</div>
-
-			<div class="col-sm-9">
-
-                <?php the_content();?>
-
-			</div>
+              <?php the_post_thumbnail('team-part'); ?>
 
             </div>
 
-			
+            <div class="col-sm-9">
 
-			<div class="row">		
+                <?php the_content();?>
+
+            </div>
+
+            </div>
+
+            
+
+            <div class="row">       
 
                 <?php 
 
-					$image1 = get_field('movie_poster1'); 		
+                    $image1 = get_field('movie_poster1');       
 
-					$image2 = get_field('movie_poster2'); 
+                    $image2 = get_field('movie_poster2'); 
 
-					$image3 = get_field('movie_poster3'); 
+                    $image3 = get_field('movie_poster3'); 
 
-				?>
+                ?>
 
-                <?php if( !empty($image1)): ?>			
+                <?php if( !empty($image1)): ?>          
 
-				<div class="col-sm-4 col-xs-4">
+                <div class="col-sm-4 col-xs-4">
 
-				<center><img src="<?php echo $image1['url']; ?>"/></center>
+                <center><img src="<?php echo $image1['url']; ?>"/></center>
 
                                 <p><?php the_field("movie_tit1"); ?></p>
 
-				</div>
+                </div>
 
-				<?php endif; ?>
+                <?php endif; ?>
 
-				<?php if( !empty($image1)): ?>	
+                <?php if( !empty($image1)): ?>  
 
-				<div class="col-sm-4 col-xs-4">
+                <div class="col-sm-4 col-xs-4">
 
-				<center><img src="<?php echo $image2['url']; ?>"/></center>
+                <center><img src="<?php echo $image2['url']; ?>"/></center>
 
-				<p><?php the_field("movie_tit2"); ?></p>
+                <p><?php the_field("movie_tit2"); ?></p>
 
-				</div>
+                </div>
 
-				<?php endif; ?>
+                <?php endif; ?>
 
-				<?php if( !empty($image1)): ?>	
+                <?php if( !empty($image1)): ?>  
 
-				<div class="col-sm-4 col-xs-4">
+                <div class="col-sm-4 col-xs-4">
 
-				<center><img src="<?php echo $image3['url']; ?>"/></center>
+                <center><img src="<?php echo $image3['url']; ?>"/></center>
 
-				<p><?php the_field("movie_tit3"); ?></p>
+                <p><?php the_field("movie_tit3"); ?></p>
 
-				</div>
+                </div>
 
-				<?php endif; ?>
+                <?php endif; ?>
 
-			</div>
+            </div>
 
     </div>
 
@@ -1704,7 +1659,7 @@ function test_inner() {
 ?>
 <div class="carousel-inner"> 
 <?php
-global $post;	
+global $post;   
 
 $i = 1;
 
@@ -1712,31 +1667,31 @@ $i = 1;
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $post ) { setup_postdata($post);
+    foreach( $myposts as $post ) { setup_postdata($post);
 
 ?>
 
-	<div class="item <?php if($i == 1){?> active <?php $i++; }?>">
+    <div class="item <?php if($i == 1){?> active <?php $i++; }?>">
 
             <div class="tsti-content">
 
-			<div class="tsti-posters">
+            <div class="tsti-posters">
 
-			  <?php the_post_thumbnail('team-part'); ?>
-
-			</div>
-
-			<div class="tsti-txt">
-
-                <?php the_content();?>
-
-			</div>
+              <?php the_post_thumbnail('team-part'); ?>
 
             </div>
 
-			
+            <div class="tsti-txt">
+
+                <?php the_content();?>
+
+            </div>
+
+            </div>
+
+            
 
     </div>
 
@@ -1751,13 +1706,13 @@ $i++;?>
 
                     <ol class="carousel-indicators">
 
-						 <?php 
+                         <?php 
 
                         foreach( $myposts as $key => $post ) { setup_postdata($post); ?>
 
-							<li data-target="#carousel-test" data-slide-to="<?php echo $key;?>" <?php if($key == 0){?>class="active"<?php } ?>></li>
+                            <li data-target="#carousel-test" data-slide-to="<?php echo $key;?>" <?php if($key == 0){?>class="active"<?php } ?>></li>
 
-						<?php }?>
+                        <?php }?>
 
                     </ol>
 
@@ -1766,37 +1721,34 @@ $i++;?>
 }
 
 
-function Team() {	
-
-global $post;	
-
+function Team() {   
+global $post;   
 $i = 1;
-
     $args = array('numberposts' => -1,'suppress_filters' => true,'post_type' => 'teampartners','order' => 'DESC' );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	$count = count($myposts);
+    $count = count($myposts);
 
-	$active = 0;
+    $active = 0;
 
-	for( $i = 0; $i <= $count; $i+=5 ){?>
+    for( $i = 0; $i <= $count; $i+=5 ){?>
 
     <div class="item <?php if($active == 0){?> active<?php } $active++; ?>">
 
-    	<div class="row">
+        <div class="row">
 
-		<?php for( $j = $i; $j < $i + 5; $j++ ){
+        <?php for( $j = $i; $j < $i + 5; $j++ ){
 
-			$posts = $myposts[$j];
+            $posts = $myposts[$j];
 
-			if( $myposts[$j] != '' ){
+            if( $myposts[$j] != '' ){
 
-			$post = get_post($posts->ID);
+            $post = get_post($posts->ID);
 
-			setup_postdata( $post );
+            setup_postdata( $post );
 
-			?>
+            ?>
 
             <div class="col-sm-5ths">
 
@@ -1806,7 +1758,7 @@ $i = 1;
 
                         <a target="_blank" href="<?php echo home_url();?>/team/">
 
-				<?php the_post_thumbnail( 'team-part',array('class' =>'team-size')); ?>
+                <?php the_post_thumbnail( 'team-part',array('class' =>'team-size')); ?>
 
                         
 
@@ -1828,18 +1780,18 @@ $i = 1;
                     
 
                     <p><?php echo substr(get_the_excerpt(), 0, 90); ?></p>
-						<a style="color:#E55403" href="<?php the_permalink(); ?>">read more...</a>
+                        <a style="color:#E55403" href="<?php the_permalink(); ?>">read more...</a>
                     </div>
 
                     <div class="row">
 
                     <?php 
 
-					$image1 = get_field('movie_poster1'); 
+                    $image1 = get_field('movie_poster1'); 
 
-					$image2 = get_field('movie_poster2');
+                    $image2 = get_field('movie_poster2');
 
-					?>
+                    ?>
 
                     <?php if( !empty($image1) || !empty($image2) ): ?>
 
@@ -1854,17 +1806,17 @@ $i = 1;
 
                 </div>    
 
-	        </div>
+            </div>
 
-		<?php }
+        <?php }
 
-		}?>
+        }?>
 
-		</div>
+        </div>
 
-	</div>
+    </div>
 
-	<?php }
+    <?php }
 
 ?>
 
@@ -1872,37 +1824,37 @@ $i = 1;
 
 }
 
-function Team_mob() {	
+function Team_mob() {   
 
-global $post;	
+global $post;   
 
 $i = 1;
 
     $args = array('numberposts' => -1,'suppress_filters' => true,'post_type' => 'teampartners','order' => 'DESC' );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	$count = count($myposts);
+    $count = count($myposts);
 
-	$active = 0;
+    $active = 0;
 
-	for( $i = 0; $i <= $count; $i+=2 ){?>
+    for( $i = 0; $i <= $count; $i+=2 ){?>
 
     <div class="item <?php if($active == 0){?> active<?php } $active++; ?>">
 
-    	<div class="row">
+        <div class="row">
 
-		<?php for( $j = $i; $j < $i + 1; $j++ ){
+        <?php for( $j = $i; $j < $i + 1; $j++ ){
 
-			$posts = $myposts[$j];
+            $posts = $myposts[$j];
 
-			if( $myposts[$j] != '' ){
+            if( $myposts[$j] != '' ){
 
-			$post = get_post($posts->ID);
+            $post = get_post($posts->ID);
 
-			setup_postdata( $post );
+            setup_postdata( $post );
 
-			?>
+            ?>
 
             <div class="col-sm-5ths">
 
@@ -1912,7 +1864,7 @@ $i = 1;
 
                         <a target="_blank" href="<?php echo home_url();?>/team_patrners/">
 
-				<?php the_post_thumbnail( 'team-part',array('class' =>'team-size')); ?>
+                <?php the_post_thumbnail( 'team-part',array('class' =>'team-size')); ?>
 
                         
 
@@ -1941,11 +1893,11 @@ $i = 1;
 
                     <?php 
 
-					$image1 = get_field('movie_poster1'); 
+                    $image1 = get_field('movie_poster1'); 
 
-					$image2 = get_field('movie_poster2');
+                    $image2 = get_field('movie_poster2');
 
-					?>
+                    ?>
 
                     <?php if( !empty($image1) || !empty($image2) ): ?>
 
@@ -1959,17 +1911,17 @@ $i = 1;
 
                 </div>    
 
-	        </div>
+            </div>
 
-		<?php }
+        <?php }
 
-		}?>
+        }?>
 
-		</div>
+        </div>
 
-	</div>
+    </div>
 
-	<?php }
+    <?php }
 
 ?>
 
@@ -1982,35 +1934,35 @@ $i = 1;
 
 
 
-function Latest_projrcts_modified() {	
+function Latest_projrcts_modified() {   
 
-global $post;	
+global $post;   
 
 $i = 1;
 
     $args = array('numberposts' => -1,'suppress_filters' => true,'post_type' => 'latestprojects','order' => 'ASC' );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	$count = count($myposts);
+    $count = count($myposts);
 
-	$active = 0;
+    $active = 0;
 
-	//for( $i = 0; $i <= $count; $i+=7 ){?> 
+    //for( $i = 0; $i <= $count; $i+=7 ){?> 
 
     <div class="item <?php if($active == 0){?> active<?php } $active++; ?>">
 
-    	<div class="row">
+        <div class="row">
 
-		<?php for( $j = 0; $j<$count; $j++ ){
+        <?php for( $j = 0; $j<$count; $j++ ){
 
-			$posts = $myposts[$j];
+            $posts = $myposts[$j];
 
-			if( $myposts[$j] != '' ){
+            if( $myposts[$j] != '' ){
 
-			$post = get_post($posts->ID);
+            $post = get_post($posts->ID);
 
-			setup_postdata( $post );
+            setup_postdata( $post );
 
 $meta = get_post_meta(get_the_id());
 
@@ -2040,27 +1992,27 @@ $field10 = get_field_object('investers');
 
 ?>
 
- 	<div class="col-md-3 col-sm-6 demo">
+    <div class="col-md-3 col-sm-6 movie_home">
 
-	<div class="pro-box">
+    <div class="pro-box">
 
-	<div class="img-thumb">
+    <div class="img-thumb">
 
-	<h4><?php the_title(); ?></h4><br />
+    <h4><?php the_title(); ?></h4><br />
 
-	
+    
 
-	<a target="_blank" href="<?php print_r($meta[link][0]);?>"><?php the_post_thumbnail('latest-pro',array('class' => "img-responsive")); ?></a>
+    <a target="_blank" href="<?php print_r($meta[link][0]);?>"><?php the_post_thumbnail('latest-pro',array('class' => "img-responsive")); ?></a>
 
     </div>
 
-	<div class="pro-content">
+    <div class="pro-content">
 
-	  <p><?php echo substr(get_the_content(), 0, 80); ?><span class="remore" data-mode="hide" data-id="re-<?php echo get_the_ID();?>">read more...</span> </p>
+      <p><?php echo substr(get_the_content(), 0, 80); ?><span class="remore" data-mode="hide" data-id="re-<?php echo get_the_ID();?>">read more...</span> </p>
 
       <div class="scrollbars excrt-cont re-<?php echo get_the_ID();?>"><?php the_content(); ?> </div>          
 
-	 </div>
+     </div>
 
 <div class="pro-table margin-t">
 
@@ -2158,19 +2110,19 @@ $grap = get_field('graph');
 
 </div>
 
-	</div>
+    </div>
 
     </div>
 
-		<?php }
+        <?php }
 
-		}?>
+        }?>
 
-		</div>
+        </div>
 
-	</div>
+    </div>
 
-	<?php //}
+    <?php //}
 
 ?>
 
@@ -2181,35 +2133,35 @@ $grap = get_field('graph');
 
 
 
-function Latest_projrcts() {	
+function Latest_projrcts() {    
 
-global $post;	
+global $post;   
 
 $i = 1;
 
     $args = array('numberposts' => -1,'suppress_filters' => true,'post_type' => 'latestprojects','order' => 'ASC' );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	$count = count($myposts);
+    $count = count($myposts);
 
-	$active = 0;
+    $active = 0;
 
-	for( $i = 0; $i <= $count; $i+=7 ){?>
+    for( $i = 0; $i <= $count; $i+=7 ){?>
 
     <div class="item <?php if($active == 0){?> active<?php } $active++; ?>">
 
-    	<div class="row">
+        <div class="row">
 
-		<?php for( $j = $i; $j < $i + 8; $j++ ){
+        <?php for( $j = $i; $j < $i + 8; $j++ ){
 
-			$posts = $myposts[$j];
+            $posts = $myposts[$j];
 
-			if( $myposts[$j] != '' ){
+            if( $myposts[$j] != '' ){
 
-			$post = get_post($posts->ID);
+            $post = get_post($posts->ID);
 
-			setup_postdata( $post );
+            setup_postdata( $post );
 
 $meta = get_post_meta(get_the_id());
 
@@ -2241,25 +2193,25 @@ $field10 = get_field_object('investers');
 
     <div class="col-md-3 col-sm-6">
 
-	<div class="pro-box">
+    <div class="pro-box">
 
-	<div class="img-thumb">
+    <div class="img-thumb">
 
-	<h4><?php the_title(); ?></h4><br />
+    <h4><?php the_title(); ?></h4><br />
 
-	
+    
 
-	<a target="_blank" href="<?php print_r($meta[link][0]);?>"><?php the_post_thumbnail('latest-pro',array('class' => "img-responsive")); ?></a>
+    <a target="_blank" href="<?php print_r($meta[link][0]);?>"><?php the_post_thumbnail('latest-pro',array('class' => "img-responsive")); ?></a>
 
     </div>
 
-	<div class="pro-content">
+    <div class="pro-content">
 
-	  <p><?php echo substr(get_the_content(), 0, 80); ?><span class="remore" data-mode="hide" data-id="re-<?php echo get_the_ID();?>">read more...</span> </p>
+      <p><?php echo substr(get_the_content(), 0, 80); ?><span class="remore" data-mode="hide" data-id="re-<?php echo get_the_ID();?>">read more...</span> </p>
 
       <div class="scrollbars excrt-cont re-<?php echo get_the_ID();?>"><?php the_content(); ?> </div>          
 
-	 </div>
+     </div>
 
 <div class="pro-table margin-t">
 
@@ -2357,19 +2309,19 @@ $grap = get_field('graph');
 
 </div>
 
-	</div>
+    </div>
 
     </div>
 
-		<?php }
+        <?php }
 
-		}?>
+        }?>
 
-		</div>
+        </div>
 
-	</div>
+    </div>
 
-	<?php }
+    <?php }
 
 ?>
 
@@ -2378,25 +2330,25 @@ $grap = get_field('graph');
 }
 
 
-function Latest_projrcts_mob() {	
+function Latest_projrcts_mob() {    
 
-global $post;	
+global $post;   
 
 $i = 1;
 
     $args = array('numberposts' => 5,'suppress_filters' => true,'post_type' => 'latestprojects','order' => 'ASC' );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	$count = count($myposts);?>
+    $count = count($myposts);?>
 
 
 
-    	
+        
 
-	<?php
+    <?php
 
-	foreach( $myposts as $key => $post ) { setup_postdata($post);
+    foreach( $myposts as $key => $post ) { setup_postdata($post);
 
 $meta = get_post_meta(get_the_id());
 
@@ -2430,25 +2382,25 @@ $field10 = get_field_object('investers');
 
     <div class="col-sm-12">
 
-	<div class="pro-box">
+    <div class="pro-box">
 
-	<div class="img-thumb">
+    <div class="img-thumb">
 
-	<h4><?php the_title(); ?></h4><br />
+    <h4><?php the_title(); ?></h4><br />
 
-	
+    
 
-	<a target="_blank" href="<?php print_r($meta[link][0]);?>"><?php the_post_thumbnail('latest-pro',array('class' => "img-responsive")); ?></a>
+    <a target="_blank" href="<?php print_r($meta[link][0]);?>"><?php the_post_thumbnail('latest-pro',array('class' => "img-responsive")); ?></a>
 
     </div>
 
-	<div class="pro-content">
+    <div class="pro-content">
 
-	  <p><?php echo substr(get_the_content(), 0, 80); ?><span class="remore" data-mode="hide" data-id="re-<?php echo get_the_ID();?>">read more...</span> </p>
+      <p><?php echo substr(get_the_content(), 0, 80); ?><span class="remore" data-mode="hide" data-id="re-<?php echo get_the_ID();?>">read more...</span> </p>
 
       <div class="scrollbars excrt-cont re-<?php echo get_the_ID();?>"><?php the_content(); ?> </div>          
 
-	 </div>
+     </div>
 
 <div class="pro-table margin-t">
 
@@ -2566,7 +2518,7 @@ $grap = get_field('graph');
 
 </div>
 
-	</div>
+    </div>
 
     </div>
 
@@ -2576,7 +2528,7 @@ $grap = get_field('graph');
 
 
 
-	<?php }
+    <?php }
 
 ?>
 
@@ -2589,9 +2541,9 @@ $grap = get_field('graph');
 }
 
 
-function Movie_found_blog_investors() {		
+function Movie_found_blog_investors() {     
 
-global $post;	
+global $post;   
 
 $i = 1;
 
@@ -2601,13 +2553,13 @@ $i = 1;
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $post ) { setup_postdata($post);
+    foreach( $myposts as $post ) { setup_postdata($post);
 
 ?>
 
-	<h5><?php the_title(); ?></h5>				
+    <h5><?php the_title(); ?></h5>              
 
     <?php the_content(); ?>
 
@@ -2619,7 +2571,7 @@ $i = 1;
 
 <?php
 
-	}wp_reset_query();
+    }wp_reset_query();
 
 ?>
 
@@ -2627,25 +2579,25 @@ $i = 1;
 
 }
 
-function Movie_found_blog_movie_news() {	
+function Movie_found_blog_movie_news() {    
 
-global $post;	
+global $post;   
 
 $i = 1;
 
-	
+    
 
     $args = array('suppress_filters' => true,'posts_per_page' => 1,'category_name' => 'Latest movie News','post_type' => 'post','order' => 'ASC'
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $post ) { setup_postdata($post);
+    foreach( $myposts as $post ) { setup_postdata($post);
 
 ?>
 
-	<h5><?php the_title(); ?></h5>				
+    <h5><?php the_title(); ?></h5>              
 
     <?php the_content(); ?>
 
@@ -2657,7 +2609,7 @@ $i = 1;
 
 <?php
 
-	}wp_reset_query();
+    }wp_reset_query();
 
 ?>
 
@@ -2667,7 +2619,7 @@ $i = 1;
 
 function FAQsodd() {
 
-	global $post;
+    global $post;
 
     $i=1;
 
@@ -2677,9 +2629,9 @@ $incr = have_posts();
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $post ) { setup_postdata($post);
+    foreach( $myposts as $post ) { setup_postdata($post);
 
 ?>
 
@@ -2699,11 +2651,11 @@ $incr = have_posts();
 
                                                 <div class="row">
 
-                                                	<div class="col-sm-2 col-xs-2">
+                                                    <div class="col-sm-2 col-xs-2">
 
-                                                    	<div class="num">
+                                                        <div class="num">
 
-                                                        	<p><?php echo $i;?></p>
+                                                            <p><?php echo $i;?></p>
 
                                                         </div>
 
@@ -2711,13 +2663,13 @@ $incr = have_posts();
 
                                                     <div class="col-sm-8 col-xs-8">
 
-                                                    	<p><?php the_title(); ?></p>
+                                                        <p><?php the_title(); ?></p>
 
                                                     </div>
 
                                                     <div class="col-sm-2 col-xs-2 text-right">
 
-                                                    	<i class="collapsed-indicator fa fa-plus"></i>
+                                                        <i class="collapsed-indicator fa fa-plus"></i>
 
                                                     </div>
 
@@ -2759,7 +2711,7 @@ $i++;
 
 function FAQseven() {
 
-	global $post;
+    global $post;
 
     $i=1;
 
@@ -2769,9 +2721,9 @@ $incr = have_posts();
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $post ) { setup_postdata($post);
+    foreach( $myposts as $post ) { setup_postdata($post);
 
 ?>
 
@@ -2791,11 +2743,11 @@ $incr = have_posts();
 
                                                 <div class="row">
 
-                                                	<div class="col-sm-2 col-xs-2">
+                                                    <div class="col-sm-2 col-xs-2">
 
-                                                    	<div class="num">
+                                                        <div class="num">
 
-                                                        	<p><?php echo $i;?></p>
+                                                            <p><?php echo $i;?></p>
 
                                                         </div>
 
@@ -2803,13 +2755,13 @@ $incr = have_posts();
 
                                                     <div class="col-sm-8 col-xs-8">
 
-                                                    	<p><?php the_title(); ?></p>
+                                                        <p><?php the_title(); ?></p>
 
                                                     </div>
 
                                                     <div class="col-sm-2 col-xs-2 text-right">
 
-                                                    	<i class="collapsed-indicator fa fa-plus"></i>
+                                                        <i class="collapsed-indicator fa fa-plus"></i>
 
                                                     </div>
 
@@ -2853,7 +2805,7 @@ $i++;
 
 function top_caro() {
 
-	global $post;
+    global $post;
 
     $i=1;
 
@@ -2863,9 +2815,9 @@ $incr = have_posts();
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $post ) { setup_postdata($post);
+    foreach( $myposts as $post ) { setup_postdata($post);
 
 ?>
 
@@ -2885,7 +2837,7 @@ $i++;
 
 function news_car() {
 
-global $post;	
+global $post;   
 
 $i = 1;
 
@@ -2893,21 +2845,21 @@ $i = 1;
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $key => $post ) { setup_postdata($post);	
+    foreach( $myposts as $key => $post ) { setup_postdata($post);   
 
 ?>
 
    <?php if ($key %5 ==0 ) {?>
 
-	<div class="item <?php if($key == 0){?> active<?php }?>">
+    <div class="item <?php if($key == 0){?> active<?php }?>">
 
 <ul class="list-inline"><?php } ?>
 
     <li>    
 
-    <?php the_post_thumbnail('bott-caro',array('class' => "img-responsive")); ?>	
+    <?php the_post_thumbnail('bott-caro',array('class' => "img-responsive")); ?>    
 
     </li><?php if ($key %5 ==4  ) { ?>
 
@@ -2927,7 +2879,7 @@ $i = 1;
 
 function testnews_car() {
 
-global $post;	
+global $post;   
 
 $i = 1;
 
@@ -2935,13 +2887,13 @@ $i = 1;
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	$count = count($myposts);
+    $count = count($myposts);
 
-	$active = 0;
+    $active = 0;
 
-	for( $i = 0; $i <= $count; $i+=6 ){
+    for( $i = 0; $i <= $count; $i+=6 ){
 
 ?>
 
@@ -2955,15 +2907,15 @@ $i = 1;
 
   <?php for( $j = $i; $j < $i + 6; $j++ ){
 
-			$posts = $myposts[$j];
+            $posts = $myposts[$j];
 
-			if( $myposts[$j] != '' ){
+            if( $myposts[$j] != '' ){
 
-			$post = get_post($posts->ID);
+            $post = get_post($posts->ID);
 
-			setup_postdata( $post );  
+            setup_postdata( $post );  
 
-	?>    
+    ?>    
 
             <li><?php the_post_thumbnail('bott-caro',array('class' => "img-responsive")); ?></li>
 
@@ -2989,21 +2941,21 @@ $i++;
 
 }
 
-function Breakingnews() {	
+function Breakingnews() {   
 
-global $post;	
+global $post;   
 
 $i = 1;
 
-	
+    
 
     $args = array('suppress_filters' => true,'post_type' => 'breakingnews','posts_per_page' => '1','order' => 'ASC'
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $post ) { setup_postdata($post);
+    foreach( $myposts as $post ) { setup_postdata($post);
 
 ?>
 
@@ -3031,7 +2983,7 @@ $i = 1;
 
 <?php
 
-	}wp_reset_query();
+    }wp_reset_query();
 
 ?>
 
@@ -3040,113 +2992,64 @@ $i = 1;
 }
 
 function featureditem() {
-
-global $post;	
-
+global $post;   
 $i = 1;
-
-   $args = array('numberposts' => -1,'suppress_filters' => true,'posts_per_page'=>'2','post_type' => 'featuredpro','featured_category' => 'Planet X','order' => 'ASC'
-
-    );
-
-	$myposts = get_posts( $args );
-
-	foreach( $myposts as $post ) { setup_postdata($post);
-
+    $args = array('numberposts' => -1,'suppress_filters' => true,'posts_per_page'=>'2','post_type' => 'featuredpro','featured_category' => 'Planet X','order' => 'ASC');
+    $myposts = get_posts( $args );
+    foreach( $myposts as $post ) { setup_postdata($post);
 ?>
-
 <div class="col-sm-6">
-
 <div class="overlay">
-
 <h5><span>Planet X</span>: <?php the_title();?></h5>
-
-    
-
-	<?php the_content(); ?>
-
+    <?php the_content(); ?>
 <h6><span>Compares:</span> <?php the_field( "compares" );?></h6>
 <div class="jeba_feature">
 <div class="button list">
-
-<ul class="list-inline">
-
-    <li class=""><a href="#"><?php the_field( "budget" );?><br/><span>Budget</span></a></li>
-
-    <li class=""><a href="#"><?php the_field( "invested" );?><br/><span>Target</span></a></li>
-
-    <li class="right_b"><a class="btn btn-6" href="<?php the_field( "invest_link" );?>">Invest</a></li>
-
-    <li class="right_b"><a class="btn btn-5" href="<?php the_field( "contract_link" );?>">Contract</a></li>
-
-    <li class="right_b"><a class="btn btn-61" href="<?php the_field( "package" );?>">Package</a></li>
-
-</ul>
-
+    <ul class="list-inline">
+        <li class=""><a href="#"><?php the_field( "budget" );?><br/><span>Budget</span></a></li>
+        <li class=""><a href="#"><?php the_field( "invested" );?><br/><span>Target</span></a></li>
+        <li class="right_b"><a class="btn btn-6" href="<?php the_field( "invest_link" );?>">Invest</a></li>
+        <!--
+        <li class="right_b"><a class="btn btn-5" href="<?php the_field( "contract_link" );?>">Contract</a></li>
+        <li class="right_b"><a class="btn btn-61" href="<?php the_field( "package" );?>">Package</a></li>
+        -->
+    </ul>
 </div>
-
-
-
 </div>
-
 <br />
 <!--
-
 <div class="list text-center">
-
 <ul class="list-inline">
-
     <li class="text-center"><a href="#" class="latest-loading"><img src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/li-load.png" alt="post" /></a></li>
-
     <li class="text-center"><a href="#"><?php the_field( "budget" );?><br/><span>Budget</span></a></li>
-
     <li class="text-center"><a href="#"><?php the_field( "invested" );?><br/><span>Invested</span></a></li>
-
     <li class="text-center mar-lat"><a href="#"><?php the_field( "pledged" );?><br/><span>Pledged</span></a></li>
-
     <li class="text-center"><a href="#"><?php the_field( "investers" );?><br/><span>Investers</span></a></li>
-
 </ul>
-
 </div>
 -->
-
 <div class="share-box text-center">
-
 <ul class="list-inline">
-
     <li><p><?php the_field( "jeba1" );?></p></li>
-
     <li><a href="<?php the_field( "jeba2" );?>"><img src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/social-banner-2.png" alt="share" /></a></li>
-
     <li><a href="<?php the_field( "jeba3" );?>"><img src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/social-banner-3.png" alt="share" /></a></li>
-
     <li><a href="<?php the_field( "jeba4" );?>"><img src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/social-banner-4.png" alt="share" /></a></li>
-
 </ul>
-
 </div>
-
-
 </div>
-
 <br />
-
 </div>
-
 <?php
-
-	}wp_reset_query();
-
+    }wp_reset_query();
 }
 
 
 
-function how_it() {		
+function how_it() {     
 
 
 
-global $post;	
+global $post;   
 
 $i = 1;
 
@@ -3154,9 +3057,9 @@ $i = 1;
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $key => $post ) { setup_postdata($post);
+    foreach( $myposts as $key => $post ) { setup_postdata($post);
 
 ?>
 
@@ -3178,9 +3081,9 @@ $i = 1;
 
 <?php
 
-	}
+    }
 
-	wp_reset_query();
+    wp_reset_query();
 
 ?>
 
@@ -3190,11 +3093,11 @@ $i = 1;
 
 }
 
-function how_it_inves() {		
+function how_it_inves() {       
 
 
 
-global $post;	
+global $post;   
 
 $i = 1;
 
@@ -3202,9 +3105,9 @@ $i = 1;
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $key => $post ) { setup_postdata($post);
+    foreach( $myposts as $key => $post ) { setup_postdata($post);
 
 ?>
 
@@ -3226,9 +3129,9 @@ $i = 1;
 
 <?php
 
-	}
+    }
 
-	wp_reset_query();
+    wp_reset_query();
 
 ?>
 
@@ -3240,7 +3143,7 @@ $i = 1;
 
 
 
-function trailers_clips() {		
+function trailers_clips() {     
 
 global $post;
 
@@ -3264,9 +3167,9 @@ $i=1;
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $key => $post ) { setup_postdata($post);	
+    foreach( $myposts as $key => $post ) { setup_postdata($post);   
 
 ?>
 
@@ -3288,7 +3191,7 @@ $i=1;
 
                                 <div class="modal-body text-center">
 
-									<?php the_content();?>
+                                    <?php the_content();?>
 
                                  </div>
 
@@ -3300,7 +3203,7 @@ $i=1;
 
 <?php
 
-$i++;	}wp_reset_query();
+$i++;   }wp_reset_query();
 
 ?>
 
@@ -3318,7 +3221,7 @@ $i++;	}wp_reset_query();
 
 
 
-function trailers_clips1() {		
+function trailers_clips1() {        
 
 global $post;
 
@@ -3342,9 +3245,9 @@ $i=1;
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $key => $post ) { setup_postdata($post);	
+    foreach( $myposts as $key => $post ) { setup_postdata($post);   
 
 ?>
 
@@ -3366,7 +3269,7 @@ $i=1;
 
                                 <div class="modal-body text-center">
 
-									<?php the_content();?>
+                                    <?php the_content();?>
 
                                  </div>
 
@@ -3378,7 +3281,7 @@ $i=1;
 
 <?php
 
-$i++;	}wp_reset_query();
+$i++;   }wp_reset_query();
 
 ?>
 
@@ -3396,7 +3299,7 @@ $i++;	}wp_reset_query();
 
 
 
-function trailers_clips2() {		
+function trailers_clips2() {        
 
 global $post;
 
@@ -3420,9 +3323,9 @@ $i=1;
 
     );
 
-	$myposts = get_posts( $args );
+    $myposts = get_posts( $args );
 
-	foreach( $myposts as $key => $post ) { setup_postdata($post);	
+    foreach( $myposts as $key => $post ) { setup_postdata($post);   
 
 ?>
 
@@ -3444,7 +3347,7 @@ $i=1;
 
                                 <div class="modal-body text-center">
 
-									<?php the_content();?>
+                                    <?php the_content();?>
 
                                  </div>
 
@@ -3456,7 +3359,7 @@ $i=1;
 
 <?php
 
-$i++;	}wp_reset_query();
+$i++;   }wp_reset_query();
 
 ?>
 
@@ -3512,7 +3415,7 @@ add_role('investors','Investors', array(
 
 function app_output_buffer() {
 
-	ob_start();
+    ob_start();
 
 }
 
