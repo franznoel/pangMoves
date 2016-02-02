@@ -11,7 +11,7 @@ foreach( $myposts as $post ):
 ?>
     <div class="col-sm-3">
         <div class="invest-box">
-            <a href="<?php print_r($meta[link][0]);?>" class="superTrigger"><?php the_post_thumbnail('wayinst'); ?>
+            <a href="<?php the_field("rio_invest"); ?>" class="superTrigger"><?php the_post_thumbnail('wayinst'); ?>
                 <div class="blue text-center">
                     <i class="fa fa-plus"></i>
                     <h6><?php print_r($meta[link][1]);?><br/><?php print_r($meta[link][2]);?></h6>
@@ -19,7 +19,7 @@ foreach( $myposts as $post ):
             </a>
 
             <h5><?php the_title(); ?></h5>
-            <a href="<?php the_permalink();?>"><?php the_content(); ?></a>
+            <a href="<?php the_field("rio_invest"); ?>"><?php the_content(); ?></a>
             <div class="way-invstbx">
                 <div class="row">
                     <div class="col-xs-8 text-left">
