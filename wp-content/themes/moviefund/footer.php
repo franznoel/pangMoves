@@ -318,32 +318,93 @@ Tweets by @TwitterDev
 				  </div>
                   <div class="col-md-4 col-md-offset-1">
 				  <div class="inn-widg">
-				  <h4>Contact Us</h4>
-                            <div class="row">
-                                <div class="col-sm-1">
-                                    <i class="fa fa-map-marker"></i>
-                                </div>
-                                <div class="col-sm-11">
-                                    <p><?php echo of_get_option('address'); ?> </p>
+    				<h4>Contact Us</h4>
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="col-sm-11">
+                            <p><?php echo of_get_option('address'); ?> </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="col-sm-11">
+                            <p><?php echo of_get_option('phonenumber'); ?></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="col-sm-11">
+                            <p><?php echo of_get_option('emailid'); ?></p>
+                        </div>
+                    </div>
+                    <!-- #contact-form-footer -->
+                    <form id="contact-form-footer" method="post">
+                        <div class="row">
+                            <div class="col-sm-6" style="margin-bottom:5px">
+                                <label for="contactName">
+                                    <input type="text" id="contactName" name="contactName" class="form-control" placeholder="Name" />
+                                </label>
+                            </div>
+                            <div class="col-sm-6" style="margin-bottom:5px">
+                                <label for="contactEmail">
+                                    <input type="text" id="contactEmail" name="contactEmail" class="form-control" placeholder="Email" />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12" style="margin-bottom:5px;">
+                                <label for="contactMessage">
+                                    <textarea id="contactMessage" name="contactMessage" class="form-control" placeholder="Message"></textarea>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="sub-button text-right">
+                                    <input type="submit" id="" name="" class="btn btn-primary" />
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-1">
-                                    <i class="fa fa-phone"></i>
-                                </div>
-                                <div class="col-sm-11">
-                                    <p><?php echo of_get_option('phonenumber'); ?></p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-1">
-                                    <i class="fa fa-envelope"></i>
-                                </div>
-                                <div class="col-sm-11">
-                                    <p><?php echo of_get_option('emailid'); ?></p>
-                                </div>
-                            </div>
-				  <?php echo do_shortcode('[contact-form-7 id="1124" title="Jeba Footer"]'); ?>
+                        </div>
+                    </form>
+                    <!-- #contact-form-footer -->
+                    <script type="text/javascript">
+                        $("#contact-form-footer").validate({
+                          errorLabelContainer: "#alert-messages",
+                          // wrapper: "li",
+                          rules: {
+                            contactName: { required: true, minlength : 2 },
+                            contactEmail: { required: true , email : true },
+                            contactSubject: { required : true },
+                            contactMessage: { required: true, minlength : 3 },
+                          },
+                          messages: {
+                            contactName: {
+                                required: '<div style="font-style:italic;font-weight:normal;color:red;">Full name is a required information</div>',
+                                minlength : '<div style="font-style:italic;font-weight:normal;color:red;">Minimum of 2 letters required</div>',
+                            },
+                            contactEmail: {
+                                required: '<div style="font-style:italic;font-weight:normal;color:red;">Email name must be filled out.</div>',
+                                email : '<div style="font-style:italic;font-weight:normal;color:red;">Email should be in the correct format</div>',
+                            },
+                            contactSubject: { 
+                              required: '<div style="font-style:italic;font-weight:normal;color:red;">Subject must be filled out.<div>',
+                            },
+                            contactMessage: {
+                                required: '<div style="font-style:italic;font-weight:normal;color:red;">This is a required field.</div>',
+                                minlength: '<div style="font-style:italic;font-weight:normal;color:red;">Please write a message.</div>',
+                            },
+                          }
+                          // submitHandler: function(form) {
+                          //   form.submit();
+                          // }
+                        });                    
+                    </script>
 				  </div>
 				  </div>
 				  </div>

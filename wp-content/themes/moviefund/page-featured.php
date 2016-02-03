@@ -47,7 +47,7 @@ get_header("none");?>
 
             
 
-            <div class="feat-holder planetx" id="plan" style="background-image:url(http://moviefund.com/wp-content/themes/moviefund/img/others/gold-of-the-god.jpg)">
+            <div class="feat-holder planetx" id="plan" style="background-position:0 -120px;background-image:url(http://moviefund.com/wp-content/themes/moviefund/img/others/gold-of-the-god.jpg)">
 
                 <div class="title text-center">
 

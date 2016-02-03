@@ -49,6 +49,8 @@
         <!--link  href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"-->
         <!--script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script-->
         <!--script  src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script-->
+        <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery-1.11.1.min.js" language="javascript"></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery-validate.min.js" language="javascript"></script>
         <?php wp_head(); ?>
         <style type="text/css">
             .share-with-count.twitter_tweet{margin-top: 15px;}
