@@ -1,16 +1,21 @@
-<?php get_header("none");?>
-<div class="container">
-<div class="row contact-us-container">
-<?php if(have_posts()):?>
-<?php while ( have_posts() ) : the_post(); ?>
-<h1><?php the_title();?></h1>
 
+<?php get_header("none");?>
 <style type="text/css">
 label { display:block;}
 .form-control { width:100%;}
 .contact-us-container {margin:20px 0 20px 0;}
 .btn.btn-primary {background-color:#286090;}
+.content {background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/img/back-hollywood.jpg');background-position:0 -80px;}
+.add-rs {color:#000000;text-shadow:1px 1px 15px #ffffff;}
 </style>
+<div class="container">
+
+<div class="row contact-us-container">
+<?php if(have_posts()):?>
+<?php while ( have_posts() ) : the_post(); ?>
+<h1><?php the_title();?></h1>
+
+
 <div class="col-sm-5">
     <div class="contact-form-container">
         <form id="contact-form" action="/mailer/" method="POST">
