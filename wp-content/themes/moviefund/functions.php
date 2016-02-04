@@ -30,29 +30,17 @@ jQuery(document).ready(function() {
 //Initial Settings
 
 add_theme_support('post-thumbnails');
-
 add_image_size( 'slider', 1400, 531, true );
-
 add_image_size( 'latest-pro', 246, 147, true );
-
 add_image_size( 'bott-caro', 120, 105, true );
-
 add_image_size( 'team-part', 130, 130, true );
-
 add_image_size( 'wayinst', 160, 160, true );
-
 add_image_size( 'breaking', 60, 60, true );
 
-
-
 //Slider
-
     $labels = array( 'name' => 'Slider', 'singular_name' => 'Slider', 'add_new' => 'Add New', 'add_new_item' => 'Add New Slider', 'edit_item' => 'Edit Slider', 'new_item' => 'New Slider', 'all_items' => 'All Sliders', 'view_item' => 'View Slider', 'search_items' => 'Search Sliders', 'not_found' =>  'No Sliders found', 'not_found_in_trash' => 'No Sliders found in Trash', 'parent_item_colon' => '', 'menu_name' => 'Sliders' );
-
     $args = array( 'labels' => $labels, 'public' => true, 'publicly_queryable' => true, 'show_ui' => true,  'show_in_menu' => true, 'query_var' => true, 'rewrite' => array( 'slug' => 'slider' ), 'capability_type' => 'post', 'has_archive' => true, 'hierarchical' => false,'menu_position' => null,'supports' => array( 'title','custom-fields','editor','thumbnail' ), 'menu_icon' => get_bloginfo( 'template_url').'/inc/images/slider.png' ); 
-
     register_post_type( 'slider', $args );
-
 //Initial Settings
 
 //Slider Inner
@@ -977,96 +965,99 @@ function Breaking_news() {
 
     }
 
+
+add_action('init','add_featured');
+function add_featured() {
+    $labels = array(
+        'name'              => _x( 'Featured', 'taxonomy general name' ),
+        'singular_name'     => _x( 'Featured', 'taxonomy singular name' ),
+        'search_items'      => __( 'Search Featured' ),
+        'all_items'         => __( 'All Featured' ),
+        'parent_item'       => __( 'Parent Featured' ),
+        'parent_item_colon' => __( 'Parent Featured:' ),
+        'edit_item'         => __( 'Edit Featured' ),
+        'update_item'       => __( 'Update Featured' ),
+        'add_new_item'      => __( 'Add New Featured' ),
+        'new_item_name'     => __( 'New Featured Name' ),
+        'menu_name'         => __( 'Featured' ),
+    );
+    $args = array(
+       'labels' => $labels,
+       'public' => true,
+       'publicly_queryable' => true,
+       'show_ui' => true,
+       'query_var' => true,
+       'menu_icon' => get_bloginfo( 'template_url').'/inc/images/pin.png',
+       'rewrite' => true,
+       'capability_type' => 'post',
+       'hierarchical' => false,
+       'menu_position' => null,
+       'has_archive' => false, 
+       'supports' => array('title','excerpt')
+    );
+    register_post_type('featured',$args);
+}
+
+
+
 add_action('init', 'Featured_pro');
-
 function Featured_pro() {
-
-$labels = array(
-
+    $labels = array(
         'name'              => _x( 'Featured Project', 'taxonomy general name' ),
-
         'singular_name'     => _x( 'Featured Project', 'taxonomy singular name' ),
-
         'search_items'      => __( 'Search Featured Project' ),
-
         'all_items'         => __( 'All Featured Project' ),
-
         'parent_item'       => __( 'Parent Featured Project' ),
-
         'parent_item_colon' => __( 'Parent Featured Project:' ),
-
         'edit_item'         => __( 'Edit Featured Project' ),
-
         'update_item'       => __( 'Update Featured Project' ),
-
         'add_new_item'      => __( 'Add New Featured Project' ),
-
         'new_item_name'     => __( 'New Featured Project Name' ),
-
         'menu_name'         => __( 'Featured Project' ),
-
     );
 
     $args = array(
-
-   'labels' => $labels,'public' => true,'publicly_queryable' => true,'show_ui' => true,'query_var' => true,
-
-   'menu_icon' => get_bloginfo( 'template_url').'/inc/images/pin.png','rewrite' => true,'capability_type' => 'post','hierarchical' => false,
-
-   'menu_position' => null,'supports' => array('title', 'editor', 'thumbnail')
-
+       'labels' => $labels,
+       'public' => true,
+       'publicly_queryable' => true,
+       'show_ui' => true,
+       'query_var' => true,
+       'menu_icon' => get_bloginfo( 'template_url').'/inc/images/pin.png',
+       'rewrite' => true,
+       'capability_type' => 'post',
+       'hierarchical' => false,
+       'menu_position' => null,
+       'has_archive' => true, 
+       'supports' => array('title', 'editor', 'thumbnail')
     );
 
-$cat = array(
-
+    $cat = array(
         'name'              => _x( 'Featured Category', 'taxonomy general name' ),
-
         'singular_name'     => _x( 'Featured Category', 'taxonomy singular name' ),
-
         'search_items'      => __( 'Search Featured Category' ),
-
         'all_items'         => __( 'All Featured Category' ),
-
         'parent_item'       => __( 'Parent Featured Category' ),
-
         'parent_item_colon' => __( 'Parent Featured Category:' ),
-
         'edit_item'         => __( 'Edit Featured Category' ),
-
         'update_item'       => __( 'Update Featured Category' ),
-
         'add_new_item'      => __( 'Add New Featured Category' ),
-
         'new_item_name'     => __( 'New Featured Category Name' ),
-
         'menu_name'         => __( 'Featured Category' ),
-
     );
 
     $catarg = array(
-
         'hierarchical'      => true,
-
         'labels'            => $cat,
-
         'show_ui'           => true,
-
         'show_admin_column' => true,
-
         'query_var'         => true,
-
         'rewrite'           => array( 'slug' => 'category' ),
-
     );
-
     register_taxonomy( 'featured_category', array( 'featuredpro' ), $catarg );
-
     register_post_type('featuredpro', $args);
-
-    }
+}
 
 add_action('init', 'page_post');
-
 function page_post() {
 
 $labels = array(
@@ -3042,7 +3033,7 @@ $i = 1;
 
 
 
-function how_it() {     
+function how_it() {
 
 
 

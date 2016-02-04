@@ -3,45 +3,58 @@
 Template Name: Movie Fund Page
 */
 get_header();?>      
-
          <div class="how-it-works text-center" id="how">
-            	<div class="container">
-                	<h2 class="white">How It Works</h2>
-                    <div class="button">
-                    	<ul class="list-inline">
-                        	<li><a class="btn btn-7">FILM MAKERS</a></li>
-                            <li><a class="btn btn-5 active-ihwit"> INVESTORS</a></li>
-                        </ul>
-                    </div><br/>
-                    <div class="row">
-<div class="mob-center lar-view">
-			<div class="col-md-12">
-                           <div id="invest" class="how_steps set-posi1 hw-show">
-                           <div class="slider4">
-                           <?php how_it_inves();?> </div></div> 
-                           <div id="film-ker" class="how_steps set-posi2 hw-hide">
-                           <div class="slider4">
-                           <?php how_it();?>
-                           </div></div> </div></div>
-<div class="mob-center mob-view">
-			<div class="col-md-12">
-                           <div class="how_steps set-posi1">
-                           <div class="slider2">
-                           <?php how_it_inves();?></div></div> 
-                           <div class="how_steps set-posi2 hw-hide">
-                           <div class="slider2">
-                           <?php how_it();?>
-                           </div></div> </div></div></div></div></div>
+            <div class="container">
+            <h2 class="white">How It Works</h2>
+              <div class="button">
+                <ul class="list-inline">
+                    <li><a class="btn btn-7">FILM MAKERS</a></li>
+                      <li><a class="btn btn-5 active-ihwit"> INVESTORS</a></li>
+                  </ul>
+              </div>
+              <br/>
+              <div class="row">
+                <div class="mob-center lar-view">
+                  <div class="col-md-12">
+                    <div id="invest" class="how_steps set-posi1 hw-show">
+                      <div class="slider4">
+                        <?php how_it_inves();?>
+                      </div>
+                    </div> 
+                    <div id="film-ker" class="how_steps set-posi2 hw-hide">
+                      <div class="slider4">
+                        <?php how_it();?>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mob-center mob-view">
+                  <div class="col-md-12">
+                    <div class="how_steps set-posi1">
+                      <div class="slider2">
+                        <?php how_it_inves();?>
+                      </div>
+                    </div>
+                    <div class="how_steps set-posi2 hw-hide">
+                      <div class="slider2">
+                        <?php how_it();?>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
             <!--<div class="top-share">
 
-            	<div class="container">
+              <div class="container">
 
-                	<div class="row">
+                  <div class="row">
 
-                    	<div class="col-sm-3">
+                      <div class="col-sm-3">
 
-                        	<div class="share-count">
+                          <div class="share-count">
 
                                 <a class="btn btn-41" href="<?php echo of_get_option('join'); ?>">Join</a>
 
@@ -51,11 +64,11 @@ get_header();?>
 
                         <div class="col-sm-6 col-sm-offset-3">
 
-                        	<div class="clogin-with-social">
+                          <div class="clogin-with-social">
 
                                 <ul class="list-inline">
 
-                                	<li><a href="<?//php echo of_get_option('linkedin'); ?>"><img src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/sign-in.png" alt="Img"></a></li>
+                                  <li><a href="<?//php echo of_get_option('linkedin'); ?>"><img src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/sign-in.png" alt="Img"></a></li>
 
                                     <li><a href="<?//php echo of_get_option('facebook'); ?>"><img src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/sign-fb.png" alt="Img"></a></li>
 
@@ -79,48 +92,48 @@ get_header();?>
 
             <div class="fund-holder" id="fund-holder">
 
-            	<div class="container">
+              <div class="container">
 
-                	<br/>
+                  <br/>
 
-                	<div class="row">
+                  <div class="row">
 
-                    	<div class="col-sm-6">
+                      <div class="col-sm-6">
 
-                    		<h3>Invest in THE MOVIE FUND </h3>
+                        <h3>Invest in THE MOVIE FUND </h3>
 
-                        	<p>The Movie Fund is a fund managed by leading and successful Producers with a proven track record of making profitable Movies and investments allowing investors to spread This Binding Letter of Agreement for “PLANET X FILMS”, LLC, herein (““PLANET X FILMS””) regarding a production of the motion picture project to be determined, herein referred to as “PLANET X”</p>
+                          <p>The Movie Fund is a fund managed by leading and successful Producers with a proven track record of making profitable Movies and investments allowing investors to spread This Binding Letter of Agreement for “PLANET X FILMS”, LLC, herein (““PLANET X FILMS””) regarding a production of the motion picture project to be determined, herein referred to as “PLANET X”</p>
 
                             <br/>
                         
                         <div class="list_top" style="color: #fff; margin-left: 50px">
-								<table>
-									<tr>
-										<td>Min.Investment</td>
-										<td>$5,000</td>
-									</tr>
-									<tr>
-										<td>Raising</td>
-										<td>$35M</td>
-									</tr>
-									<tr>
-										<td>For 15% Equity</td>
-										<td>$20%</td>
-									</tr>
-									<tr>
-										<td>Average Carry</td>
-										<td>20%</td>
-									</tr>
-									<tr>
-										<td>Interest per anumm</td>
-										<td>25%</td>
-									</tr>
-									<tr>
-										<td>RIO</td>
-										<td>20%</td>
-									</tr>
-								</table>
-							</div>
+                <table>
+                  <tr>
+                    <td>Min.Investment</td>
+                    <td>$5,000</td>
+                  </tr>
+                  <tr>
+                    <td>Raising</td>
+                    <td>$35M</td>
+                  </tr>
+                  <tr>
+                    <td>For 15% Equity</td>
+                    <td>$20%</td>
+                  </tr>
+                  <tr>
+                    <td>Average Carry</td>
+                    <td>20%</td>
+                  </tr>
+                  <tr>
+                    <td>Interest per anumm</td>
+                    <td>25%</td>
+                  </tr>
+                  <tr>
+                    <td>RIO</td>
+                    <td>20%</td>
+                  </tr>
+                </table>
+              </div>
                         
                         
                         
