@@ -992,8 +992,8 @@ function add_featured() {
        'capability_type' => 'post',
        'hierarchical' => false,
        'menu_position' => null,
-       'has_archive' => false, 
-       'supports' => array('title','excerpt')
+       'has_archive' => false,
+       'supports' => array('title','excerpt','thumbnail')
     );
     register_post_type('featured',$args);
 }
