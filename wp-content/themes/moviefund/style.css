@@ -39,7 +39,7 @@ Text Domain: moviefund
     text-transform: uppercase;
     background: #0160a9;
     border-radius: 0px;
-    border: 1px solid #0160a9;
+    border: 1px solid #0CC71A; /* 0160a9 */
 }
 .btn-2 {
     font-size: 12px;
@@ -47,7 +47,7 @@ Text Domain: moviefund
     text-transform: uppercase;
     background: none;
     border-radius: 0px;
-    border: 1px solid #FFF;
+    border: 1px solid #E8D600; /* FFF */
 }
 .btn-7 {
     background: #373736 none repeat scroll 0 0;
@@ -3423,3 +3423,74 @@ header .mainmenu nav li a {
 .mainmenu #menu-top_header .menu-item a {border-left:1px solid #000000;border-radius:0;text-shadow:none;border-radius:0;box-shadow:none;transition:background-color 0.5s ease;}
 .mainmenu #menu-top_header .menu-item a:hover {border-radius:0;box-shadow:none;background-color:#01579a;}
 .mainmenu .sub-menu > .menu-item {padding:0 !important;border-color:#000000;}
+
+#featured-film {
+    margin:30px 0 30px 0;
+}
+.black-panel {background-color:#000000;}
+.black-panel .carousel-nav-prev {
+  background: rgba(0, 0, 0, 0) url("img/final/film-nav-1.png") no-repeat scroll 0 0;
+  display: inline-block;
+  height: 24px;
+  left: -50px;
+  position: absolute;
+  text-indent: -9999px;
+  top: 41%;
+  width: 15px;
+}
+.black-panel .carousel-nav-next {
+  background: rgba(0, 0, 0, 0) url("img/final/film-nav-2.png") no-repeat scroll 0 0;
+  display: inline-block;
+  height: 24px;
+  right: -50px;
+  position: absolute;
+  text-indent: -9999px;
+  top: 41%;
+  width: 15px;
+}    
+.black-panel .bx-wrapper .bx-prev {
+  left: -16px !important;
+}
+.black-panel .bx-wrapper .bx-next {
+  right: -10px !important;
+}
+.content .black-panel .film-box {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+}
+.content .black-panel h3 small {
+  font-size: 12px !important;
+}
+.content .black-panel .film-box {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+}
+.black-panel .slide.thumbnail {
+    width:100px;
+    height:120px;
+    display:inline-block;
+    margin:5px;
+    padding:0;
+    overflow:hidden;
+    border-radius:0;
+    border:3px solid #000000;
+    background-color:#000000;
+    border-radius:5px;
+}
+.black-panel .slide.thumbnail:hover {
+    border:3px solid #00D206; /* 337ab7 */
+}
+.black-panel img {
+    width:100px;
+    height:100px;
+}
+.jeba_feature .list-inline {
+    padding:2% 20%;
+}
+.black-panel .featured-thumb-title {
+    font-size:10px;
+    margin:3px 0 0 0;
+    color:#fff;
+}
+
+
+
+

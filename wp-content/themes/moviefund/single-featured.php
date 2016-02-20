@@ -1,67 +1,8 @@
 <?php get_header("none"); ?>
-  <style type="text/css">
-  .black-panel {background-color:#000000;}
-  .black-panel .carousel-nav-prev {
-      background: rgba(0, 0, 0, 0) url("img/final/film-nav-1.png") no-repeat scroll 0 0;
-      display: inline-block;
-      height: 24px;
-      left: -50px;
-      position: absolute;
-      text-indent: -9999px;
-      top: 41%;
-      width: 15px;
-  }
-  .black-panel .carousel-nav-next {
-      background: rgba(0, 0, 0, 0) url("img/final/film-nav-2.png") no-repeat scroll 0 0;
-      display: inline-block;
-      height: 24px;
-      right: -50px;
-      position: absolute;
-      text-indent: -9999px;
-      top: 41%;
-      width: 15px;
-  }    
-  .black-panel .bx-wrapper .bx-prev {
-      left: -16px !important;
-  }
-  .black-panel .bx-wrapper .bx-next {
-      right: -10px !important;
-  }
-  .content .black-panel .film-box {
-      background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
-  }
-  .content .black-panel h3 small {
-      font-size: 12px !important;
-  }
-  .content .black-panel .film-box {
-      background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
-  }
-  .black-panel .slide.thumbnail {
-    width:100px;
-    height:100px;
-    display:inline-block;
-    margin:5px;
-    padding:0;
-    overflow:hidden;
-    border-radius:0;
-    border:3px solid #000000;
-  }
-  .black-panel .slide.thumbnail:hover {
-    border:3px solid #337ab7;
-  }
-  .black-panel img {
-    width:100px;
-    height:100px;
-  }
-  .jeba_feature .list-inline {
-    padding:2% 20%;
-  }
-  </style>
-  
     <!-- .black-panel -->
     <div class="black-panel">
         <div class="container">
-            <div id="carousel-film" class="carousel slide" data-ride="carousel">
+            <div id="featured-film" class="carousel slide featured-films" data-ride="carousel">
                 <div class="carousel-inner slider1"> 
                   <?php 
                   global $post;
@@ -75,6 +16,7 @@
                         <a href="<?php echo get_permalink();?>">
                           <div class="film-box">
                             <img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id($post->ID)); ?>" alt="<?php the_title();?>" />
+                            <h2 class="featured-thumb-title"><?php the_title();?></h2>
                           </div>
                         </a>
                       </div>
