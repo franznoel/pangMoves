@@ -87,7 +87,7 @@ final class GD_System_Plugin_Messages {
 			<script type="text/javascript">
 				jQuery( document ).ready( function( $ ) {
 					$.gritter.add( {
-						title: "<?php echo esc_js( __( 'System message', 'gd_system' ) ) ?>",
+						title: "<?php echo esc_js( __( 'Success', 'gd_system' ) ) ?>",
 						text: "<?php echo esc_js( $message ) ?>",
 						time: <?php echo absint( 5 * 1000 ) ?>
 					} );

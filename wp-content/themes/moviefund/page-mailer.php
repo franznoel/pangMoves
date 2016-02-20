@@ -23,7 +23,7 @@ if ($_POST) {
         $sent = mail( $to, $subject, $message, $additional_headers, $additional_parameters);
         if ($sent==true)
             echo "Sent!";
-        header("Location: /contact-us/?success=1");
+        header("Location: /contact-us/?error=1");
     } else {
         echo "Not sent!";
     }

@@ -5,6 +5,10 @@
 	width: 300px;
 	z-index: 99999;
 	font-family: "Open Sans", sans-serif !important;
+
+	 -webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
+	            font-smooth: always !important;
 }
 
 #gritter-notice-wrapper.top-left {
@@ -40,7 +44,7 @@
 	display: block;
 	background: #222; /* Fallback */
 	background: rgba(0, 0, 0, 0.8);
-	color: #eee;
+	color: #eee !important;
 }
 
 .gritter-item:before {
@@ -58,8 +62,10 @@
 }
 
 .gritter-item p {
-	padding: 0;
-	margin: 0;
+	padding: 0 !important;
+	margin: 0 !important;
+	font-size: 13px !important;
+	line-height: 20px !important;
 }
 
 .gritter-close {
@@ -77,10 +83,11 @@
 }
 
 .gritter-title {
-	display: block;
-	font-size: 14px;
-	font-weight: 600;
-	padding: 0 0 7px;
+	display: block !important;
+	font-size: 15px !important;
+	line-height: 22px !important;
+	font-weight: bold !important;
+	padding: 0 0 7px !important;
 }
 
 @media only screen and (max-width: 782px) {

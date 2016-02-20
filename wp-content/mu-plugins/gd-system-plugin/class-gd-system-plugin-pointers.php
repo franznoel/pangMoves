@@ -38,7 +38,7 @@ final class GD_System_Plugin_Pointers {
 		$this->pointers[] = [
 			'id'               => 'wpaas_admin_bar_buttons',
 			'target'           => '#wp-admin-bar-wppass .ab-icon',
-			'cap'              => 'manage_options',
+			'cap'              => 'activate_plugins',
 			'site_created_max' => '2016-01-14',
 			'options'          => [
 				'content'  => wp_kses_post(

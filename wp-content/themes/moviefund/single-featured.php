@@ -1,100 +1,64 @@
 <?php get_header("none"); ?>
+  <style type="text/css">
+  .black-panel {background-color:#000000;}
+  .black-panel .carousel-nav-prev {
+      background: rgba(0, 0, 0, 0) url("img/final/film-nav-1.png") no-repeat scroll 0 0;
+      display: inline-block;
+      height: 24px;
+      left: -50px;
+      position: absolute;
+      text-indent: -9999px;
+      top: 41%;
+      width: 15px;
+  }
+  .black-panel .carousel-nav-next {
+      background: rgba(0, 0, 0, 0) url("img/final/film-nav-2.png") no-repeat scroll 0 0;
+      display: inline-block;
+      height: 24px;
+      right: -50px;
+      position: absolute;
+      text-indent: -9999px;
+      top: 41%;
+      width: 15px;
+  }    
+  .black-panel .bx-wrapper .bx-prev {
+      left: -16px !important;
+  }
+  .black-panel .bx-wrapper .bx-next {
+      right: -10px !important;
+  }
+  .content .black-panel .film-box {
+      background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+  }
+  .content .black-panel h3 small {
+      font-size: 12px !important;
+  }
+  .content .black-panel .film-box {
+      background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+  }
+  .black-panel .slide.thumbnail {
+    width:100px;
+    height:100px;
+    display:inline-block;
+    margin:5px;
+    padding:0;
+    overflow:hidden;
+    border-radius:0;
+    border:3px solid #000000;
+  }
+  .black-panel .slide.thumbnail:hover {
+    border:3px solid #337ab7;
+  }
+  .black-panel img {
+    width:100px;
+    height:100px;
+  }
+  .jeba_feature .list-inline {
+    padding:2% 20%;
+  }
+  </style>
   
     <!-- .black-panel -->
-    <style type="text/css">
-    .black-panel *, .black-panel *:before, .black-panel:after {box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
-    .content .black-panel {
-        background: #000000;
-    }
-    .content .black-panel h3 {
-        color: #fff;
-        font-size: 25px;
-        font-weight: 800;
-        margin: 0;
-        padding-top: 25px;
-    }
-    .content .black-panel h3 small {
-        font-size: 18px;
-        color: #FFF;
-        font-weight: 400;
-    }
-    .content .black-panel p {
-        color: #fff;
-        font-size: 12px;
-        font-weight: 400;
-        margin-left: 3px;
-    }
-    .content .black-panel .film-box {
-        background: rgba(0, 0, 0, 0) url("img/others/film-divider.png") no-repeat scroll 0 20px;
-    }
-    .content .black-panel .film-box p {
-        color: #fff;
-        font-size: 11px;
-        font-weight: 500;
-        margin-left: 3px;
-        text-align: center;
-    }
-    .content .black-panel .film-box.no-br {
-        background: none;
-    }
-    .black-panel .carousel-nav-prev {
-        background: rgba(0, 0, 0, 0) url("img/final/film-nav-1.png") no-repeat scroll 0 0;
-        display: inline-block;
-        height: 24px;
-        left: -50px;
-        position: absolute;
-        text-indent: -9999px;
-        top: 41%;
-        width: 15px;
-    }
-    .black-panel .carousel-nav-next {
-        background: rgba(0, 0, 0, 0) url("img/final/film-nav-2.png") no-repeat scroll 0 0;
-        display: inline-block;
-        height: 24px;
-        right: -50px;
-        position: absolute;
-        text-indent: -9999px;
-        top: 41%;
-        width: 15px;
-    }    
-    .black-panel .bx-wrapper .bx-prev {
-        left: -16px !important;
-    }
-    .black-panel .bx-wrapper .bx-next {
-        right: -10px !important;
-    }
-    .content .black-panel .film-box {
-        background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
-    }
-    .content .black-panel h3 small {
-        font-size: 12px !important;
-    }
-    .content .black-panel .film-box {
-        background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
-    }
-    .black-panel .slide.thumbnail {
-      width:100px;
-      height:100px;
-      display:inline-block;
-      margin:5px;
-      padding:0;
-      overflow:hidden;
-      border-radius:0;
-      border:2px solid #000000;
-    }
-    .black-panel .slide.thumbnail:hover {
-      border:2px solid #000000;
-    }
-    .black-panel img {
-      width:100px;
-      height:100px;
-    }
-    .jeba_feature .list-inline {
-      padding:2% 20%;
-    }
-
-
-    </style>
     <div class="black-panel">
         <div class="container">
             <div id="carousel-film" class="carousel slide" data-ride="carousel">
@@ -173,6 +137,7 @@
         </div>
     </div>
 
+    <!--
     <div class="fund-holder" id="fund-holder">
         <div class="container">
             <br/>
@@ -232,6 +197,8 @@
             </div>
         </div>
     </div>
+    -->
+
     <!-- Modal -->
     <div class="modal fade" id="featured-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">

@@ -21,6 +21,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 }
 
+if ( defined( 'PHPUNIT_PLUGIN_TEST' ) && PHPUNIT_PLUGIN_TEST ) {
+
+	return;
+
+}
+
 // System plugin dir
 define( 'GD_SYSTEM_PLUGIN_DIR', trailingslashit ( realpath( dirname( __FILE__ ) ) ) . 'gd-system-plugin/' );
 
@@ -112,6 +118,13 @@ $gd_ssl = new GD_System_Plugin_SSL();
 if ( ! gd_is_staging_site() && gd_is_temp_domain() ) {
 
 	$gd_cname = new GD_System_Plugin_CName();
+
+}
+
+// Custom CLI command for cron events
+if ( defined( 'WP_CLI' ) && WP_CLI && class_exists( 'Cron_Event_Command' ) ) {
+
+	$gd_cli_cron = new GD_System_Plugin_Cron_Event_Command();
 
 }
 

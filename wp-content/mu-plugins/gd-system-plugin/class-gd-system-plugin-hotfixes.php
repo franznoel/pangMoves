@@ -43,6 +43,12 @@ class GD_System_Plugin_Hotfixes {
 
 		add_filter( 'option_jetpack_options', [ $this, 'remove_jetpack_nag' ] );
 
+		if ( defined( 'WP_CLI' ) && WP_CLI ) {
+
+			$this->blacklist_cron_event_hooks();
+
+		}
+
 	}
 
 	/**
@@ -100,6 +106,79 @@ class GD_System_Plugin_Hotfixes {
 		}
 
 		return $value;
+
+	}
+
+	/**
+	 * Blacklist cron event hooks
+	 *
+	 * Note: Should only run when using WP-CLI
+	 */
+	private function blacklist_cron_event_hooks() {
+
+		$blacklist = [
+			'wp_version_check',
+		];
+
+		global $wpdb, $gd_system_cron_event_temp_blacklist;
+
+		// Get temporary blacklist transients
+		$transients = (array) $wpdb->get_results( "SELECT option_name, option_value FROM {$wpdb->options} WHERE option_name LIKE '_transient_wppaas_skip_cron_%';" );
+
+		// Scrub array of key prefixes and expired transients
+		foreach ( $transients as $key => $transient ) {
+
+			$transients[ $key ]->option_name = preg_filter( '/^_transient_/', '', $transient->option_name );
+
+			if ( false === get_transient( $transient->option_name ) ) {
+
+				unset( $transients[ $key ] );
+
+			}
+
+		}
+
+		// Store in global, used by 'reset' subcommand
+		$gd_system_cron_event_temp_blacklist = array_combine(
+			wp_list_pluck( $transients, 'option_name' ),
+			wp_list_pluck( $transients, 'option_value' )
+		);
+
+		// Merge temporary blacklist into core blacklist
+		$blacklist = array_merge( $blacklist, array_values( $gd_system_cron_event_temp_blacklist ) );
+
+		// Remove blacklisted events from the crons array
+		add_filter( 'option_cron', function( $crons ) use ( $blacklist ) {
+
+			if ( ! $crons ) {
+
+				return $crons;
+
+			}
+
+			foreach ( (array) $crons as $timestamp => $events ) {
+
+				foreach ( (array) $events as $hook => $event ) {
+
+					if ( in_array( $hook, $blacklist ) ) {
+
+						unset( $crons[ $timestamp ][ $hook ] );
+
+					}
+
+				}
+
+				if ( ! $events ) {
+
+					unset( $crons[ $timestamp ] );
+
+				}
+
+			}
+
+			return (array) $crons;
+
+		}, 999 );
 
 	}
 

@@ -1,3 +1,17 @@
+/*
+Theme Name: Movie Fund
+Theme URI: http://moviefund.com;
+Author: Movie Fund and Franz
+Author URI: http://asteriainteractive.com/
+Description: Movie Fund Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: movies, blue, gold, black 
+Text Domain: moviefund
+
+*/
+
 * {
     font-family: 'Open Sans';
 }
@@ -655,7 +669,8 @@ header .mainmenu nav li a:hover, header .mainmenu nav li a:focus, header .mainme
     background: ;border: none;
 }
 .get-start-holder textarea {
-    background: ;border: none;
+    /*background: ;*/
+    border: none;
 }
 /**/
 .cnt-fm textarea, .cnt-fm input {
@@ -3358,3 +3373,53 @@ header .mainmenu nav li a {
     padding: 10px 20px;
     text-transform: uppercase;
 }
+
+.black-panel *, .black-panel *:before, .black-panel:after {box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+.content .black-panel {
+    background: #000000;
+}
+.content .black-panel h3 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+    padding-top: 25px;
+}
+.content .black-panel h3 small {
+    font-size: 18px;
+    color: #FFF;
+    font-weight: 400;
+}
+.content .black-panel p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 3px;
+}
+.content .black-panel .film-box {
+    background: rgba(0, 0, 0, 0) url("img/others/film-divider.png") no-repeat scroll 0 20px;
+}
+.content .black-panel .film-box p {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 3px;
+    text-align: center;
+}
+.content .black-panel .film-box.no-br {
+    background: none;
+}
+
+#contact-form-footer label {
+    color:#ffffff;
+    display:block;
+}
+.btn.btn-primary {
+    color: #ffffff;
+    background-color: #286090;
+}
+
+.mainmenu .navbar {min-height:0;}
+.mainmenu #menu-top_header .menu-item a {border-left:1px solid #000000;border-radius:0;text-shadow:none;border-radius:0;box-shadow:none;transition:background-color 0.5s ease;}
+.mainmenu #menu-top_header .menu-item a:hover {border-radius:0;box-shadow:none;background-color:#01579a;}
+.mainmenu .sub-menu > .menu-item {padding:0 !important;border-color:#000000;}

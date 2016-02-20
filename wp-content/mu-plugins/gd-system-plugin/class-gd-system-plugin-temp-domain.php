@@ -84,11 +84,17 @@ final class GD_System_Plugin_Temp_Domain {
 
 		if ( gd_is_staging_site() ) {
 
-			$description = __( 'This setting is required on staging sites.', 'gd_system' );
+			$notice = sprintf(
+				__( '%s This is your staging site and it cannot be indexed by search engines.', 'gd_system' ),
+				sprintf( '<strong>%s</strong>', __( 'Note:', 'gd_system' ) )
+			);
 
 		} else {
 
-			$description = __( 'This setting is required on temporary domains.', 'gd_system' );
+			$notice = sprintf(
+				__( '%s Your site is using a temporary domain that cannot be indexed by search engines.', 'gd_system' ),
+				sprintf( '<strong>%s</strong>', __( 'Note:', 'gd_system' ) )
+			);
 
 		}
 
@@ -96,7 +102,7 @@ final class GD_System_Plugin_Temp_Domain {
 			'gd_system_option_reading_temp_domain_js',
 			'gd_system_option_reading_temp_domain_vars',
 			[
-				'description_blog_public' => esc_js( $description ),
+				'blog_public_notice_text' => esc_js( $notice ),
 			]
 		);
 
