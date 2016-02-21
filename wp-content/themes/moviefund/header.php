@@ -151,8 +151,8 @@
                                     <li><a href="<?php echo get_site_url(); ?>/profile/"><?php echo get_avatar( $current_user->ID, 32 ); ?></a>&nbsp;</li>
                                     <li style="text-align:left;color:#ffffff;line-height:75%;"><span style="font-size:8px;">Welcome!</span><br/><span style="font-size:14px;"><?php echo $current_user->user_firstname.' '.$current_user->user_lastname; ?><span></li>
                                     <?php } ?>
-                                    <li><a href="<?php echo site_url();?>/contact-us/" class="btn btn-1">INVEST NOW</a></li>
-                                    <li><a href="<?php echo site_url();?>/contact-us/" class="btn btn-2">UPLOAD PROJECT</a></li>
+                                    <li><a href="<?php echo site_url();?>/contact-us/" class="btn btn-1" style="border:1px solid #0CC71A;">INVEST NOW</a></li>
+                                    <li><a href="<?php echo site_url();?>/contact-us/" class="btn btn-2" style="border: 1px solid #E8D600;">UPLOAD PROJECT</a></li>
                                 </ul>
                             </div>
                         </div>
