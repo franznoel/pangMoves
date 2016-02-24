@@ -240,20 +240,19 @@
                     </div>
                 </div>
             </div>
-            <div class="bottom-content text-center">
-                <div class="container">
-                    <?php dynamic_sidebar('sidebar-7'); ?>
-                    <ul class="list-inline">
-                        <li><a href="<?php echo home_url(); ?>">legal</a></li>
-                        <li><a href="<?php echo home_url(); ?>">privacy policy</a></li>
-                        <li><a href="<?php echo home_url(); ?>">advertising preferances</a></li>
-                    </ul>
-                    <p>The MovieFund © 2015 . All rights are reserved.</p>
-                    <img src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/trust.png" alt="post" />
-                </div>
-            </div>
-           
         </footer>
+        <div class="bottom-content text-center">
+            <div class="container">
+                <?php dynamic_sidebar('sidebar-7'); ?>
+                <ul class="list-inline">
+                    <li><a href="<?php echo home_url(); ?>">legal</a></li>
+                    <li><a href="<?php echo home_url(); ?>">privacy policy</a></li>
+                    <li><a href="<?php echo home_url(); ?>">advertising preferances</a></li>
+                </ul>
+                <p>The MovieFund © 2015 . All rights are reserved.</p>
+                <img src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/trust.png" alt="post" />
+            </div>
+        </div>
         
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
@@ -300,6 +299,16 @@ else{
                             </div>
                             <div class="col-sm-8 text-center">
                                 <ul class="list-inline">
+                                    <li class="text-center social-linkedin"><a href="https://www.linkedin.com/themoviefund"><figure></figure>Tumblr</a></li>
+                                    <!--<li class="text-center social-youtube"><a href="https://www.youtube.com/channel/UCJSsT-dHgwVl1rdtojN_OjQ"><figure></figure>Youtube</a></li>-->
+                                    <li class="text-center social-facebook"><a href="https://www.facebook.com/pages/The-Movie-Fund/371261519745782"><figure></figure>Facebook</a></li>
+                                    <!--<li class="text-center social-pinterest"><a href="https://www.pinterest.com/themoviefund/"><figure></figure>Pinterest</a></li>-->
+                                    <li class="text-center social-twitter"><a href="https://twitter.com/themoviefund"><figure></figure>Twitter</a></li>
+                                    <li class="text-center social-instagram"><a href="https://www.instagram/moviefund"><figure></figure>Instagram</a></li>
+                                    <li class="text-center social-plus"><a href="https://plus.google.com/b/106013370072001308989/"><figure></figure>Google +</a></li>
+                                </ul>
+                                <!--
+                                <ul class="list-inline">
                                     <li class="text-center"><a href="<?php echo of_get_option('linkedin'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/11/thum.png"><br>Tumblr</a></li>
                                     <li class="text-center"><a href="<?php echo of_get_option('youtube'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/follow-2.png"><br>Youtube</a></li>
                                     <li class="text-center"><a href="<?php echo of_get_option('facebook'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/follow-3.png"><br>Facebook</a></li>
@@ -308,6 +317,7 @@ else{
                                     <li class="text-center"><a href="<?php echo of_get_option('instagram'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/follow-6.png"><br>Instagram</a></li>
                                     <li class="text-center"><a href="<?php echo of_get_option('google_plus'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/follow-7.png"><br>Google +</a></li>
                                 </ul>
+                                -->
                             </div>
                         </div>
                     </div>
@@ -478,19 +488,20 @@ else{
                   // }
                 });
             </script>
-            <div class="bottom-content text-center">
-                <div class="container">
-                    <?php dynamic_sidebar('sidebar-7'); ?>
-                    <ul class="list-inline">
-                        <li><a href="#">legal</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                        <li><a href="#">advertising preferances</a></li>
-                    </ul>
-                    <p>The MovieFund © 2015 . All rights are reserved.</p>
-                    <img src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/trust.png" alt="post" />
-                </div>
-            </div>
+
         </footer>
+        <div class="bottom-content text-center">
+            <div class="container">
+                <?php dynamic_sidebar('sidebar-7'); ?>
+                <ul class="list-inline">
+                    <li><a href="#">legal</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">advertising preferances</a></li>
+                </ul>
+                <p>The MovieFund © 2015 . All rights are reserved.</p>
+                <img src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/trust.png" alt="post" />
+            </div>
+        </div>
 <?php } ?>  
 
 
