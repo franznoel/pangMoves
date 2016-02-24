@@ -148,7 +148,7 @@
                                     <li style="text-align:left;color:#ffffff;line-height:75%;"><span style="font-size:8px;">Welcome!</span><br/><span style="font-size:14px;"><?php echo $current_user->user_firstname.' '.$current_user->user_lastname; ?><span></li>
                                     <?php } ?>
                                     <li><a href="<?php echo site_url();?>/contact-us/" class="btn btn-1" style="border:1px solid #0CC71A;">LOGIN / REGISTER</a></li>
-                                    <li><a href="<?php echo site_url();?>/profile/" class="btn btn-2" style="border: 1px solid #E8D600;">CREATE A CAMPAIGN</a></li>
+                                    <li><a href="<?php echo site_url();?>/profile/" class="btn btn-2">CREATE A CAMPAIGN</a></li>
                                 </ul>
                             </div>
                         </div>
