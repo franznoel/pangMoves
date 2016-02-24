@@ -15,8 +15,8 @@
                                     <li><a href="<?php echo home_url(); ?>/contact-us/" class="btn btn-1" style="border:1px solid #0CC71A;">INVEST NOW</a></li>
                                     <li><a href="<?php echo home_url(); ?>/contact-us/" class="btn btn-2" style="border: 1px solid #E8D600;">UPLOAD PROJECT</a></li>
                                 <?php else: ?>
-                                    <li><a href="<?php echo site_url();?>/profile/" class="btn btn-1" style="border:1px solid #0CC71A;">Login / Register</a></li>
-                                    <li><a href="<?php echo site_url();?>/profile/" class="btn btn-2" style="border: 1px solid #E8D600;">Create a Campaign</a></li>
+                                    <li><a href="<?php echo site_url();?>/contact-us/" class="btn btn-1" style="border:1px solid #0CC71A;">INVEST NOW</a></li>
+                                    <li><a href="<?php echo site_url();?>/contact-us/" class="btn btn-2" style="border: 1px solid #E8D600;">UPLOAD PROJECT</a></li>
                                 <?php endif; ?>
                             </ul>
                         </div>

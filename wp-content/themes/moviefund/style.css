@@ -1288,9 +1288,11 @@ header .mainmenu nav li a:hover, header .mainmenu nav li a:focus, header .mainme
     float: none !important;
     border-radius: 5px !important;
 }
+/*
 .instagram {
     width: 321px;
 }
+*/
 .thm-dark, .timeline {
     background: #000 !important;
 }
@@ -2327,9 +2329,11 @@ div.wpcf7-validation-errors {
     .pro-table {
         padding: 0 15px;
     }
+    /*
     .instagram {
         width: 100% !important;
     }
+    */
     .lig {
         bottom: 75px;
         height: auto;
@@ -3028,9 +3032,9 @@ div.wpcf7-validation-errors {
     .feat-holder .list ul li a span {
         font-size: 13px !important;
     }
-    .instagram {
+    /* .instagram {
         width: 100% !important;
-    }
+    }*/
     .content .fund-holder ul li a {
         font-size: 12px !important;
     }
@@ -3491,6 +3495,7 @@ header .mainmenu nav li a {
     color:#fff;
 }
 
+/*
 .follow-list .list-inline figure {background-image:url(http://moviefund.com/wp-content/themes/moviefund/img/moviefund-social.png);width:46px;height:46px;background-repeat:no-repeat;margin:0 auto;}
 .social-linkedin a figure {background-position-x:-62px;background-position-y:0;}
 .social-facebook a figure {background-position-x:-122px;background-position-y:0;}
@@ -3502,9 +3507,18 @@ header .mainmenu nav li a {
 .social-twitter a:hover figure {background-position-x:-185px;background-position-y:-85px;}
 .social-instagram a:hover figure {background-position-x:-246px;background-position-y:-85px;}
 .social-plus a:hover figure {background-position-x:-307px;background-position-y:-85px;}
+*/
 
 .follow-holder {
     padding:20px 0 20px 0;
 }
 
+.csmb-border:before {
+    top:-2px;
+    left:-2px;
+}
+.csmb-border:after {
+    top:0px;
+    left:0px;
+}
 

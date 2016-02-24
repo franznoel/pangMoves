@@ -23,6 +23,17 @@
                                 <li class="text-center"><a href="<?php echo of_get_option('instagram-j'); ?>">Instagram<br><img src="<?php echo get_home_url();?>/wp-content/uploads/jeba-instagram.png" alt="post" class="img-responsive" /></a></li>
                                 <li class="text-center"><a href="<?php echo of_get_option('gooogle'); ?>">Google +<br><img src="<?php echo get_home_url();?>/wp-content/uploads/gooogle.png" alt="post" class="img-responsive" /></a></li>
                             </ul> -->
+                            <ul class="list-inline">
+                                <li><a href="<?php echo of_get_option('join1'); ?>" class="csmb-border csmb-round csmb linkedin"></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCJSsT-dHgwVl1rdtojN_OjQ" class="csmb-border csmb-round csmb youtube-alt"></a></li>
+                                <li><a href="<?php echo of_get_option('instagram-j'); ?>" class="csmb-border csmb-round csmb instagram"></a></li>
+                                <li><a href="https://www.pinterest.com/themoviefund/" class="csmb-border csmb-round csmb pinterest"></a></li>
+                                <li><a href="<?php echo of_get_option('join2'); ?>" class="csmb-border csmb-round csmb facebook"></a></li>
+                                <li><a href="http://the-movie-fund.tumblr.com/" class="csmb-border csmb-round csmb tumblr"></a></li>
+                                <li><a href="https://twitter.com/themoviefund" class="csmb-border csmb-round csmb twitter"></a></li>
+                                <li><a href="https://plus.google.com/106013370072001308989" class="csmb-border csmb-round csmb gplus"></a></li>
+                            </ul>
+                            <!--                        
                             <ul class="list-inline sign_in_social">
                                 <li class="text-center"><h3><img src="<?php echo get_home_url();?>/wp-content/uploads/instant signup.jpg" alt="post" class="img-responsive" /></h3></li>
                                 <li class="text-center"><a href="<?php echo of_get_option('joinid'); ?>"><img src="<?php echo get_home_url();?>/wp-content/uploads/email-login.png" alt="post" class="img-responsive" /></a></li>
@@ -31,7 +42,7 @@
                                 <li class="text-center"><a href="<?php echo of_get_option('join3'); ?>"><img src="<?php echo get_home_url();?>/wp-content/uploads/tiwtter.png" alt="post" class="img-responsive" /></a></li>
                                 <li class="text-center"><a href="<?php echo of_get_option('instagram-j'); ?>"><img src="<?php echo get_home_url();?>/wp-content/uploads/Instagram-button.png" alt="post" class="img-responsive" /></a></li>
                                 <li class="text-center"><a href="<?php echo of_get_option('gooogle'); ?>"><img src="<?php echo get_home_url();?>/wp-content/uploads/Google-button.png" alt="post" class="img-responsive" /></a></li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
