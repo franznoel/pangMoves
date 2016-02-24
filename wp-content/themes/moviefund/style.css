@@ -3491,6 +3491,20 @@ header .mainmenu nav li a {
     color:#fff;
 }
 
+.follow-list .list-inline figure {background-image:url(http://moviefund.com/wp-content/themes/moviefund/img/moviefund-social.png);width:46px;height:46px;background-repeat:no-repeat;margin:0 auto;}
+.social-linkedin a figure {background-position-x:-62px;background-position-y:0;}
+.social-facebook a figure {background-position-x:-122px;background-position-y:0;}
+.social-twitter a figure {background-position-x:-185px;background-position-y:0;}
+.social-instagram a figure {background-position-x:-246px;background-position-y:0;}
+.social-plus a figure {background-position-x:-307px;background-position-y:0;}
+.social-linkedin a:hover figure {background-position-x:-62px;background-position-y:-85px;}
+.social-facebook a:hover figure {background-position-x:-122px;background-position-y:-85px;}
+.social-twitter a:hover figure {background-position-x:-185px;background-position-y:-85px;}
+.social-instagram a:hover figure {background-position-x:-246px;background-position-y:-85px;}
+.social-plus a:hover figure {background-position-x:-307px;background-position-y:-85px;}
 
+.follow-holder {
+    padding:20px 0 20px 0;
+}
 
 

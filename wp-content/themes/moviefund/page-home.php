@@ -838,26 +838,27 @@ Film Finance Information <i class="fa fa-chevron-circle-down"></i>
                             </div>
 
                             <div class="col-sm-8 text-center">
-
+                                <ul class="list-inline">
+                                    <li class="text-center social-linkedin"><a href="https://www.linkedin.com/themoviefund"><figure></figure>Tumblr</a></li>
+                                    <!--<li class="text-center social-youtube"><a href="https://www.youtube.com/channel/UCJSsT-dHgwVl1rdtojN_OjQ"><figure></figure>Youtube</a></li>-->
+                                    <li class="text-center social-facebook"><a href="https://www.facebook.com/pages/The-Movie-Fund/371261519745782"><figure></figure>Facebook</a></li>
+                                    <!--<li class="text-center social-pinterest"><a href="https://www.pinterest.com/themoviefund/"><figure></figure>Pinterest</a></li>-->
+                                    <li class="text-center social-twitter"><a href="https://twitter.com/themoviefund"><figure></figure>Twitter</a></li>
+                                    <li class="text-center social-instagram"><a href="https://www.instagram/moviefund"><figure></figure>Instagram</a></li>
+                                    <li class="text-center social-plus"><a href="https://plus.google.com/b/106013370072001308989/"><figure></figure>Google +</a></li>
+                                </ul>                            
+                                <!--
                             	<ul class="list-inline">
-
-
                                     <li class="text-center"><a href="http://the-movie-fund.tumblr.com"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/11/thum.png"><br>Tumblr</a></li>
-                                      
                                     <li class="text-center"><a href="<?php echo of_get_option('linkedin'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/12/Linkedin_round.png"><br>Linkedin</a></li>
                                     <li class="text-center"><a href="<?php echo of_get_option('youtube'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/follow-2.png"><br>Youtube</a></li>
-
                                     <li class="text-center"><a href="<?php echo of_get_option('facebook'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/follow-3.png"><br>Facebook</a></li>
-
                                     <li class="text-center"><a href="<?php echo of_get_option('pinterest'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/follow-4.png"><br>Pinterest</a></li>
-
                                     <li class="text-center"><a href="<?php echo of_get_option('twitter'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/follow-5.png"><br>Twitter</a></li>
-
                                     <li class="text-center"><a href="<?php echo of_get_option('instagram'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/follow-6.png"><br>Instagram</a></li>
-
                                     <li class="text-center"><a href="<?php echo of_get_option('google_plus'); ?>"><img alt="post" src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/follow-7.png"><br>Google +</a></li>
-
                                 </ul>
+                                -->
 
                             </div>
 
