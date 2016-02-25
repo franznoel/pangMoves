@@ -1128,9 +1128,10 @@ header .mainmenu nav li a:hover, header .mainmenu nav li a:focus, header .mainme
 .plus-img img {
     width: 60px;
 }
-.instagram h2 {
+.social-messages-container h2 {
     margin-top: 0;
     margin-bottom: 10px;
+    color:#ffffff;
 }
 .twit-box {
     margin-top: 50px;
@@ -1288,11 +1289,11 @@ header .mainmenu nav li a:hover, header .mainmenu nav li a:focus, header .mainme
     float: none !important;
     border-radius: 5px !important;
 }
-/*
-.instagram {
+
+.social-messages-container {
     width: 321px;
 }
-*/
+
 .thm-dark, .timeline {
     background: #000 !important;
 }
@@ -2329,11 +2330,11 @@ div.wpcf7-validation-errors {
     .pro-table {
         padding: 0 15px;
     }
-    /*
-    .instagram {
+    
+    .social-messages-container {
         width: 100% !important;
     }
-    */
+    
     .lig {
         bottom: 75px;
         height: auto;
@@ -3032,9 +3033,9 @@ div.wpcf7-validation-errors {
     .feat-holder .list ul li a span {
         font-size: 13px !important;
     }
-    /* .instagram {
+     .social-messages-container {
         width: 100% !important;
-    }*/
+    }
     .content .fund-holder ul li a {
         font-size: 12px !important;
     }

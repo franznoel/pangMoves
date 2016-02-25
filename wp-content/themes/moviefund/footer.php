@@ -298,7 +298,7 @@ else{
                                 <h2>Follow Us On:</h2>
                             </div>
                             <div class="col-sm-8 text-center">
-                                <ul class="list-inline social">
+                                <ul class="list-inline">
                                     <li><a href="<?php echo of_get_option('join1'); ?>" class="csmb-border csmb-round csmb linkedin"></a></li>
                                     <li><a href="https://www.youtube.com/channel/UCJSsT-dHgwVl1rdtojN_OjQ" class="csmb-border csmb-round csmb youtube-alt"></a></li>
                                     <li><a href="<?php echo of_get_option('instagram-j'); ?>" class="csmb-border csmb-round csmb instagram"></a></li>
@@ -338,7 +338,7 @@ else{
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
-                            <div class="instagram">
+                            <div class="social-messages-container">
                                 <h2> <i class="fa fa-instagram"></i> Instagram</h2>
                                 <br/>
                                 <div class="in-sta">
@@ -350,7 +350,7 @@ else{
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="instagram">
+                            <div class="social-messages-container">
                                 <h2> <i class="fa fa-twitter"></i> Twitter</h2>
                                 <br/>
                                 <div class="twtt-f">
@@ -368,7 +368,7 @@ else{
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="instagram">
+                            <div class="social-messages-container">
                                 <h2> <i class="fa fa-facebook"></i> Facebook Feeds</h2>
                                 <br/>
                                <?php echo do_shortcode('[custom-facebook-feed num=2 height=200px width=100%]'); ?>
