@@ -299,8 +299,6 @@ else{
                             </div>
                             <div class="col-sm-8 text-center">
                                 <ul class="list-inline">
-                                    <li><a href="<?php echo of_get_option('join1'); ?>" class="csmb-border csmb-round csmb linkedin"></a></li>
-                                    <li><a href="https://www.youtube.com/channel/UCJSsT-dHgwVl1rdtojN_OjQ" class="csmb-border csmb-round csmb youtube-alt"></a></li>
                                     <li><a href="<?php echo of_get_option('instagram-j'); ?>" class="csmb-border csmb-round csmb instagram"></a></li>
                                     <li><a href="https://www.pinterest.com/themoviefund/" class="csmb-border csmb-round csmb pinterest"></a></li>
                                     <li><a href="<?php echo of_get_option('join2'); ?>" class="csmb-border csmb-round csmb facebook"></a></li>
