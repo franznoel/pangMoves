@@ -270,7 +270,7 @@ position:relative;
 }
 .jeba_feature  {
   background: #000;
-  border-radius: 7px;
+  border-radius: 7px 7px 0 0;
 }
 .jeba_feature  .list-inline {
   float: left;
@@ -482,5 +482,11 @@ button.button:hover {
 }
 .get-start-holder .ajax-loader {
 	margin-top: 18px;
+}
+.content .project-holder .pro-box .img-thumb {
+    background: linear-gradient(to bottom, rgba(5,5,5,1) 0%, rgba(40,36,41,1) 100%);    
+}
+.scrollbar_handle {
+    width:6px !important
 }
 

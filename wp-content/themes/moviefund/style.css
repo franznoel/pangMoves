@@ -1170,7 +1170,7 @@ header .mainmenu nav li a:hover, header .mainmenu nav li a:focus, header .mainme
 .scrollbar-handle {
     left: -2px !important;
     opacity: 1 !important;
-    width: 12px !important;
+    width: 6px !important;
     border-radius: 2px !important;
     background-color: #f36935 !important;
 }
@@ -3493,9 +3493,6 @@ header .mainmenu nav li a {
     height:100px;
     margin:0 auto;
 }
-.jeba_feature {
-    border-radius:0 0 7px 7px;
-}
 .jeba_feature .list-inline {
     padding:2% 20%;
 }
@@ -3563,3 +3560,9 @@ header .mainmenu nav li a {
     left:0px;
 }
 
+.content .project-holder .pro-box .img-thumb {
+    background: linear-gradient(to bottom, rgba(5,5,5,1) 0%, rgba(40,36,41,1) 100%);    
+}
+.scrollbar_handle {
+    width:6px !important
+}

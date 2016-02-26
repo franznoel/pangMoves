@@ -21,7 +21,7 @@
         ?>
         <style type="text/css">
         #news .news-title {min-height:70px;font-size:20px;}
-        #news .news-image {height:100px;}
+        #news .news-image {border-radius:0;width:220px;height:160px;}
         #news .news-content {}
         </style>
         <div id="news" class="row">
@@ -29,7 +29,7 @@
                 while ( $loop->have_posts() ) : $loop->the_post();
                   echo '<div class="col-md-3">';
                   echo '<h2 class="news-title">' . get_the_title($post->ID) . '</h2>';
-                  echo '<img class="news-image" src="' . wp_get_attachment_url(get_post_thumbnail_id($post->ID)) . '" alt="' . get_the_title($post->ID) . '" style="width:100%"/>';
+                  echo '<img class="news-image" src="' . wp_get_attachment_url(get_post_thumbnail_id($post->ID)) . '" alt="' . get_the_title($post->ID) . '" />';
                   echo '<p class="news-content">' . get_the_content($post->ID) . '</p>';
                   echo '</div>';
                 endwhile;

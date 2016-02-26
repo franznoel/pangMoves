@@ -1,3 +1,4 @@
 .DS_Store
 wp-content/cache/
 wp-content/uploads/userpro/
+git-author-rewrite.sh
