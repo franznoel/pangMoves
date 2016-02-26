@@ -27,6 +27,8 @@
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo get_template_directory_uri();?>/css/bootstrap-theme.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,700,800' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/slick/slick.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/slick/slick-theme.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo get_stylesheet_uri();?>">
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo get_template_directory_uri();?>/jsx/style.css">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -52,6 +54,7 @@
         <!--script  src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script-->
         <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery-1.11.1.min.js" language="javascript"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/jquery-validate.min.js" language="javascript"></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/slick/slick.js"></script>
         <?php wp_head(); ?>
         <style type="text/css">
             .share-with-count.twitter_tweet{margin-top: 15px;}
@@ -133,6 +136,6 @@
         <?php get_template_part("part","mainheader"); ?>
         <?php get_template_part("part","mainmenu"); ?>
     </header>
-    <div class="content">
+    <div class="black-content">
   
  

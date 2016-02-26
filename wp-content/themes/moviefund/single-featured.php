@@ -1,30 +1,96 @@
 <?php get_header("featured"); ?>
     <!-- .black-panel -->
-    <div class="black-panel">
-        <div class="container">
-            <div id="featured-film" class="carousel slide featured-films" data-ride="carousel">
-                <div class="carousel-inner slider1"> 
-                  <?php 
-                  global $post;
-                  $i=1;
-                  $incr = have_posts();
-                  $args = array('numberposts' => -1,'suppress_filters' => true,'post_type' => 'featured','order' => 'ASC');
-                  $featured = get_posts( $args );
-                  foreach( $featured as $post ) { setup_postdata($post);
-                  ?>
-                      <div class="slide thumbnail list-inline nav-justified text-center">
-                        <a href="<?php echo get_permalink();?>">
-                          <div class="film-box">
-                            <img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id($post->ID)); ?>" alt="<?php the_title();?>" />
-                            <h2 class="featured-thumb-title"><?php the_title();?></h2>
-                          </div>
-                        </a>
-                      </div>
-                  <?php $i++; } wp_reset_query(); ?>
+    <div class="container black-panel">
+      <div id="slick-carousel">
+        <?php 
+        global $post;
+        $i=1;
+        $incr = have_posts();
+        $args = array('numberposts' => -1,'suppress_filters' => true,'post_type' => 'featured','order' => 'ASC');
+        $featured = get_posts( $args );
+        // first instance
+        foreach( $featured as $post ) { setup_postdata($post);
+        ?>
+        <div>
+            <a href="<?php echo get_permalink();?>">
+                <div>
+                    <img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id($post->ID)); ?>" alt="<?php the_title();?>" />
+                    <h2 class="featured-thumb-title"><?php the_title();?></h2>
                 </div>
-            </div>
+            </a>
         </div>
+        <?php $i++; } wp_reset_query(); ?>
+        <!-- Second instance -->
+        <?php foreach( $featured as $post ) { setup_postdata($post); ?>
+        <div>
+            <a href="<?php echo get_permalink();?>">
+                <div>
+                    <img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id($post->ID)); ?>" alt="<?php the_title();?>" />
+                    <h2 class="featured-thumb-title"><?php the_title();?></h2>
+                </div>
+            </a>
+        </div>
+        <?php $i++; } wp_reset_query(); ?>        
+      </div>
     </div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('#slick-carousel').slick({
+            infinite: true,
+            slidesToShow: 8,
+            slidesToScroll: 1,
+            autoplay:false,
+            dots: false,
+            responsive: 
+            [{
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 8,
+                  slidesToScroll: 3,
+                  infinite: true,
+                  dots: false
+                }
+            },
+            {
+                breakpoint: 1000,
+                settings: {
+                  slidesToShow: 6,
+                  slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                  slidesToShow: 5,
+                  slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                  slidesToShow: 4,
+                  slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 500,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 360,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1
+                }
+            }]
+        });
+    });
+    </script>
+    <!-- .slick-carousel -->
+
 
     <div class="feat-holder planetx" id="plan" style="background-size:cover;background-position:<?php the_field("position_top")?>px <?php the_field("position_bottom"); ?>px;background-image:url(<?php the_field("custom_image"); ?>)">
         <div class="title text-center">
