@@ -15,8 +15,20 @@
 
 <div class="invest-holder text-center">
 	<div class="container">
-        <?php echo get_post_meta($post->ID,'news',true); ?>
-
+        <?php 
+            $args = array('post_type'=>'news','posts_per_page'=>4); 
+            $loop = new WP_Query( $args );
+        ?>
+        <div class="row">
+            <?php 
+                while ( $loop->have_posts() ) : $loop->the_post();
+                  echo '<div class="col-md-3">';
+                  echo '<h2>' . the_title() . '</h2>';
+                  echo '<p>' . the_content() . '</h3>';
+                  echo '</div>';
+                endwhile;
+            ?>
+        </div>
 		
 	<br/><br/>
 	<?php get_template_part('part','invest'); ?><br/>
