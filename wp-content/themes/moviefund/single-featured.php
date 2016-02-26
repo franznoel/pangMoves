@@ -1,4 +1,4 @@
-<?php get_header("none"); ?>
+<?php get_header("featured"); ?>
     <!-- .black-panel -->
     <div class="black-panel">
         <div class="container">
