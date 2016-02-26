@@ -22,6 +22,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600' rel='stylesheet' type='text/css'>
         <!-- CSS -->
+        <link rel="stylesheet" type="text/css"  href="<?php echo get_template_directory_uri();?>/style.css">
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo get_template_directory_uri();?>/css/font.css">
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo get_template_directory_uri();?>/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo get_template_directory_uri();?>/css/bootstrap-theme.css">
@@ -34,7 +35,6 @@
         <link rel="stylesheet" type="text/css"  href="<?php echo get_template_directory_uri();?>/css/csmb-min.css">
         <!--Fancy scroller-->
         <link rel="stylesheet" media="screen" href="<?php echo get_template_directory_uri();?>/sccss/jquery.classyscroll.css" />
-        <link rel="stylesheet" type="text/css"  href="<?php echo get_template_directory_uri();?>/style.css">
         <!-- FAVICONS -->
         <link rel="shortcut icon" href="<?php echo get_template_directory_uri();?>/img/favicon.ico" type="image/png">
         <link rel="icon" href="<?php echo get_template_directory_uri();?>/img/favicon.ico" type="image/png">
