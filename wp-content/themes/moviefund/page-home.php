@@ -15,34 +15,7 @@
 
 <div class="invest-holder text-center">
 	<div class="container">
-              
-                	<div class="row">
-
-                    	<div class="col-md-6">
-                             
-                    	  <div class="ways_invests">
-                            <?php if (is_active_sidebar("sidebar-invest")) : ?>
-                                <?php dynamic_sidebar( 'sidebar-invest' ); ?>
-                            <?php endif; ?>
-                                <!--
-                                <h2>Ways To Invest</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                -->
-                          </div>
-
-                        </div>
-
-                    	<div class="col-md-6">
-
-                              <div class="way_invests">
-                                  <div class="ways_invest_imgs">
-                                           <img class="img-responsive" alt="video" src="<?php echo get_home_url();?>/wp-content/uploads/ways_invest.jpg">
-                                   </div>
-                             </div>
-                        </div>
-                     </div>
-
+        <?php echo get_post_meta($post->ID,'news',true); ?>
 
 		
 	<br/><br/>
