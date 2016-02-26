@@ -513,6 +513,8 @@ header .mainmenu nav li a:hover, header .mainmenu nav li a:focus, header .mainme
     border-radius: 7px;
     margin-left: 0;
     padding: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 .feat-holder .list ul li a {
     color: #f90;
@@ -3485,6 +3487,9 @@ header .mainmenu nav li a {
     width:100px;
     height:100px;
 }
+.jeba_feature {
+    border-radius:0 0 7px 7px;
+}
 .jeba_feature .list-inline {
     padding:2% 20%;
 }
@@ -3493,6 +3498,10 @@ header .mainmenu nav li a {
     margin:3px 0 0 0;
     color:#fff;
 }
+#featured-investments.overlay {
+    border-radius:7px 7px 0 0;
+}
+
 
 /*
 .follow-list .list-inline figure {background-image:url(http://moviefund.com/wp-content/themes/moviefund/img/moviefund-social.png);width:46px;height:46px;background-repeat:no-repeat;margin:0 auto;}

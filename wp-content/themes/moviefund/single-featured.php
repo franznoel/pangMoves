@@ -32,26 +32,12 @@
             <br/>
         </div>
         <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-              <div class="overlay">
+          <div class="row">
+            <div class="col-sm-6">
+              <div id="featured-investments" class="overlay">
                 <h5><span><?php the_title();?></span></h5>
                 <p style="text-shadow:2px 2px 5px #000000;"><?php echo get_the_excerpt(); ?><p>
                 <h6><span>Compares:</span> <?php the_field( "compares" );?></h6>
-                <div class="jeba_feature">
-                  <div class="button list">
-                      <ul class="list-inline">
-                          <li class=""><a href="#"><?php the_field( "budget" );?><br/><span>Budget</span></a></li>
-                          <li class=""><a href="#"><?php the_field( "invested" );?><br/><span>Target</span></a></li>
-                          <li class="right_b"><a class="btn btn-6" href="<?php the_field( "invest_link" );?>">Invest</a></li>
-                          <!--
-                          <li class="right_b"><a class="btn btn-5" href="<?php the_field( "contract_link" );?>">Contract</a></li>
-                          <li class="right_b"><a class="btn btn-61" href="<?php the_field( "package" );?>">Package</a></li>
-                          -->
-                      </ul>
-                  </div>
-                </div>
-                <br />
                 <!--
                 <div class="list text-center">
                 <ul class="list-inline">
@@ -63,6 +49,7 @@
                 </ul>
                 </div>
                 -->
+                <!--
                 <div class="share-box text-center">
                   <ul class="list-inline">
                       <li><p><?php the_field( "jeba1" );?></p></li>
@@ -71,11 +58,25 @@
                       <li><a href="<?php the_field( "jeba4" );?>"><img src="<?php echo get_home_url();?>/wp-content/uploads/2015/09/social-banner-4.png" alt="share" /></a></li>
                   </ul>
                 </div>
-                </div>
-                <br />
+                -->
               </div>
-              <?php // endforeach; ?>
-            </div>
+              <div class="jeba_feature">
+                <div class="button list">
+                    <ul class="list-inline">
+                        <li class=""><a href="#"><?php the_field( "budget" );?><br/><span>Budget</span></a></li>
+                        <li class=""><a href="#"><?php the_field( "invested" );?><br/><span>Target</span></a></li>
+                        <li class="right_b"><a class="btn btn-6" href="<?php the_field( "invest_link" );?>">Invest</a></li>
+                        <!--
+                        <li class="right_b"><a class="btn btn-5" href="<?php the_field( "contract_link" );?>">Contract</a></li>
+                        <li class="right_b"><a class="btn btn-61" href="<?php the_field( "package" );?>">Package</a></li>
+                        -->
+                    </ul>
+                </div>
+              </div>
+              <br/>
+            <?php // endforeach; ?>
+            </div><!-- .col-sm-6 -->
+          </div><!-- .row -->
         </div>
     </div>
 
