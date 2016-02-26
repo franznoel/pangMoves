@@ -609,7 +609,7 @@ header .mainmenu nav li a:hover, header .mainmenu nav li a:focus, header .mainme
 }
 /**/
 .content .follow-holder {
-    background: #333333 !important; /* 1d1d1d */
+    background: #000000 !important; /* 1d1d1d */
     padding: 20px;
     margin-top: 20px;
     box-shadow:inset 2px 0 5px #000000;
@@ -3468,6 +3468,11 @@ header .mainmenu nav li a {
 .content .black-panel .film-box {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
 }
+.black-content .feat-holder h2 {
+    font-weight:bold;
+    color:#ffffff;
+}
+
 .black-panel .slide.thumbnail {
     width:100px;
     height:120px;
@@ -3496,7 +3501,7 @@ header .mainmenu nav li a {
 }
 .black-content {
     background-color:#000000;
-    padding:10px 0 10px 0;
+    padding:30px 0 10px 0;
 }
 .black-panel a {
     text-decoration:none;
@@ -3510,9 +3515,25 @@ header .mainmenu nav li a {
     text-transform:uppercase;
 }
 #featured-investments.overlay {
+    background: rgba(0, 0, 0, 0) url("img/others/feat-overlay.png") repeat scroll 0 0;
     border-radius:7px 7px 0 0;
+    padding: 4%;
 }
-
+#featured-investments.overlay p {
+    color: #CCCCCC;
+    font-size: 13px;
+    line-height: 1.7;
+    text-align: left;
+}
+#featured-investments.overlay h5 {
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
 
 
 /*
