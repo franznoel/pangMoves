@@ -19,12 +19,18 @@
             $args = array('post_type'=>'news','posts_per_page'=>4); 
             $loop = new WP_Query( $args );
         ?>
-        <div class="row">
+        <style type="text/css">
+        #news .news-title {min-height:70px;font-size:20px;}
+        #news .news-image {height:100px;}
+        #news .news-content {}
+        </style>
+        <div id="news" class="row">
             <?php 
                 while ( $loop->have_posts() ) : $loop->the_post();
                   echo '<div class="col-md-3">';
-                  echo '<h2>' . the_title() . '</h2>';
-                  echo '<p>' . the_content() . '</h3>';
+                  echo '<h2 class="news-title">' . get_the_title($post->ID) . '</h2>';
+                  echo '<img class="news-image" src="' . wp_get_attachment_url(get_post_thumbnail_id($post->ID)) . '" alt="' . get_the_title($post->ID) . '" style="width:100%"/>';
+                  echo '<p class="news-content">' . get_the_content($post->ID) . '</p>';
                   echo '</div>';
                 endwhile;
             ?>
