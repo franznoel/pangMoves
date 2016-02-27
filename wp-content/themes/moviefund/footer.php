@@ -301,7 +301,7 @@ else{
                                 <ul class="list-inline">
                                     <li><a href="<?php echo of_get_option('instagram-j'); ?>" class="csmb-border csmb-round csmb instagram"></a></li>
                                     <li><a href="https://www.pinterest.com/themoviefund/" class="csmb-border csmb-round csmb pinterest"></a></li>
-                                    <li><a href="<?php echo of_get_option('join2'); ?>" class="csmb-border csmb-round csmb facebook"></a></li>
+                                    <li><a href="https://www.facebook.com/The-Movie-Fund-371261519745782/" class="csmb-border csmb-round csmb facebook"></a></li>
                                     <li><a href="http://the-movie-fund.tumblr.com/" class="csmb-border csmb-round csmb tumblr"></a></li>
                                     <li><a href="https://twitter.com/themoviefund" class="csmb-border csmb-round csmb twitter"></a></li>
                                     <li><a href="https://plus.google.com/106013370072001308989" class="csmb-border csmb-round csmb gplus"></a></li>

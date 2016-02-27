@@ -295,6 +295,10 @@ header .mainmenu nav li a:hover, header .mainmenu nav li a:focus, header .mainme
     margin-top: 0px;
     text-transform: uppercase;
 }
+.follow-list h2 {
+    font-weight:bold;
+    color:#ffffff;
+}
 .follow-list-1 {
     margin-top: -35px;
 }
