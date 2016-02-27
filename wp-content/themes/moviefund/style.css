@@ -547,8 +547,8 @@ header .mainmenu nav li a:hover, header .mainmenu nav li a:focus, header .mainme
     color: #fff;
 }
 .content .project-holder .pro-box {
-    background: #393939 none repeat scroll 0 0;
-    border: 2px solid;
+    background: #3d373e none repeat scroll 0 0; /* #393939 */
+    border: 3px solid;
     border-radius: 10px;
     transition: all 0.5s ease-in-out;
     font-size: 12px;
@@ -2005,10 +2005,10 @@ div.wpcf7-validation-errors {
         border: 3px solid #999;
     }
     .content .project-holder .pro-box:hover {
-        border: 2px solid #999;
+        border: 3px solid #999;
     }
     .content .project-holder .pro-box {
-        fontsize: 12px;
+        font-size: 12px;
     }
 }
 @media (max-width: 1024px) {
@@ -2027,7 +2027,7 @@ div.wpcf7-validation-errors {
         border: 3px solid #494b4a;
     }
     .content .project-holder .pro-box:hover {
-        border: 2px solid;
+        border: 3px solid;
     }
     .team-xsim img {
         height: 110px;
@@ -2322,7 +2322,7 @@ div.wpcf7-validation-errors {
         overflow: hidden;
     }
     .content .project-holder .pro-box:hover {
-        border: 2px solid !important;
+        border: 3px solid !important;
     }
     .content .project-holder .pro-box:hover .img-thumb img {
         border: 3px solid #494b4a !important;
